@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-01T15:30:53.123440+00:00",
+  "generated_at": "2026-03-01T15:40:58.270555+00:00",
   "threat_snapshot": {
     "level": 1,
     "label": "MAJOR",
     "color": "#DC2626",
     "trend": "stable",
-    "incident_count_24h": 611,
-    "incident_count_6h": 229,
+    "incident_count_24h": 620,
+    "incident_count_6h": 235,
     "severity_breakdown": {
-      "major": 219,
-      "high": 258,
-      "medium": 130,
+      "major": 222,
+      "high": 261,
+      "medium": 133,
       "low": 4
     }
   },
   "source_count": {
-    "attacks_analyzed": 192,
-    "articles_analyzed": 418,
+    "attacks_analyzed": 187,
+    "articles_analyzed": 383,
     "event_window_hours": 4,
     "article_window_hours": 2,
     "regions_covered": [
@@ -32,51 +32,56 @@
       "western"
     ]
   },
-  "executive_summary": "The Iran-US-Israel conflict has escalated to full-scale regional war following the assassination of Supreme Leader Khamenei in US-Israeli strikes. Iran has launched comprehensive missile and drone attacks against Israel, UAE, Kuwait, and Bahrain, while claiming to target the USS Abraham Lincoln. Three US service members were killed in Operation Epic Fury — the first American casualties. The 24h incident count rose slightly to 611 (219 Major, 258 High). International calls for ceasefire are emerging as Iran announces succession timeline.",
-  "whats_new": [
-    "Iran announces timeline for selecting new Supreme Leader after Khamenei's death — successor may be named within 48 hours",
-    "US military struck and sank an Iranian ship in Gulf of Oman during Operation Epic Fury — CENTCOM referenced Trump's call for Iranian forces to lay down weapons",
-    "Kuwait reports detecting 97 ballistic missiles and 283 drones fired by Iran since hostilities began; 1 fatality and 32 injuries confirmed at Al Adan Hospital",
-    "Israeli Defense Forces claim air superiority achieved over Iran in 24 hours, enabling expanded operations targeting Iranian infrastructure",
-    "IDF investigating missile intercept failure in Tel Aviv — Iranian strike caused civilian casualties despite US-made defense systems",
-    "Former Iranian President Mahmoud Ahmadinejad reportedly killed in US-Israeli airstrike on Tehran residence"
+  "executive_summary": "The Iran-US-Israel conflict has escalated to direct naval confrontation. Iran claims to have struck the USS Abraham Lincoln with 4 ballistic missiles (US denies), while three US service members were confirmed killed in Operation Epic Fury — the first American casualties. Tehran remains under sustained Israeli airstrikes, and Iran has expanded attacks to Dubai Airport and the Strait of Hormuz. Iran has formed special committees for wartime governance and may announce Khamenei's successor within 48 hours.",
+  "whats_all_new": [
+    "IRGC claims 4 ballistic missiles struck USS Abraham Lincoln; US Central Command denies the claim",
+    "Three US service members killed, five wounded in Operation Epic Fury — first confirmed American casualties",
+    "Iranian missiles hit Dubai Airport and Sharjah, causing fires — direct attack on critical UAE infrastructure",
+    "Two commercial ships struck by projectiles in Strait of Hormuz — maritime chokepoint now contested",
+    "Israeli airstrikes continue on Tehran; IDF claims air superiority over Iran within 24h",
+    "Death toll from Israeli-US strike on Iranian girls school rises to 148",
+    "Iran forms special committees for wartime governance; successor to Khamenei may be named within 48h",
+    "Jordan and Oman condemn Iranian attacks on their territories"
   ],
   "confirmed_events": [
-    "Ayatollah Ali Khamenei confirmed killed in US-Israeli coordinated strikes on Tehran — multi-source confirmation including BBC, NY Times, Al Alam",
-    "Three US service members killed, five wounded in Operation Epic Fury — first confirmed US casualties of the conflict",
-    "IRGC launched four ballistic missiles targeting USS Abraham Lincoln — US claims missiles did not hit the carrier; Pentagon declined to comment",
-    "Israeli airstrikes on Iranian girls school killed at least 148 people — Israel denies involvement; US investigating",
-    "Iranian missile strikes on UAE: 3 dead, 58 injured; UAE intercepted 152 of 165 ballistic missiles and 2 cruise missiles"
+    "Supreme Leader Ayatollah Ali Khamenei killed in US-Israeli strikes on Tehran — confirmed by multiple sources",
+    "Three US troops killed in direct engagement with Iranian-backed forces — confirmed by CENTCOM",
+    "Iran launched ballistic missiles targeting Israel, UAE, Kuwait, Bahrain — confirmed by multiple regional sources",
+    "Israeli airstrikes destroyed Iranian Interior Ministry security headquarters in Tehran — confirmed by IDF",
+    "Iranian missile strike on Beit Shemesh killed 8, injured 27 — confirmed by Israeli sources"
   ],
   "unverified_emerging": [
-    "IDF claims 40 top Iranian officials killed in initial Tehran strikes — single source (Israeli Army), unverified by independent outlets",
-    "IRGC claims to have struck USS Abraham Lincoln with ballistic missiles — US denies carrier was hit; Pentagon refused to comment",
-    "Video reportedly showing indiscriminate Israeli strikes on Tehran — unverified footage circulating on Telegram via War Monitors",
-    "Russian and UAE Foreign Ministers call for ceasefire around Iran — diplomatic statement without concrete timeline"
+    "IRGC claims USS Abraham Lincoln struck by ballistic missiles — US denies; status of carrier unconfirmed",
+    "Former Iranian President Mahmoud Ahmadinejad reportedly killed in Israeli strike — single source claim",
+    "Israeli forces killed 40 top Iranian officials in initial Tehran strikes — unverified casualty count",
+    "Drone crashed inside US base in Kuwait — single source from War Monitors"
   ],
   "operational_impacts": {
     "people_travel": [
-      "Ben Gurion Airport closed until at least Wednesday for evacuation flights — significant disruption to civilian air traffic",
-      "Multiple Gulf states (UAE, Kuwait, Bahrain, Jordan, Oman) targeted by Iranian strikes — elevated risk for regional travel"
+      "Ben Gurion Airport closed until at least Wednesday — evacuation flights only",
+      "All commercial flights to/from Dubai Airport disrupted due to missile strikes",
+      "Regional airspace increasingly contested — multiple nations issuing NOTAMs"
     ],
     "supply_chain": [
-      "Two ships struck in Strait of Hormuz by projectiles — critical maritime chokepoint under threat, potential shipping disruption",
-      "UAE intercepts demonstrate active air defense but significant ballistic missile volume reaching Gulf targets"
+      "Strait of Hormuz incidents: two ships struck, threatening critical maritime chokepoint for oil shipping",
+      "UAE air defense forces destroyed 20 ballistic missiles, 2 cruise missiles, 311 drones — significant defensive resource expenditure",
+      "Kuwait reports 1 fatality, 32 injuries at Al Adan Hospital — regional healthcare systems strained"
     ],
     "market_macro": [
-      "Oil markets highly volatile — Iran is major exporter, Strait of Hormuz shipping threatened, Gulf allies directly targeted",
-      "Regional economic disruption escalating as conflict expands to direct attacks on Gulf state infrastructure"
+      "Oil prices spiking on Strait of Hormuz concerns — global supply chain disruption risk",
+      "Gulf stock markets declining sharply on escalation news",
+      "US-Iran direct confrontation signals potential for further dramatic market moves"
     ]
   },
   "outlook_24_72h": {
-    "base_case": "Conflict will intensify over the next 24-72 hours as Iran responds to leadership elimination. Khamenei's death creates power vacuum but Iranian officials signal regime continuity with rapid succession process. Iran has demonstrated willingness to target regional Gulf states directly, and IRGC operations (7th and 8th waves announced) indicate sustained missile/drone campaign. Israeli air superiority claims suggest continued strikes on Iranian infrastructure. US casualties signal deeper ground/integration operations beyond air campaign. Risk of accidental escalation at Strait of Hormuz is HIGH.",
+    "base_case": "The conflict will likely intensify over the next 24-72 hours. Iran has announced continuation of 'Al-Wa'd Al-Sadeq 4' operations (7th and 8th waves), indicating sustained retaliatory capability. The IRGC's claim on the carrier — even if unconfirmed — signals Iranian willingness to target US naval assets directly. Israel's claimed air superiority over Iran enables continued precision strikes on leadership and infrastructure. The death of Khamenei creates a power vacuum that Iran must address, potentially delaying de-escalation while they consolidate internal control. Regional nations (Jordan, Oman, Kuwait, UAE) are now openly condemning Iran, suggesting a potential realignment of Gulf states toward US-Israel alignment.",
     "escalation_risks": [
-      "Iranian ballistic missile/drone saturation of Gulf state air defenses — Kuwait, UAE, Bahrain all reporting significant intercept workloads",
-      "US naval assets in Gulf/Arabian Sea increasingly targeted — carrier strike group under active missile threat",
-      "Israeli strikes expanding to target Iranian leadership succession process — potential for additional high-value target eliminations",
-      "Direct Iran-Hezbollah coordination escalating attacks on Israel — Jerusalem, Tel Aviv, Ben Gurion under sustained threat",
-      "Accidental escalation at Strait of Hormuz — commercial shipping already struck, tanker warfare risk"
+      "Iranian attacks on Strait of Hormuz shipping could trigger global oil supply crisis",
+      "IRGC may launch additional attacks on US bases in Iraq, Kuwait, Qatar — expanding the theater",
+      "Israel may conduct ground operations into Iran if air campaign insufficient",
+      "Hezbollah escalation from Lebanon — potential second front against Israel",
+      "Russian/Chinese diplomatic intervention could either de-escalate or embolden Iran"
     ],
-    "de_escalation_pathways": "Russia and UAE have called for ceasefire but lack direct leverage on either party. Iran's succession process (48h timeline) may create temporary leadership vacuum affecting decision-making. US-B-2 bomber operations and carrier presence suggest overwhelming force projection intended to compel Iranian capitulation rather than negotiation. Gulf state mediation (UAE, Kuwait) could provide diplomatic off-ramp if Iran signals willingness to cease attacks on regional targets. However, leadership assassination significantly narrows de-escalation window."
+    "de_escalation_pathways": "International pressure from Russia, China, and European nations is mounting, with Lavrov and Wang Yi jointly condemning US-Israeli strikes. Iran may seek to stabilize by quickly naming a successor to Khamenei and demonstrating continuity of government. However, given the magnitude of the strikes (Khamenei's death, attacks on carrier, 148 civilian casualties at school), both sides face domestic political pressure that makes immediate de-escalation unlikely without significant external mediation."
   }
 }

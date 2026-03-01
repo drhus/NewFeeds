@@ -1,5 +1,22 @@
 [
   {
+    "id": "446f93697b913951",
+    "title_original": "Two Palestinians Killed, Multiple Others Injured in Israeli Bombing in Northern Gaza",
+    "content_original": "Gaza, March 1 (QNA) - Two Palestinians have been killed and several others injured today in an Israeli artillery shelling that targeted the Al-Jurn area in Jabaliain the northern Gaza Strip, medical sources reported.",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-3/1/two-palestinians-killed-multiple-others-injured-in-israeli-bombing-in-northern-gaza",
+    "published": "2026-03-01T17:37:07+00:00",
+    "fetched_at": "2026-03-01T15:34:55.553295+00:00",
+    "source_name": "QNA General (English)",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Two Palestinians Killed in Israeli Bombing in Northern Gaza",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Israeli forces conducted artillery shelling in the Al-Jurn area of Jabalia in northern Gaza, resulting in the deaths of two Palestinians and multiple injuries. This incident occurred in the context of ongoing tensions and military operations between Israel and Palestinian groups in the Gaza Strip. The strike signifies continued Israeli operations against targets in Gaza amidst the broader regional conflict."
+  },
+  {
     "id": "f153261ea447fb89",
     "title_original": "Kuwait Reports One Fatality, 32 Injuries Due to Iranian Attacks",
     "content_original": "Kuwait, March 01 (QNA) - The Kuwaiti Ministry of Health reported today that one fatality and 32 injuries (all foreign nationalities) were recorded at Al Adan Hospital in the wake of the Iranian attacks.",
@@ -300,6 +317,23 @@
     "skip_translation": true,
     "translated": true,
     "relevant": false
+  },
+  {
+    "id": "e565398b8898e0e3",
+    "title_original": "الإمارات تعلن تعرض قاعدة بحرية في أبوظبي لاستهداف بمسيرتين إيرانيتين دون وقوع خسائر بشرية",
+    "content_original": "أبوظبي في 01 مارس /قنا/ أعلنت وزارة الدفاع الإماراتية أن الفرق المختصة قامت اليوم بالتعامل مع حادث ناتج عن استهداف تم بواسطة طائرتين مسيرتين إيرانيتين على أحد مستودعات قاعدة السلام البحرية في أبوظبي.",
+    "url": "https://qna.org.qa/ar-QA/News-Area/News/2026-3/1/الامارات-تعلن-تعرض-قاعدة-بحرية-في-ابوظبي-لاستهداف-بمسيرتين-ايرانيتين-دون-وقوع-خساير-بشرية",
+    "published": "2026-03-01T15:34:53.381652+00:00",
+    "fetched_at": "2026-03-01T15:34:53.381660+00:00",
+    "source_name": "QNA General (Arabic)",
+    "source_category": "state",
+    "language": "ar",
+    "region": "gulf",
+    "skip_translation": false,
+    "title_en": "UAE Reports Drone Attack on Abu Dhabi Naval Base by Iranian Drones",
+    "relevant": true,
+    "summary_en": "Iranian drones targeted a naval base in Abu Dhabi, UAE, with no casualties reported. The UAE defense ministry stated that specialized teams handled the incident at the Al-Salam naval base. This attack signifies an escalation in regional tensions and direct targeting of UAE military infrastructure by Iran.",
+    "translated": true
   },
   {
     "id": "9b5c35e95578ed2c",
