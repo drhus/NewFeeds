@@ -66,7 +66,8 @@
       ],
       "location": "Iranian border regions",
       "brief": "The US has launched strikes near Iran's borders to facilitate separatist infiltration, indicating an escalation in US efforts to destabilize Iran through proxy operations."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "76f16f0e545a2432",
@@ -138,7 +139,8 @@
       ],
       "location": "Off the coast of Oman",
       "brief": "An unidentified attacker damaged the tanker MKD VYOM off the coast of Oman, escalating maritime tensions amid the US-Iran conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "d616360a3ff73e50",
@@ -685,7 +687,8 @@
       ],
       "location": "Off the coast of Oman, 50 nautical miles north of Muscat",
       "brief": "A second commercial vessel has been attacked near the coast of Oman, indicating escalating maritime security threats amid Iran tensions."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "03c18a8ae19d39c8",
@@ -1132,7 +1135,8 @@
       ],
       "location": "Unspecified, likely Middle East region",
       "brief": "Iran announces coordinated missile and drone strikes targeting US and allied forces, indicating a significant escalation in military confrontation."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "ac488b53f12dacaa",
@@ -1915,7 +1919,8 @@
       ],
       "location": "military installations and command centers",
       "brief": "Iran launches strikes on US military installations and command centers, using civilian areas as cover, escalating the conflict and increasing civilian casualties."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "d0b677f8f51258ff",
@@ -2206,7 +2211,8 @@
       ],
       "location": "US military bases in the Middle East",
       "brief": "Iran has escalated the conflict by using hypersonic missiles to strike US military bases for the first time, marking a significant increase in direct military engagement."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "d794f488b05e891b",
@@ -2611,7 +2617,8 @@
       ],
       "location": "Region of proxy conflict",
       "brief": "Iran launched a missile with a penetrator warhead, likely targeting US or allied military infrastructure, indicating escalation in the conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "5c6a166f9ba10389",
@@ -2757,7 +2764,8 @@
       "location": "Unspecified fortified areas",
       "brief": "A major escalation involving heavy missile strikes on fortified areas resulted in significant casualties, indicating a serious intensification of the conflict."
     },
-    "merged_source_count": 2
+    "merged_source_count": 2,
+    "geocode_failed": true
   },
   {
     "id": "db742a1731c3ed11",
@@ -4139,7 +4147,8 @@
       ],
       "location": "Omani Territorial Waters",
       "brief": "An oil tanker attack in Omani waters resulting in casualties signals escalating maritime security threats in the region."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "c012d57b6d5f2cc1",
@@ -4990,7 +4999,8 @@
       ],
       "location": "UN Security Council",
       "brief": "US and Israel clash with Iran at UNSC amid escalating military strikes and retaliatory attacks, prompting UN warning of potential regional escalation."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "b7f23d53fe87dced",
@@ -6157,7 +6167,8 @@
       ],
       "location": "Sadassima",
       "brief": "US airstrikes target IRGC or affiliated assets in Sadassima, escalating the conflict by degrading Iranian military capabilities."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "c11ab5775ea5ff94",
@@ -6755,7 +6766,8 @@
       ],
       "location": "Lebanon-Israel border",
       "brief": "Hezbollah launched a rocket barrage targeting Israeli-occupied territories, escalating regional tensions amid the Iran-US conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "6decbea3144f8cc4",
@@ -7415,7 +7427,8 @@
       ],
       "location": "Near Jordanian border",
       "brief": "Iran launched ballistic missiles towards Israel, triggering air raid sirens near the Jordanian border, indicating a significant escalation in regional conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "10575ebc31d9999b",
@@ -7899,7 +7912,8 @@
       ],
       "location": "Unspecified (likely Middle East region)",
       "brief": "The headline 'Revenge! Revenge!' indicates a significant retaliatory strike by Iranian or Iranian-backed forces against US or allied targets, suggesting a major escalation in the conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "d2050c7dc2db7f7b",
@@ -10982,7 +10996,8 @@
       ],
       "location": "Israeli-occupied territories",
       "brief": "Iran launched missile and drone attacks on Israeli-occupied territories in response to Israeli airstrikes, resulting in one fatality and 121 injuries, marking a significant escalation in the conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "6100a201df307e4f",
@@ -11601,7 +11616,8 @@
       ],
       "location": "Iranian maritime territory",
       "brief": "IRGC conducted a direct military operation targeting two US naval vessels and a naval base as part of 'Operation True Promise 4', escalating regional maritime tensions."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "3e7ab917221fd458",
@@ -11816,7 +11832,8 @@
       ],
       "location": "Gaza or Lebanon",
       "brief": "Iranian official condemns US-Israeli attack on a school resulting in nearly 90 casualties, highlighting ongoing conflict and its impact on civilians."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "f9660ccb5cc0a563",
@@ -12065,7 +12082,8 @@
       ],
       "location": "Not specified",
       "brief": "The US envoy's justification for the attack on Iran, citing an alleged assassination attempt on Trump, indicates a potential escalation in the narrative framing of the conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "672817236e6f37af",
@@ -12322,7 +12340,8 @@
       ],
       "location": "Unspecified proxy region",
       "brief": "The message celebrating the death of an enemy combatant indicates ongoing proxy operations and hostilities between Iran-backed groups and likely US-aligned forces."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "27fecefc0a003058",
@@ -12610,7 +12629,8 @@
       ],
       "location": "unspecified location",
       "brief": "The IDF airstrike on a missile launch site housing Ghadr H-1 rockets highlights Israel's ongoing efforts to counter Iranian-backed threats, posing potential escalation risks in the region."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "33e6319088189932",
@@ -12904,7 +12924,8 @@
       ],
       "location": "Multiple US military bases in the Middle East",
       "brief": "IRGC claims to have conducted retaliatory strikes on 14 US bases, allegedly causing hundreds of American casualties, marking a significant escalation in the conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "c344332f534978f8",
@@ -14150,7 +14171,8 @@
       ],
       "location": "Israeli-occupied territories",
       "brief": "Iran escalated the conflict by launching ballistic missile strikes targeting Israeli-occupied territories, indicating direct military engagement and expanding the conflict's geographic scope."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "1e6aadcb9dcbb342",
@@ -14804,7 +14826,8 @@
       ],
       "location": "Unspecified, likely Iran or Syria",
       "brief": "The killing of a senior IRGC commander by Israel marks a significant escalation in regional tensions and could provoke direct retaliatory actions from Iran or its proxies against US or allied interests."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "42fc364bf0ac1c93",
@@ -15343,7 +15366,8 @@
       ],
       "location": "unspecified location",
       "brief": "The incident demonstrates ongoing tactical engagements involving unmanned aerial systems, impacting surveillance and strike capabilities in the region."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "85e44352c75982f3",
@@ -16330,7 +16354,8 @@
       ],
       "location": "Unspecified location within range of Iranian missile capabilities",
       "brief": "The incident highlights Iran's continued use of ballistic missiles in retaliatory strikes, posing a direct threat to civilian populations and military personnel in the region."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "92872722ed90ed57",
@@ -16473,7 +16498,8 @@
       ],
       "location": "Persian Gulf or Gulf of Oman",
       "brief": "The IRGC's claim of destroying enemy vessels using missile defense systems indicates a significant escalation in maritime hostilities between Iran and US forces in the strategically critical Persian Gulf region."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "5e3abef7abd85473",
@@ -17616,7 +17642,8 @@
       ],
       "location": "Unspecified (likely Middle East region)",
       "brief": "The deployment of one-way attack drones by the U.S. in Operation Epic Fury signifies a new phase in retaliatory operations against Iran-linked threats, highlighting evolving tactics in the conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "77161864b08f03d6",
@@ -18417,7 +18444,8 @@
       ],
       "location": "region unspecified",
       "brief": "The high casualty figures reported by the Red Crescent indicate a significant escalation in the Iran-US conflict, likely involving direct military strikes with severe humanitarian consequences."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "b380efefa92bdca9",
@@ -18558,7 +18586,8 @@
       ],
       "location": "Iraq or Syria",
       "brief": "The IRGC's missile attack on US bases in Iraq or Syria represents a significant escalation in direct military engagement between Iran and the US, posing a heightened risk of further regional conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "a5fa432707446dd5",
@@ -18592,7 +18621,8 @@
       ],
       "location": "Iran or near Iranian borders",
       "brief": "Iran's successful interception of HERMES drones highlights ongoing surveillance or strike attempts, reflecting heightened tensions and potential escalation in the Iran–US conflict."
-    }
+    },
+    "geocode_failed": true
   },
   {
     "id": "e58cf297c160f54c",
