@@ -16,6 +16,11 @@ import time
 
 import requests
 
+# Lazy import to avoid circular dependency — only used for English pre-filter
+def _get_attack_pattern():
+    from classify_attacks import ATTACK_PATTERN
+    return ATTACK_PATTERN
+
 logger = logging.getLogger(__name__)
 
 MINIMAX_API_URL = "https://api.minimaxi.chat/v1/text/chatcompletion_v2"
@@ -220,6 +225,25 @@ def translate_articles(
             a["title_en"] = a.get("title_original", "")
             a["translated"] = True
             logger.debug(f"Auto-completed skip_translation article {a.get('id')}")
+
+    # Pre-filter English articles: if no war-related keywords appear in the
+    # title + content, mark as not relevant immediately — no LLM call needed.
+    try:
+        attack_pattern = _get_attack_pattern()
+        skipped_by_prefilter = 0
+        for a in articles:
+            if a.get("skip_translation") and a.get("relevant") is None:
+                text = " ".join([
+                    a.get("title_original", ""),
+                    a.get("content_original", ""),
+                ])
+                if not attack_pattern.search(text):
+                    a["relevant"] = False
+                    skipped_by_prefilter += 1
+        if skipped_by_prefilter:
+            logger.info(f"Keyword pre-filter: skipped {skipped_by_prefilter} English articles (no war keywords)")
+    except Exception as e:
+        logger.warning(f"Keyword pre-filter unavailable: {e}")
 
     already_done = [a for a in articles if a.get("translated") is not None]
 
