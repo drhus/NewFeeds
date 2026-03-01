@@ -8,6 +8,11 @@ import NewsCard from "./NewsCard";
 function useDebounce(value: string, delay: number): string {
   const [debounced, setDebounced] = useState(value);
   useEffect(() => {
+    // Clear instantly when value is emptied (no delay)
+    if (!value.trim()) {
+      setDebounced(value);
+      return;
+    }
     const timer = setTimeout(() => setDebounced(value), delay);
     return () => clearTimeout(timer);
   }, [value, delay]);
@@ -47,7 +52,8 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
   );
 
   const displayedArticles = useMemo(() => {
-    if (searchWords.length === 0) return regionArticles;
+    // Require at least 2 characters to avoid matching on single-letter typos while typing
+    if (searchWords.length === 0 || debouncedQuery.trim().length < 2) return regionArticles;
     return regionArticles.filter((a) => {
       const haystack = [
         a.title_en,
@@ -59,7 +65,7 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
         .toLowerCase();
       return searchWords.every((w) => haystack.includes(w));
     });
-  }, [regionArticles, searchWords]);
+  }, [regionArticles, searchWords, debouncedQuery]);
 
   return (
     <div>

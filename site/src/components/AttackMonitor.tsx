@@ -17,6 +17,11 @@ type SeverityFilter = "all" | "major" | "high" | "medium" | "low";
 function useDebounce(value: string, delay: number): string {
   const [debounced, setDebounced] = useState(value);
   useEffect(() => {
+    // Clear instantly when value is emptied (no delay)
+    if (!value.trim()) {
+      setDebounced(value);
+      return;
+    }
     const timer = setTimeout(() => setDebounced(value), delay);
     return () => clearTimeout(timer);
   }, [value, delay]);
@@ -46,7 +51,8 @@ export default function AttackMonitor({
         );
 
   const filtered = useMemo(() => {
-    if (searchWords.length === 0) return severityFiltered;
+    // Require at least 2 characters to avoid matching on single-letter typos while typing
+    if (searchWords.length === 0 || debouncedQuery.trim().length < 2) return severityFiltered;
     return severityFiltered.filter((a) => {
       const haystack = [
         a.title_en,
@@ -61,7 +67,7 @@ export default function AttackMonitor({
         .toLowerCase();
       return searchWords.every((w) => haystack.includes(w));
     });
-  }, [severityFiltered, searchWords]);
+  }, [severityFiltered, searchWords, debouncedQuery]);
 
   // Build numberedAttacks: every attack gets a sequential number so the list is never missing badges.
   // Attacks with coordinates will also appear on the map with the same number.
@@ -283,7 +289,7 @@ export default function AttackMonitor({
         {filtered.length > 0 ? (
           numberedAttacks.map((na) => (
             <AttackCard
-              key={na.attack.id}
+              key={`${na.attack.id}-${na.index}`}
               ref={(el: HTMLElement | null) => {
                 if (el) cardRefs.current.set(na.attack.id, el);
                 else cardRefs.current.delete(na.attack.id);

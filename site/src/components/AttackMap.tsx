@@ -140,7 +140,7 @@ export default function AttackMap({
 
         return (
           <Marker
-            key={attack.id}
+            key={`${attack.id}-${index}`}
             position={[attack.lat!, attack.lng!]}
             icon={icon}
             zIndexOffset={isSelected ? 1000 : 0}

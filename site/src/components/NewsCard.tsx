@@ -9,18 +9,43 @@ interface NewsCardProps {
   searchQuery?: string;
 }
 
+/**
+ * If summary_en or title_en contains raw JSON from the LLM
+ * (e.g. '{"h":"...","s":"...","r":true}'), extract the readable text.
+ */
+function cleanLLMField(value: string | undefined, field: "h" | "s"): string {
+  if (!value) return "";
+  const trimmed = value.trim();
+  // Not JSON-like — return as-is
+  if (!trimmed.startsWith("{") && !trimmed.startsWith("[")) return value;
+  // Try full JSON parse first
+  try {
+    const obj = JSON.parse(trimmed);
+    if (obj && typeof obj === "object" && obj[field]) return obj[field];
+  } catch {
+    // Truncated JSON — extract with regex
+  }
+  // Regex fallback for truncated JSON
+  const regex = new RegExp(`"${field}"\\s*:\\s*"((?:[^"\\\\]|\\\\.)*)"?`);
+  const m = trimmed.match(regex);
+  if (m?.[1]) return m[1].replace(/\\"/g, '"').replace(/\\n/g, " ");
+  return ""; // Unrecoverable — hide rather than show raw JSON
+}
+
 function HighlightText({ text, query }: { text: string; query?: string }) {
-  if (!query || !text) return <>{text}</>;
+  if (!query || !text || query.trim().length < 2) return <>{text}</>;
   const words = query.toLowerCase().split(/\s+/).filter(Boolean);
   if (words.length === 0) return <>{text}</>;
   // Build regex matching any search word
   const escaped = words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   const regex = new RegExp(`(${escaped.join("|")})`, "gi");
   const parts = text.split(regex);
+  // split with a capture group produces alternating [non-match, match, non-match, ...]
+  // so odd-indexed parts are always matches — avoids stateful regex.test() bug with /g flag
   return (
     <>
       {parts.map((part, i) =>
-        regex.test(part) ? (
+        i % 2 === 1 ? (
           <mark
             key={i}
             style={{
@@ -142,22 +167,25 @@ export default function NewsCard({ article, searchQuery }: NewsCardProps) {
           rel="noopener noreferrer"
           style={{ color: "var(--color-text)" }}
         >
-          <HighlightText text={article.title_en || article.title_original} query={searchQuery} />
+          <HighlightText text={cleanLLMField(article.title_en, "h") || article.title_original} query={searchQuery} />
         </a>
       </h3>
 
       {/* English summary */}
-      {article.summary_en && (
-        <p
-          style={{
-            fontSize: 14,
-            color: "var(--color-text-muted)",
-            lineHeight: 1.6,
-          }}
-        >
-          <HighlightText text={article.summary_en} query={searchQuery} />
-        </p>
-      )}
+      {article.summary_en && (() => {
+        const cleaned = cleanLLMField(article.summary_en, "s");
+        return cleaned ? (
+          <p
+            style={{
+              fontSize: 14,
+              color: "var(--color-text-muted)",
+              lineHeight: 1.6,
+            }}
+          >
+            <HighlightText text={cleaned} query={searchQuery} />
+          </p>
+        ) : null;
+      })()}
 
       {/* Language tag */}
       <div style={{ marginTop: 8, display: "flex", gap: 6 }}>

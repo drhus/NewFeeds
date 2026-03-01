@@ -15,16 +15,17 @@ interface AttackCardProps {
 }
 
 function HighlightText({ text, query }: { text: string; query?: string }) {
-  if (!query || !text) return <>{text}</>;
+  if (!query || !text || query.trim().length < 2) return <>{text}</>;
   const words = query.toLowerCase().split(/\s+/).filter(Boolean);
   if (words.length === 0) return <>{text}</>;
   const escaped = words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   const regex = new RegExp(`(${escaped.join("|")})`, "gi");
   const parts = text.split(regex);
+  // split with capture group: odd-indexed parts are matches
   return (
     <>
       {parts.map((part, i) =>
-        regex.test(part) ? (
+        i % 2 === 1 ? (
           <mark
             key={i}
             style={{
