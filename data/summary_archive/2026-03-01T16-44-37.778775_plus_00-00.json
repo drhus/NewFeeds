@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-03-01T16:44:37.778775+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 630,
+    "incident_count_6h": 233,
+    "severity_breakdown": {
+      "major": 234,
+      "high": 261,
+      "medium": 132,
+      "low": 3
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 185,
+    "articles_analyzed": 280,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "china",
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "south_asia",
+      "turkey",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US conflict has escalated dramatically with confirmed Iranian ballistic missile strikes on Israel (Beit Shemesh: 8 killed, 27 injured; Jerusalem: 9 killed), direct attacks on UAE infrastructure (Dubai Airport, Abu Dhabi port), and the IRGC claiming to launch 4 missiles at the USS Abraham Lincoln—though US CENTCOM denies any hit. The death of Supreme Leader Khamenei has triggered succession planning, with a Temporary Leadership Council now operating. Three US troops killed in Operation Epic Fury remain confirmed casualties. Maritime and aviation disruption is severe: Maersk has suspended Strait of Hormuz transits, and hundreds of thousands of travelers are stranded due to airspace closures.",
+  "whats_temp_active": [
+    {
+      "content": "IRGC claims launch of 4 ballistic missiles at USS Abraham Lincoln; US CENTCOM denies any hit, stating missiles 'didn't even come close'",
+      "severity": "major",
+      "sources": [
+        "IRGC statement",
+        "US CENTCOM"
+      ],
+      "new": "yes"
+    },
+    {
+      "content": "Israeli Army mobilizes 100,000 reservists, raises alert levels across all sectors with emphasis on north (Hezbollah front)",
+      "severity": "major",
+      "sources": [
+        "War Monitors",
+        "Israeli military"
+      ],
+      "new": "yes"
+    },
+    {
+      "content": "Maersk suspends all vessel crossings in Strait of Hormuz; two commercial ships hit by projectiles in separate incidents",
+      "severity": "major",
+      "sources": [
+        "Anadolu Agency",
+        "Daily Sabah"
+      ],
+      "new": "yes"
+    },
+    {
+      "content": "US CENTCOM sinks Iranian Jamaran-class corvette in Chabahar Port—direct naval engagement",
+      "severity": "major",
+      "sources": [
+        "US Central Command"
+      ],
+      "new": "yes"
+    },
+    {
+      "content": "Israeli Air Force strikes Iran's internal security headquarters—IDF announces strike on dozens of command posts",
+      "severity": "major",
+      "sources": [
+        "Kommersant",
+        "Jerusalem Post"
+      ],
+      "new": "yes"
+    }
+  ],
+  "confirmed_events": [
+    "Three US service members killed, five seriously wounded in Operation Epic Fury—first confirmed US casualties in direct Iran operations (US CENTCOM)",
+    "Iranian missile strike on Beit Shemesh kills 8, injures 27; Jerusalem strike kills 9—confirmed by multiple sources including QNA, Al Alam",
+    "UAE reports 3 fatalities, 58 injuries from Iranian attack; Kuwait reports 1 fatality, 32 injuries—Gulf states directly targeted",
+    "Girls school strike in Minab, Iran death toll rises to 148—confirmed by Iran Herald, multi-source corroboration",
+    "Temporary Leadership Council begins work to replace Khamenei; Iranian Foreign Minister says successor may be named within 2 days"
+  ],
+  "unverified_emerging": [
+    "Trump claims Iran requested negotiations through Italy and proposed ceasefire—single source from Israeli newspaper Yedioth Ahronoth, no Iranian confirmation",
+    "Trump claims 48 Iranian 'leaders' killed in US attack—unverified figure, likely includes collateral targets",
+    "Former Iranian President Mahmoud Ahmadinejad reportedly killed in Israeli strike—unconfirmed, cited by state media with caveats",
+    "Russian Foreign Minister Lavrov and Chinese FM Wang Yi express readiness to 'help stabilize' situation—diplomatic signal not yet translated to concrete action"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "Over 1,000 flights disrupted as Dubai, Abu Dhabi, Doha airspace closed—hundreds of thousands stranded or diverted",
+      "UAE issues remote work advisory; Jebel Jais and tourist sites closed",
+      "Airspace closures extend across multiple regional hubs creating cascading delays"
+    ],
+    "supply_chain": [
+      "Maersk suspension of Strait of Hormuz transits signals major maritime disruption—critical oil supply route affected",
+      "Two ships struck by projectiles in Strait of Hormuz—escalating risk to commercial shipping",
+      "Abu Dhabi port attack targets critical regional logistics infrastructure"
+    ],
+    "market_macro": [
+      "Oil prices likely to spike on Strait of Hormuz disruption—supply chain analysts anticipate volatility",
+      "Regional airlines (Emirates, Etihad, Qatar Airways) facing massive operational disruptions",
+      "Aviation insurance and war risk premiums escalating sharply"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "Conflict will intensify over the next 24-72h. With succession planning underway in Tehran and Iran's military leadership vowing to continue confrontation, expect sustained Iranian missile barrages against Israel and Gulf allies. Israel's mobilization of 100,000 reservists signals potential ground operations in Lebanon against Hezbollah—creating a second major front. US naval operations (carrier strike group) remain active despite Iranian targeting claims. The diplomatic track (Trump's alleged negotiation feeler via Italy, Russian/Chinese outreach) exists but is unlikely to slow hostilities in the immediate term.",
+    "escalation_risks": [
+      "Israeli ground invasion of Lebanon to neutralize Hezbollah—100k reservists mobilized indicates serious preparation",
+      "Iranian attacks on Gulf oil infrastructure or Strait of Hormuz shipping could trigger global energy crisis",
+      "US-Iran direct naval confrontation escalating beyond proxy engagements",
+      "Iranian retaliation against regional US allies (Saudi Arabia, Qatar, Bahrain) expanding conflict geography",
+      "Cyber attacks on critical infrastructure (oil terminals, power grids, financial systems)"
+    ],
+    "de_escalation_pathways": "De-escalation requires either: (1) Iran's new leadership deciding the cost of continued conflict outweighs benefits—unlikely given current rhetoric; (2) US-Israel achieving sufficient degradation of Iranian military capacity to force negotiation; (3) Major power intervention (Russia/China) applying pressure on Tehran—or US accepting a face-saving negotiation offer. The Trump negotiation claim via Italy, if verified, represents the only active diplomatic channel, but Israeli mobilization suggests military leaders prefer continued pressure over immediate talks."
+  }
+}
