@@ -2,7 +2,7 @@ name: Fetch News & Deploy
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       test_mode:
