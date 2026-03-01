@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-01T14-50-49.492991_plus_00-00.json",
+    "generated_at": "2026-03-01T14:50:49.492991+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 573,
+    "summary_preview": "The Iran-US conflict has escalated to an unprecedented level with Iran launching hypersonic missiles at US forces, targeting the USS Abraham Lincoln with four ballistic missiles, and striking Dubai Ai"
+  },
+  {
     "filename": "2026-03-01T14-33-38.370111_plus_00-00.json",
     "generated_at": "2026-03-01T14:33:38.370111+00:00",
     "threat_label": "MAJOR",

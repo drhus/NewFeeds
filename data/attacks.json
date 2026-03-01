@@ -1,5 +1,77 @@
 [
   {
+    "id": "24f2d38d36a877be",
+    "title_original": "Iran Guards say ‘struck’ U.S. aircraft carrier USS Abraham Lincoln: state media",
+    "content_original": "The ‌USS ​Lincoln is one ⁠of two aircraft ‌carriers deployed to the region in recent ‌weeks and ​the only one ⁠relatively close ⁠to Iranian shores",
+    "url": "https://www.thehindu.com/news/international/iran-guards-say-struck-us-aircraft-carrier-uss-abraham-lincoln-state-media/article70692014.ece",
+    "published": "2026-03-01T20:04:05+05:30",
+    "fetched_at": "2026-03-01T14:55:16.334506+00:00",
+    "source_name": "The Hindu International",
+    "source_category": "independent",
+    "language": "en",
+    "region": "south_asia",
+    "skip_translation": true,
+    "title_en": "Iran Guards claim to have struck U.S. aircraft carrier USS Abraham Lincoln",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The IRGC has reportedly struck the USS Abraham Lincoln, one of two U.S. aircraft carriers deployed in the region, near Iranian shores. This incident signifies a significant escalation in hostilities as it involves a direct attack on a critical U.S. naval asset. The strategic significance lies in the potential for further military escalation and the increased risk of direct confrontation between U.S. and Iranian forces in the region.",
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "irgc",
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "IRGC",
+        "US Navy"
+      ],
+      "location": "Iranian shores",
+      "brief": "IRGC claims to have struck the USS Abraham Lincoln aircraft carrier, marking a major escalation with direct engagement between Iran and the US military."
+    },
+    "geocode_failed": true
+  },
+  {
+    "id": "fc94aa08ac1e1ea1",
+    "title_original": "USS Abraham Lincoln 'attacked'? Where the aircraft carrier is located amid US-Iran conflict",
+    "content_original": "The USS Abraham Lincoln is currently in the Gulf region.",
+    "url": "https://www.hindustantimes.com/world-news/uss-abraham-lincoln-attacked-where-the-aircraft-carrier-is-located-amid-us-iran-conflict-101772374882114.html",
+    "published": "2026-03-01T20:00:22+05:30",
+    "fetched_at": "2026-03-01T14:55:17.293057+00:00",
+    "source_name": "Hindustan Times World",
+    "source_category": "independent",
+    "language": "en",
+    "region": "south_asia",
+    "skip_translation": true,
+    "title_en": "USS Abraham Lincoln 'attacked' amid US-Iran conflict",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The USS Abraham Lincoln, a US aircraft carrier, is reportedly under attack in the Gulf region. This incident is significant as it involves a direct threat to a major US naval asset during active hostilities with Iran. The location and details of the attack, if confirmed, could indicate an escalation in Iranian retaliatory actions against US forces in the region.",
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "attack",
+      "threat",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident",
+      "severity": "major",
+      "parties_involved": [
+        "US",
+        "Iran"
+      ],
+      "location": "Gulf region",
+      "brief": "The USS Abraham Lincoln, a US aircraft carrier, reportedly came under attack in the Gulf region, indicating a direct threat to a major US naval asset amid active hostilities with Iran."
+    },
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
     "id": "2f849fe4f4ec87e1",
     "title_original": "Three dead, 58 injured in UAE since start of Iran’s retaliatory strikes, says defence ministry",
     "content_original": "The UAE has detected 165 ballistic missiles, destroying 152, and intercepted two cruise missiles, its defence ministry said",
@@ -72,6 +144,224 @@
     },
     "lat": -38.6771308,
     "lng": 178.0431614
+  },
+  {
+    "id": "64c2f5c101af5823",
+    "title_original": "Ракета упала рядом с круизным лайнером с 3,5 тыс. человек в Абу-Даби",
+    "content_original": "Ракета неизвестного происхождения упала рядом с портом в Абу-Даби, где был пришвартован круизный лайнер&nbsp;Mein Schiff 4,&nbsp;принадлежащий германскому туристическому концерну TUI, сообщает Bild.",
+    "url": "https://www.rbc.ru/rbcfreenews/69a451309a79479190e5a32c",
+    "published": "2026-03-01T17:53:54+03:00",
+    "fetched_at": "2026-03-01T14:54:40.311868+00:00",
+    "source_name": "RBC",
+    "source_category": "independent",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Missile Lands Near Cruise Ship in Abu Dhabi Harbor",
+    "relevant": true,
+    "summary_en": "An unidentified missile struck near Abu Dhabi port, close to the German cruise ship Mein Schiff 4 carrying 3,500 people. This incident highlights the escalating threat to civilian and commercial maritime traffic in the Gulf region amid ongoing hostilities. The strategic significance lies in the potential disruption of maritime trade and tourism, as well as the risk to civilian lives and infrastructure in the UAE.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "threat",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Houthis",
+        "Germany (civilian vessel)"
+      ],
+      "location": "Abu Dhabi Harbor, UAE",
+      "brief": "An unidentified missile strike near a German cruise ship in Abu Dhabi Harbor indicates escalating maritime threats in the Gulf region amid ongoing regional hostilities."
+    },
+    "lat": 24.0,
+    "lng": 54.0
+  },
+  {
+    "id": "a80b713336cd6c21",
+    "title_original": "Число погибших из-за удара по школе в Иране возросло до 153",
+    "content_original": "США и Израиль нанесли удар по школе 28 февраля",
+    "url": "https://tass.ru/proisshestviya/26600933",
+    "published": "2026-03-01T17:53:11+03:00",
+    "fetched_at": "2026-03-01T14:54:26.481600+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Death Toll Rises to 153 in US-Israel Strike on Iranian School",
+    "relevant": true,
+    "summary_en": "The US and Israel conducted a strike on an Iranian school on February 28, resulting in at least 153 fatalities. This incident signifies a significant escalation in the conflict, highlighting the direct targeting of civilian infrastructure. The strike's strategic implications could provoke further retaliation from Iran and intensify international scrutiny on US and Israeli actions.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "conflict",
+      "death",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "US",
+        "Israel",
+        "Iran"
+      ],
+      "location": "Iran",
+      "brief": "The US and Israel conducted a major airstrike on an Iranian school resulting in 153 fatalities, marking a significant escalation in the conflict."
+    },
+    "merged_source_count": 6,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "5a49dabe63c669ca",
+    "title_original": "США сообщили о поражении иранского корверта класса Jamaran",
+    "content_original": "Военные США сообщили, что иранское судно класса Jamaran, пораженное в начале операции против Ирана, тонет в Оманском заливе, пишет пресс-служба в Х.",
+    "url": "https://www.rbc.ru/rbcfreenews/69a4518e9a7947016b7faeee",
+    "published": "2026-03-01T17:50:55+03:00",
+    "fetched_at": "2026-03-01T14:54:40.312280+00:00",
+    "source_name": "RBC",
+    "source_category": "independent",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "US Reports Sinking of Iranian Jamaran-Class Corvette",
+    "relevant": true,
+    "summary_en": "The US military announced the sinking of an Iranian Jamaran-class corvette in the Gulf of Oman, marking a significant naval engagement early in the operation against Iran. This incident highlights the escalating maritime conflict in the strategically vital region. The sinking of the warship demonstrates the US's intent to target Iranian naval capabilities.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident",
+      "severity": "high",
+      "parties_involved": [
+        "US",
+        "Iran"
+      ],
+      "location": "Gulf of Oman",
+      "brief": "US military reports sinking of an Iranian Jamaran-class corvette in the Gulf of Oman, indicating escalation in maritime conflict."
+    },
+    "lat": 24.2138029,
+    "lng": 58.9845823
+  },
+  {
+    "id": "7d2a551313337bdb",
+    "title_original": "США сообщили об ударе по иранскому кораблю \"Джамаран\"",
+    "content_original": "США сообщили об ударе по иранскому кораблю \"Джамаран\"",
+    "url": "https://ria.ru/20260301/korabl-2077701102.html",
+    "published": "2026-03-01T17:43:42+03:00",
+    "fetched_at": "2026-03-01T14:54:27.483437+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "US Reports Strike on Iranian Ship Jamaran",
+    "relevant": true,
+    "summary_en": "The US has reported conducting a strike on the Iranian naval vessel Jamaran. This incident likely occurred in the Persian Gulf or nearby waters. The strike signifies an escalation in naval hostilities between the US and Iran amidst the ongoing conflict.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "strike",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident",
+      "severity": "high",
+      "parties_involved": [
+        "US",
+        "Iran"
+      ],
+      "location": "Persian Gulf",
+      "brief": "US reports conducting a strike on the Iranian naval vessel Jamaran, marking a significant escalation in naval hostilities between the two nations."
+    },
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
+    "id": "402c2343d740f12f",
+    "title_original": "Российский повар рассказал о попаданиях осколков ракет в дома в Дубае",
+    "content_original": "Российский повар рассказал о попаданиях осколков ракет в дома в Дубае",
+    "url": "https://ria.ru/20260301/oskolki-2077700768.html",
+    "published": "2026-03-01T17:43:24+03:00",
+    "fetched_at": "2026-03-01T14:54:27.483624+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Russian chef describes missile fragments hitting homes in Dubai",
+    "relevant": true,
+    "summary_en": "A Russian chef reported that missile fragments struck residential buildings in Dubai, indicating a potential escalation in the conflict affecting civilian areas in the UAE. This highlights the ongoing threat under which civilians in the Gulf region are living due to the ongoing Iran-US conflict. The incident underscores the risk of collateral damage from missile and drone attacks in the region.",
+    "translated": true,
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "drone",
+      "threat",
+      "missile",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "escalation",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "UAE",
+        "Russia"
+      ],
+      "location": "Dubai, UAE",
+      "brief": "Missile fragments striking civilian buildings in Dubai indicate an escalation in the Iran-US conflict with potential regional implications."
+    },
+    "merged_source_count": 5,
+    "lat": 25.2,
+    "lng": 55.27
+  },
+  {
+    "id": "f257902494d47652",
+    "title_original": "ОАЭ оставляют за собой право ответить на удар по военной базе в Абу-Даби",
+    "content_original": "Минобороны страны решительно осудило военное нападение, расценив его как вопиющий акт агрессии и грубое нарушение национального суверенитета",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26600825",
+    "published": "2026-03-01T17:41:15+03:00",
+    "fetched_at": "2026-03-01T14:54:26.484039+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "UAE Reserves Right to Respond to Attack on Abu Dhabi Military Base",
+    "relevant": true,
+    "summary_en": "The UAE has condemned a military attack on its Abu Dhabi base as a blatant act of aggression and a serious violation of national sovereignty. The UAE's Ministry of Defense has stated it reserves the right to respond to the attack. This incident highlights the escalating tensions in the region amid the ongoing Iran-US conflict, with potential implications for regional stability and US interests in the Gulf.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "attack",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "high",
+      "parties_involved": [
+        "UAE",
+        "unknown attackers"
+      ],
+      "location": "Abu Dhabi, UAE",
+      "brief": "The UAE condemns a military attack on its Abu Dhabi base as a serious violation of sovereignty and reserves the right to respond."
+    },
+    "lat": 24.45,
+    "lng": 54.38
   },
   {
     "id": "49ba4ef781e272f5",
@@ -1367,6 +1657,408 @@
     "lng": 36.29
   },
   {
+    "id": "23fd743993691228",
+    "title_original": "الجامعة العربية تدين الاعتداءات الإيرانية على ميناء الدقم بسلطنة عمان وناقلة نفط قبالة سواحلها",
+    "content_original": "القاهرة في 01 مارس /قنا/ أدانت جامعة الدول العربية، بأشد العبارات، استهداف ميناء الدقم بسلطنة عمان، وناقلة نفط قبالة سواحلها بواسطة صواريخ إيرانية.",
+    "url": "https://qna.org.qa/ar-QA/News-Area/News/2026-3/1/الجامعة-العربية-تدين-الاعتداءات-الايرانية-على-ميناء-الدقم-بسلطنة-عمان-وناقلة-نفط-قبالة-سواحلها",
+    "published": "2026-03-01T14:54:46.173041+00:00",
+    "fetched_at": "2026-03-01T14:54:46.173047+00:00",
+    "source_name": "QNA General (Arabic)",
+    "source_category": "state",
+    "language": "ar",
+    "region": "gulf",
+    "skip_translation": false,
+    "title_en": "Arab League Condemns Iranian Attacks on Oman's Duqm Port and Oil Tanker Off Coast",
+    "relevant": true,
+    "summary_en": "The Arab League has strongly condemned Iranian missile strikes targeting the Duqm Port in Oman and an oil tanker off its coast. This incident highlights escalating tensions in the region as Iran continues to target critical infrastructure and maritime assets. The strategic significance lies in the potential disruption of regional oil supply routes and increased instability in the Gulf of Oman.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us|naval_incident",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Oman",
+        "Arab League"
+      ],
+      "location": "Duqm Port, Oman",
+      "brief": "Iran conducted missile strikes on Oman's Duqm Port and an oil tanker, escalating regional tensions and prompting condemnation from the Arab League."
+    },
+    "lat": 19.6629965,
+    "lng": 57.7116611
+  },
+  {
+    "id": "0af663964077dc27",
+    "title_original": "📝 Французская база в километре от Лувра 📝 Объята огнем после удара ракет или беспилотников. Пока это, впрочем, происх...",
+    "content_original": "📝 Французская база в километре от Лувра 📝 Объята огнем после удара ракет или беспилотников. Пока это, впрочем, происходит в ОАЭ. Целью удара рядом с Лувром оказался именно этот объект. Координаты: 24.52122895, 54.39578592 Camp de la Paix («Лагерь мира») также известный как «Французское военное поселение в ОАЭ» была открыт еще в 2009 году Николя Саркози . Суммарное число французского военного персонала в ОАЭ — порядка 250 военнослужащих, 70 из которых относятся к флоту. База позволяет принимать все корабли ВМС Франции, кроме «Шарля де-Голля» . Французские военные объекты обходились для ОАЭ десятками миллионов евро, и только что явно подорожали. #Иран #США #ОАЭ 🧨 @rybar_mena — о ближневосточном хаосе с любовью 💸 Поддержать нас",
+    "url": "https://t.me/rybar/78011",
+    "published": "2026-03-01T14:53:51+00:00",
+    "fetched_at": "2026-03-01T14:55:39.637425+00:00",
+    "source_name": "Rybar (TG)",
+    "source_category": "state-aligned",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "French military base near Louvre Abu Dhabi hit by missiles or drones",
+    "relevant": true,
+    "summary_en": "An unidentified strike involving missiles or drones targeted the French military base 'Camp de la Paix' in the UAE, approximately 1 km from the Louvre Abu Dhabi. The base, housing around 250 French military personnel, was set ablaze. This incident signifies a potential escalation in regional hostilities, likely linked to ongoing conflicts involving Iran and its proxies.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "high",
+      "parties_involved": [
+        "France",
+        "UAE",
+        "Unknown attackers"
+      ],
+      "location": "Louvre Abu Dhabi, UAE",
+      "brief": "An unidentified drone or missile strike hit the French military base 'Camp de la Paix' near the Louvre Abu Dhabi, causing a fire and indicating potential regional escalation."
+    },
+    "lat": 24.0,
+    "lng": 54.0
+  },
+  {
+    "id": "76025b40812a058e",
+    "title_original": "📝 Мало потопили 📝 Сразу после поражения Skylight появились сообщения об ударах со стороны Исламской республики по еще...",
+    "content_original": "📝 Мало потопили 📝 Сразу после поражения Skylight появились сообщения об ударах со стороны Исламской республики по еще двум судам у берегов Омана в Ормузском проливе. ➡️ По данными Reuters со ссылкой на оманский Центр морской безопасности, речь идет о танкере MKD VYOM (ранее известное как Dong Ting Hu и Dania), который ходит под флагом Маршалловых островов. ➡️ О поражении третьего неизвестного судна свидетельствуют данные Центра операций по управлению морскими торговыми операциями Великобритании (UKMTO). 🖍 В случае со Skylight это было попадание по кораблю из теневого флота Ирана. Здесь же удалось избежать огня по своим: у судов подписано соглашение о свободной ассоциации с США. 🚩 По таким целям ранее били йеменские хуситы в Красноморском регионе , обвиняя их в нарушении блокады израильских властей и торговле с «преступным режимом». ❗️ Однако в данном моменте что для иранцев, что для «Ансараллы» цели вполне легальные: морские объекты западных компаний, удобно оказавшиеся в зоне конфликт...",
+    "url": "https://t.me/rybar/78010",
+    "published": "2026-03-01T14:53:45+00:00",
+    "fetched_at": "2026-03-01T14:55:39.636391+00:00",
+    "source_name": "Rybar (TG)",
+    "source_category": "state-aligned",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Iran Strikes Two Vessels Near Oman in Strait of Hormuz",
+    "relevant": true,
+    "summary_en": "Iran reportedly attacked two vessels, including the tanker MKD VYOM, near Oman in the Strait of Hormuz following the Skylight incident. The attacks targeted ships associated with the US through free association agreements, highlighting ongoing maritime tensions in the region. This escalation demonstrates Iran's continued targeting of maritime assets in strategic waterways amidst the conflict.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Oman"
+      ],
+      "location": "Strait of Hormuz, near Oman",
+      "brief": "Iran attacked two vessels, including the tanker MKD VYOM, near Oman in the Strait of Hormuz, escalating maritime tensions in the region."
+    },
+    "merged_source_count": 2,
+    "lat": 26.56,
+    "lng": 56.25
+  },
+  {
+    "id": "100aaf6a2a557984",
+    "title_original": "#إعلام_العدو   القناة 12 العبرية: مقتل 3 جنود أمريكيين جراء قصف إيراني.  #الإعلام_الحربي",
+    "content_original": "#إعلام_العدو القناة 12 العبرية: مقتل 3 جنود أمريكيين جراء قصف إيراني. #الإعلام_الحربي",
+    "url": "https://t.me/Electrohizbullah/156677",
+    "published": "2026-03-01T14:53:15+00:00",
+    "fetched_at": "2026-03-01T14:55:46.034565+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Three US soldiers killed in Iranian missile strike",
+    "relevant": true,
+    "summary_en": "Three US soldiers were killed in a missile strike attributed to Iran, according to Israeli Channel 12 news. This incident highlights the ongoing escalation and direct engagement between US forces and Iranian military assets. The attack signifies a significant escalation in hostilities and potential retaliatory measures by the US.",
+    "translated": true,
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "strike",
+      "attack",
+      "missile",
+      "killed"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "US",
+        "Iran",
+        "Israel"
+      ],
+      "location": "Middle East",
+      "brief": "Iran conducted a missile strike that killed three US soldiers, marking a significant escalation in direct US-Iran military engagement."
+    },
+    "merged_source_count": 3,
+    "lat": 29.0,
+    "lng": 47.0
+  },
+  {
+    "id": "2b2e7ac67282e78a",
+    "title_original": "#إعلام_العدو   صافرات الإنذار تدوي في مطار رمات دافيد العسكري شمال فلسطين المحتلة.",
+    "content_original": "#إعلام_العدو صافرات الإنذار تدوي في مطار رمات دافيد العسكري شمال فلسطين المحتلة.",
+    "url": "https://t.me/Electrohizbullah/156676",
+    "published": "2026-03-01T14:52:36+00:00",
+    "fetched_at": "2026-03-01T14:55:46.033966+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Air raid sirens sound at Ramat David military airport in northern occupied Palestine",
+    "relevant": true,
+    "summary_en": "Air raid sirens were activated at Ramat David military airport in northern Israel. This indicates a potential threat or attack, likely linked to ongoing hostilities with regional adversaries like Hezbollah or other Iran-backed groups. The incident underscores the vulnerability of Israeli military installations amid escalating regional tensions.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "raid",
+      "hezbollah",
+      "attack",
+      "threat"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran"
+      ],
+      "location": "Ramat David military airport, northern Israel",
+      "brief": "Air raid sirens at Ramat David military airport indicate a potential Hezbollah or Iran-backed attack, highlighting regional tensions and Israeli military vulnerability."
+    },
+    "lat": 33.06,
+    "lng": 35.24
+  },
+  {
+    "id": "82fd333a3c6a36a5",
+    "title_original": "#الجمهورية_الإسلامية    النيابة العامة في محافظة هرمزكان: ارتفاع عدد شهداء مدرسة ميناب الابتدائية للبنات إلى 153",
+    "content_original": "#الجمهورية_الإسلامية النيابة العامة في محافظة هرمزكان: ارتفاع عدد شهداء مدرسة ميناب الابتدائية للبنات إلى 153",
+    "url": "https://t.me/Electrohizbullah/156674",
+    "published": "2026-03-01T14:50:28+00:00",
+    "fetched_at": "2026-03-01T14:55:46.032853+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Death Toll in Minab Girls' Primary School Incident Rises to 153",
+    "relevant": true,
+    "summary_en": "The death toll from an incident at Minab Girls' Primary School in Hormozgan Province, Iran, has risen to 153. This incident is likely related to ongoing hostilities, given the high casualty count and the strategic importance of the region. The incident could have significant implications for public morale and potential escalation in the conflict.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "death",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "IRGC proxies",
+        "Local armed groups"
+      ],
+      "location": "Minab, Hormozgan Province, Iran",
+      "brief": "A major incident at a girls' primary school in Minab, likely a proxy operation, has resulted in 153 casualties, indicating significant escalation in the region."
+    },
+    "lat": 27.1,
+    "lng": 57.08
+  },
+  {
+    "id": "c2530ea31438dcb7",
+    "title_original": "#إعلام_العدو   صفارات الإنذار تدوي في العفولة ومحيطها. #الإعلام_الحربي",
+    "content_original": "#إعلام_العدو صفارات الإنذار تدوي في العفولة ومحيطها. #الإعلام_الحربي",
+    "url": "https://t.me/Electrohizbullah/156673",
+    "published": "2026-03-01T14:49:44+00:00",
+    "fetched_at": "2026-03-01T14:55:46.032278+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Air Raid Sirens Sound in Afula and Surrounding Areas",
+    "relevant": true,
+    "summary_en": "Air raid sirens were activated in Afula, Israel, and its surroundings, indicating a potential threat, likely from incoming projectiles or drones. This suggests ongoing hostilities in the region, potentially linked to Hezbollah or other Iranian-backed groups operating near Israel's northern border. The incident highlights the continued escalation of tensions and the ongoing threat to Israeli civilian areas.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "raid",
+      "hezbollah",
+      "threat"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran"
+      ],
+      "location": "Afula, Israel",
+      "brief": "Air raid sirens in Afula, Israel, indicate potential Hezbollah or Iranian-backed projectile or drone attacks from the northern border, signaling ongoing regional hostilities."
+    },
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
+    "id": "11b3f71bcbe0df20",
+    "title_original": "🇮🇷 ❌ 🇺🇸   — Iran launches ballistic missiles towards northern Israel.",
+    "content_original": "🇮🇷 ❌ 🇺🇸 — Iran launches ballistic missiles towards northern Israel.",
+    "url": "https://t.me/CIG_telegram/69858",
+    "published": "2026-03-01T14:48:52+00:00",
+    "fetched_at": "2026-03-01T14:55:41.518683+00:00",
+    "source_name": "Conflict Intelligence Team (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "russia",
+    "skip_translation": true,
+    "title_en": "Iran launches ballistic missiles towards northern Israel",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iran has launched ballistic missiles targeting northern Israel, marking a significant escalation in the conflict. This action directly involves Israel, a key US ally, and could provoke a strong military response from both Israel and the US. The strategic significance includes potential threats to regional stability and the risk of further escalation across multiple fronts.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "ballistic",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "US"
+      ],
+      "location": "Northern Israel",
+      "brief": "Iran launches ballistic missiles targeting northern Israel, escalating regional conflict and directly involving US ally Israel."
+    },
+    "merged_source_count": 2,
+    "lat": 33.06,
+    "lng": 35.24
+  },
+  {
+    "id": "81b5a84e2ffca32b",
+    "title_original": "🚨 شلیک موشک های ایرانی به سمت اسرائیل ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ 🚨  تحولات و اخبار جدید ایران و آم...",
+    "content_original": "🚨 شلیک موشک های ایرانی به سمت اسرائیل ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ 🚨 تحولات و اخبار جدید ایران و آمریکا 🌐 ✅ @SABERIN_NEWS",
+    "url": "https://t.me/saberin_news/44971",
+    "published": "2026-03-01T14:47:48+00:00",
+    "fetched_at": "2026-03-01T14:55:44.921860+00:00",
+    "source_name": "Islamic Resistance Iraq (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Iranian Missiles Fired Towards Israel",
+    "relevant": true,
+    "summary_en": "Iran has launched missiles targeting Israel, marking a significant escalation in the conflict. This action indicates direct engagement between Iran and Israel, potentially drawing more regional actors into the war. The strategic significance includes heightened tensions and the possibility of Israeli retaliation, further destabilizing the Middle East.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "war",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "Iranian Revolutionary Guard Corps (IRGC)"
+      ],
+      "location": "Israel",
+      "brief": "Iran has launched ballistic missiles targeting Israel, marking a direct military engagement between the two nations with significant regional implications."
+    },
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
+    "id": "44d5d2820bad3c1b",
+    "title_original": "🚨 ارتش ایران با جنگنده های سوخو 35 پایگاه های آمریکایی در امارات را بمباران کرد ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ...",
+    "content_original": "🚨 ارتش ایران با جنگنده های سوخو 35 پایگاه های آمریکایی در امارات را بمباران کرد ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ 🚨 تحولات و اخبار جدید ایران و آمریکا 🌐 ✅ @SABERIN_NEWS",
+    "url": "https://t.me/saberin_news/44970",
+    "published": "2026-03-01T14:47:19+00:00",
+    "fetched_at": "2026-03-01T14:55:44.921292+00:00",
+    "source_name": "Islamic Resistance Iraq (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Iranian military bombs US bases in UAE using Su-35 fighter jets",
+    "relevant": true,
+    "summary_en": "Iran's military has launched airstrikes on US bases in the UAE using Su-35 fighter jets. This represents a significant escalation in the conflict, as it involves direct attacks on US assets in the Gulf region by Iranian forces. The strategic significance includes potential disruption of US operations and increased tensions in the area.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "UAE"
+      ],
+      "location": "UAE",
+      "brief": "Iran launches airstrikes on US bases in UAE using Su-35 fighter jets, marking a significant escalation in direct military engagement."
+    },
+    "lat": 24.0,
+    "lng": 54.0
+  },
+  {
+    "id": "0ecea8927a913ffc",
+    "title_original": "A visual guide to US-Israeli strikes on Iran – and Tehran’s response",
+    "content_original": "Missiles and bombs landed across Iran, hitting political and security targets in Tehran, including supreme leader’s residence US-Israeli attack on Iran – live updates US and Israel strikes on Iran – what we know so far The US-Israeli war against Iran entered its second day on Sunday, as news of the assassination of the country’s supreme leader, Ali Khamenei, shook the Islamic Republic and the wider region. Donald Trump announced Khamenei’s death while Israel claimed to have killed at least 40 senior Iranian commanders in the first day of attacks. Both countries continued to pound Iran, conducting hundreds of airstrikes across the country overnight and on Sunday. Despite the apparent loss of a significant portion of its senior military and political leadership, Iran did not slow its retaliation on Sunday, bombing targets in the Gulf and unleashing waves of ballistic missiles towards Israel. Continue reading...",
+    "url": "https://www.theguardian.com/world/2026/feb/28/us-israel-strikes-iran-tehran-response-visual-guide",
+    "published": "2026-03-01T14:44:31+00:00",
+    "fetched_at": "2026-03-01T14:55:30.977206+00:00",
+    "source_name": "The Guardian World",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "US-Israeli strikes on Iran and Tehran's response",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The US and Israel have launched a coordinated attack on Iran, hitting political and security targets in Tehran, including the supreme leader's residence. The strikes have reportedly killed Iran's supreme leader, Ali Khamenei, and at least 40 senior Iranian commanders. The attacks, involving hundreds of airstrikes, mark an escalation in the conflict with significant implications for Iran's leadership and military capabilities.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "killed",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "US",
+        "Israel",
+        "Iran"
+      ],
+      "location": "Tehran, Iran",
+      "brief": "US and Israel launch coordinated airstrikes on Iran, killing Supreme Leader Ali Khamenei and 40 senior commanders in a major escalation."
+    },
+    "merged_source_count": 2,
+    "lat": 35.69,
+    "lng": 51.39
+  },
+  {
     "id": "fa5504e1d06efbef",
     "title_original": "500 אלף מהגרים, וסוכנים סמויים: הקהילה האיראנית בדובאי - יום אחרי המתקפה",
     "content_original": "בתגובה למתקפה האמריקנית-ישראלית שיגרה איראן כטב\"מ שפגע במלון יוקרה בנסיכות. היחסים בין האמירות הסונית לבין הרפובליקה השיעית מושפעים מיחסים כלכליים רחבי היקף, אבל בעיקר מחצי מיליון איראנים שעזבו את מולדתם אל החיים הטובים. הבעיה של אמיר דובאי: בין הגולים הסתננו סוכני משטר מטהרן",
@@ -1402,6 +2094,76 @@
     },
     "lat": 24.0,
     "lng": 54.0
+  },
+  {
+    "id": "c3c3a5b5c7a78ac5",
+    "title_original": "🇺🇸 ⚔️ 🇮🇷   The U.S. Central Command announced it sank a Jamaran-class corvette in the port of Chabahar. Images were p...",
+    "content_original": "🇺🇸 ⚔️ 🇮🇷 The U.S. Central Command announced it sank a Jamaran-class corvette in the port of Chabahar. Images were posted yesterday showing smoke coming from a warship inside an Iranian port. @CIG_telegram",
+    "url": "https://t.me/CIG_telegram/69857",
+    "published": "2026-03-01T14:42:17+00:00",
+    "fetched_at": "2026-03-01T14:55:41.517650+00:00",
+    "source_name": "Conflict Intelligence Team (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "russia",
+    "skip_translation": true,
+    "title_en": "US Central Command Sinks Iranian Jamaran-Class Corvette in Chabahar Port",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The US Central Command reported sinking an Iranian Jamaran-class corvette in the port of Chabahar. This action represents a significant escalation in direct military engagement against Iranian naval assets. The strike on the port highlights the expanding scope of US operations targeting Iran's military infrastructure.",
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident",
+      "severity": "major",
+      "parties_involved": [
+        "US",
+        "Iran"
+      ],
+      "location": "Chabahar Port, Iran",
+      "brief": "US Central Command conducted a direct military strike by sinking an Iranian Jamaran-class corvette in Chabahar Port, marking a significant escalation in US-Iran naval engagements."
+    },
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "ad2833c0d3ce4ff3",
+    "title_original": "At least 148 dead after reported strike on school, Iran says",
+    "content_original": "Iran has blamed the US and Israel for the strike; the US is looking into reports of the incident, while the IDF says it is \"not aware\" of operations in the area.",
+    "url": "https://www.bbc.com/news/articles/c1l7rvqq51eo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-03-01T14:40:36+00:00",
+    "fetched_at": "2026-03-01T14:55:30.785226+00:00",
+    "source_name": "BBC News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "At least 148 dead after reported strike on school, Iran says",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iran has reported a strike on a school resulting in at least 148 casualties, blaming the US and Israel. The US is investigating the incident, while Israel denies involvement. This could escalate tensions and lead to further retaliatory actions by Iran.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "dead",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Israel"
+      ],
+      "location": "western Iran",
+      "brief": "A reported airstrike on a school in western Iran has resulted in at least 148 casualties, with Iran blaming the US and Israel, potentially escalating the conflict to a major direct engagement."
+    },
+    "lat": 32.65,
+    "lng": 54.56
   },
   {
     "id": "7ec1ffa63fe95828",
@@ -1701,6 +2463,44 @@
       "brief": "Iran launched a ballistic missile strike on Beit Shemesh, Israel, resulting in nine fatalities, marking a major escalation following the assassination of Ayatollah Khamenei."
     },
     "merged_source_count": 5,
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
+    "id": "fae27740ad314fa9",
+    "title_original": "Iranian attack on Beit Shemesh kills several in Israel",
+    "content_original": "An Iranian missile attack on the Israeli town of Beit Shemesh has killed at least nine people and wounded dozens more.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-attack-on-beit-shemesh-kills-several-in-israel?traffic_source=rss",
+    "published": "2026-03-01T14:29:45+00:00",
+    "fetched_at": "2026-03-01T14:54:48.508129+00:00",
+    "source_name": "Al Jazeera English",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Iranian attack on Beit Shemesh kills several in Israel",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iran launched a missile attack on the Israeli town of Beit Shemesh, resulting in at least nine fatalities and dozens of injuries. This attack represents a significant escalation of hostilities by Iran against Israel, demonstrating Iran's willingness to target civilian populations. The incident is likely to provoke a strong military response from Israel and further intensify the regional conflict.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "missile",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us|hezbollah_action|ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "Hezbollah"
+      ],
+      "location": "Beit Shemesh, Israel",
+      "brief": "Iran launched a ballistic missile attack on Beit Shemesh, Israel, resulting in significant civilian casualties, marking a major escalation in regional hostilities."
+    },
+    "merged_source_count": 2,
     "lat": 31.5,
     "lng": 34.8
   },
