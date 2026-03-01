@@ -1,8 +1,6 @@
 name: Fetch News & Deploy
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       test_mode:
@@ -20,6 +18,7 @@ permissions:
   pull-requests: write
   pages: write
   id-token: write
+  actions: write
 
 jobs:
   fetch-translate-deploy:
@@ -108,3 +107,12 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: Re-trigger pipeline (chain)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Waiting 2 minutes before re-triggering…"
+          sleep 120
+          gh workflow run fetch-and-deploy.yml --ref main
