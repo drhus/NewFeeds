@@ -327,6 +327,40 @@
     }
   },
   {
+    "id": "9874bd106408793b",
+    "title_original": "Над Белгородской областью сбили воздушные цели",
+    "content_original": "По предварительной информации, никто не пострадал",
+    "url": "https://tass.ru/armiya-i-opk/26601075",
+    "published": "2026-03-01T18:12:49+03:00",
+    "fetched_at": "2026-03-01T15:34:43.390816+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Air Targets Shot Down Over Belgorod Region",
+    "relevant": true,
+    "summary_en": "Unidentified aerial targets were intercepted over Belgorod Region, Russia. While there are no reported casualties, the incident raises concerns about potential escalation or spillover from the ongoing conflict, given the region's proximity to the Ukrainian border and current geopolitical tensions.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "medium",
+      "parties_involved": [
+        "Russia",
+        "Unknown"
+      ],
+      "location": "Belgorod Region, Russia",
+      "brief": "Unidentified aerial targets were intercepted over Belgorod Region, Russia, raising concerns about potential escalation due to the region's proximity to the Ukrainian border and current geopolitical tensions."
+    },
+    "lat": 50.5965678,
+    "lng": 36.5878916
+  },
+  {
     "id": "0f19ce14cb26859d",
     "title_original": "Iran-Israel conflict: Oil tanker hit off Oman coast after drones strike Duqm port; crew with 15 Indians evacuated",
     "content_original": "Four injured; Oman’s Musandam peninsula shares control of the Strait of Hormuz with Iran",
@@ -689,6 +723,44 @@
     },
     "lat": 24.45,
     "lng": 54.38
+  },
+  {
+    "id": "446f93697b913951",
+    "title_original": "Two Palestinians Killed, Multiple Others Injured in Israeli Bombing in Northern Gaza",
+    "content_original": "Gaza, March 1 (QNA) - Two Palestinians have been killed and several others injured today in an Israeli artillery shelling that targeted the Al-Jurn area in Jabaliain the northern Gaza Strip, medical sources reported.",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-3/1/two-palestinians-killed-multiple-others-injured-in-israeli-bombing-in-northern-gaza",
+    "published": "2026-03-01T17:37:07+00:00",
+    "fetched_at": "2026-03-01T15:34:55.553295+00:00",
+    "source_name": "QNA General (English)",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Two Palestinians Killed in Israeli Bombing in Northern Gaza",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Israeli forces conducted artillery shelling in the Al-Jurn area of Jabalia in northern Gaza, resulting in the deaths of two Palestinians and multiple injuries. This incident occurred in the context of ongoing tensions and military operations between Israel and Palestinian groups in the Gaza Strip. The strike signifies continued Israeli operations against targets in Gaza amidst the broader regional conflict.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "strike",
+      "deaths",
+      "conflict",
+      "shelling",
+      "killed"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Palestinian groups"
+      ],
+      "location": "Gaza Strip, Northern Gaza",
+      "brief": "Israeli artillery shelling in northern Gaza results in two Palestinian deaths amid ongoing regional tensions."
+    },
+    "lat": 31.5,
+    "lng": 34.47
   },
   {
     "id": "f153261ea447fb89",
@@ -1836,6 +1908,115 @@
     "lng": 54.0
   },
   {
+    "id": "d31d35ffd9df0fa8",
+    "title_original": "Zahra Mohammadi Golpayegani, the 14-month-old granddaughter of the Leader of the Islamic Revolution, was martyred in ...",
+    "content_original": "Zahra Mohammadi Golpayegani, the 14-month-old granddaughter of the Leader of the Islamic Revolution, was martyred in the US-Israeli attack. @PressTV",
+    "url": "https://t.me/presstv/177472",
+    "published": "2026-03-01T15:34:58+00:00",
+    "fetched_at": "2026-03-01T15:35:33.556440+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "Leader of the Islamic Revolution's granddaughter killed in US-Israeli attack",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The 14-month-old granddaughter of Iran's Supreme Leader was killed in a US-Israeli attack, marking a significant escalation in the conflict. This incident is likely to provoke strong reactions from Iran and could lead to further escalation. The strategic significance lies in the potential for increased retaliatory measures by Iran against US and Israeli targets.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "killed",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "Israel"
+      ],
+      "location": "Iran",
+      "brief": "A US-Israeli attack resulted in the death of the Iranian Supreme Leader's 14-month-old granddaughter, marking a significant escalation in the conflict."
+    },
+    "merged_source_count": 3,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "e565398b8898e0e3",
+    "title_original": "الإمارات تعلن تعرض قاعدة بحرية في أبوظبي لاستهداف بمسيرتين إيرانيتين دون وقوع خسائر بشرية",
+    "content_original": "أبوظبي في 01 مارس /قنا/ أعلنت وزارة الدفاع الإماراتية أن الفرق المختصة قامت اليوم بالتعامل مع حادث ناتج عن استهداف تم بواسطة طائرتين مسيرتين إيرانيتين على أحد مستودعات قاعدة السلام البحرية في أبوظبي.",
+    "url": "https://qna.org.qa/ar-QA/News-Area/News/2026-3/1/الامارات-تعلن-تعرض-قاعدة-بحرية-في-ابوظبي-لاستهداف-بمسيرتين-ايرانيتين-دون-وقوع-خساير-بشرية",
+    "published": "2026-03-01T15:34:53.381652+00:00",
+    "fetched_at": "2026-03-01T15:34:53.381660+00:00",
+    "source_name": "QNA General (Arabic)",
+    "source_category": "state",
+    "language": "ar",
+    "region": "gulf",
+    "skip_translation": false,
+    "title_en": "UAE Reports Drone Attack on Abu Dhabi Naval Base by Iranian Drones",
+    "relevant": true,
+    "summary_en": "Iranian drones targeted a naval base in Abu Dhabi, UAE, with no casualties reported. The UAE defense ministry stated that specialized teams handled the incident at the Al-Salam naval base. This attack signifies an escalation in regional tensions and direct targeting of UAE military infrastructure by Iran.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "medium",
+      "parties_involved": [
+        "Iran",
+        "UAE",
+        "Iranian Revolutionary Guard Corps"
+      ],
+      "location": "Al-Salam naval base, Abu Dhabi, UAE",
+      "brief": "Iranian drones targeted a UAE naval base in Abu Dhabi, marking an escalation in regional tensions through direct military infrastructure targeting."
+    },
+    "lat": 24.45,
+    "lng": 54.38
+  },
+  {
+    "id": "e21ce049a43df1da",
+    "title_original": "Netanyahu: Israel is striking at the 'heart' of Tehran",
+    "content_original": "Netanyahu: Israel is striking at the 'heart' of Tehran Israeli Prime Minister Benjamin Netanyahu said his forces were striking the \"heart of Tehran\" and they would intensify the attacks in coming days, \"We eliminated the dictator Khamenei and dozens of senior officials of the oppressive regime. Our forces are now striking the heart of Tehran with increasing strength, which will increase even more in the coming days,\" he said in a statement on the roof of the Kirya, the Israeli army's headquarters in Tel Aviv. \"[US support] allows us to do what I have been hoping to do for 40 years - to strike the terrorist regime squarely in the face. I promised - and so we will.\"",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-israel-striking-heart-tehran",
+    "published": "2026-03-01T15:34:42+00:00",
+    "fetched_at": "2026-03-01T15:34:59.020707+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Netanyahu: Israel is striking at the 'heart' of Tehran",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Israeli Prime Minister Benjamin Netanyahu announced that Israeli forces are intensifying attacks on Tehran, claiming to have eliminated Iran's Supreme Leader Khamenei and dozens of senior officials. This escalation, with US support, signifies a significant escalation in the conflict and direct targeting of Iran's leadership and core infrastructure.",
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "israeli_airstrike",
+      "severity": "major",
+      "parties_involved": [
+        "Israel",
+        "Iran",
+        "United States"
+      ],
+      "location": "Tehran, Iran",
+      "brief": "Israel, with US support, claims to have conducted a major airstrike targeting Iran's leadership, escalating the conflict significantly."
+    },
+    "lat": 35.69,
+    "lng": 51.39
+  },
+  {
     "id": "2bcbf370abb9bc79",
     "title_original": "В Кувейте несколько ЛЭП повреждены обломками беспилотников",
     "content_original": "В Кувейте несколько ЛЭП повреждены обломками беспилотников",
@@ -1903,6 +2084,79 @@
       "brief": "A second commercial vessel has been attacked near the coast of Oman, indicating escalating maritime security threats amid Iran tensions."
     },
     "geocode_failed": true
+  },
+  {
+    "id": "ad2260fe077f5dd2",
+    "title_original": "Three American troops are killed in Trump's Iran war",
+    "content_original": "Three American troops are killed in Trump's Iran war",
+    "url": "https://www.dailymail.co.uk/news/article-15603953/Three-American-troops-killed-Trumps-Iran-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+    "published": "2026-03-01T15:29:25+00:00",
+    "fetched_at": "2026-03-01T15:35:32.320253+00:00",
+    "source_name": "Daily Mail",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Three American troops killed in ongoing Iran-US conflict",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Three US military personnel were killed in the ongoing conflict with Iran. The incident occurred within the context of the armed hostilities between the two nations. This highlights the continued risk to US forces operating in the region amid the conflict.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "killed",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "high",
+      "parties_involved": [
+        "United States",
+        "Iran"
+      ],
+      "location": "western region",
+      "brief": "Three US military personnel were killed in an incident attributed to ongoing hostilities with Iran, indicating a direct engagement with casualties."
+    },
+    "lat": -0.6547242,
+    "lng": 30.6720957
+  },
+  {
+    "id": "e3cb7a88a0ff2178",
+    "title_original": "🇺🇸 🇰🇼 🇮🇷 ⚡ - Iranian Shahed drone impact Ali Al Salem Air Base, Kuwait.",
+    "content_original": "🇺🇸 🇰🇼 🇮🇷 ⚡ - Iranian Shahed drone impact Ali Al Salem Air Base, Kuwait.",
+    "url": "https://t.me/CIG_telegram/69861",
+    "published": "2026-03-01T15:26:29+00:00",
+    "fetched_at": "2026-03-01T15:35:37.783605+00:00",
+    "source_name": "Conflict Intelligence Team (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "russia",
+    "skip_translation": true,
+    "title_en": "Iranian Shahed drone hits Ali Al Salem Air Base in Kuwait",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "An Iranian Shahed drone struck Ali Al Salem Air Base in Kuwait, which is a US military facility. This attack represents an escalation in the conflict as Iranian forces targeted US assets outside of Iraq and Syria. The strike highlights Iran's willingness to expand its retaliatory operations against US presence in the region.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "strike",
+      "conflict",
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Kuwait"
+      ],
+      "location": "Ali Al Salem Air Base, Kuwait",
+      "brief": "An Iranian Shahed drone strike on the US-operated Ali Al Salem Air Base in Kuwait marks a significant escalation in regional tensions as Iran targets US assets outside Iraq and Syria."
+    },
+    "lat": 29.38,
+    "lng": 47.99
   },
   {
     "id": "81ba1b80e2d91250",
@@ -8528,6 +8782,45 @@
     "lng": 178.0431614
   },
   {
+    "id": "37e965ecffc909b9",
+    "title_original": "Tel Aviv residents say ready to withstand more Iranian attacks",
+    "content_original": "Shattered glass lay strewn across the streets of a residential area of Tel Aviv on Sunday, the day after an Iranian missile strike left one woman dead, but residents insisted they could withstand further attacks. The US and Israel launched a wave of strikes against Iran on Saturday, sparking a rapid retaliation from Tehran which continued to send people running to shelters under wailing sirens and overhead blasts on Sunday.",
+    "url": "https://www.al-monitor.com/originals/2026/03/tel-aviv-residents-say-ready-withstand-more-iranian-attacks",
+    "published": "2026-03-01T10:30:19-05:00",
+    "fetched_at": "2026-03-01T15:34:59.246994+00:00",
+    "source_name": "Al-Monitor",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Tel Aviv residents say ready to withstand more Iranian attacks",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iran launched a missile strike on Tel Aviv, resulting in one civilian death and widespread damage, prompting US and Israeli retaliatory strikes against Iran. The ongoing attacks have led to continued air raid alerts in Tel Aviv, with residents expressing resilience despite the escalating conflict.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "missile",
+      "strike",
+      "conflict",
+      "death",
+      "raid"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "US"
+      ],
+      "location": "Tel Aviv, Israel",
+      "brief": "Iran launched ballistic missile strikes on Tel Aviv, resulting in civilian casualties and significant damage, triggering US and Israeli retaliatory strikes against Iran."
+    },
+    "lat": 32.08,
+    "lng": 34.78
+  },
+  {
     "id": "6f720629bd2cc635",
     "title_original": "🇮🇷 ⚔️ 🇬🇧  Iran has reportedly launched missiles toward Cyprus, where thousands of British troops are stationed, inclu...",
     "content_original": "🇮🇷 ⚔️ 🇬🇧 Iran has reportedly launched missiles toward Cyprus, where thousands of British troops are stationed, including personnel at RAF Akrotiri. The UK Defense Secretary confirmed the attack. Remember, Iran’s Islamic Revolutionary Guard Corps (IRGC) controls…",
@@ -8602,6 +8895,42 @@
     "lng": 47.0
   },
   {
+    "id": "c3f1389ef3fe9d4f",
+    "title_original": "Israeli national gymnastics team suspends all activities after Iranian counter-attack",
+    "content_original": "Israel's national gymnastics team has suspended all training and team activities amid the recent Iranian counter-attack on the country following the U.S.-assisted strikes on Iran. The Israel Gymnastics Federation (IGF) provided a statement to Fox News Digital announcing the violence has caused \"unavoidable disruptions.\" CLICK HERE FOR MORE SPORTS COVERAGE ON FOXNEWS.COM \" The current security situation in our region has resulted in unavoidable disruptions to our regular training schedule and has created significant uncertainty regarding the national teams’ professional plans, particularly as we are at the outset of the international season,\" the statement read. \"At this time, all training activities have been temporarily suspended, pending approval from the relevant authorities to safely resume operations. Naturally, the suspension of training and the closure of airspace are causing considerable stress and concern. However, the safety and well-being of our gymnasts and professional sta...",
+    "url": "https://www.foxnews.com/sports/israeli-national-gymnastics-team-suspends-all-activities-after-iranian-counter-attack",
+    "published": "2026-03-01T10:26:40-05:00",
+    "fetched_at": "2026-03-01T15:35:19.998932+00:00",
+    "source_name": "FOX News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Israeli gymnastics team suspends activities due to Iranian counter-attack",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The Israeli national gymnastics team has halted all activities following Iran's retaliatory attacks, which were in response to U.S.-assisted strikes on Iran. The suspension highlights the broader impact of the conflict on civilian and non-military sectors within Israel.",
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "attack",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "United States"
+      ],
+      "location": "Israel",
+      "brief": "Iran's retaliatory attacks on Israel, prompted by U.S.-assisted strikes, have led to the suspension of the Israeli national gymnastics team's activities, demonstrating the conflict's impact on civilian sectors."
+    },
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
     "id": "72728e19ac02bb47",
     "title_original": "💥 🚢   An oil tanker flying the flag of Palau was struck by an Iranian drone in the Strait of Hormuz an hour ago. Oman...",
     "content_original": "💥 🚢 An oil tanker flying the flag of Palau was struck by an Iranian drone in the Strait of Hormuz an hour ago. Oman’s Maritime Security Center reported that all 20 crew members have been safely evacuated, though several individuals sustained injuries. @CIG_telegram",
@@ -8673,6 +9002,41 @@
     "merged_source_count": 3,
     "lat": 25.2,
     "lng": 55.27
+  },
+  {
+    "id": "578a5e58e5ef65cc",
+    "title_original": "3 US service members killed, 5 seriously wounded in Iran operation",
+    "content_original": "Three U.S. service members were killed and five others were seriously wounded as part of Operation Epic Fury , U.S. Central Command (CENTCOM) said Sunday morning. In addition, several others sustained minor shrapnel injuries and concussions and are in the process of being returned to duty, CENTCOM announced. \"The situation is fluid, so out of respect for the families, we will withhold additional information, including the identities of our fallen warriors, until 24 hours after next of kin have been notified,\" CENTCOM said. This is a developing story. Please check back for updates.",
+    "url": "https://www.foxnews.com/world/us-service-members-killed-seriously-wounded-iran-operation",
+    "published": "2026-03-01T10:21:57-05:00",
+    "fetched_at": "2026-03-01T15:35:19.999169+00:00",
+    "source_name": "FOX News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "3 US service members killed, 5 seriously wounded in Iran operation",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Three US service members were killed and five others seriously wounded during Operation Epic Fury, as announced by US CENTCOM. The incident occurred in an unspecified location, likely related to ongoing hostilities with Iran. This signifies a significant escalation in casualties for US forces in the region amidst the ongoing conflict.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "killed",
+      "wounded",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "US",
+        "Iran"
+      ],
+      "location": "unspecified western region",
+      "brief": "Three US service members were killed and five seriously wounded in an escalation likely linked to ongoing hostilities with Iran."
+    },
+    "geocode_failed": true
   },
   {
     "id": "e7493c1349458cfa",

@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-01T15-30-53.123440_plus_00-00.json",
+    "generated_at": "2026-03-01T15:30:53.123440+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 611,
+    "summary_preview": "The Iran-US-Israel conflict has escalated to full-scale regional war following the assassination of Supreme Leader Khamenei in US-Israeli strikes. Iran has launched comprehensive missile and drone att"
+  },
+  {
     "filename": "2026-03-01T15-21-55.735766_plus_00-00.json",
     "generated_at": "2026-03-01T15:21:55.735766+00:00",
     "threat_label": "MAJOR",

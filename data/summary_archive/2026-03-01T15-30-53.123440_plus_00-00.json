@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-03-01T15:30:53.123440+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 611,
+    "incident_count_6h": 229,
+    "severity_breakdown": {
+      "major": 219,
+      "high": 258,
+      "medium": 130,
+      "low": 4
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 192,
+    "articles_analyzed": 418,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "china",
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "south_asia",
+      "turkey",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US-Israel conflict has escalated to full-scale regional war following the assassination of Supreme Leader Khamenei in US-Israeli strikes. Iran has launched comprehensive missile and drone attacks against Israel, UAE, Kuwait, and Bahrain, while claiming to target the USS Abraham Lincoln. Three US service members were killed in Operation Epic Fury — the first American casualties. The 24h incident count rose slightly to 611 (219 Major, 258 High). International calls for ceasefire are emerging as Iran announces succession timeline.",
+  "whats_new": [
+    "Iran announces timeline for selecting new Supreme Leader after Khamenei's death — successor may be named within 48 hours",
+    "US military struck and sank an Iranian ship in Gulf of Oman during Operation Epic Fury — CENTCOM referenced Trump's call for Iranian forces to lay down weapons",
+    "Kuwait reports detecting 97 ballistic missiles and 283 drones fired by Iran since hostilities began; 1 fatality and 32 injuries confirmed at Al Adan Hospital",
+    "Israeli Defense Forces claim air superiority achieved over Iran in 24 hours, enabling expanded operations targeting Iranian infrastructure",
+    "IDF investigating missile intercept failure in Tel Aviv — Iranian strike caused civilian casualties despite US-made defense systems",
+    "Former Iranian President Mahmoud Ahmadinejad reportedly killed in US-Israeli airstrike on Tehran residence"
+  ],
+  "confirmed_events": [
+    "Ayatollah Ali Khamenei confirmed killed in US-Israeli coordinated strikes on Tehran — multi-source confirmation including BBC, NY Times, Al Alam",
+    "Three US service members killed, five wounded in Operation Epic Fury — first confirmed US casualties of the conflict",
+    "IRGC launched four ballistic missiles targeting USS Abraham Lincoln — US claims missiles did not hit the carrier; Pentagon declined to comment",
+    "Israeli airstrikes on Iranian girls school killed at least 148 people — Israel denies involvement; US investigating",
+    "Iranian missile strikes on UAE: 3 dead, 58 injured; UAE intercepted 152 of 165 ballistic missiles and 2 cruise missiles"
+  ],
+  "unverified_emerging": [
+    "IDF claims 40 top Iranian officials killed in initial Tehran strikes — single source (Israeli Army), unverified by independent outlets",
+    "IRGC claims to have struck USS Abraham Lincoln with ballistic missiles — US denies carrier was hit; Pentagon refused to comment",
+    "Video reportedly showing indiscriminate Israeli strikes on Tehran — unverified footage circulating on Telegram via War Monitors",
+    "Russian and UAE Foreign Ministers call for ceasefire around Iran — diplomatic statement without concrete timeline"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "Ben Gurion Airport closed until at least Wednesday for evacuation flights — significant disruption to civilian air traffic",
+      "Multiple Gulf states (UAE, Kuwait, Bahrain, Jordan, Oman) targeted by Iranian strikes — elevated risk for regional travel"
+    ],
+    "supply_chain": [
+      "Two ships struck in Strait of Hormuz by projectiles — critical maritime chokepoint under threat, potential shipping disruption",
+      "UAE intercepts demonstrate active air defense but significant ballistic missile volume reaching Gulf targets"
+    ],
+    "market_macro": [
+      "Oil markets highly volatile — Iran is major exporter, Strait of Hormuz shipping threatened, Gulf allies directly targeted",
+      "Regional economic disruption escalating as conflict expands to direct attacks on Gulf state infrastructure"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "Conflict will intensify over the next 24-72 hours as Iran responds to leadership elimination. Khamenei's death creates power vacuum but Iranian officials signal regime continuity with rapid succession process. Iran has demonstrated willingness to target regional Gulf states directly, and IRGC operations (7th and 8th waves announced) indicate sustained missile/drone campaign. Israeli air superiority claims suggest continued strikes on Iranian infrastructure. US casualties signal deeper ground/integration operations beyond air campaign. Risk of accidental escalation at Strait of Hormuz is HIGH.",
+    "escalation_risks": [
+      "Iranian ballistic missile/drone saturation of Gulf state air defenses — Kuwait, UAE, Bahrain all reporting significant intercept workloads",
+      "US naval assets in Gulf/Arabian Sea increasingly targeted — carrier strike group under active missile threat",
+      "Israeli strikes expanding to target Iranian leadership succession process — potential for additional high-value target eliminations",
+      "Direct Iran-Hezbollah coordination escalating attacks on Israel — Jerusalem, Tel Aviv, Ben Gurion under sustained threat",
+      "Accidental escalation at Strait of Hormuz — commercial shipping already struck, tanker warfare risk"
+    ],
+    "de_escalation_pathways": "Russia and UAE have called for ceasefire but lack direct leverage on either party. Iran's succession process (48h timeline) may create temporary leadership vacuum affecting decision-making. US-B-2 bomber operations and carrier presence suggest overwhelming force projection intended to compel Iranian capitulation rather than negotiation. Gulf state mediation (UAE, Kuwait) could provide diplomatic off-ramp if Iran signals willingness to cease attacks on regional targets. However, leadership assassination significantly narrows de-escalation window."
+  }
+}
