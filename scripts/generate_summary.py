@@ -333,6 +333,60 @@ Based STRICTLY on the data above, produce a lean, high-signal executive summary.
 {OUTPUT_SCHEMA_DESCRIPTION}"""
 
 
+def _repair_truncated_json(text: str) -> dict | None:
+    """
+    Attempt to recover a valid JSON object from a truncated LLM response.
+    Strategy: walk backwards from the truncation point, closing open strings,
+    arrays, and objects until json.loads() succeeds.
+    """
+    import re
+
+    # Strip any trailing partial key/value that can't be closed cleanly
+    # Try increasingly aggressive truncation up to 20 chars back
+    for trim in range(0, min(len(text), 500)):
+        candidate = text[: len(text) - trim].rstrip()
+        # Count unmatched braces/brackets (ignoring those inside strings)
+        # Simple heuristic: close any open structures
+        try:
+            # Close an unterminated string first
+            if candidate and candidate[-1] not in ('"', '}', ']', ','):
+                candidate += '"'
+            # Count open structures
+            depth_brace = 0
+            depth_bracket = 0
+            in_string = False
+            escape_next = False
+            for ch in candidate:
+                if escape_next:
+                    escape_next = False
+                    continue
+                if ch == '\\' and in_string:
+                    escape_next = True
+                    continue
+                if ch == '"':
+                    in_string = not in_string
+                    continue
+                if not in_string:
+                    if ch == '{':
+                        depth_brace += 1
+                    elif ch == '}':
+                        depth_brace -= 1
+                    elif ch == '[':
+                        depth_bracket += 1
+                    elif ch == ']':
+                        depth_bracket -= 1
+            # Close open arrays then objects
+            closing = ']' * max(depth_bracket, 0) + '}' * max(depth_brace, 0)
+            # Remove trailing comma before closing
+            candidate = re.sub(r',\s*$', '', candidate) + closing
+            result = json.loads(candidate)
+            if isinstance(result, dict):
+                return result
+        except (json.JSONDecodeError, Exception):
+            continue
+    return None
+
+
 def call_minimax(api_key: str, user_prompt: str) -> dict | None:
     """Call MiniMax API to generate the executive summary."""
     headers = {
@@ -347,7 +401,7 @@ def call_minimax(api_key: str, user_prompt: str) -> dict | None:
             {"role": "user", "content": user_prompt},
         ],
         "temperature": 0.3,
-        "max_tokens": 2000,
+        "max_tokens": 4096,
     }
 
     for attempt in range(1, MAX_RETRIES + 1):
@@ -370,14 +424,31 @@ def call_minimax(api_key: str, user_prompt: str) -> dict | None:
                 logger.warning("Empty choices in MiniMax response")
                 return None
 
-            text = choices[0].get("message", {}).get("content", "").strip()
+            choice = choices[0]
+            finish_reason = choice.get("finish_reason", "")
+            text = choice.get("message", {}).get("content", "").strip()
+
+            if finish_reason == "length":
+                logger.warning(
+                    f"Response truncated (finish_reason=length) on attempt {attempt} "
+                    f"— trying JSON repair"
+                )
 
             # Handle markdown wrapping
             if text.startswith("```"):
                 text = text.split("\n", 1)[-1]
                 text = text.rsplit("```", 1)[0].strip()
 
-            result = json.loads(text)
+            # Attempt parse; if it fails due to truncation, try to repair
+            try:
+                result = json.loads(text)
+            except json.JSONDecodeError:
+                repaired = _repair_truncated_json(text)
+                if repaired is not None:
+                    logger.warning("Used truncation-repair to recover partial JSON")
+                    result = repaired
+                else:
+                    raise
             logger.info("Executive summary generated successfully via MiniMax")
             return result
 
