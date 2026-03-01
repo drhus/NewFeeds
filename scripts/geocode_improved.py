@@ -215,13 +215,18 @@ def geocode_attacks(attacks: list[dict], logger=None) -> list[dict]:
 
     total = len(attacks)
     already = sum(1 for a in attacks if a.get("lat") is not None)
-    log.info(f"Geocoder: {total} attacks, {already} already have coords")
+    prev_failed = sum(1 for a in attacks if a.get("geocode_failed") and a.get("lat") is None)
+    log.info(f"Geocoder: {total} attacks, {already} already have coords, {prev_failed} skipped (prev miss)")
 
     geocoded = 0
     failed = []
 
     for attack in attacks:
+        # Already has coords → skip
         if attack.get("lat") is not None and attack.get("lng") is not None:
+            continue
+        # Already failed in a previous run → skip silently
+        if attack.get("geocode_failed"):
             continue
 
         location = (attack.get("classification") or {}).get("location", "").strip()
@@ -233,10 +238,12 @@ def geocode_attacks(attacks: list[dict], logger=None) -> list[dict]:
         if coords:
             attack["lat"] = coords[0]
             attack["lng"] = coords[1]
+            attack.pop("geocode_failed", None)  # clear flag if it was set
             log.info(f"Geocoded '{location}' -> {coords[0]:.4f}, {coords[1]:.4f}")
             geocoded += 1
         else:
             log.warning(f"Geocode MISS: '{location}'")
+            attack["geocode_failed"] = True  # don't retry next run
             failed.append((location, attack))
 
     log.info(f"Geocoded {geocoded} new attacks. Total with coords: {already + geocoded}/{total}")
