@@ -1,5 +1,19 @@
 [
   {
+    "id": "64b1a5d8021355af",
+    "title_original": "צ'מברליינים, גרסת 2026: צביעות הליברלים המערביים",
+    "url": "https://www.ynet.co.il/news/article/b1rsw1zfzl",
+    "published": "2026-03-01T18:37:42+02:00",
+    "fetched_at": "2026-03-01T16:48:34.142961+00:00",
+    "source_name": "Ynet",
+    "source_category": "state-aligned",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": true
+  },
+  {
     "id": "677d75a8cc7e86c5",
     "title_original": "11 נעדרים בזירת האסון בבית שמש: \"ראיתי אש ותמרון עשן, אנשים צעקו לעזרה\"",
     "content_original": "גופי ההצלה עורכים סריקות אחר 11 מנותקי קשר בזירת פיצוץ הטיל האיראני שבה נהרגו תשעה בני אדם. לידיה, שנפצעה קל, לא הספיקה לרדת למרחב מוגן: \"הכול היה עם זכוכיות מפוזרות, תריסים וקרשים. מאיר, שהגיע לזירה דקות בודדות לאחר הנפילה, סיפר: \"הייתי במאות זירות פיגועים, זה לא דומה\"",
@@ -31,6 +45,20 @@
     "relevant": true,
     "summary_en": "IDF Home Front Command fighters who were on operational duty in Ramla were dispatched to Tel Aviv after the first siren sounded, responding to a building struck by an Iranian missile. They rescued an elderly woman and a caretaker from the rubble; the caretaker's death was later confirmed. The company commander reported identifying trapped victims beneath the debris, with the elderly woman found unconscious under cabinets—describing it as a miracle she retained consciousness.",
     "translated": true
+  },
+  {
+    "id": "c5d1e99eedc0b16f",
+    "title_original": "Operation Epic Fury against Iran 'moving well, ahead of schedule,' Trump tells CNBC",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-888407",
+    "published": "2026-03-01T17:56:48+00:00",
+    "fetched_at": "2026-03-01T16:48:35.125956+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "8cfbe6e52438243a",

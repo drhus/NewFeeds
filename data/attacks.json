@@ -253,6 +253,118 @@
     "lng": 54.0
   },
   {
+    "id": "8ffe2529a6ba323e",
+    "title_original": "КСИР: ВС Ирана поразили три танкера, принадлежащих США и Британии",
+    "content_original": "КСИР: ВС Ирана поразили три танкера, принадлежащих США и Британии",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26601967",
+    "published": "2026-03-01T19:42:49+03:00",
+    "fetched_at": "2026-03-01T16:48:23.571659+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "IRGC: Iranian Armed Forces Strike Three Tankers Belonging to USA and Britain",
+    "relevant": true,
+    "summary_en": "The Islamic Revolutionary Guard Corps (IRGC) announced that Iranian armed forces struck three tankers belonging to the United States and Britain. This attack on Western commercial vessels represents a significant escalation in Iran's campaign to target international shipping in the Gulf region in retaliation for US and British involvement in the conflict.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "conflict",
+      "irgc",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us|naval_incident|irgc_action",
+      "severity": "major",
+      "parties_involved": [
+        "IRGC",
+        "Iran",
+        "United States",
+        "United Kingdom"
+      ],
+      "location": "Gulf region",
+      "brief": "IRGC naval forces struck three commercial tankers belonging to the US and Britain in the Gulf, marking a significant escalation in Iran's campaign against Western shipping."
+    },
+    "merged_source_count": 2,
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
+    "id": "a0280031bc66de87",
+    "title_original": "В ОАЭ ракета упала вблизи лайнера с туристами на борту, пишут СМИ",
+    "content_original": "В ОАЭ ракета упала вблизи лайнера с туристами на борту, пишут СМИ",
+    "url": "https://ria.ru/20260301/abu-dabi-2077719806.html",
+    "published": "2026-03-01T19:42:49+03:00",
+    "fetched_at": "2026-03-01T16:48:25.132168+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "В ОАЭ ракета упала вблизи лайнера с туристами на борту, пишут СМИ",
+    "summary_en": "{\"h\":\"Missile Falls Near Cruise Liner With Tourists On Board in UAE - Media\",\"r\":true,\"s\":\"A missile fell near a cruise liner carrying tourists in the United Arab Emirates. The incident occurred in UAE waters/gulf region during the ongoing Iran-US hostilities. The proximity to a",
+    "relevant": true,
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "UAE",
+        "Houthis"
+      ],
+      "location": "UAE waters, Persian Gulf",
+      "brief": "A missile fell near a cruise liner carrying tourists in UAE waters during Iran-US hostilities, creating risk of mass civilian casualties."
+    },
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
+    "id": "a5dd6094d6213f3a",
+    "title_original": "Трамп утверждает, что в ходе операции в Иране погибли 48 руководителей",
+    "content_original": "Американский лидер отметил, что операция продвигается быстро",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26601865",
+    "published": "2026-03-01T19:33:34+03:00",
+    "fetched_at": "2026-03-01T16:48:23.573230+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Trump Claims 48 Leaders Killed During Operation in Iran",
+    "relevant": true,
+    "summary_en": "US President Trump claims that 48 leaders were killed during the American operation in Iran. Trump noted that the operation is progressing quickly. The claim, if verified, would represent a significant escalation in the ongoing US-Iran conflict and a major blow to Iranian military leadership.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "conflict",
+      "killed"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Iran"
+      ],
+      "location": "Iran",
+      "brief": "Trump claims US operation in Iran killed 48 leaders, representing a major escalation in US-Iran conflict and significant blow to Iranian military leadership."
+    },
+    "merged_source_count": 3,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
     "id": "ac6b833155b2b126",
     "title_original": "В США заявили, что Иран не поразил американский авианосец",
     "content_original": "В США заявили, что Иран не поразил американский авианосец",
@@ -1650,6 +1762,223 @@
     "lng": 56.25
   },
   {
+    "id": "7202b6c38d5474b7",
+    "title_original": "Jihad is coming? What Khamenei’s death means for the region and the world",
+    "content_original": "Eliminating Supreme Leader doesn’t end the conflict. It transforms it into a matter of principle and raises the odds of a wider Middle East war Overnight, Tehran confirmed the death of the Supreme Leader of the Islamic Republic, Ayatollah Ali Khamenei, following US and Israeli strikes on his residence early on February 28. In strategic terms, this marks a watershed moment in the architecture of the Middle East conflict. This was not a tactical raid or a calibrated show of force, but&nbsp;a decapitation strike at the very apex of Iran&rsquo;s state system. The confrontation between Iran on one side and the United States and Israel on the other has now entered a qualitatively new phase. The elimination of a state&rsquo;s highest political and religious authority during an ongoing military operation is, from Tehran&rsquo;s perspective, a textbook casus belli. This is no longer a limited exchange of blows. It is a shift toward a far broader and potentially systemic confrontation. From 'dec...",
+    "url": "https://www.rt.com/news/633367-jihad-is-coming-khameneis-death/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+    "published": "2026-03-01T16:45:05+00:00",
+    "fetched_at": "2026-03-01T16:48:29.933479+00:00",
+    "source_name": "RT",
+    "source_category": "state",
+    "language": "en",
+    "region": "russia",
+    "skip_translation": true,
+    "title_en": "Jihad is coming? What Khamenei’s death means for the region and the world",
+    "translated": true,
+    "summary_en": "{\"h\":\"Jihad is coming? What Khamenei's death means for the region and the world\",\"r\":true,\"s\":\"US and Israeli strikes on Supreme Leader Ali Khamenei's residence on February 28 killed the Iranian leader, marking a decapitation",
+    "relevant": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "death",
+      "killed"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran"
+      ],
+      "location": "Tehran, Iran",
+      "brief": "US and Israeli airstrikes on Supreme Leader Ali Khamenei's residence on February 28 resulted in his death, marking a major decapitation strike against Iranian leadership."
+    },
+    "lat": 35.69,
+    "lng": 51.39
+  },
+  {
+    "id": "f37eeeeba33edd7c",
+    "title_original": "🇮🇷 💥 🚢  The IRGC claims to have struck 3 American and British oil tankers trying to exit the Persian Gulf through the...",
+    "content_original": "🇮🇷 💥 🚢 The IRGC claims to have struck 3 American and British oil tankers trying to exit the Persian Gulf through the Strait of Hormuz @CIG_telegram",
+    "url": "https://t.me/CIG_telegram/69871",
+    "published": "2026-03-01T16:43:50+00:00",
+    "fetched_at": "2026-03-01T16:49:24.942297+00:00",
+    "source_name": "Conflict Intelligence Team (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "russia",
+    "skip_translation": true,
+    "title_en": "🇮🇷 💥 🚢  The IRGC claims to have struck 3 American and British oil tankers trying to exit the Persian Gulf through the...",
+    "translated": true,
+    "summary_en": "{\"h\":\"IRGC claims to have struck 3 American and British",
+    "relevant": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "IRGC/Iran",
+        "United States",
+        "United Kingdom"
+      ],
+      "location": "Persian Gulf",
+      "brief": "IRGC claims to have struck 3 American and British oil tankers attempting to exit the Persian Gulf."
+    },
+    "merged_source_count": 2,
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
+    "id": "58667903a06c12ba",
+    "title_original": "Saudi Arabia, GCC Slam Iranian Attack on Oman",
+    "content_original": "Saudi Arabia, GCC Slam Iranian Attack on Oman",
+    "url": "https://english.aawsat.com/node/5246268",
+    "published": "2026-03-01T16:43:46+00:00",
+    "fetched_at": "2026-03-01T16:48:41.279220+00:00",
+    "source_name": "Asharq Al-Awsat",
+    "source_category": "state-aligned",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Saudi Arabia, GCC Slam Iranian Attack on Oman",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Saudi Arabia and the Gulf Cooperation Council have condemned Iran's attack on Omani territory, labeling it a dangerous escalation in the ongoing regional conflict. The GCC statement called for unified Arab action against Iranian aggression, signaling growing regional opposition to Tehran's military operations in the Gulf.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "escalation",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Saudi Arabia",
+        "GCC",
+        "Oman"
+      ],
+      "location": "Oman",
+      "brief": "Saudi Arabia and GCC condemned Iran's attack on Omani territory as a dangerous escalation, calling for unified Arab action against Iranian aggression."
+    },
+    "lat": 21.0000287,
+    "lng": 57.0036901
+  },
+  {
+    "id": "9257c333b77c85c3",
+    "title_original": "#الجمهورية_الإسلامية   حرس الثورة الإسلامية: تعرّضت القاعدة البحرية الأمريكية في ميناء سلمان بالبحرين لإصابة 4 طائرات...",
+    "content_original": "#الجمهورية_الإسلامية حرس الثورة الإسلامية: تعرّضت القاعدة البحرية الأمريكية في ميناء سلمان بالبحرين لإصابة 4 طائرات مسيّرة ألحقت أضرارًا جسيمة بمراكز القيادة والدعم التابعة لها. #الاعلام_الحربي",
+    "url": "https://t.me/Electrohizbullah/156716",
+    "published": "2026-03-01T16:41:57+00:00",
+    "fetched_at": "2026-03-01T16:49:29.518307+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "#الجمهورية_الإسلامية   حرس الثورة الإسلامية: تعرّضت القاعدة البحرية الأمريكية في ميناء سلمان بالبحرين لإصابة 4 طائرات...",
+    "summary_en": "{\"h\":\"IRGC: American naval base in Salman port, Bahrain hit by 4 drones causing significant damage to command and support centers\",\"r\":true,\"s\":\"The Islamic Revolutionary Guard Corps claims that 4 drones struck the US naval base at Salman Port in Bahrain, causing significant damage to command and support facilities. This represents a direct attack on US military infrastructure in the Gulf as part ",
+    "relevant": true,
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "attack",
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "IRGC",
+        "Bahrain"
+      ],
+      "location": "Salman Port, Bahrain",
+      "brief": "IRGC claims 4 drones struck US naval base at Salman Port in Bahrain causing significant damage to command and support centers"
+    },
+    "lat": 26.07,
+    "lng": 50.55
+  },
+  {
+    "id": "b884e9f350314ebf",
+    "title_original": "#الجمهورية_الإسلامية   حرس الثورة الإسلامية: تم إخراج القاعدة البحرية الأمريكية \"علي السالم\" في الكويت بالكامل عن الخ...",
+    "content_original": "#الجمهورية_الإسلامية حرس الثورة الإسلامية: تم إخراج القاعدة البحرية الأمريكية \"علي السالم\" في الكويت بالكامل عن الخدمة عقب الهجمات الأخيرة.",
+    "url": "https://t.me/Electrohizbullah/156715",
+    "published": "2026-03-01T16:41:25+00:00",
+    "fetched_at": "2026-03-01T16:49:29.517724+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "#الجمهورية_الإسلامية   حرس الثورة الإسلامية: تم إخراج القاعدة البحرية الأمريكية \"علي السالم\" في الكويت بالكامل عن الخ...",
+    "summary_en": "{\"h\":\"IRGC Claims US Naval Base Ali Al-Salem in Kuwait Taken Out of Service Following Recent Attacks\",\"r\":true,\"s\":\"The Islamic Revolutionary Guard Corps claims that the US naval base 'Ali Al-Salem' in Kuwait has been completely taken out of service following the recent attacks. This represents a significant development in the Iran-US conflict, as Kuwait hosts",
+    "relevant": true,
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "conflict",
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "irgc_action",
+      "severity": "major",
+      "parties_involved": [
+        "IRGC",
+        "United States",
+        "Kuwait"
+      ],
+      "location": "Kuwait - Ali Al-Salem Naval Base",
+      "brief": "IRGC claims to have completely taken the US naval base Ali Al-Salem in Kuwait out of service following recent attacks."
+    },
+    "geocode_failed": true
+  },
+  {
+    "id": "cf6f9e3ada68c828",
+    "title_original": "#الجمهورية_الإسلامية   حرس الثورة الإسلامية: تم إخراج القاعدة البحرية الأمريكية \"علي السالم\" في الكويت بالكامل عن الخ...",
+    "content_original": "#الجمهورية_الإسلامية حرس الثورة الإسلامية: تم إخراج القاعدة البحرية الأمريكية \"علي السالم\" في الكويت بالكامل عن الخدمة عقب الهجمات الأخيرة.",
+    "url": "https://t.me/Electrohizbullah/156714",
+    "published": "2026-03-01T16:39:38+00:00",
+    "fetched_at": "2026-03-01T16:49:29.517105+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "IRGC: US Naval Base Ali al-Salem in Kuwait Fully Taken Out of Service After Recent Attacks",
+    "relevant": true,
+    "summary_en": "The Islamic Revolutionary Guard Corps announced that the US naval base 'Ali al-Salem' in Kuwait has been completely taken out of service following the recent attacks. This represents a successful strike against US military infrastructure in the region, demonstrating Iran's capability to target American bases in the Gulf theater.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "irgc",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "irgc_action",
+      "severity": "high",
+      "parties_involved": [
+        "IRGC",
+        "United States",
+        "Kuwait"
+      ],
+      "location": "Kuwait (Ali al-Salem naval base)",
+      "brief": "IRGC claims successful strike took US naval base Ali al-Salem in Kuwait completely out of service, representing direct attack on US military infrastructure."
+    },
+    "lat": 29.38,
+    "lng": 47.99
+  },
+  {
     "id": "7d12eceec460a4dd",
     "title_original": "Fars: США ударами пытаются способствовать проникновению сепаратистов в Иран",
     "content_original": "По информации агентства, иранскими пограничниками замечена повышенная активность противника в районе границ исламской республики",
@@ -1793,6 +2122,43 @@
     "lng": 54.0
   },
   {
+    "id": "603dc8a885ff446e",
+    "title_original": "#الجمهورية_الإسلامية   وزارة التربية: ارتفاع عدد الطالبات الشهيدات بمدرسة ميناب إلى 153 إثر العدوان الأميركي الإسرائي...",
+    "content_original": "#الجمهورية_الإسلامية وزارة التربية: ارتفاع عدد الطالبات الشهيدات بمدرسة ميناب إلى 153 إثر العدوان الأميركي الإسرائيلي يوم أمس",
+    "url": "https://t.me/Electrohizbullah/156712",
+    "published": "2026-03-01T16:37:08+00:00",
+    "fetched_at": "2026-03-01T16:49:29.515711+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Education Ministry: Number of Martyred Female Students at Minab School Rises to 153 Due to US-Israeli Aggression",
+    "relevant": true,
+    "summary_en": "Iran's Ministry of Education reports that the number of martyred female students at Minab school in Hormozgan province has risen to 153 following yesterday's US-Israeli attack. The claim, if verified, would represent a significant civilian casualty event in the escalating Iran-US conflict, though independent confirmation is currently unavailable.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "attack",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran|airstrike",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran",
+        "Iranian Ministry of Education"
+      ],
+      "location": "Minab, Hormozgan province, Iran",
+      "brief": "Iranian Education Ministry claims 153 female students killed in US-Israeli attack on Minab school, representing alleged mass civilian casualty event requiring verification"
+    },
+    "lat": 27.1,
+    "lng": 57.08
+  },
+  {
     "id": "d5d31b69bc5dd135",
     "title_original": "В ВМС Британии сообщили, что у побережья ОАЭ атаке подверглось судно",
     "content_original": "В ВМС Британии сообщили, что у побережья ОАЭ атаке подверглось судно",
@@ -1826,6 +2192,43 @@
     },
     "lat": 24.0,
     "lng": 54.0
+  },
+  {
+    "id": "45a30554f74519ab",
+    "title_original": "The wreckage of a US drone that was shot down in Ahwaz. @PressTV",
+    "content_original": "The wreckage of a US drone that was shot down in Ahwaz. @PressTV",
+    "url": "https://t.me/presstv/177481",
+    "published": "2026-03-01T16:33:03+00:00",
+    "fetched_at": "2026-03-01T16:49:19.720268+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "The wreckage of a US drone that was shot down in Ahwaz",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iranian forces shot down a US drone over Ahwaz in southwestern Iran. The wreckage was displayed by Iranian state media, demonstrating Iran's air defense capabilities against US surveillance and military operations in Iranian airspace. This incident represents an escalation in Iranian defensive actions as part of the ongoing Iran-US armed conflict.",
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "drone",
+      "conflict",
+      "air defense"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "IRGC"
+      ],
+      "location": "Ahwaz, southwestern Iran",
+      "brief": "Iranian forces shot down a US surveillance drone over Ahwaz, displaying the wreckage to demonstrate air defense capabilities against US operations in Iranian airspace."
+    },
+    "lat": 31.3230637,
+    "lng": 48.67932
   },
   {
     "id": "b6a0db8ca29ae6ac",
@@ -8603,6 +9006,42 @@
       "brief": "An oil tanker attack in Omani waters resulting in casualties signals escalating maritime security threats in the region."
     },
     "geocode_failed": true
+  },
+  {
+    "id": "4177e21ff1eadf89",
+    "title_original": "Travellers say some Iranians held up at Turkish land border",
+    "content_original": "(Adds story links) KAPIKOY, Turkey , March 1 (Reuters) - Some Iranian citizens are being stopped from crossing into Turkey at Iran's northwestern Khoy land border gate, according to three foreign passport-holders who crossed on Sunday and some local Turkish media. A day after the United States and Israel launched attacks on Iran that killed Supreme Leader Ali Khamenei and other senior officials, one of the travellers told Reuters there were increasing numbers of those waiting to cross into Turkey's eastern Van province.",
+    "url": "https://www.al-monitor.com/originals/2026/03/travellers-say-some-iranians-held-turkish-land-border",
+    "published": "2026-03-01T11:36:43-05:00",
+    "fetched_at": "2026-03-01T16:48:41.989503+00:00",
+    "source_name": "Al-Monitor",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Travellers say some Iranians held up at Turkish land border",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Following U.S. and Israeli attacks on Iran that killed Supreme Leader Ali Khamenei and other senior officials, some Iranian citizens are being prevented from crossing into Turkey at the northwestern Khoy border gate. Increasing numbers of people are waiting to cross into Turkey's eastern Van province, indicating civilian displacement as a result of the high-level targeted strikes on Iran's leadership.",
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "killed"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran",
+        "Turkey"
+      ],
+      "location": "Khoy border gate, Turkey-Iran border, northwestern Iran/Eastern Van province Turkey",
+      "brief": "US and Israeli attacks on Iran killed Supreme Leader Ali Khamenei and senior officials, causing Iranian citizens to be trapped at the Turkish border attempting to flee."
+    },
+    "lat": 39.7008878,
+    "lng": 44.7274408
   },
   {
     "id": "c012d57b6d5f2cc1",

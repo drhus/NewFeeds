@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-01T16-44-37.778775_plus_00-00.json",
+    "generated_at": "2026-03-01T16:44:37.778775+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 630,
+    "summary_preview": "The Iran-US conflict has escalated dramatically with confirmed Iranian ballistic missile strikes on Israel (Beit Shemesh: 8 killed, 27 injured; Jerusalem: 9 killed), direct attacks on UAE infrastructu"
+  },
+  {
     "filename": "2026-03-01T16-23-35.936251_plus_00-00.json",
     "generated_at": "2026-03-01T16:23:35.936251+00:00",
     "threat_label": "MAJOR",
