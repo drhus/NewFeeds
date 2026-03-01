@@ -109,7 +109,7 @@ Severity: major=direct US-Iran engagement/ballistic/nuclear/mass casualties, hig
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.1,
-        "max_tokens": 350,
+        "max_tokens": 1000,
     }
 
     try:
