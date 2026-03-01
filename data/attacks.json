@@ -36,6 +36,157 @@
     "lng": 54.0
   },
   {
+    "id": "66a1f52f7215be03",
+    "title_original": "США заявили, что применили в Иране \"специальные возможности\"",
+    "content_original": "США заявили, что применили в Иране \"специальные возможности\"",
+    "url": "https://ria.ru/20260301/ssha-2077746407.html",
+    "published": "2026-03-01T23:15:18+03:00",
+    "fetched_at": "2026-03-01T20:19:44.620471+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "US States It Used 'Special Capabilities' in Iran",
+    "relevant": true,
+    "summary_en": "The United States has announced it deployed 'special capabilities' against Iran, marking a new phase in the ongoing armed conflict. The nature of these capabilities remains unclear, but the statement signals continued US military escalation against Iranian targets. This development comes amid ongoing Iranian ballistic missile and drone attacks on US bases and the US-led strikes on Iranian nuclear facilities and IRGC assets.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "nuclear",
+      "ballistic",
+      "missile",
+      "irgc",
+      "conflict",
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Iran"
+      ],
+      "location": "Iran",
+      "brief": "US announces deployment of 'special capabilities' against Iran, marking new phase in ongoing armed conflict and continued US military escalation."
+    },
+    "merged_source_count": 4,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "ab974e6ea2d991aa",
+    "title_original": "КСИР: при ударах Ирана по Хайфе погибли минимум 40 человек",
+    "content_original": "КСИР: при ударах Ирана по Хайфе погибли минимум 40 человек",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26603577",
+    "published": "2026-03-01T23:13:15+03:00",
+    "fetched_at": "2026-03-01T20:19:43.489278+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "IRGC: At least 40 killed in Iran's strikes on Haifa",
+    "relevant": true,
+    "summary_en": "The Islamic Revolutionary Guard Corps (IRGC) has claimed responsibility for missile and drone strikes on Haifa, Israel, resulting in at least 40 casualties. The attack represents a significant escalation in Iran's direct military operations against Israeli territory, following weeks of escalating hostilities across multiple fronts in the region.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "killed",
+      "missile",
+      "irgc",
+      "attack",
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "irgc_action",
+      "severity": "major",
+      "parties_involved": [
+        "IRGC",
+        "Israel"
+      ],
+      "location": "Haifa, Israel",
+      "brief": "IRGC claimed missile and drone strikes on Haifa killed at least 40, marking significant escalation of Iran's direct military operations against Israeli territory"
+    },
+    "merged_source_count": 2,
+    "lat": 32.79,
+    "lng": 34.99
+  },
+  {
+    "id": "fe3bee83f550daf2",
+    "title_original": "Демонстранты пытаются прорваться в посольство США в Багдаде",
+    "content_original": "Демонстранты пытаются прорваться в посольство США в Багдаде",
+    "url": "https://ria.ru/20260301/ssha-2077744430.html",
+    "published": "2026-03-01T23:01:58+03:00",
+    "fetched_at": "2026-03-01T20:19:44.622249+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Demonstrators Attempt to Breach US Embassy in Baghdad",
+    "relevant": true,
+    "summary_en": "Protesters attempted to break into the US embassy compound in Baghdad, Iraq. The incident represents a direct threat to US diplomatic personnel and assets in Iraq, a key front in the ongoing US-Iran conflict where Iranian-backed militias have previously conducted similar attacks on American facilities.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "threat",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "high",
+      "parties_involved": [
+        "Iranian-backed militias",
+        "Iraq",
+        "United States",
+        "Baghdad"
+      ],
+      "location": "Baghdad, Iraq",
+      "brief": "Protesters attempted to breach US embassy compound in Baghdad, representing direct threat to US diplomatic personnel by Iranian-backed militias"
+    },
+    "lat": 33.31,
+    "lng": 44.39
+  },
+  {
+    "id": "cda9c36d86224f44",
+    "title_original": "Авианосец США после удара покинул расположение, заявил КСИР",
+    "content_original": "Авианосец США после удара покинул расположение, заявил КСИР",
+    "url": "https://ria.ru/20260301/ksir-2077743572.html",
+    "published": "2026-03-01T22:52:39+03:00",
+    "fetched_at": "2026-03-01T20:19:44.623063+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "US aircraft carrier left position after strike, IRGC claimed",
+    "relevant": true,
+    "summary_en": "The Islamic Revolutionary Guard Corps (IRGC) claimed that a US aircraft carrier withdrew from its position following an Iranian strike. This represents a significant claim of operational success against a major US naval asset in the Gulf region, though the claim could not be independently verified.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "irgc",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "IRGC (Iran)",
+        "United States"
+      ],
+      "location": "Gulf region",
+      "brief": "IRGC claimed an Iranian strike forced a US aircraft carrier to withdraw from its position in the Gulf."
+    },
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
     "id": "888f63514fc48fdc",
     "title_original": "КСИР заявил об уничтожении радара ПВО в ОАЭ и поражении вспомогательного корабля ВМС США",
     "content_original": "КСИР заявил об уничтожении радара ПВО в ОАЭ и поражении вспомогательного корабля ВМС США",
@@ -665,6 +816,43 @@
     "lng": 51.39
   },
   {
+    "id": "741a5eb874f66f27",
+    "title_original": "WATCH: Cluster munitions seemingly used during latest Iranian missile barrage against Israel",
+    "content_original": "Following the barrage, Magen David Adom said its paramedics were dispatched to sites of reported missile impacts in central Israel.",
+    "url": "https://www.jpost.com/israel-news/article-888437",
+    "published": "2026-03-01T21:55:53+00:00",
+    "fetched_at": "2026-03-01T20:19:52.101385+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "title_en": "Cluster munitions seemingly used during latest Iranian missile barrage against Israel",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iran launched a missile barrage against central Israel, with reports indicating cluster munitions may have been used. Magen David Adom paramedics were dispatched to sites of reported impacts in central Israel. The attack represents a significant escalation in Iranian-Israeli hostilities and marks one of the largest ballistic missile attacks on Israeli territory to date.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "missile",
+      "ballistic"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "escalation",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "Magen David Adom"
+      ],
+      "location": "central Israel",
+      "brief": "Iran launched a ballistic missile barrage on central Israel with reported cluster munitions, causing casualties and representing a significant escalation in Iran-Israel hostilities."
+    },
+    "lat": 31.9,
+    "lng": 34.8
+  },
+  {
     "id": "607ccecd328dc696",
     "title_original": "СМИ: погибшие при операции против Ирана военные США служили в Кувейте",
     "content_original": "СМИ: погибшие при операции против Ирана военные США служили в Кувейте",
@@ -697,6 +885,43 @@
     },
     "lat": 32.65,
     "lng": 54.56
+  },
+  {
+    "id": "7f5794d3285574e0",
+    "title_original": "IDF carries out wide-ranging strikes against IRGC facilities across Tehran",
+    "content_original": "The Iranian regime accused the IDF of striking the state broadcaster IRIB's center in Tehran, the IRGC-affiliated Tasnim News Agency claimed.",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-888433",
+    "published": "2026-03-01T21:46:54+00:00",
+    "fetched_at": "2026-03-01T20:19:52.101595+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "title_en": "IDF carries out wide-ranging strikes against IRGC facilities across Tehran",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The Israeli Defense Forces (IDF) conducted extensive strikes targeting IRGC (Islamic Revolutionary Guard Corps) facilities across Tehran, including the state broadcaster IRIB's center. This represents a significant escalation directly targeting Iran's elite military force in the capital, marking one of the most consequential Israeli attacks on Iranian soil since hostilities began.",
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "irgc",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike|irgc_action|escalation",
+      "severity": "major",
+      "parties_involved": [
+        "IDF",
+        "IRGC",
+        "Iran"
+      ],
+      "location": "Tehran, Iran",
+      "brief": "Israeli Defense Forces conducted extensive airstrikes targeting IRGC facilities across Tehran, including the state broadcaster IRIB, marking a significant escalation directly targeting Iran's elite military force in the capital."
+    },
+    "merged_source_count": 3,
+    "lat": 35.69,
+    "lng": 51.39
   },
   {
     "id": "352dcc20cce286f2",
@@ -1447,6 +1672,45 @@
     "lng": 54.0
   },
   {
+    "id": "45858e154fdd3393",
+    "title_original": "Missiles, routine, silence: Israel adjusts as war reaches heartland - analysis",
+    "content_original": "A country was brought silent by war with Iran as first responders and the IDF Home Front Command deal with the impacts from Iran’s arsenal.",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-888427",
+    "published": "2026-03-01T20:46:06+00:00",
+    "fetched_at": "2026-03-01T20:19:52.102126+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "title_en": "Missiles, routine, silence: Israel adjusts as war reaches heartland - analysis",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Israel is adjusting to war reaching its heartland as Iran's missile arsenal strikes Israeli territory, with first responders and the IDF Home Front Command managing the impacts of Iranian attacks on the Israeli homeland. This represents a significant escalation in the conflict, as Israel, normally accustomed to conflicts on its periphery, now faces direct attacks on its civilian areas and infrastructure.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "missile",
+      "war",
+      "conflict",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "IDF"
+      ],
+      "location": "Israel",
+      "brief": "Iranian ballistic missiles strike Israeli heartland marking major escalation as war reaches Israeli homeland"
+    },
+    "merged_source_count": 2,
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
     "id": "e3457b3a1d7fd62e",
     "title_original": "Donald Trump hosts fundraiser at Mar-a-Lago as Middle East lights up with Iranian missiles targeting US and its allies",
     "content_original": "While Iran vowed retaliation for airstrikes that reportedly killed its Supreme Leader, President Trump attended a Mar-a-Lago fundraiser. He mingled with donors and danced to music as US military prepared joint strikes on Iran. Trump later announced the war's commencement on Truth Social.",
@@ -1557,6 +1821,148 @@
     "lng": 44.17
   },
   {
+    "id": "a70befe0de7c7da6",
+    "title_original": "Trump breaks silence on US troops killed in Iran war as president gives bleak warning to the Daily Mail: 'It could happen again'",
+    "content_original": "Trump breaks silence on US troops killed in Iran war as president gives bleak warning to the Daily Mail: 'It could happen again'",
+    "url": "https://www.dailymail.co.uk/news/article-15604385/donald-trump-daily-mail-interview-iran.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+    "published": "2026-03-01T20:15:32+00:00",
+    "fetched_at": "2026-03-01T20:20:29.058346+00:00",
+    "source_name": "Daily Mail",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Trump breaks silence on US troops killed in Iran war as president gives bleak warning to the Daily Mail: 'It could happen again'",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "US President Trump has broken his silence on US casualties from the ongoing Iran-US conflict, warning that more US troops could be killed. The president's bleak warning to the Daily Mail signals continued vulnerability of US forces in the region amid active hostilities with Iran and its proxy forces.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "killed",
+      "war",
+      "proxy",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "high",
+      "parties_involved": [],
+      "location": "Unknown",
+      "brief": "Classified by keyword matching (LLM unavailable)"
+    }
+  },
+  {
+    "id": "701c79a635a4b4c4",
+    "title_original": "🚨 فرانسه، بریتانیا و آلمان بیانیه‌ای صادر کرده‌اند که در آن اعلام شده قصد دارند «اقدامات دفاعی» انجام دهند که منجر به...",
+    "content_original": "🚨 فرانسه، بریتانیا و آلمان بیانیه‌ای صادر کرده‌اند که در آن اعلام شده قصد دارند «اقدامات دفاعی» انجام دهند که منجر به حملاتی علیه ظرفیت‌های نظامی ایران خواهد شد ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ 🚨 تحولات و اخبار جدید ایران و آمریکا 🌐 ✅ @SABERIN_NEWS",
+    "url": "https://t.me/saberin_news/45023",
+    "published": "2026-03-01T20:13:26+00:00",
+    "fetched_at": "2026-03-01T20:20:40.675579+00:00",
+    "source_name": "Islamic Resistance Iraq (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "France, Britain, and Germany Announce 'Defensive Measures' Against Iranian Military Capabilities",
+    "relevant": true,
+    "summary_en": "France, Britain, and Germany issued a joint statement announcing their intent to carry out 'defensive measures' that will result in attacks on Iran's military capabilities. This marks a significant escalation as European powers formally join the military campaign against Iran, expanding the conflict beyond direct US-Iranian hostilities.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "escalation",
+      "severity": "major",
+      "parties_involved": [
+        "France",
+        "Britain",
+        "Germany",
+        "Iran",
+        "United States"
+      ],
+      "location": "Middle East (not specified)",
+      "brief": "European powers France, Britain, and Germany announce defensive military measures against Iran, marking significant escalation as they formally join the US-led campaign against Iran."
+    },
+    "lat": 29.0,
+    "lng": 47.0
+  },
+  {
+    "id": "c2b2a0b116a1cf45",
+    "title_original": "⚡️ Iranian strike on US base in Erbil",
+    "content_original": "⚡️ Iranian strike on US base in Erbil",
+    "url": "https://t.me/warmonitors/40321",
+    "published": "2026-03-01T20:11:35+00:00",
+    "fetched_at": "2026-03-01T20:20:38.729285+00:00",
+    "source_name": "War Monitors (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Iranian strike on US base in Erbil",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iranian forces struck a US base in Erbil, Iraqi Kurdistan, marking another direct Iranian attack on US personnel and facilities in the region. This represents a significant escalation in the ongoing Iran-US conflict, targeting US forces in northern Iraq away from the typical southern base locations.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "conflict",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "Iraq (Kurdistan)"
+      ],
+      "location": "Erbil, Iraqi Kurdistan, Iraq",
+      "brief": "Iranian forces conducted a direct strike on a US base in Erbil, marking a significant escalation in US-Iran tensions with the attack occurring in northern Iraq away from typical southern locations."
+    },
+    "lat": 36.19,
+    "lng": 44.01
+  },
+  {
+    "id": "8e293126a9e96329",
+    "title_original": "⚡️ 🇮🇷 🇮🇷 ❌ 🇦🇪 🇺🇸 🇮🇱  - IRGC UAV's attacking the UAE.",
+    "content_original": "⚡️ 🇮🇷 🇮🇷 ❌ 🇦🇪 🇺🇸 🇮🇱 - IRGC UAV's attacking the UAE.",
+    "url": "https://t.me/CIG_telegram/69941",
+    "published": "2026-03-01T20:08:04+00:00",
+    "fetched_at": "2026-03-01T20:20:36.791322+00:00",
+    "source_name": "Conflict Intelligence Team (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "russia",
+    "skip_translation": true,
+    "title_en": "IRGC UAVs Attacking the UAE",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The Islamic Revolutionary Guard Corps (IRGC) has launched unmanned aerial vehicle (UAV) attacks against the United Arab Emirates (UAE), representing an expansion of Iranian retaliation against US allies in the Gulf region following US strikes on Iranian military assets.",
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "IRGC",
+        "UAE",
+        "United States"
+      ],
+      "location": "UAE",
+      "brief": "IRGC launched UAV attacks against the UAE as part of expanded Iranian retaliation against US allies in the Gulf following US strikes on Iranian military assets."
+    },
+    "lat": 24.0,
+    "lng": 54.0
+  },
+  {
     "id": "fb2738218ca18553",
     "title_original": "Иран заявил о гибели и ранениях 560 американских солдат",
     "content_original": "При ударе двумя иранскими ракетами места расположения военных США в Бахрейне погибли и ранены 560 американских военнослужащих, сообщает Корпус стражей исламской революции (КСИР) Ирана, передает Fars.",
@@ -1664,6 +2070,149 @@
       ],
       "location": "Gulf region",
       "brief": "The USS Abraham Lincoln, a US aircraft carrier, reportedly came under attack in the Gulf region, indicating a direct threat to a major US naval asset amid active hostilities with Iran."
+    },
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
+    "id": "2eee3823a650ccf2",
+    "title_original": "Iranian drone strikes US military facility in Kuwait",
+    "content_original": "Footage captured the moment an Iranian drone struck the US military’s Camp Buehring in northwestern Kuwait.",
+    "url": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-drone-strikes-us-military-facility-in-kuwait?traffic_source=rss",
+    "published": "2026-03-01T19:59:38+00:00",
+    "fetched_at": "2026-03-01T20:19:57.503465+00:00",
+    "source_name": "Al Jazeera English",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Iranian drone strikes US military facility in Kuwait",
+    "translated": true,
+    "summary_en": "{\"h\":\"Iranian drone strikes US military facility in Kuwait\",\"r\":true,\"s\":\"An Iranian drone struck Camp Buehring, a US military base in northwestern Kuwait",
+    "relevant": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States"
+      ],
+      "location": "Camp Buehring, Kuwait",
+      "brief": "An Iranian drone struck Camp Buehring, a US military base in northwestern Kuwait, marking a direct Iranian attack on US forces."
+    },
+    "lat": 29.38,
+    "lng": 47.99
+  },
+  {
+    "id": "197c359c0321624b",
+    "title_original": "Iranian missile strike damages 200 buildings in Tel Aviv",
+    "content_original": "Iranian missile strike damages 200 buildings in Tel Aviv An Iranian missile struck Tel Aviv, causing part of a building to collapse and sending shrapnel into a vehicle in the surrounding area, according to Israel’s Channel 14. Haaretz reported that roughly 200 buildings have sustained damage in the latest wave of attacks. Authorities have evacuated hundreds of residents as the fallout from the Israeli-American war on Iran intensifies.",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-missile-strike-damages-200-buildings-tel-aviv",
+    "published": "2026-03-01T19:59:14+00:00",
+    "fetched_at": "2026-03-01T20:19:59.062692+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Iranian missile strike damages 200 buildings in Tel Aviv",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iranian forces launched a missile strike on Tel Aviv, causing part of a building to collapse and damaging approximately 200 buildings, with shrapnel striking vehicles in the area. Israeli authorities evacuated hundreds of residents as the conflict between Israel and the US against Iran continues to escalate.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "missile",
+      "conflict",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "United States"
+      ],
+      "location": "Tel Aviv, Israel",
+      "brief": "Iranian ballistic missile strike on Tel Aviv damaged approximately 200 buildings and caused mass evacuations as part of escalating Iran-US-Israel conflict."
+    },
+    "lat": 32.08,
+    "lng": 34.78
+  },
+  {
+    "id": "fc267a3a7ba68f30",
+    "title_original": "Where the Strikes Leave Iranians",
+    "content_original": "Iran is reeling a day after the United States and Israel carried out a large attack that killed Iran’s supreme leader, Ayatollah Ali Khamenei. Erika Solomon, the Iran bureau chief for The New York Times, explains how ordinary Iranians are responding to the sudden end of Khamenei’s authoritarian rule and the uncertain future that lies ahead.",
+    "url": "https://www.nytimes.com/video/world/middleeast/100000010744246/life-in-iran-after-american-israeli-strikes.html",
+    "published": "2026-03-01T19:59:10+00:00",
+    "fetched_at": "2026-03-01T20:20:15.673721+00:00",
+    "source_name": "New York Times – Iran",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Where the Strikes Leave Iranians",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The US and Israel carried out a large attack that killed Iran's Supreme Leader Ayatollah Ali Khamenei. This article analyzes how ordinary Iranians are responding to the sudden end of Khamenei's authoritarian rule and the uncertain future ahead, marking a major escalation in the Iran-US armed conflict.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "killed",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran",
+        "IRGC"
+      ],
+      "location": "Iran (Western Region)",
+      "brief": "US and Israel conducted a large attack killing Iran's Supreme Leader Khamenei, marking major escalation in Iran-US armed conflict and creating uncertain future for ordinary Iranians."
+    },
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "6d3d32beb23e5bf6",
+    "title_original": "IRGC says US aircraft carrier Abraham Lincoln fled its mission area and moved toward the southeastern Indian Ocean af...",
+    "content_original": "IRGC says US aircraft carrier Abraham Lincoln fled its mission area and moved toward the southeastern Indian Ocean after it was targeted with four cruise missiles @PressTV",
+    "url": "https://t.me/presstv/177515",
+    "published": "2026-03-01T19:58:18+00:00",
+    "fetched_at": "2026-03-01T20:20:30.918648+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "IRGC claims US carrier Abraham Lincoln fled mission area after being targeted with four cruise missiles",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The IRGC claims it targeted the US aircraft carrier Abraham Lincoln with four cruise missiles, causing the vessel to flee its mission area and move toward the southeastern Indian Ocean. The claim, reported by Iran's PressTV, represents an Iranian assertion of successful military pressure against a major US naval asset in the region.",
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident|irgc_action",
+      "severity": "major",
+      "parties_involved": [
+        "Iran (IRGC)",
+        "United States (US Navy)"
+      ],
+      "location": "Southeastern Indian Ocean/Gulf region",
+      "brief": "IRGC claims it targeted US carrier Abraham Lincoln with four cruise missiles, causing the vessel to flee its mission area."
     },
     "lat": 26.0,
     "lng": 52.0
