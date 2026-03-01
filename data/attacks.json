@@ -36,6 +36,43 @@
     "lng": 178.0431614
   },
   {
+    "id": "aff44586d6391b8d",
+    "title_original": "Иран атаковал баллистическими ракетами авианосец США",
+    "content_original": "Корпус стражей исламской революции (КСИР) атаковал авианосец ВМС США &laquo;Авраам Линкольн&raquo; (Abraham Lincoln) в рамках операции &laquo;Правдивое обещание&nbsp;&mdash; 4&raquo;, сообщил КСИР, передает IRNA в телеграм-канале.",
+    "url": "https://www.rbc.ru/rbcfreenews/69a448589a794737ee12f34a",
+    "published": "2026-03-01T17:09:45+03:00",
+    "fetched_at": "2026-03-01T14:23:20.242603+00:00",
+    "source_name": "RBC",
+    "source_category": "independent",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "IRGC Attacks US Aircraft Carrier with Ballistic Missiles",
+    "relevant": true,
+    "summary_en": "The IRGC launched ballistic missiles targeting the US Navy aircraft carrier USS Abraham Lincoln as part of Operation 'True Promise - 4'. This attack signifies a significant escalation in hostilities and direct engagement with US naval forces in the region.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "ballistic",
+      "attack",
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "IRGC"
+      ],
+      "location": "International Waters, Persian Gulf",
+      "brief": "IRGC launches ballistic missiles at US aircraft carrier USS Abraham Lincoln, escalating direct hostilities."
+    },
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
     "id": "4fcdaf36be0c0129",
     "title_original": "Иран сбил американский БПЛА в Ахвазе",
     "content_original": "Иран сбил американский БПЛА в Ахвазе",
@@ -69,6 +106,41 @@
     },
     "lat": 31.32,
     "lng": 48.69
+  },
+  {
+    "id": "88890db8c166bb63",
+    "title_original": "Jordan, Oman Foreign Ministers Condemn Iranian Attacks on Their Countries",
+    "content_original": "Amman, March 1 (QNA) - Jordanian Foreign Minister Ayman Safadi condemned today the Iranian attack on the Sultanate of Oman.",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-3/1/jordan-oman-foreign-ministers-condemn-iranian-attacks-on-their-countries",
+    "published": "2026-03-01T17:02:20+00:00",
+    "fetched_at": "2026-03-01T14:23:25.667754+00:00",
+    "source_name": "QNA General (English)",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Jordan, Oman Foreign Ministers Condemn Iranian Attacks on Their Countries",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Jordanian and Omani Foreign Ministers condemned recent Iranian attacks on their countries. This highlights escalating tensions as Iran expands its retaliatory actions against regional states. The condemnation signifies diplomatic fallout and potential shifts in regional alliances amidst the conflict.",
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Jordan",
+        "Oman"
+      ],
+      "location": "Gulf region",
+      "brief": "Iranian attacks on Jordan and Oman escalate regional tensions as Gulf states condemn Iran's retaliatory actions."
+    },
+    "lat": 26.0,
+    "lng": 52.0
   },
   {
     "id": "35fc8e84199a6cc4",
@@ -1215,6 +1287,46 @@
     "lng": 54.0
   },
   {
+    "id": "6561d50390fe5a69",
+    "title_original": "Khamenei's hidden hand concealed his flaw, and his long-reach of terror - analysis",
+    "content_original": "The killing of Khamenei closes the chapter on one of the most consequential and destructive figures in modern Middle Eastern history.",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-888381",
+    "published": "2026-03-01T14:36:02+00:00",
+    "fetched_at": "2026-03-01T14:23:21.332646+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "title_en": "Khamenei's Killing Ends Era of Middle Eastern Influence",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The assassination of Ayatollah Khamenei marks a significant turning point in the Middle East, as he was a key figure in Iran's military and political leadership. His death could lead to a power vacuum within Iran's regime, potentially impacting the ongoing conflict with the US and its allies. The strategic implications for Iran's IRGC and proxy forces across the region are significant, as his leadership was crucial in orchestrating Iran's regional influence and military strategy.",
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "proxy",
+      "conflict",
+      "death",
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Israel",
+        "IRGC"
+      ],
+      "location": "Iran",
+      "brief": "The assassination of Ayatollah Khamenei creates a power vacuum in Iran, significantly escalating the conflict with the US and its allies."
+    },
+    "merged_source_count": 5,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
     "id": "4a2042643201612c",
     "title_original": "В Тель-Авиве при ракетной атаке повреждены десятки домов",
     "content_original": "В Тель-Авиве при ракетной атаке повреждены десятки домов",
@@ -1252,6 +1364,80 @@
     },
     "lat": 32.08,
     "lng": 34.78
+  },
+  {
+    "id": "220c42fc3138df21",
+    "title_original": "هيئة البث الإسرائيلية: مسيرة إيرانية أصابت شقة يسكنها إسرائيليون في أبو ظبي",
+    "content_original": "هيئة البث الإسرائيلية: مسيرة إيرانية أصابت شقة يسكنها إسرائيليون في أبو ظبي",
+    "url": "https://t.me/Electrohizbullah/156654",
+    "published": "2026-03-01T14:21:44+00:00",
+    "fetched_at": "2026-03-01T14:24:04.999508+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Iranian Drone hits apartment housing Israelis in Abu Dhabi",
+    "relevant": true,
+    "summary_en": "An Iranian drone struck an apartment building in Abu Dhabi where Israelis were residing. This incident marks an escalation of Iranian attacks on Israeli targets outside the immediate conflict zones. The strike highlights the regional reach of Iranian operations and the vulnerability of Israeli assets in the UAE.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "drone",
+      "conflict",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "UAE"
+      ],
+      "location": "Abu Dhabi, UAE",
+      "brief": "An Iranian drone strike on an apartment building in Abu Dhabi housing Israelis marks an escalation in regional tensions and demonstrates Iran's capability to target Israeli interests outside traditional conflict zones."
+    },
+    "merged_source_count": 4,
+    "lat": 24.45,
+    "lng": 54.38
+  },
+  {
+    "id": "024b7fb76558cebc",
+    "title_original": "‏مشاهد لإطلاق صواريخ إيرانية اتجاه أهداف أمريكية وإسرائيلية.",
+    "content_original": "‏مشاهد لإطلاق صواريخ إيرانية اتجاه أهداف أمريكية وإسرائيلية.",
+    "url": "https://t.me/Electrohizbullah/156653",
+    "published": "2026-03-01T14:20:51+00:00",
+    "fetched_at": "2026-03-01T14:24:04.998969+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Iranian Missiles Launched Towards US and Israeli Targets",
+    "relevant": true,
+    "summary_en": "Iran has launched missiles targeting US and Israeli assets, indicating a significant escalation in the ongoing conflict. The strikes likely aim to retaliate against recent US and Israeli operations against Iranian interests. This development underscores the direct military confrontation between Iran and its adversaries, raising concerns about further regional escalation.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us|ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Israel"
+      ],
+      "location": "Middle East",
+      "brief": "Iran has escalated the conflict by launching ballistic missiles targeting US and Israeli assets, marking a direct military confrontation."
+    },
+    "merged_source_count": 2,
+    "lat": 29.0,
+    "lng": 47.0
   },
   {
     "id": "9fc7beecec6b3aed",
@@ -1364,6 +1550,75 @@
     "lng": 73.0651511
   },
   {
+    "id": "cec9d33e33178502",
+    "title_original": "⚡️ Iranian drone appears to hit apartment in Dubai but doesn’t explode",
+    "content_original": "⚡️ Iranian drone appears to hit apartment in Dubai but doesn’t explode",
+    "url": "https://t.me/warmonitors/40254",
+    "published": "2026-03-01T14:16:47+00:00",
+    "fetched_at": "2026-03-01T14:24:02.757010+00:00",
+    "source_name": "War Monitors (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Iranian drone hits apartment in Dubai but fails to explode",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "An Iranian drone struck an apartment building in Dubai, UAE, but did not detonate. This incident highlights the potential for Iranian drones to reach and target urban areas in the UAE, escalating tensions in the Gulf region and posing risks to civilian populations.",
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "medium",
+      "parties_involved": [
+        "Iran",
+        "UAE"
+      ],
+      "location": "Dubai, UAE",
+      "brief": "An Iranian drone struck an apartment building in Dubai, escalating regional tensions without causing casualties."
+    },
+    "lat": 25.2,
+    "lng": 55.27
+  },
+  {
+    "id": "1b578fcff4beb177",
+    "title_original": "⚡️ #BREAKING  Iranian TV: Footage of the downing of an American MQ-9 drone.",
+    "content_original": "⚡️ #BREAKING Iranian TV: Footage of the downing of an American MQ-9 drone.",
+    "url": "https://t.me/warmonitors/40253",
+    "published": "2026-03-01T14:16:34+00:00",
+    "fetched_at": "2026-03-01T14:24:02.756183+00:00",
+    "source_name": "War Monitors (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Iranian TV shows footage of downed American MQ-9 drone",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iranian state TV broadcasted footage of the downing of a US MQ-9 Reaper drone, indicating an escalation in the ongoing conflict. The incident likely occurred in or near Iranian airspace, showcasing Iran's capability to target high-value US assets. This event could provoke further US military responses and increase tensions in the region.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "drone",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "United States"
+      ],
+      "location": "Iranian airspace/near Iran",
+      "brief": "Iranian state TV broadcasts footage of downed US MQ-9 Reaper drone, indicating direct military engagement and escalation between Iran and the US."
+    },
+    "lat": 30.3354128,
+    "lng": 48.2896822
+  },
+  {
     "id": "18a31c91bdd97dfe",
     "title_original": "IRIB: новая волна ракетных ударов Ирана будет сопровождаться атаками БПЛА",
     "content_original": "IRIB: новая волна ракетных ударов Ирана будет сопровождаться атаками БПЛА",
@@ -1473,6 +1728,42 @@
     },
     "lat": 29.38,
     "lng": 47.99
+  },
+  {
+    "id": "c45e0b3edb9d74a7",
+    "title_original": "Al-Sisi denounces attack on Oman’s Duqm port, reaffirms support for Arab sovereignty",
+    "content_original": "Egypt’s President Abdel Fattah Al-Sisi held separate phone calls on Sunday with Haitham bin Tariq of Oman and Iraqi Prime Minister Mohammed Shia Al-Sudani, as regional tensions escalated following a wave of military strikes across the Middle East. According to the Egyptian presidency, Al-Sisi discussed the latest developments with Sultan Haitham, strongly condemning the targeting of Duqm Port earlier in the day. He reiterated Egypt’s long-standing position that regional crises must be resolved through dialogue and peaceful means, warning of the grave consequences of further escalation and the risk of the region descending into wider instability. Al-Sisi also commended Oman’s mediation efforts, particularly its role in facilitating negotiations between the United States and Iran over Tehran’s nuclear programme, underscoring Muscat’s importance in containing tensions and promoting diplomatic solutions. Presidential spokesperson Mohamed El-Shennawy said Al-Sisi expressed Egypt’s full soli...",
+    "url": "https://www.dailynewsegypt.com/2026/03/01/al-sisi-denounces-attack-on-omans-duqm-port-reaffirms-support-for-arab-sovereignty/?utm_source=rss&utm_medium=rss&utm_campaign=al-sisi-denounces-attack-on-omans-duqm-port-reaffirms-support-for-arab-sovereignty",
+    "published": "2026-03-01T14:12:14+00:00",
+    "fetched_at": "2026-03-01T14:23:29.794415+00:00",
+    "source_name": "Daily News Egypt",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Al-Sisi condemns attack on Oman's Duqm port, emphasizes regional dialogue",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Egypt's President Al-Sisi condemned the attack on Oman's Duqm port during calls with Omani and Iraqi leaders, highlighting the escalating regional tensions. He emphasized the need for dialogue and peaceful resolution to prevent further escalation and instability in the Middle East. This stance underscores Egypt's concern over the conflict's potential to destabilize the region.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "medium",
+      "parties_involved": [
+        "Egypt",
+        "Oman",
+        "Iraq"
+      ],
+      "location": "Oman, Duqm port",
+      "brief": "Egypt's President Al-Sisi condemns attack on Oman's Duqm port and calls for regional dialogue amid escalating tensions."
+    },
+    "lat": 19.6629965,
+    "lng": 57.7116611
   },
   {
     "id": "e388e238e73aef19",
