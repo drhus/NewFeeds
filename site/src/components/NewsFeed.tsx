@@ -1,9 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 import type { Article, RegionKey } from "@/lib/types";
 import { REGIONS } from "@/lib/types";
 import NewsCard from "./NewsCard";
+
+function useDebounce(value: string, delay: number): string {
+  const [debounced, setDebounced] = useState(value);
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+  return debounced;
+}
 
 interface NewsFeedProps {
   articlesByRegion: Record<string, Article[]>;
@@ -11,9 +20,8 @@ interface NewsFeedProps {
 
 export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
   const [activeRegion, setActiveRegion] = useState<RegionKey | "all">("all");
-  const [translationFilter, setTranslationFilter] = useState<
-    "all" | "translated" | "pending"
-  >("translated");
+  const [searchQuery, setSearchQuery] = useState("");
+  const debouncedQuery = useDebounce(searchQuery, 250);
 
   function effectiveTime(a: Article): number {
     const now = Date.now();
@@ -33,16 +41,25 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
       ? allArticles
       : (articlesByRegion[activeRegion] || []).slice().sort((a, b) => effectiveTime(b) - effectiveTime(a));
 
-  const displayedArticles = regionArticles.filter((a) => {
-    if (translationFilter === "translated") return a.translated === true;
-    if (translationFilter === "pending") return !a.translated;
-    return true;
-  });
+  const searchWords = useMemo(
+    () => debouncedQuery.toLowerCase().split(/\s+/).filter(Boolean),
+    [debouncedQuery]
+  );
 
-  const translatedCount = regionArticles.filter(
-    (a) => a.translated === true
-  ).length;
-  const pendingCount = regionArticles.filter((a) => !a.translated).length;
+  const displayedArticles = useMemo(() => {
+    if (searchWords.length === 0) return regionArticles;
+    return regionArticles.filter((a) => {
+      const haystack = [
+        a.title_en,
+        a.summary_en,
+        a.source_name,
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return searchWords.every((w) => haystack.includes(w));
+    });
+  }, [regionArticles, searchWords]);
 
   return (
     <div>
@@ -77,41 +94,87 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
         ))}
       </div>
 
-      {/* Translation filter */}
+      {/* Search input */}
       <div
         style={{
-          display: "flex",
-          gap: 4,
-          paddingBottom: 12,
-          borderBottom: "1px solid var(--color-border)",
-          marginBottom: 12,
+          position: "relative",
+          marginBottom: 8,
         }}
       >
-        <FilterPill
-          active={translationFilter === "translated"}
-          onClick={() => setTranslationFilter("translated")}
-          count={translatedCount}
-          color="#22c55e"
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search headlines & summaries…"
+          style={{
+            width: "100%",
+            padding: "10px 40px 10px 36px",
+            borderRadius: 8,
+            border: "1px solid var(--color-border)",
+            background: "var(--color-surface)",
+            color: "var(--color-text)",
+            fontSize: 14,
+            outline: "none",
+            boxSizing: "border-box",
+          }}
+        />
+        {/* Search icon */}
+        <span
+          style={{
+            position: "absolute",
+            left: 12,
+            top: "50%",
+            transform: "translateY(-50%)",
+            color: "var(--color-text-muted)",
+            fontSize: 14,
+            pointerEvents: "none",
+          }}
         >
-          Translated
-        </FilterPill>
-        <FilterPill
-          active={translationFilter === "all"}
-          onClick={() => setTranslationFilter("all")}
-          count={regionArticles.length}
-          color="#6366f1"
-        >
-          All
-        </FilterPill>
-        <FilterPill
-          active={translationFilter === "pending"}
-          onClick={() => setTranslationFilter("pending")}
-          count={pendingCount}
-          color="#ca8a04"
-        >
-          Pending
-        </FilterPill>
+          🔍
+        </span>
+        {/* Clear button + match count */}
+        {searchQuery && (
+          <span
+            style={{
+              position: "absolute",
+              right: 10,
+              top: "50%",
+              transform: "translateY(-50%)",
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+            }}
+          >
+            <span
+              style={{
+                fontSize: 11,
+                color: "var(--color-text-muted)",
+                background: "var(--color-border)",
+                padding: "2px 6px",
+                borderRadius: 10,
+              }}
+            >
+              {displayedArticles.length}
+            </span>
+            <button
+              onClick={() => setSearchQuery("")}
+              style={{
+                background: "none",
+                border: "none",
+                color: "var(--color-text-muted)",
+                cursor: "pointer",
+                fontSize: 16,
+                padding: 0,
+                lineHeight: 1,
+              }}
+            >
+              ×
+            </button>
+          </span>
+        )}
       </div>
+
+
 
       {/* Articles */}
       <div
@@ -122,7 +185,7 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
       >
         {displayedArticles.length > 0 ? (
           displayedArticles.map((article, idx) => (
-            <NewsCard key={`${article.region}-${article.id}-${idx}`} article={article} />
+            <NewsCard key={`${article.region}-${article.id}-${idx}`} article={article} searchQuery={debouncedQuery} />
           ))
         ) : (
           <div
@@ -186,47 +249,4 @@ function TabButton({
   );
 }
 
-function FilterPill({
-  active,
-  onClick,
-  count,
-  color,
-  children,
-}: {
-  active: boolean;
-  onClick: () => void;
-  count: number;
-  color: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      style={{
-        padding: "5px 12px",
-        borderRadius: 20,
-        border: active ? `1px solid ${color}60` : "1px solid var(--color-border)",
-        background: active ? `${color}15` : "transparent",
-        color: active ? color : "var(--color-text-muted)",
-        cursor: "pointer",
-        fontSize: 13,
-        fontWeight: active ? 600 : 400,
-        display: "flex",
-        alignItems: "center",
-        gap: 5,
-      }}
-    >
-      {children}
-      <span
-        style={{
-          fontSize: 11,
-          background: active ? `${color}30` : "var(--color-border)",
-          padding: "1px 6px",
-          borderRadius: 10,
-        }}
-      >
-        {count}
-      </span>
-    </button>
-  );
-}
+

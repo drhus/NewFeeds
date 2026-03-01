@@ -11,10 +11,41 @@ interface AttackCardProps {
   isSelected?: boolean;
   onSelect?: () => void;
   onCircleClick?: () => void;
+  searchQuery?: string;
+}
+
+function HighlightText({ text, query }: { text: string; query?: string }) {
+  if (!query || !text) return <>{text}</>;
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (words.length === 0) return <>{text}</>;
+  const escaped = words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const regex = new RegExp(`(${escaped.join("|")})`, "gi");
+  const parts = text.split(regex);
+  return (
+    <>
+      {parts.map((part, i) =>
+        regex.test(part) ? (
+          <mark
+            key={i}
+            style={{
+              background: "#f68a6b40",
+              color: "inherit",
+              borderRadius: 2,
+              padding: "0 1px",
+            }}
+          >
+            {part}
+          </mark>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  );
 }
 
 const AttackCard = forwardRef<HTMLElement, AttackCardProps>(function AttackCard(
-  { article, index, isSelected, onSelect, onCircleClick },
+  { article, index, isSelected, onSelect, onCircleClick, searchQuery },
   ref
 ) {
   const classification = article.classification;
@@ -169,7 +200,7 @@ const AttackCard = forwardRef<HTMLElement, AttackCardProps>(function AttackCard(
           rel="noopener noreferrer"
           style={{ color: "var(--color-text)" }}
         >
-          {article.title_en || article.title_original}
+          <HighlightText text={article.title_en || article.title_original} query={searchQuery} />
         </a>
       </h3>
 
@@ -183,7 +214,7 @@ const AttackCard = forwardRef<HTMLElement, AttackCardProps>(function AttackCard(
             marginBottom: 6,
           }}
         >
-          {classification.brief}
+          <HighlightText text={classification.brief} query={searchQuery} />
         </p>
       )}
 
@@ -197,7 +228,7 @@ const AttackCard = forwardRef<HTMLElement, AttackCardProps>(function AttackCard(
             marginBottom: 8,
           }}
         >
-          {article.summary_en}
+          <HighlightText text={article.summary_en} query={searchQuery} />
         </p>
       )}
 

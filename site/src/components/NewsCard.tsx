@@ -6,9 +6,41 @@ import { formatTimeAgo } from "@/lib/utils";
 
 interface NewsCardProps {
   article: Article;
+  searchQuery?: string;
 }
 
-export default function NewsCard({ article }: NewsCardProps) {
+function HighlightText({ text, query }: { text: string; query?: string }) {
+  if (!query || !text) return <>{text}</>;
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (words.length === 0) return <>{text}</>;
+  // Build regex matching any search word
+  const escaped = words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const regex = new RegExp(`(${escaped.join("|")})`, "gi");
+  const parts = text.split(regex);
+  return (
+    <>
+      {parts.map((part, i) =>
+        regex.test(part) ? (
+          <mark
+            key={i}
+            style={{
+              background: "#f68a6b40",
+              color: "inherit",
+              borderRadius: 2,
+              padding: "0 1px",
+            }}
+          >
+            {part}
+          </mark>
+        ) : (
+          <span key={i}>{part}</span>
+        )
+      )}
+    </>
+  );
+}
+
+export default function NewsCard({ article, searchQuery }: NewsCardProps) {
   const regionCfg = REGIONS.find((r) => r.key === article.region);
   const regionColor = regionCfg?.color || "#6366f1";
 
@@ -110,7 +142,7 @@ export default function NewsCard({ article }: NewsCardProps) {
           rel="noopener noreferrer"
           style={{ color: "var(--color-text)" }}
         >
-          {article.title_en || article.title_original}
+          <HighlightText text={article.title_en || article.title_original} query={searchQuery} />
         </a>
       </h3>
 
@@ -123,7 +155,7 @@ export default function NewsCard({ article }: NewsCardProps) {
             lineHeight: 1.6,
           }}
         >
-          {article.summary_en}
+          <HighlightText text={article.summary_en} query={searchQuery} />
         </p>
       )}
 
@@ -140,19 +172,7 @@ export default function NewsCard({ article }: NewsCardProps) {
         >
           {article.language.toUpperCase()}
         </span>
-        {!article.translated && (
-          <span
-            style={{
-              fontSize: 11,
-              padding: "1px 6px",
-              borderRadius: 4,
-              background: "#ca8a0420",
-              color: "#ca8a04",
-            }}
-          >
-            Translation pending
-          </span>
-        )}
+
         {article.relevant === true && (
           <span
             style={{

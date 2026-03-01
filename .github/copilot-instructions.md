@@ -131,3 +131,40 @@ After adding a source, the pipeline (`run_pipeline.py`) will automatically:
 6. Generate executive summary
 
 The frontend will display the new region tab and articles with no additional changes.
+
+---
+
+# Visualisation Colour Scheme — "AI Realist" Palette
+
+All charts, diagrams, and visual assets saved to `substack/visualisations/` **must** use this palette exclusively.
+
+## Core Colours
+
+| Role | Name | Hex |
+|------|------|-----|
+| Highlight / CTA | Warm coral | `#f68a6b` |
+| Text / Headings | Deep brown | `#5b4230` |
+| Background | Soft cream | `#fef6f0` |
+| Secondary accent | Muted purple | `#6a4c93` |
+
+## How They Work Together
+
+- **Coral `#f68a6b`** — attention grabber. Use for highlights, key phrases, quotes, buttons, emphasis annotations on charts.
+- **Deep brown `#5b4230`** — the anchor. Use for body text, headings, axis labels, outlines, high-contrast elements.
+- **Soft cream `#fef6f0`** — the background. Keeps everything warm and human instead of sterile tech-white.
+- **Muted purple `#6a4c93`** — the "AI" accent. Use sparingly for secondary data series, icons, gradients, or chart grid lines.
+
+## Usage Ratios
+
+| Layer | Colour |
+|-------|--------|
+| Background (dominant) | Soft cream `#fef6f0` |
+| Primary text | Deep brown `#5b4230` |
+| Highlights & emphasis | Warm coral `#f68a6b` |
+| Secondary accents | Muted purple `#6a4c93` |
+
+## Do Not
+
+- Use pure white (`#ffffff`) or pure black (`#000000`) as background or text
+- Introduce colours outside this palette without explicit approval
+- Use coral and purple at equal weight — purple is always the minor accent

@@ -86,7 +86,7 @@ def call_minimax(prompt: str, system_prompt: str, api_key: str) -> str:
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.1,
-        "max_tokens": 350,
+        "max_tokens": 600,
     }
 
     for attempt in range(MAX_RETRIES):
@@ -182,10 +182,15 @@ def process_article(article: dict, api_key: str) -> dict:
 
     except json.JSONDecodeError:
         logger.warning(f"JSON parse error for {article.get('id', '?')}, raw: {response_text[:120]}")
-        if response_text and len(response_text) > 10:
-            article["title_en"] = title
-            article["summary_en"] = response_text[:400]
-            article["relevant"] = True
+        # Try to salvage fields from truncated/malformed JSON via regex
+        import re
+        h_match = re.search(r'"h"\s*:\s*"((?:[^"\\]|\\.)*)"?', response_text)
+        s_match = re.search(r'"s"\s*:\s*"((?:[^"\\]|\\.)*)"?', response_text)
+        r_match = re.search(r'"r"\s*:\s*(true|false)', response_text)
+        if h_match or s_match:
+            article["title_en"] = (h_match.group(1) if h_match else title)
+            article["summary_en"] = (s_match.group(1) if s_match else (h_match.group(1) if h_match else ""))
+            article["relevant"] = (r_match.group(1) == "true") if r_match else True
             article["translated"] = True
         else:
             article["title_en"] = title

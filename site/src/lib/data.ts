@@ -31,8 +31,8 @@ function effectiveTime(a: Article): number {
 
 export function getArticlesByRegion(region: RegionKey): Article[] {
   const raw = readJSON<Article[]>(path.join(FEEDS_DIR, `${region}.json`), []);
-  // Filter out articles marked as irrelevant by the title-relevance filter
-  const filtered = raw.filter((a) => a.relevant !== false);
+  // Filter out irrelevant and untranslated articles
+  const filtered = raw.filter((a) => a.relevant !== false && a.translated === true);
   // Sort newest first using same effective timestamp as the UI display
   filtered.sort((a, b) => effectiveTime(b) - effectiveTime(a));
   return filtered;

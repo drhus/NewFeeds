@@ -60,6 +60,25 @@ regions:
         url: "https://fa.shafaqna.com/feed/"
         category: state-aligned
 
+      - name: "NCR Iran (NCRI)"
+        type: rss
+        language: en
+        url: "https://www.ncr-iran.org/en/feed/"
+        category: independent
+        skip_translation: true
+
+      - name: "Tasnim News"
+        type: rss
+        language: fa
+        url: "https://tasnimnews.ir/fa/rss/feed/0/0/8/1/TopStories"
+        category: state-aligned
+
+      - name: "Tasnim Most Popular"
+        type: rss
+        language: fa
+        url: "https://tasnimnews.ir/fa/rss/feed/1/0/7/0/MostPupolar"
+        category: state-aligned
+
       # ── Telegram channels ──
 
       - name: "Press TV (TG)"
@@ -182,6 +201,79 @@ regions:
         category: independent
         skip_translation: true
 
+      - name: "IsraelInfo News"
+        type: rss
+        language: ru
+        url: "https://news.israelinfo.co.il/rss/news.xml"
+        category: independent
+
+      - name: "IsraelInfo Events"
+        type: rss
+        language: ru
+        url: "https://news.israelinfo.co.il/rss/news_events.xml"
+        category: independent
+
+      - name: "IsraelInfo Law"
+        type: rss
+        language: ru
+        url: "https://news.israelinfo.co.il/rss/news_law.xml"
+        category: independent
+
+      - name: "IsraelInfo Politics"
+        type: rss
+        language: ru
+        url: "https://news.israelinfo.co.il/rss/news_politics.xml"
+        category: independent
+
+      - name: "HM News"
+        type: rss
+        language: he
+        url: "https://hm-news.co.il/feed/"
+        category: independent
+
+      - name: "HonestReporting"
+        type: rss
+        language: en
+        url: "https://honestreporting.com/feed/"
+        category: independent
+        skip_translation: true
+
+      - name: "Mivzakim Breaking"
+        type: rss
+        language: he
+        url: "https://rss.mivzakim.net/rss/category/1"
+        category: independent
+
+      - name: "Mivzakim Main"
+        type: rss
+        language: he
+        url: "https://rss.mivzakim.net/rss/feed/1"
+        category: independent
+
+      - name: "Mivzakim Military"
+        type: rss
+        language: he
+        url: "https://rss.mivzakim.net/rss/feed/61"
+        category: independent
+
+      - name: "Mivzakim Politics"
+        type: rss
+        language: he
+        url: "https://rss.mivzakim.net/rss/feed/76"
+        category: independent
+
+      - name: "Mivzakim World"
+        type: rss
+        language: he
+        url: "https://rss.mivzakim.net/rss/feed/89"
+        category: independent
+
+      - name: "Tov News"
+        type: rss
+        language: he
+        url: "https://tovnews.co.il/feed"
+        category: independent
+
   gulf:
     label: "Gulf States"
     sources:
@@ -238,6 +330,12 @@ regions:
         category: state
         skip_translation: true
 
+      - name: "Marsal Qatar"
+        type: rss
+        language: ar
+        url: "https://marsalqatar.qa/rss/category/5"
+        category: independent
+
   middle_east:
     label: "Middle East (Independent)"
     sources:
@@ -269,6 +367,25 @@ regions:
         category: state
         skip_translation: true
 
+      - name: "Wadaq Syria"
+        type: rss
+        language: ar
+        url: "https://wadaq.sy/feed/"
+        category: independent
+
+      - name: "Syria Direct"
+        type: rss
+        language: en
+        url: "https://syriadirect.org/feed/"
+        category: independent
+        skip_translation: true
+
+      - name: "Al-Thawra Syria"
+        type: rss
+        language: ar
+        url: "https://thawra.sy/?feed=rss2"
+        category: state
+
       - name: "Jordan Times (News)"
         type: rss
         language: en
@@ -283,6 +400,46 @@ regions:
         category: state-aligned
         skip_translation: true
 
+      - name: "Twinkl Jordan"
+        type: rss
+        language: en
+        url: "https://www.twinkl.jo/rss/blog"
+        category: independent
+        skip_translation: true
+
+      - name: "Hala Jordan"
+        type: rss
+        language: ar
+        url: "https://www.hala.jo/feed/"
+        category: independent
+
+      - name: "Amman Stock Exchange (Disclosures)"
+        type: rss
+        language: en
+        url: "https://www.exchange.jo/rss_disclosures/rss.xml"
+        category: state
+        skip_translation: true
+
+      - name: "Amman Stock Exchange (Assembly)"
+        type: rss
+        language: en
+        url: "https://www.exchange.jo/rss_disclosures_assembly/rss.xml"
+        category: state
+        skip_translation: true
+
+      - name: "Edama Jordan"
+        type: rss
+        language: en
+        url: "https://edama.jo/feed/"
+        category: independent
+        skip_translation: true
+
+      - name: "Sahafi Jordan"
+        type: rss
+        language: ar
+        url: "http://www.sahafi.jo/rss.xml"
+        category: independent
+
       - name: "Daily News Egypt"
         type: rss
         language: en
@@ -296,6 +453,67 @@ regions:
         url: "https://www.iraq-businessnews.com/feed/"
         category: independent
         skip_translation: true
+
+      - name: "Al-Sabah (Iraq)"
+        type: rss
+        language: ar
+        url: "https://alsabaah.iq/rss.xml"
+        category: state
+
+      - name: "Iraqi Media Network"
+        type: rss
+        language: ar
+        url: "https://imn.iq/feed"
+        category: state
+
+      - name: "Iraq Ministry of Planning"
+        type: rss
+        language: ar
+        url: "https://mop.gov.iq/feed"
+        category: state
+
+      - name: "Al-Masra (Iraq)"
+        type: rss
+        language: ar
+        url: "https://almasra.iq/feed/"
+        category: independent
+
+      - name: "Al-Rabiaa TV (Iraq)"
+        type: rss
+        language: ar
+        url: "https://api.alrabiaa.tv/api/v1/feed"
+        category: independent
+
+      - name: "ECSS Egypt"
+        type: rss
+        language: ar
+        url: "https://ecss.com.eg/feed/"
+        category: independent
+
+      - name: "Nile News Egypt"
+        type: rss
+        language: ar
+        url: "https://nile.eg/feed"
+        category: state
+
+      - name: "Egypt Independent"
+        type: rss
+        language: en
+        url: "https://egyptindependent.com/feed/"
+        category: independent
+        skip_translation: true
+
+      - name: "FAJ Egypt"
+        type: rss
+        language: ar
+        url: "https://faj.org.eg/feed"
+        category: independent
+
+      - name: "EMedia Egypt"
+        type: rss
+        language: ar
+        url: "https://emedia.org.eg/rss/category/%D8%B9%D8%A7%D9%84%D9%85-%D9%88%D8%B3%D9%81%D8%A7%D8%B1%D8%A7%D8%AA"
+        category: independent
 
       # ── Telegram channels ──
 
@@ -370,6 +588,49 @@ regions:
       #   language: en
       #   category: proxy
       #   skip_translation: true
+
+      - name: "Al-Thawra Yemen"
+        type: rss
+        language: ar
+        url: "https://althawrah.ye/feed"
+        category: proxy
+
+      - name: "Yemen Tax Authority"
+        type: rss
+        language: ar
+        url: "https://tax.gov.ye/feed/"
+        category: proxy
+
+      - name: "Al Masirah (Houthi)"
+        type: rss
+        language: ar
+        url: "https://almasirah.net.ye/feed/rss"
+        category: proxy
+
+      - name: "Al Masirah TV English"
+        type: rss
+        language: en
+        url: "https://english.masirahtv.net/rss.php"
+        category: proxy
+        skip_translation: true
+
+      - name: "Al-Baath Yemen"
+        type: rss
+        language: ar
+        url: "https://www.albaath.ye/feed/"
+        category: proxy
+
+      - name: "Yemen Academy"
+        type: rss
+        language: ar
+        url: "https://yemenacademy.edu.ye/feed/"
+        category: proxy
+
+      - name: "Civilization Univ Yemen"
+        type: rss
+        language: ar
+        url: "https://journals.civilizationuniv.edu.ye/index.php/cujahr/gateway/plugin/WebFeedGatewayPlugin/atom"
+        category: proxy
 
   china:
     label: "China"
@@ -604,5 +865,12 @@ regions:
         type: rss
         language: en
         url: "https://media.rss.com/bellingcatstagetalk/feed.xml"
+        category: independent
+        skip_translation: true
+
+      - name: "CBS 60 Minutes"
+        type: rss
+        language: en
+        url: "https://www.cbsnews.com/latest/rss/60-minutes"
         category: independent
         skip_translation: true

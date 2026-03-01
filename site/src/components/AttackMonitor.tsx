@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback, useMemo, createRef } from "react";
+import { useState, useRef, useCallback, useMemo, useEffect } from "react";
 import type { Article, ThreatLevel } from "@/lib/types";
 import ThreatLevelDisplay from "./ThreatLevelDisplay";
 import AttackCard from "./AttackCard";
@@ -14,6 +14,15 @@ interface AttackMonitorProps {
 
 type SeverityFilter = "all" | "major" | "high" | "medium" | "low";
 
+function useDebounce(value: string, delay: number): string {
+  const [debounced, setDebounced] = useState(value);
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+  return debounced;
+}
+
 export default function AttackMonitor({
   attackArticles,
   threatLevel,
@@ -21,13 +30,38 @@ export default function AttackMonitor({
   const [severityFilter, setSeverityFilter] =
     useState<SeverityFilter>("all");
   const [selectedAttackId, setSelectedAttackId] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const debouncedQuery = useDebounce(searchQuery, 250);
 
-  const filtered =
+  const searchWords = useMemo(
+    () => debouncedQuery.toLowerCase().split(/\s+/).filter(Boolean),
+    [debouncedQuery]
+  );
+
+  const severityFiltered =
     severityFilter === "all"
       ? attackArticles
       : attackArticles.filter(
           (a) => a.classification?.severity === severityFilter
         );
+
+  const filtered = useMemo(() => {
+    if (searchWords.length === 0) return severityFiltered;
+    return severityFiltered.filter((a) => {
+      const haystack = [
+        a.title_en,
+        a.summary_en,
+        a.source_name,
+        a.classification?.brief,
+        a.classification?.location,
+        ...(a.classification?.parties_involved || []),
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return searchWords.every((w) => haystack.includes(w));
+    });
+  }, [severityFiltered, searchWords]);
 
   // Build numberedAttacks: every attack gets a sequential number so the list is never missing badges.
   // Attacks with coordinates will also appear on the map with the same number.
@@ -104,6 +138,84 @@ export default function AttackMonitor({
           onSelectAttack={handleSelectFromMap}
           onScrollToCard={handleSelectFromMap}
         />
+      </div>
+
+      {/* Search input */}
+      <div
+        style={{
+          position: "relative",
+          marginBottom: 12,
+        }}
+      >
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search attacks, locations, parties…"
+          style={{
+            width: "100%",
+            padding: "10px 40px 10px 36px",
+            borderRadius: 8,
+            border: "1px solid var(--color-border)",
+            background: "var(--color-surface)",
+            color: "var(--color-text)",
+            fontSize: 14,
+            outline: "none",
+            boxSizing: "border-box",
+          }}
+        />
+        <span
+          style={{
+            position: "absolute",
+            left: 12,
+            top: "50%",
+            transform: "translateY(-50%)",
+            color: "var(--color-text-muted)",
+            fontSize: 14,
+            pointerEvents: "none",
+          }}
+        >
+          🔍
+        </span>
+        {searchQuery && (
+          <span
+            style={{
+              position: "absolute",
+              right: 10,
+              top: "50%",
+              transform: "translateY(-50%)",
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+            }}
+          >
+            <span
+              style={{
+                fontSize: 11,
+                color: "var(--color-text-muted)",
+                background: "var(--color-border)",
+                padding: "2px 6px",
+                borderRadius: 10,
+              }}
+            >
+              {filtered.length}
+            </span>
+            <button
+              onClick={() => setSearchQuery("")}
+              style={{
+                background: "none",
+                border: "none",
+                color: "var(--color-text-muted)",
+                cursor: "pointer",
+                fontSize: 16,
+                padding: 0,
+                lineHeight: 1,
+              }}
+            >
+              ×
+            </button>
+          </span>
+        )}
       </div>
 
       {/* Severity filter tabs */}
@@ -185,6 +297,7 @@ export default function AttackMonitor({
                   ? () => handleCircleClick(na.attack.id)
                   : undefined
               }
+              searchQuery={debouncedQuery}
             />
           ))
         ) : (
