@@ -17,6 +17,23 @@
     "translated": true
   },
   {
+    "id": "6214e3909a2a47c1",
+    "title_original": "Former Iranian president Mahmoud Ahmedinejad killed in Israeli-US strikes - report",
+    "content_original": "Ahmadinejad served as the president of Iran from 2005 until 2013.",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-888386",
+    "published": "2026-03-01T15:33:59+00:00",
+    "fetched_at": "2026-03-01T14:23:21.332861+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "title_en": "Former Iranian president Mahmoud Ahmedinejad reportedly killed in Israeli-US strikes",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Mahmoud Ahmedinejad, former Iranian president, was reportedly killed in strikes conducted by Israeli and US forces. This incident, if confirmed, signifies a significant escalation in the conflict, targeting a high-profile political figure. The strategic implications could further inflame tensions between Iran and the US-Israel alliance."
+  },
+  {
     "id": "212bfdf4956910ae",
     "title_original": "דיווחים איראניים: מחמוד אחמדינג'אד חוסל לצד שומרי ראשו",
     "content_original": "דיווחים איראניים: מחמוד אחמדינג'אד חוסל לצד שומרי ראשו",
@@ -85,6 +102,23 @@
     "translated": true
   },
   {
+    "id": "6561d50390fe5a69",
+    "title_original": "Khamenei's hidden hand concealed his flaw, and his long-reach of terror - analysis",
+    "content_original": "The killing of Khamenei closes the chapter on one of the most consequential and destructive figures in modern Middle Eastern history.",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-888381",
+    "published": "2026-03-01T14:36:02+00:00",
+    "fetched_at": "2026-03-01T14:23:21.332646+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "title_en": "Khamenei's Killing Ends Era of Middle Eastern Influence",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The assassination of Ayatollah Khamenei marks a significant turning point in the Middle East, as he was a key figure in Iran's military and political leadership. His death could lead to a power vacuum within Iran's regime, potentially impacting the ongoing conflict with the US and its allies. The strategic implications for Iran's IRGC and proxy forces across the region are significant, as his leadership was crucial in orchestrating Iran's regional influence and military strategy."
+  },
+  {
     "id": "43dfa431e8213a88",
     "title_original": "Trump wisely chose Israel, Tucker Carlson wing lost argument - comment",
     "content_original": "The military details will be assessed for years. The political decision is already clear: Trump chose his coalition, and it was the choice Israel needed.",
@@ -102,6 +136,40 @@
     "summary_en": "The article suggests that Trump's choice to align with Israel in the ongoing conflict was strategically sound, contrasting with the views of the Tucker Carlson wing. This decision is framed as crucial for the US-Israel alliance amidst the escalating regional tensions."
   },
   {
+    "id": "efb156e3df549f4c",
+    "title_original": "אזהרה לציבור: הודעות SMS חדשות מתחזות לפיקוד העורף - כך תזהו אותן",
+    "content_original": "מערך הסייבר הלאומי מתריע מפני הודעות SMS המתחזות לפיקוד העורף תחת השם \"Oref Alert\" המכילות בקשה לעדכן לגרסה חדשה של האפליקציה באמצעות קישור מצורף - כך תפעלו מולן",
+    "url": "https://www.maariv.co.il/news/israel/article-1290635",
+    "published": "2026-03-01T14:20:18+00:00",
+    "fetched_at": "2026-03-01T14:23:21.197448+00:00",
+    "source_name": "Maariv",
+    "source_category": "state-aligned",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Israel's National Cyber Directorate Warns of Fake 'Oref Alert' SMS Messages",
+    "relevant": false,
+    "summary_en": "[Not relevant to Iran–US war monitor]",
+    "translated": true
+  },
+  {
+    "id": "f40927e0c16e42b8",
+    "title_original": "המתקשרת הפופולרית חזתה את חיסול חמינאי - וגם את השלום עם איראן | צפו",
+    "content_original": "המתקשרת הפופולרית ריקי קיטרו התראיינה ל\"מעריב\" באוקטובר 2024 - וכבר אז חשפה את גורלם של שונאי ישראל, וגם את האפשרות לשלום עם איראן: \"הם יכולים להבריח אותם לאן שהם רוצים\"",
+    "url": "https://www.maariv.co.il/news/viral/article-1290634",
+    "published": "2026-03-01T14:16:21+00:00",
+    "fetched_at": "2026-03-01T14:23:21.197658+00:00",
+    "source_name": "Maariv",
+    "source_category": "state-aligned",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Israeli psychic predicted the elimination of Khamenei and peace with Iran",
+    "relevant": false,
+    "summary_en": "[Not relevant to Iran–US war monitor]",
+    "translated": true
+  },
+  {
     "id": "ac488b53f12dacaa",
     "title_original": "World reacts to Khamenei's death in Tehran as Israel, US, and Iran continue to trade strikes",
     "content_original": "Russian President Vladimir Putin said on Sunday that the killing of Iranian Supreme Leader Ayatollah Ali Khamenei and members of his family was a \"cynical\" murder.",
@@ -117,6 +185,23 @@
     "translated": true,
     "relevant": true,
     "summary_en": "The assassination of Iranian Supreme Leader Ayatollah Ali Khamenei and his family has drawn international reactions, including condemnation from Russian President Vladimir Putin. The incident occurs amidst ongoing military exchanges between Israel, the US, and Iran, indicating a potential escalation in the conflict. The death of Khamenei could significantly impact Iran's leadership and decision-making during the war."
+  },
+  {
+    "id": "e26f41059508cb09",
+    "title_original": "פרשת הפגישה הלילית: השופט מזרחי ביטל את ההגבלות על צחי ברוורמן - שיוכל לצאת ללונדון",
+    "content_original": "פרשת הפגישה הלילית: השופט קבע צחי ברוורמן יוכל לשוחח עם ראש הממשלה ולנסוע ללונדון. ניתן עיכוב ביצוע על ההחלטה. אחת הסיבות העיקריות: אין עדיין תאריך לגביית עדות בפרשה מראש הממשלה",
+    "url": "https://www.maariv.co.il/news/law/article-1290630",
+    "published": "2026-03-01T14:13:04+00:00",
+    "fetched_at": "2026-03-01T14:23:21.197879+00:00",
+    "source_name": "Maariv",
+    "source_category": "state-aligned",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Israeli Judge Lifts Travel Restrictions on Tzachi Braverman, Allowing Him to Go to London",
+    "relevant": false,
+    "summary_en": "[Not relevant to Iran–US war monitor]",
+    "translated": true
   },
   {
     "id": "c7bdb9f6a8b2c9b5",
