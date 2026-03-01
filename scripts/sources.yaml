@@ -102,13 +102,13 @@ regions:
         type: rss
         language: ru
         url: "https://www.kommersant.ru/RSS/news.xml"
-        category: independent
+        category: state
 
       - name: "RBC"
         type: rss
         language: ru
         url: "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"
-        category: independent
+        category: state
 
       # ── Telegram channels ──
 
