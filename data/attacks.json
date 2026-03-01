@@ -74,6 +74,264 @@
     "lng": 54.0
   },
   {
+    "id": "4a2042643201612c",
+    "title_original": "В Тель-Авиве при ракетной атаке повреждены десятки домов",
+    "content_original": "В Тель-Авиве при ракетной атаке повреждены десятки домов",
+    "url": "https://ria.ru/20260301/tel-aviv-2077658951.html",
+    "published": "2026-03-01T14:22:01+03:00",
+    "fetched_at": "2026-03-01T11:35:20.822686+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Dozens of homes damaged in rocket attack in Tel Aviv",
+    "relevant": true,
+    "summary_en": "The rocket attack on Tel Aviv, likely by Hezbollah or Hamas, resulted in damage to dozens of homes. This incident signifies an escalation in attacks targeting Israeli population centers. The attack underscores the ongoing conflict and potential for further regional instability.",
+    "translated": true,
+    "keyword_matches": 8,
+    "matched_keywords": [
+      "rocket",
+      "attack",
+      "hamas",
+      "hezbollah",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Hamas"
+      ],
+      "location": "Tel Aviv, Israel",
+      "brief": "Hezbollah or Hamas launched a rocket attack on Tel Aviv, damaging dozens of homes and escalating regional tensions."
+    },
+    "lat": 32.08,
+    "lng": 34.78
+  },
+  {
+    "id": "9fc7beecec6b3aed",
+    "title_original": "МВД Бахрейна сообщило об ударе по отелю Crowne Plaza в Манаме",
+    "content_original": "Нанесен материальный ущерб",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26598757",
+    "published": "2026-03-01T14:18:45+03:00",
+    "fetched_at": "2026-03-01T11:35:20.095903+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Bahrain's Ministry of Interior Reports Attack on Crowne Plaza Hotel in Manama",
+    "relevant": true,
+    "summary_en": "An attack targeted the Crowne Plaza Hotel in Manama, Bahrain, causing material damage. The incident's perpetrators and motives are currently unknown, but it raises concerns given the ongoing regional conflict and Bahrain's proximity to US naval bases. This could signify an escalation in asymmetric warfare or proxy activities in the Gulf region.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "conflict",
+      "attack",
+      "proxy"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "medium",
+      "parties_involved": [
+        "unknown perpetrators",
+        "Bahrain security forces"
+      ],
+      "location": "Manama, Bahrain",
+      "brief": "An attack on the Crowne Plaza Hotel in Manama, Bahrain raises concerns due to the ongoing regional conflict and Bahrain's proximity to US naval bases, potentially indicating an escalation in asymmetric warfare."
+    },
+    "merged_source_count": 2,
+    "lat": 26.07,
+    "lng": 50.55
+  },
+  {
+    "id": "5a7edafdc76a2242",
+    "title_original": "Система ПВО отразила ракетную атаку по военной базе и консульству США в Эрбиле",
+    "content_original": "Система ПВО отразила ракетную атаку по военной базе и консульству США в Эрбиле",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26598735",
+    "published": "2026-03-01T14:18:26+03:00",
+    "fetched_at": "2026-03-01T11:35:20.096097+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Air Defense System Intercepts Missile Attack on US Military Base and Consulate in Erbil",
+    "relevant": true,
+    "summary_en": "An air defense system intercepted a missile attack targeting a US military base and consulate in Erbil, Iraq. The attack highlights ongoing threats against US assets in the region amid the Iran-US conflict. This incident underscores the persistent insecurity for US facilities and personnel in northern Iraq.",
+    "translated": true,
+    "keyword_matches": 8,
+    "matched_keywords": [
+      "conflict",
+      "air defense",
+      "attack",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Iraq"
+      ],
+      "location": "Erbil, Iraq",
+      "brief": "An Iranian missile attack targeting US military and diplomatic facilities in Erbil was intercepted by air defenses, highlighting ongoing threats against US assets in the region."
+    },
+    "lat": 36.19,
+    "lng": 44.01
+  },
+  {
+    "id": "2bb23c065c42cb06",
+    "title_original": "В Исламабаде в районе посольства США произошла стрельба",
+    "content_original": "В Исламабаде в районе посольства США произошла стрельба",
+    "url": "https://ria.ru/20260301/islamabad-2077658704.html",
+    "published": "2026-03-01T14:17:42+03:00",
+    "fetched_at": "2026-03-01T11:35:20.823088+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Shooting near US Embassy in Islamabad",
+    "relevant": true,
+    "summary_en": "An incident involving gunfire occurred near the US Embassy in Islamabad, Pakistan. While the exact details and perpetrators are unclear, the proximity to a major US diplomatic facility raises security concerns. This could impact US-Pakistan relations and regional security dynamics amid the ongoing US-Iran conflict.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "medium",
+      "parties_involved": [
+        "US",
+        "Pakistan",
+        "Unknown attackers"
+      ],
+      "location": "Islamabad, Pakistan",
+      "brief": "An incident involving gunfire near the US Embassy in Islamabad raises security concerns and could impact regional stability."
+    },
+    "lat": 33.6938118,
+    "lng": 73.0651511
+  },
+  {
+    "id": "18a31c91bdd97dfe",
+    "title_original": "IRIB: новая волна ракетных ударов Ирана будет сопровождаться атаками БПЛА",
+    "content_original": "IRIB: новая волна ракетных ударов Ирана будет сопровождаться атаками БПЛА",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26598751",
+    "published": "2026-03-01T14:15:47+03:00",
+    "fetched_at": "2026-03-01T11:35:20.096283+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Iran Announces New Wave of Missile Strikes Accompanied by Drone Attacks",
+    "relevant": true,
+    "summary_en": "Iran's Islamic Republic of Iran Broadcasting (IRIB) has announced that Iran will launch a new wave of missile strikes against US and allied targets, which will be accompanied by drone attacks. This indicates an escalation in Iran's military response and poses a significant threat to US forces and assets in the region, including in Iraq, Syria, and the Gulf. The strategic significance lies in Iran's continued use of combined missile and drone tactics to challenge US defenses and inflict damage on military installations.",
+    "translated": true,
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "threat",
+      "drone",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us|ballistic_missile|drone_strike|escalation",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "IRGC"
+      ],
+      "location": "Unspecified, likely Middle East region",
+      "brief": "Iran announces coordinated missile and drone strikes targeting US and allied forces, indicating a significant escalation in military confrontation."
+    }
+  },
+  {
+    "id": "e388e238e73aef19",
+    "title_original": "В Ормузском проливе тонет пораженный иранской ракетой танкер",
+    "content_original": "Из судна идет черный дым",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26598723",
+    "published": "2026-03-01T14:12:06+03:00",
+    "fetched_at": "2026-03-01T11:35:20.097071+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Tanker Sinking in the Strait of Hormuz After Being Hit by Iranian Missile",
+    "relevant": true,
+    "summary_en": "An unidentified tanker was struck by an Iranian missile in the Strait of Hormuz, causing it to emit black smoke and begin sinking. This incident highlights the escalating maritime tensions in the strategically vital waterway, which is critical for global oil shipments. The attack could provoke a strong international response, particularly from the US and its allies, given the strategic importance of the Strait.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "naval_incident",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Unidentified Tanker"
+      ],
+      "location": "Strait of Hormuz",
+      "brief": "An Iranian missile strike on an unidentified tanker in the Strait of Hormuz represents a significant escalation in maritime tensions in a critical global oil shipping route."
+    },
+    "merged_source_count": 4,
+    "lat": 26.56,
+    "lng": 56.25
+  },
+  {
+    "id": "fc8de5fba91b092d",
+    "title_original": "В Дохе произошли взрывы",
+    "content_original": "Работают системы ПВО",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26598687",
+    "published": "2026-03-01T14:06:49+03:00",
+    "fetched_at": "2026-03-01T11:35:20.097445+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Explosions Occur in Doha",
+    "relevant": true,
+    "summary_en": "Explosions have been reported in Doha, Qatar, with air defense systems active. This raises concerns about potential attacks on US bases in the region or regional escalation amid the ongoing Iran-US conflict.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "conflict",
+      "air defense"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "escalation",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Qatar",
+        "Iran-backed groups"
+      ],
+      "location": "Doha, Qatar",
+      "brief": "Explosions in Doha raise concerns of potential attacks on US bases and regional escalation amid the Iran-US conflict."
+    },
+    "merged_source_count": 2,
+    "lat": 25.29,
+    "lng": 51.53
+  },
+  {
     "id": "be949111360ffee0",
     "title_original": "Ynet: порядка 40 зданий повреждены в центре Израиля при обстреле из Ирана",
     "content_original": "Ynet: порядка 40 зданий повреждены в центре Израиля при обстреле из Ирана",
@@ -222,6 +480,45 @@
     },
     "lat": 25.33,
     "lng": 51.23
+  },
+  {
+    "id": "d0b677f8f51258ff",
+    "title_original": "Bahrain Announces Interception of New Wave of Iranian Ballistic Missiles and Drones",
+    "content_original": "Manama, March 01 (QNA) - Bahrain's National Communication Centre announced that the country's missile air defense systems efficiently and vigilantly intercepted a new wave of Iranian ballistic missiles and drones targeting the country, destroying and neutralizing them with high effectiveness.",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-3/1/bahrain-announces-interception-of-new-wave-of-iranian-ballistic-missiles-and-drones",
+    "published": "2026-03-01T13:11:51+00:00",
+    "fetched_at": "2026-03-01T11:35:46.077762+00:00",
+    "source_name": "QNA General (English)",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Bahrain Intercepts New Wave of Iranian Ballistic Missiles and Drones",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Bahrain's missile air defense systems intercepted and neutralized a new wave of Iranian ballistic missiles and drones targeting the country. This incident highlights the ongoing escalation of hostilities in the Gulf region, with Iran continuing to target US allies. The successful interception underscores the effectiveness of Bahrain's defenses and the persistent threat posed by Iranian missile and drone attacks.",
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "drone",
+      "threat",
+      "air defense",
+      "ballistic",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Bahrain",
+        "US allies"
+      ],
+      "location": "Gulf region",
+      "brief": "Iran launched a ballistic missile and drone attack targeting Bahrain, which was intercepted by Bahraini air defenses, indicating escalating hostilities in the Gulf."
+    },
+    "lat": 26.0,
+    "lng": 52.0
   },
   {
     "id": "05b9ef31ea166e2e",
@@ -973,6 +1270,41 @@
     "lng": 34.8
   },
   {
+    "id": "01883e6b3bc1d360",
+    "title_original": "Duqm Commercial Port in Oman Targeted by Two Drones",
+    "content_original": "Muscat, March 01 (QNA) - The Port of Duqm in the Sultanate of Oman was targeted by two drones on Sunday.",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-3/1/duqm-commercial-port-in-oman-targeted-by-two-drones",
+    "published": "2026-03-01T11:44:52+00:00",
+    "fetched_at": "2026-03-01T11:35:46.078947+00:00",
+    "source_name": "QNA General (English)",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Duqm Commercial Port in Oman Targeted by Two Drones",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Two drones targeted the Port of Duqm in Oman. This incident is significant as the port is a strategic location in the region and has been used by US and allied naval forces. The attack could indicate an escalation in targeting commercial and strategic infrastructure in the Gulf region, potentially linked to ongoing hostilities.",
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "medium",
+      "parties_involved": [
+        "Iran",
+        "Oman",
+        "US"
+      ],
+      "location": "Duqm Commercial Port, Oman",
+      "brief": "Two drones targeted the strategically important Duqm Commercial Port in Oman, potentially indicating an escalation in targeting commercial and strategic infrastructure in the Gulf region."
+    },
+    "lat": 21.0000287,
+    "lng": 57.0036901
+  },
+  {
     "id": "bde73532f32a4945",
     "title_original": "Is Dubai airport open today? What we know after Iranian missile strikes damage site, iconic Burj Al Arab hotel",
     "content_original": "A temporary partial closure of the UAE airspace has impacted flights, including those operated by Dubai International Airport-based airlines Emirates, flydubai.",
@@ -1116,6 +1448,155 @@
     "lng": 69.1850584
   },
   {
+    "id": "9bd7592a3d5e3997",
+    "title_original": "⚡️ Missiles have arrived, red alerts",
+    "content_original": "⚡️ Missiles have arrived, red alerts",
+    "url": "https://t.me/warmonitors/40205",
+    "published": "2026-03-01T11:31:32+00:00",
+    "fetched_at": "2026-03-01T11:36:29.054927+00:00",
+    "source_name": "War Monitors (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Missiles have arrived, red alerts",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Missiles have been detected, triggering red alert protocols. This suggests an ongoing missile attack, likely targeting US forces or allies in the region, indicating a significant escalation in hostilities. The alert status implies active defensive measures are being taken by affected parties.",
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "attack",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "regional allies"
+      ],
+      "location": "Middle East",
+      "brief": "Missile attack detected triggering red alert protocols, indicating a major escalation in US-Iran hostilities with active defensive measures being implemented."
+    },
+    "lat": 29.0,
+    "lng": 47.0
+  },
+  {
+    "id": "7430932a7cf0b0a5",
+    "title_original": "ضربات صاروخية باتجاه الكيان الصهيوني",
+    "content_original": "ضربات صاروخية باتجاه الكيان الصهيوني",
+    "url": "https://t.me/Electrohizbullah/156530",
+    "published": "2026-03-01T11:26:08+00:00",
+    "fetched_at": "2026-03-01T11:36:32.289854+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Missile Strikes Targeting Israel",
+    "relevant": true,
+    "summary_en": "Missiles were launched towards Israel, likely by Hezbollah or other Iran-backed groups. This represents an escalation on Israel's northern border amid the broader Iran-US conflict. The strikes threaten regional stability and draw Israel further into the conflict.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "conflict",
+      "hezbollah",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran"
+      ],
+      "location": "Israel-Lebanon border",
+      "brief": "Missile strikes by Hezbollah targeting Israel escalate regional tensions amid the Iran-US conflict."
+    },
+    "lat": 33.1,
+    "lng": 35.3
+  },
+  {
+    "id": "855f4963e14ee868",
+    "title_original": "Newspapers Expresses Strong Condemnation and Denunciation of Iran's Targeting of Qatar and Four Gulf Countries",
+    "content_original": "Doha, March 01 (QNA) - Qatari newspapers expressed in their Sunday editorials strong condemnation and denunciation of the Iranian attack that targeted the State of Qatar and four other Gulf countries in its attempt to force peaceful countries into its war with the Israeli entity and the United States of America.",
+    "url": "https://qna.org.qa/en/News-Area/News/2026-3/1/qatar-newspaper-editorials",
+    "published": "2026-03-01T11:25:04+00:00",
+    "fetched_at": "2026-03-01T11:35:44.997527+00:00",
+    "source_name": "QNA Qatar (English)",
+    "source_category": "state",
+    "language": "en",
+    "region": "gulf",
+    "skip_translation": true,
+    "title_en": "Qatari newspapers condemn Iran's attacks on Qatar and four Gulf countries",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Qatari newspapers have strongly condemned Iran's attacks targeting Qatar and four other Gulf countries. The attacks are part of Iran's efforts to involve peaceful nations in its ongoing conflict with the US and Israel. This development highlights escalating tensions and Iran's attempts to expand the conflict in the Gulf region.",
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Qatar",
+        "Gulf Countries",
+        "US",
+        "Israel"
+      ],
+      "location": "Gulf region",
+      "brief": "Iran's attacks on Qatar and four other Gulf countries escalate tensions and involve multiple parties in the ongoing US-Iran conflict."
+    },
+    "merged_source_count": 2,
+    "lat": 26.0,
+    "lng": 52.0
+  },
+  {
+    "id": "ba181cbfacf72bce",
+    "title_original": "#الجمهورية_الإسلامية   الدفاعات الجوية الإيرانية تتصدى لأهداف معادية في سماء شيراز",
+    "content_original": "#الجمهورية_الإسلامية الدفاعات الجوية الإيرانية تتصدى لأهداف معادية في سماء شيراز",
+    "url": "https://t.me/Electrohizbullah/156529",
+    "published": "2026-03-01T11:17:46+00:00",
+    "fetched_at": "2026-03-01T11:36:32.289341+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Iranian Air Defenses Intercept Hostile Targets Over Shiraz",
+    "relevant": true,
+    "summary_en": "Iranian air defenses engaged hostile targets over Shiraz, indicating a potential attack or reconnaissance operation targeting the region. This event highlights ongoing tensions and the active state of Iranian air defenses amid the conflict with the US. The incident's strategic significance lies in its demonstration of Iran's defensive posture and readiness to counter airborne threats.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "conflict",
+      "attack",
+      "intercept"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "medium",
+      "parties_involved": [
+        "Iran",
+        "US",
+        "Iranian Air Defenses",
+        "Potential US/Israeli Proxies"
+      ],
+      "location": "Shiraz, Iran",
+      "brief": "Iranian air defenses intercepted hostile targets over Shiraz, indicating a medium-severity proxy operation amid ongoing US-Iran tensions."
+    },
+    "lat": 29.59,
+    "lng": 52.58
+  },
+  {
     "id": "73e221aab98fb526",
     "title_original": "Иран начал ракетную атаку на Израиль",
     "content_original": "Иран начал ракетную атаку на Израиль",
@@ -1153,6 +1634,82 @@
     "merged_source_count": 2,
     "lat": 29.0,
     "lng": 47.0
+  },
+  {
+    "id": "503b9b92c2066017",
+    "title_original": "Iran: Thousands take to streets to mourn Ali Khamenei's killing",
+    "content_original": "Iran: Thousands take to streets to mourn Ali Khamenei's killing Submitted by MEE staff on Sun, 03/01/2026 - 10:21 Tearful mourners gather at shrines and in city squares after state media confirms US-Israeli killing of Iranian supreme leader People mourn Iranian Supreme Leader Ali Khamenei, killed in joint US-Israeli strikes, at a square in Tehran on 1 March 2026 (AFP/Atta Kenare) Off Thousands of mourners have gathered across Iran to mourn and protest following the death of Supreme Leader Ali Khamenei.&nbsp; Khamenei, who had been&nbsp;the supreme leader since 1989, was killed in the opening salvo of US and Israeli attacks on Saturday morning.&nbsp; His death was confirmed by Iranian state media in the early hours of Sunday.&nbsp; Mourners gather in Enghelab Square in Tehran, many dressed in black, waving Iranian flags and holding photos of Khamenei.&nbsp; According to AFP, they chanted slogans including “Death to America” and called for retaliation against Israel and the US. The Irani...",
+    "url": "https://www.middleeasteye.net/news/iran-thousands-take-streets-mourn-ali-khameneis-killing",
+    "published": "2026-03-01T11:14:34+00:00",
+    "fetched_at": "2026-03-01T11:35:47.949281+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Thousands mourn death of Iranian Supreme Leader Ali Khamenei killed in US-Israeli strikes",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Thousands of Iranians took to the streets to mourn the death of Supreme Leader Ali Khamenei, who was killed in US-Israeli strikes. The mourning and protests occurred across Iran after state media confirmed his death. This event signifies a significant escalation in the conflict and could lead to further retaliatory actions by Iran.",
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "conflict",
+      "killed",
+      "death"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "Israel"
+      ],
+      "location": "Iran",
+      "brief": "US-Israeli strikes killed Iranian Supreme Leader Ali Khamenei, escalating the conflict significantly."
+    },
+    "merged_source_count": 8,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "2d08a57ad4d2c3d6",
+    "title_original": "Israeli army says 'unaware' of strike on school that killed at least 115",
+    "content_original": "Israeli army says 'unaware' of strike on school that killed at least 115 The Israeli military said Sunday it was \"unaware\" of a US or Israeli air strike on a school that left at least 115 dead in southern Iran. \"At this stage, we have no knowledge of an Israeli or US airstrike at that location... We operate with extreme precision,\" military spokesman Lieutenant Colonel Nadav Shoshani said at a press briefing. State media reported at least 115 killed in the air strike that destroyed Shajareh Tayyebeh school in the city of Minab, in Hormozgan province.",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-says-unaware-strike-school-killed-least-115",
+    "published": "2026-03-01T11:13:59+00:00",
+    "fetched_at": "2026-03-01T11:35:47.949519+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Israeli army denies knowledge of strike on Iranian school killing at least 115",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The Israeli military has stated it is unaware of any US or Israeli airstrike on a school in southern Iran that reportedly killed at least 115 people. This incident, if confirmed as a strike by either country, could represent a significant escalation in the conflict and highlights the potential for unintended civilian casualties.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "airstrike",
+      "strike",
+      "killed",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike",
+      "severity": "major",
+      "parties_involved": [
+        "Israel",
+        "Iran",
+        "US"
+      ],
+      "location": "southern Iran",
+      "brief": "Unconfirmed airstrike on an Iranian school reportedly killed at least 115 people, which would represent a major escalation if confirmed as Israeli or US action."
+    },
+    "lat": 29.0,
+    "lng": 54.0
   },
   {
     "id": "abd974d89d62cd71",
@@ -1194,6 +1751,44 @@
     "merged_source_count": 5,
     "lat": 31.5,
     "lng": 34.8
+  },
+  {
+    "id": "29c483da1477c53a",
+    "title_original": "⚡️ Massive airstrikes on Tehran",
+    "content_original": "⚡️ Massive airstrikes on Tehran",
+    "url": "https://t.me/warmonitors/40202",
+    "published": "2026-03-01T11:11:33+00:00",
+    "fetched_at": "2026-03-01T11:36:29.053179+00:00",
+    "source_name": "War Monitors (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Massive airstrikes on Tehran",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The US has conducted massive airstrikes on Tehran, targeting IRGC and potentially nuclear facilities. This represents a significant escalation in the conflict, demonstrating a direct attack on Iran's capital. The strikes are likely to provoke a strong response from Iran and its proxies across the region.",
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "conflict",
+      "attack",
+      "nuclear",
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike",
+      "severity": "major",
+      "parties_involved": [
+        "US",
+        "Iran",
+        "IRGC"
+      ],
+      "location": "Tehran, Iran",
+      "brief": "The US has launched massive airstrikes targeting IRGC and nuclear facilities in Tehran, marking a significant escalation in the conflict."
+    },
+    "lat": 35.69,
+    "lng": 51.39
   },
   {
     "id": "9c60e93f44246dcb",
