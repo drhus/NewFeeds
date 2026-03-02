@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T02-28-51.773630_plus_00-00.json",
+    "generated_at": "2026-03-02T02:28:51.773630+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 785,
+    "summary_preview": "The Iran-US conflict has entered a critical new phase with confirmed first US casualties (3 service members killed in Kuwait), Iran's Supreme Leader Khamenei confirmed dead, and the Strait of Hormuz e"
+  },
+  {
     "filename": "2026-03-02T01-59-08.612528_plus_00-00.json",
     "generated_at": "2026-03-02T01:59:08.612528+00:00",
     "threat_label": "MAJOR",

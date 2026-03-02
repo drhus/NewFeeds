@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-03-02T02:28:51.773630+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 785,
+    "incident_count_6h": 228,
+    "severity_breakdown": {
+      "major": 354,
+      "high": 279,
+      "medium": 149,
+      "low": 3
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 176,
+    "articles_analyzed": 158,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "china",
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "south_asia",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US conflict has entered a critical new phase with confirmed first US casualties (3 service members killed in Kuwait), Iran's Supreme Leader Khamenei confirmed dead, and the Strait of Hormuz effectively closed due to IRGC tanker attacks. The 24h incident count rose to 785 (Major: 354), with direct US-Iran military engagement now spanning six fronts. Hezbollah has formally entered the war, targeting Israeli cities. Oil prices surged 13% to $82/barrel amid fears of Hormuz disruption.",
+  "whats_new": [
+    "Confirmed: 3 US service members killed in Iranian strike on Kuwait base — first American combat deaths in the conflict",
+    "Iran's Supreme Leader Ali Khamenei confirmed dead from US-Israeli strike — IRGC announced 9th wave of Operation True Promise 4 in retaliation",
+    "IRGC claims strikes on 3 US/UK oil tankers attempting to exit Persian Gulf through Strait of Hormuz — chokepoint effectively closed",
+    "Bahrain confirms downing 61 Iranian ballistic missiles and 34 drones targeting US 5th Fleet base",
+    "Hezbollah formally announces entering war, targets Haifa with rockets and drones — IDF Chief says 'Hezbollah opened a campaign against Israel'",
+    "Trump announces US destroyed 9 Iranian navy ships — escalation of direct US-Iran maritime engagement",
+    "Israeli cabinet committee meeting targeted by IRGC rocket barrage in Jerusalem — fell near meeting location",
+    "UK permits US to use British bases for defensive strikes on Iranian missiles — Starmer confirms"
+  ],
+  "confirmed_events": [
+    "Multi-source confirmed: Iranian missile strike on Bahrain (US 5th Fleet) — 61 missiles and 34 drones all intercepted",
+    "Multi-source confirmed: 3 American service members killed in Iranian counterattack on Kuwait base (March 1-2)",
+    "Multi-source confirmed: Iranian parliament building attacked, explosions in Tehran and Karaj — ongoing US-Israeli strikes on Iranian territory",
+    "Multi-source confirmed: Bahrain offshore facility near Salman Port attacked by Iran",
+    "Multi-source confirmed: Israeli airstrikes on Beirut Dahieh (Hezbollah stronghold) following Hezbollah rocket attacks on Haifa"
+  ],
+  "unverified_emerging": [
+    "Single source (Fars): At least 170 students and teachers killed in US-Israel strikes on Iranian school — requires independent verification",
+    "Single source (Al Alam): UNESCO condemns Israeli attack on girls' elementary school in southern Iran — unconfirmed details",
+    "Single source (Press TV): Iranian Shahed-136 drone footage in Dubai airspace — raises questions about UAE airspace security",
+    "Single source (Sahafi Jordan): Iran contacted US through Omani mediators requesting to resume nuclear talks — if true, potential de-escalation pathway"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "All flights to/from Israel face severe disruption — Tel Aviv airport operational but under missile threat",
+      "RAF Akrotiri in Cyprus targeted by suspected Iranian drone — UK military responding",
+      "European airspace increasingly affected — Cyprus attacks represent first Iranian strike on European territory"
+    ],
+    "supply_chain": [
+      "Strait of Hormuz effectively closed — IRGC targeting oil tankers, major shipping disruption expected",
+      "Global oil supply shock: prices jumped 13% to $82/barrel (14-month high)",
+      "Offshore facilities in Bahrain attacked — Gulf energy infrastructure under direct threat"
+    ],
+    "market_macro": [
+      "Oil prices surge 13% to $82/barrel — 14-month high amid Hormuz closure fears",
+      "Hong Kong Stock Exchange falls on Iran war escalation — regional markets under pressure",
+      "Energy markets bracing for continued shock as conflict expands across six fronts"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "The conflict will continue escalating over the next 24-72h. With Khamenei confirmed dead and Iran vowing revenge, IRGC will sustain missile barrages on US bases and Israeli territory. Hezbollah's formal entry adds a northern Israeli front. US will continue destroying Iranian military assets while Trump warns more US casualties expected. The Strait of Hormuz closure threatens global oil supplies — expect continued market volatility. Iran may attempt diplomatic outreach but military momentum suggests both sides prioritizing battlefield outcomes.",
+    "escalation_risks": [
+      "Iran expands missile attacks on Gulf states — Saudi Arabia summoned Iran envoy, indicating growing Gulf Arab alignment against Tehran",
+      "Nuclear facility strikes could trigger WMD escalation concerns — US accelerating destruction of Iranian missile capabilities",
+      "Additional US service member casualties likely — Trump acknowledged 'more will likely be killed'",
+      "Hezbollah-Israel northern border escalates into full-scale war with potential Lebanese infrastructure damage",
+      "Iranian drone/proxy attacks on additional European bases — Cyprus already targeted"
+    ],
+    "de_escalation_pathways": "Single-source reports indicate Iran requested nuclear talks through Omani mediators — if verified, this represents the first potential diplomatic off-ramp. However, Iranian military momentum and IRGC revenge operations for Khamenei's death suggest leadership prioritizing retaliation over negotiation. US conditions for de-escalation unclear but Trump has demanded Iranian forces surrender weapons. Any ceasefire would require major IRGC operational pause and US willingness to halt strikes on Iranian territory."
+  }
+}
