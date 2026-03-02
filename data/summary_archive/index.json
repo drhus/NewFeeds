@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T13-59-33.304607_plus_00-00.json",
+    "generated_at": "2026-03-02T13:59:33.304607+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 844,
+    "summary_preview": "The Iran-US armed conflict continues rapid escalation with significant new developments: Iranian missiles struck Qatar (water/power infrastructure), an oil tanker attack killed one person off Oman, an"
+  },
+  {
     "filename": "2026-03-02T12-44-27.934439_plus_00-00.json",
     "generated_at": "2026-03-02T12:44:27.934439+00:00",
     "threat_label": "MAJOR",

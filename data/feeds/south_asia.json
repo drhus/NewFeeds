@@ -1,5 +1,36 @@
 [
   {
+    "id": "b78297371c80d08d",
+    "title_original": "Attack on oil tanker ‘Skylight’ highlights risks to Indian seafarers in Persian Gulf route",
+    "content_original": "Three ships have been reported to have been attacked so far since the latest round of hostilities began",
+    "url": "https://www.thehindu.com/news/national/iran-israel-war-oil-tanker-skylight-attack-strait-of-hormuz/article70695759.ece",
+    "published": "2026-03-02T19:16:39+05:30",
+    "fetched_at": "2026-03-02T14:05:08.053297+00:00",
+    "source_name": "The Hindu International",
+    "source_category": "independent",
+    "language": "en",
+    "region": "south_asia",
+    "skip_translation": true,
+    "title_en": "Attack on oil tanker 'Skylight' highlights risks to Indian seafarers in Persian Gulf route",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "An oil tanker called 'Skylight' was attacked in the Persian Gulf, marking at least three ships hit since the latest round of hostilities began between Iran and the US. The attack underscores heightened risks to international shipping and civilian mariners, particularly Indian crew members, traversing the strategically vital Persian Gulf theater where ongoing conflict has escalated maritime security concerns."
+  },
+  {
+    "id": "a3ab8e0f9d1c9ce2",
+    "title_original": "US-Israel war with Iran: Iranians celebrate with YMCA dance with US, Israel, and Iran flags after Khamenei’s death",
+    "url": "https://timesofindia.indiatimes.com/world/middle-east/us-israel-war-with-iran-iranians-celebrate-with-ymca-dance-with-us-israel-and-iran-flags-after-khameneis-death/articleshow/128947935.cms",
+    "published": "2026-03-02T19:09:30+05:30",
+    "fetched_at": "2026-03-02T14:05:08.227126+00:00",
+    "source_name": "Times of India World",
+    "source_category": "independent",
+    "language": "en",
+    "region": "south_asia",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
     "id": "a1346743036530c8",
     "title_original": "Punjab CM approves province’s first cybercrime investigation unit",
     "url": "https://www.dawn.com/news/1977497/punjab-cm-approves-provinces-first-cybercrime-investigation-unit",
