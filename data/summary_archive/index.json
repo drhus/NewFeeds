@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T05-03-01.769832_plus_00-00.json",
+    "generated_at": "2026-03-02T05:03:01.769832+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 830,
+    "summary_preview": "The Iran-US conflict continues at MAJOR intensity with 830 incidents in 24h. The most significant escalation is IRGC's ballistic missile volley against the USS Abraham Lincoln carrier — the first know"
+  },
+  {
     "filename": "2026-03-02T04-37-21.084561_plus_00-00.json",
     "generated_at": "2026-03-02T04:37:21.084561+00:00",
     "threat_label": "MAJOR",

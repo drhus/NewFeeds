@@ -1,5 +1,22 @@
 [
   {
+    "id": "0b244a9e2ed4a3fb",
+    "title_original": "6 حمله موشکی رژیم صهیونی به مناطق مسکونی سنندج",
+    "content_original": "رژیم صهیونی 6 بار نقاط مختلف ‌سنندج را بمباران‌کرد.",
+    "url": "https://www.tasnimnews.ir/fa/news/1404/12/11/3528961/6-%D8%AD%D9%85%D9%84%D9%87-%D9%85%D9%88%D8%B4%DA%A9%DB%8C-%D8%B1%DA%98%DB%8C%D9%85-%D8%B5%D9%87%DB%8C%D9%88%D9%86%DB%8C-%D8%A8%D9%87-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D9%85%D8%B3%DA%A9%D9%88%D9%86%DB%8C-%D8%B3%D9%86%D9%86%D8%AF%D8%AC",
+    "published": "2026-03-02T08:21:00+03:30",
+    "fetched_at": "2026-03-02T05:06:47.177747+00:00",
+    "source_name": "Tasnim News",
+    "source_category": "state-aligned",
+    "language": "fa",
+    "region": "iran",
+    "skip_translation": false,
+    "title_en": "Zionist Regime Conducts 6 Missile Attacks on Residential Areas of Sanandaj",
+    "relevant": true,
+    "summary_en": "Israeli forces carried out six missile strikes targeting residential areas in Sanandaj, the capital of Kurdistan province in northwestern Iran. The attacks represent a significant escalation in Israeli operations against Iranian territory, expanding beyond previously targeted military and nuclear facilities to include civilian population centers in Iran proper.",
+    "translated": true
+  },
+  {
     "id": "ff0ae11ad9f6d7cb",
     "title_original": "ویترین تسنیم شماره 960/ «سیدالشهدای ایران»",
     "content_original": "روح ملکوتی امام خامنه ای(قدس سره) به ملکوت اعلی پیوست.",
@@ -66,6 +83,40 @@
     "relevant": true,
     "summary_en": "The Israeli enemy carried out a series of airstrikes on Beirut's southern suburbs, targeting residential buildings, resulting in destruction and damage to public and private property. This strike targets a Hezbollah stronghold area, representing further escalation on the Lebanon front of the ongoing regional conflict linked to the Iran-US war.",
     "translated": true
+  },
+  {
+    "id": "db87eab266330d90",
+    "title_original": "\"A conflict that could spread across West Asia and potentially develop into a world conflict.\" Dr. Phil Bevin says th...",
+    "content_original": "\"A conflict that could spread across West Asia and potentially develop into a world conflict.\" Dr. Phil Bevin says the US-Iran military confrontation may lead to a world war. Watch in full @PalestineDeclassified",
+    "url": "https://t.me/presstv/177574",
+    "published": "2026-03-02T05:01:36+00:00",
+    "fetched_at": "2026-03-02T05:08:07.270657+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "A conflict that could spread across West Asia and potentially develop into a world conflict.",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Analyst Dr. Phil Bevin warns that the ongoing US-Iran military confrontation in West Asia (Middle East) risks spreading across the region and potentially escalating into a world conflict. The statement comes amid active hostilities including Iranian missile/drone strikes on US bases and US strikes on Iranian assets, raising concerns about broader regional war."
+  },
+  {
+    "id": "03d6be839e6e4451",
+    "title_original": "Growing concern inside the Pentagon and among Trump administration members that the war with Iran could \"spiral out o...",
+    "content_original": "Growing concern inside the Pentagon and among Trump administration members that the war with Iran could \"spiral out of control\", with military leaders worried that weeks of sustained fighting could strain air defense inventories, The Washington Post reports. @PressTV",
+    "url": "https://t.me/presstv/177573",
+    "published": "2026-03-02T04:58:17+00:00",
+    "fetched_at": "2026-03-02T05:08:07.269868+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "Pentagon and Trump administration concerned war with Iran could spiral out of control",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Pentagon and Trump administration officials are increasingly concerned that the war with Iran could 'spiral out of control,' with military leaders warning that weeks of sustained fighting could strain or deplete air defense inventories. This signals rising escalation concerns within US leadership about the sustainability of current operations."
   },
   {
     "id": "d44fe257f2a7280e",
