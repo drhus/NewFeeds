@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-03-02T17:10:11.820247+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 779,
+    "incident_count_6h": 156,
+    "severity_breakdown": {
+      "major": 352,
+      "high": 246,
+      "medium": 174,
+      "low": 7
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 92,
+    "articles_analyzed": 202,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "china",
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "south_asia",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US conflict has reached a critical inflection point with confirmed deaths of Iran's Supreme Leader Khamenei and his wife in Israeli strikes on Tehran, and US CENTCOM confirming the downing of three F-15E jets over Kuwait. Iran has launched its 11th wave of attacks (Operation True Promise 4) targeting 500+ US and Israeli sites with 700+ drones and hundreds of missiles. The death toll includes four US soldiers killed, while Gulf states are shifting toward active defense against Iranian attacks. Pentagon projects operations lasting 'several weeks' with Trump not ruling out ground troops.",
+  "whats_new": [
+    "Khamenei confirmed dead and his wife died after Israeli strike on Tehran residence (16:40+03:00) — major leadership vacuum",
+    "US CENTCOM confirms Iranian air defense downed three F-15E jets over Kuwait — first confirmed US aircraft losses",
+    "US soldier deaths rise to four from Iranian attacks — direct Iran-US casualties escalate",
+    "Pentagon indicates Iran operations could last 'several weeks'; Trump doesn't rule out boots on ground",
+    "Qatar claims downing two Iranian fighter jets, intercepting 7 missiles and 5 drones — Gulf state directly engages Iran",
+    "Explosion reported at Isfahan nuclear facility amid US-Israeli strikes on Iranian territory",
+    "Spain denies US use of Spanish bases for Iran attacks — NATO ally diplomatic rift emerges"
+  ],
+  "confirmed_events": [
+    "Confirmed by multiple sources: Iranian air defense shot down three US F-15E jets over Kuwait (CENTCOM acknowledgment)",
+    "Confirmed: Iran Supreme Leader Khamenei killed in US-Israeli strike on Tehran; wife also dead",
+    "Confirmed: At least 555 Iranians killed since February 28 across 131 counties; 168 children in Minab school strike",
+    "UAE successfully intercepted 9 ballistic missiles, 6 cruise missiles, and 148 Iranian drones",
+    "Lebanese government announced ban on Hezbollah's military activities — major proxy rupture"
+  ],
+  "unverified_emerging": [
+    "Explosion at nuclear facility in Isfahan — single source report, unverified damage extent (2026-03-02T17:05+02:00)",
+    "Qatar claims downing two Iranian SU-24 aircraft — Iran has not responded; unconfirmed by independent sources",
+    "IRGC claims 500 US/Israeli targets hit with 700+ drones/missiles — unverified scale, though attacks confirmed",
+    "Hezbollah claims dozens killed in Israeli Dahieh strike; Israeli drone strike on Beirut residential building — casualty numbers unverified"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "US embassy in Bahrain suspended operations due to regional tension",
+      "Jordan announced partial/temporary airspace closure — impacting regional flights",
+      "Airspace disruptions across Gulf region: Dubai, Abu Dhabi, Qatar airports affected"
+    ],
+    "supply_chain": [
+      "Major Gulf ports operational but under threat — shipping routes through Strait of Hormuz increasingly contested",
+      "Aramco refinery in Saudi Arabia attacked — potential supply disruption if sustained",
+      "UAE air defenses stretched intercepting 163 Iranian weapons — defense resources being depleted"
+    ],
+    "market_macro": [
+      "Oil prices surging on supply disruption fears — Strait of Hormuz transit threat",
+      "Gulf cooperation council states moving toward ending neutrality — potential collective action against Iran",
+      "Russia/China observing — Putin urging ceasefire, while US-China relations potentially complicated by Mideast escalation"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "Conflict entering sustained phase with Pentagon projecting 'several weeks' of operations. Khamenei's death creates leadership vacuum but Iran signals prepared for 'long war' via Larijani. IRGC retaining capacity for continued 500+ target strikes. Gulf states transitioning from neutrality to active defense — Qatar and UAE intercepting Iranian assets directly. Risk of further expansion as Israel continues multi-front operations against Hezbollah while US sustains pressure on Iranian territory.",
+    "escalation_risks": [
+      "Ground troops: Trump not ruling out boots on Iran — potential major escalation",
+      "Nuclear facility damage: IAEA warns of radioactive release scenario requiring evacuation",
+      "Gulf states fully entering conflict: Qatar, UAE, Saudi Arabia moving from defense to active countermeasures",
+      "Hezbollah response: Lebanese government ban may trigger internal conflict between Hezbollah and state",
+      "Israel-Iran direct confrontation: Netanyahu's fate unclear after missile attack on his office"
+    ],
+    "de_escalation_pathways": "Turkey offering to host talks — potential diplomatic off-ramp. Russia pressing UAE/Qatar for ceasefire — Moscow seeking leverage. However, Khamenei's death significantly reduces de-escalation appetite in Tehran. UK opposition to regime change 'from the sky' provides some diplomatic pressure but limited leverage. Most likely pathway remains military exhaustion after multi-week campaign rather than negotiated settlement."
+  }
+}

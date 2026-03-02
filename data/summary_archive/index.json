@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T17-10-11.820247_plus_00-00.json",
+    "generated_at": "2026-03-02T17:10:11.820247+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 779,
+    "summary_preview": "The Iran-US conflict has reached a critical inflection point with confirmed deaths of Iran's Supreme Leader Khamenei and his wife in Israeli strikes on Tehran, and US CENTCOM confirming the downing of"
+  },
+  {
     "filename": "2026-03-02T16-16-50.482030_plus_00-00.json",
     "generated_at": "2026-03-02T16:16:50.482030+00:00",
     "threat_label": "MAJOR",
