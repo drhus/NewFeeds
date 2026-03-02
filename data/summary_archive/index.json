@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T18-57-40.812703_plus_00-00.json",
+    "generated_at": "2026-03-02T18:57:40.812703+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 770,
+    "summary_preview": "The Iran-US conflict intensifies with confirmed US casualties (18 personnel injured) and significant military losses (3 F-15s downed in Kuwait). Iran launched its 12th wave of attacks on Gulf states—U"
+  },
+  {
     "filename": "2026-03-02T18-03-58.596481_plus_00-00.json",
     "generated_at": "2026-03-02T18:03:58.596481+00:00",
     "threat_label": "MAJOR",
