@@ -112,6 +112,46 @@
     "lng": 51.39
   },
   {
+    "id": "4351cc6d87decbd2",
+    "title_original": "Khamenei’s assassination brings world to precipice of chaos",
+    "content_original": "• Iran confirms supreme leader’s death, declares 40-day mourning • Hospital targeted as Israeli missiles pound Tehran, other areas for second day; retaliatory strikes kill 9 in Israel • US claims sinking 9 Iranian warships, B-2 bombers target missile sites; 3 American troops killed • Shipping paralysed as IRGC closes Strait of Hormuz • Trump says war on Iran ‘could last four weeks’; Tehran still open to talks, insists on ‘no limit’ to self-defence JERUSALEM: The war between Iran and the US-Israel alliance escalated sharply on Sunday after Iran confirmed the assassination of Supreme Leader Ayatollah Ali Khame­nei in a joint US-Israeli airstrike, a move that has plunged the Middle East into its most perilous crisis in decades. As Iranian government declared 40 days of national mourning and seven public holidays following the death of the man who wielded absolute power since 1989, Iranian missiles killed at least nine people in a central Israeli town, while the US and Israel continued bom...",
+    "url": "https://www.dawn.com/news/1977286/khameneis-assassination-brings-world-to-precipice-of-chaos",
+    "published": "2026-03-02T07:28:18+05:00",
+    "fetched_at": "2026-03-02T02:34:39.986579+00:00",
+    "source_name": "Dawn (Pakistan)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "south_asia",
+    "skip_translation": true,
+    "title_en": "Khamenei's assassination brings world to precipice of chaos",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "A joint US-Israeli airstrike assassinated Iran's Supreme Leader Ayatollah Ali Khamenei, confirmed by Tehran which declared 40-day mourning. Israeli missiles continued pounding Tehran and other areas for a second day, while Iran retaliatory strikes killed 9 in Israel. The US claims to have sunk 9 Iranian warships and used B-2 bombers to target missile sites, though 3 American troops were also killed in the escalation. IRGC has closed the Strait of Hormuz, paralyzing shipping, as Trump warned the war 'could last four weeks' while Tehran insisted it remains open to talks but will exercise 'no limit' to self-defence.",
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "airstrike",
+      "irgc",
+      "missile",
+      "war",
+      "killed"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran"
+      ],
+      "location": "Tehran, Iran and Israel",
+      "brief": "Joint US-Israeli airstrike assassinated Iran's Supreme Leader Khamenei, with Israeli missiles continuing to strike Tehran for a second day and Iran retaliating with strikes that killed 9 in Israel."
+    },
+    "merged_source_count": 3,
+    "lat": 35.69,
+    "lng": 51.39
+  },
+  {
     "id": "e5c994ac446e301d",
     "title_original": "Israeli military says projectiles were fired from Lebanon",
     "content_original": "There was no immediate ⁠comment from Hezbollah on the reported launch from Lebanon",
@@ -185,6 +225,196 @@
     },
     "lat": 24.71,
     "lng": 46.68
+  },
+  {
+    "id": "224dc4085569ae50",
+    "title_original": "Армия Израиля призвала жителей около 50 поселений Ливана покинуть свои дома",
+    "content_original": "Армия Израиля призвала жителей около 50 поселений Ливана покинуть свои дома",
+    "url": "https://ria.ru/20260302/livan-2077774438.html",
+    "published": "2026-03-02T05:32:42+03:00",
+    "fetched_at": "2026-03-02T02:33:13.985989+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Israeli Military Orders Residents of About 50 Lebanese Settlements to Evacuate",
+    "relevant": true,
+    "summary_en": "The Israeli military has ordered residents of approximately 50 settlements in southern Lebanon to evacuate their homes, indicating preparations for a major ground operation or extensive aerial campaign against Hezbollah positions. This evacuation order follows intensified cross-border hostilities and represents a significant escalation in the Israel-Hezbollah conflict, which is part of the broader Iran-backed proxy front in the ongoing regional war.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "hezbollah",
+      "proxy",
+      "conflict",
+      "war"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Lebanon",
+        "Hezbollah"
+      ],
+      "location": "southern Lebanon",
+      "brief": "Israeli military ordered evacuation of ~50 settlements in southern Lebanon to prepare for major ground or aerial operation against Hezbollah positions."
+    },
+    "merged_source_count": 2,
+    "lat": 33.54,
+    "lng": 35.37
+  },
+  {
+    "id": "920e38ae755a6c2d",
+    "title_original": "В CENTCOM заявили, что США продолжают наносить удары по Ирану",
+    "content_original": "В CENTCOM заявили, что США продолжают наносить удары по Ирану",
+    "url": "https://ria.ru/20260302/udary-2077774263.html",
+    "published": "2026-03-02T05:31:03+03:00",
+    "fetched_at": "2026-03-02T02:33:13.986213+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "CENTCOM Says US Continues Strikes Against Iran",
+    "relevant": true,
+    "summary_en": "CENTCOM announced that the United States continues to carry out military strikes against Iran as part of the ongoing armed conflict. These strikes are part of the US campaign targeting IRGC assets, nuclear facilities, and Iranian military infrastructure. The continued strikes indicate sustained US offensive operations against Iranian territory and assets.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "offensive",
+      "irgc",
+      "nuclear",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Iran",
+        "IRGC"
+      ],
+      "location": "Iran",
+      "brief": "CENTCOM confirms continued US military strikes against Iran targeting IRGC assets, nuclear facilities, and military infrastructure as part of ongoing armed conflict."
+    },
+    "merged_source_count": 4,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "94a577c363a7184a",
+    "title_original": "СМИ: главы США и ОАЭ обсудили удары Ирана по Эмиратам и другим странам",
+    "content_original": "СМИ: главы США и ОАЭ обсудили удары Ирана по Эмиратам и другим странам",
+    "url": "https://ria.ru/20260302/oae-2077774136.html",
+    "published": "2026-03-02T05:25:50+03:00",
+    "fetched_at": "2026-03-02T02:33:13.986414+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Media: US and UAE leaders discussed Iran's strikes on the Emirates and other countries",
+    "relevant": true,
+    "summary_en": "The leaders of the United States and the United Arab Emirates discussed Iran's strikes on the UAE and other countries. This reflects ongoing diplomatic coordination between the US and Gulf allies regarding Iranian military attacks as part of the broader Iran-US armed conflict.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "United Arab Emirates"
+      ],
+      "location": "United Arab Emirates",
+      "brief": "US and UAE leaders held diplomatic discussions regarding Iranian strikes on the Emirates and other countries amid ongoing Iran-US conflict."
+    },
+    "lat": 24.0,
+    "lng": 54.0
+  },
+  {
+    "id": "299151f291bb65f9",
+    "title_original": "ЦАХАЛ заявил об ударах по командирам \"Хезболлах\" в Ливане",
+    "content_original": "ЦАХАЛ заявил об ударах по командирам \"Хезболлах\" в Ливане",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26605089",
+    "published": "2026-03-02T05:15:27+03:00",
+    "fetched_at": "2026-03-02T02:33:13.164872+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "IDF claims strikes on Hezbollah commanders in Lebanon",
+    "relevant": true,
+    "summary_en": "The Israeli Defense Forces (IDF) announced strikes targeting Hezbollah commanders in Lebanon. This represents continued Israeli operations against the Iran-linked Hezbollah militant group, which serves as a key proxy in the broader regional conflict involving Iran and its allies.",
+    "translated": true,
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "hezbollah",
+      "conflict",
+      "proxy",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran"
+      ],
+      "location": "Lebanon",
+      "brief": "Israeli airstrikes targeted Hezbollah commanders in Lebanon as part of ongoing operations against the Iran-linked proxy group."
+    },
+    "merged_source_count": 2,
+    "lat": 33.85,
+    "lng": 35.86
+  },
+  {
+    "id": "e3a61d693a2d5c63",
+    "title_original": "عدوان إسرائيلي يستهدف الضاحية الجنوبية لبيروت وبلدات في جنوب لبنان",
+    "content_original": "شنّ العدو الإسرائيلي سلسلة غارات على الضاحية الجنوبية لبيروت، استهدفت مباني سكنية، ما أدى إلى دمار في المكان وأضرار في الممتلكات العامة والخاصة....",
+    "url": "https://www.alalam.ir/news/7420803",
+    "published": "2026-03-02T05:03:37+00:00",
+    "fetched_at": "2026-03-02T02:32:39.928674+00:00",
+    "source_name": "Al Alam",
+    "source_category": "state",
+    "language": "ar",
+    "region": "iran",
+    "skip_translation": false,
+    "title_en": "Israeli aggression targets Beirut's southern suburbs and towns in southern Lebanon",
+    "relevant": true,
+    "summary_en": "The Israeli enemy carried out a series of airstrikes on Beirut's southern suburbs, targeting residential buildings, resulting in destruction and damage to public and private property. This strike targets a Hezbollah stronghold area, representing further escalation on the Lebanon front of the ongoing regional conflict linked to the Iran-US war.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "hezbollah",
+      "strike",
+      "conflict",
+      "war"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike|proxy_operation",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran (supporting proxy)"
+      ],
+      "location": "Beirut's southern suburbs, Lebanon",
+      "brief": "Israeli airstrikes targeted Hezbollah strongholds in Beirut's southern suburbs causing significant destruction to residential buildings."
+    },
+    "lat": 33.85,
+    "lng": 35.86
   },
   {
     "id": "34bb4049c06a2ff4",
@@ -369,6 +599,42 @@
     "merged_source_count": 2,
     "lat": 33.54,
     "lng": 35.37
+  },
+  {
+    "id": "3d3a9b900aedbb45",
+    "title_original": "הפיצוצים במרכז, והאיתות של חיזבאללה",
+    "content_original": "צועדים על חבל דק, בין המחויבות לאיראנים לרצון לא להסתבך במערכה הרסנית: השיגורים מלבנון למרכז והירי לצפון שלא גרם לפגיעות, נועדו להראות שחיזבאללה עושה \"מחווה\" של השתתפות במערכה - אבל רוצה לסגור את העניין. הביקורת בתוך לבנון שהובילה לכך, והשאלה אם ישראל תיענה לאיתותים של ארגון הטרור",
+    "url": "https://www.ynet.co.il/news/article/bj4lgoztbx",
+    "published": "2026-03-02T04:27:33+02:00",
+    "fetched_at": "2026-03-02T02:33:19.883403+00:00",
+    "source_name": "Ynet",
+    "source_category": "state-aligned",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Hezbollah's Signal After Central Israel Explosions",
+    "relevant": true,
+    "summary_en": "Hezbollah launched rockets from Lebanon toward central Israel and fired at northern Israel in what appears to be a symbolic 'gesture' of participation in the ongoing conflict while seeking to avoid full-scale warfare. The attacks caused no casualties, and the group signaled it wants to close the matter, raising questions about whether Israel will respond to these de-escalation signals amid domestic Lebanese criticism of the group's involvement.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "hezbollah",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "medium",
+      "parties_involved": [
+        "Hezbollah",
+        "Israel",
+        "Lebanon"
+      ],
+      "location": "Lebanon to central and northern Israel",
+      "brief": "Hezbollah launched symbolic rockets toward central and northern Israel as a gesture of participation in the conflict without seeking full-scale warfare, causing no casualties."
+    },
+    "lat": 33.06,
+    "lng": 35.24
   },
   {
     "id": "c7bc451f26125caf",
@@ -2146,6 +2412,41 @@
     "lng": 50.55
   },
   {
+    "id": "e1bf0c0c73fc84fa",
+    "title_original": "#الجمهورية_الإسلامية   مراسل الميادين في ايران: غارات اميركية اسرائيلية على مدن اصفهان ويزد وطهران وخوزستان",
+    "content_original": "#الجمهورية_الإسلامية مراسل الميادين في ايران: غارات اميركية اسرائيلية على مدن اصفهان ويزد وطهران وخوزستان",
+    "url": "https://t.me/Electrohizbullah/156987",
+    "published": "2026-03-02T02:34:30+00:00",
+    "fetched_at": "2026-03-02T02:35:10.639512+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Al-Mayadeen correspondent in Iran: American-Israeli strikes on Isfahan, Yazd, Tehran, and Khuzestan",
+    "relevant": true,
+    "summary_en": "US and Israeli forces have conducted coordinated strikes on multiple Iranian cities including Isfahan, Yazd, Tehran, and Khuzestan. The attacks target civilian and military infrastructure as part of the escalating US-Israeli campaign against Iran. This represents a significant expansion of the conflict into the Iranian heartland, marking a major escalation in the ongoing Iran-United States armed conflict.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran"
+      ],
+      "location": "Iran (Isfahan, Yazd, Tehran, Khuzestan)",
+      "brief": "Coordinated US-Israeli strikes on multiple Iranian cities targeting civilian and military infrastructure in a significant expansion of the US-Israeli campaign against Iran."
+    },
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
     "id": "0e531e54b642e475",
     "title_original": "Iran's Gandhi Hospital hit in Israeli strikes, video shows damage and chaos",
     "content_original": "In a military offensive against Iran, Israeli strikes have reportedly damaged the Gandhi Hospital, amidst ongoing attacks on military sites.",
@@ -2216,6 +2517,43 @@
     },
     "lat": 33.1,
     "lng": 35.3
+  },
+  {
+    "id": "0d45e25b8ac37e94",
+    "title_original": "#الجمهورية_الإسلامية   مراسل الميادين: عدوان جوي إسرائيلي أميركي على يزد وأصفهان وسط إيران",
+    "content_original": "#الجمهورية_الإسلامية مراسل الميادين: عدوان جوي إسرائيلي أميركي على يزد وأصفهان وسط إيران",
+    "url": "https://t.me/Electrohizbullah/156985",
+    "published": "2026-03-02T02:29:21+00:00",
+    "fetched_at": "2026-03-02T02:35:10.638544+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Israeli-American Air Raid Targets Yazd, Isfahan in Central Iran",
+    "relevant": true,
+    "summary_en": "Israeli and American forces conducted joint air strikes on the Iranian cities of Yazd and Isfahan in central Iran. The attack marks another escalation in the ongoing Iran-United States conflict, with Israel and the US directly targeting Iranian territory. The strikes come as part of the broader conflict that has seen multiple rounds of attacks on Iranian cities and military installations.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "attack",
+      "raid",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran"
+      ],
+      "location": "Yazd, Isfahan, Central Iran",
+      "brief": "Joint Israeli-American air strikes targeted Yazd and Isfahan in direct escalation of US-Iran conflict with direct strikes on Iranian territory."
+    },
+    "lat": 32.65,
+    "lng": 51.68
   },
   {
     "id": "594cc9cd9ba0fce3",
@@ -2293,6 +2631,46 @@
     },
     "lat": 33.06,
     "lng": 35.24
+  },
+  {
+    "id": "c167359643566775",
+    "title_original": "Bahrain says missile debris from 'Iranian aggression' caused deadly ship fire",
+    "content_original": "Bahrain says missile debris from 'Iranian aggression' caused deadly ship fire Bahrain’s Interior Ministry said falling debris from an intercepted missile caused a fire on a foreign vessel in the industrial zone near Mina Salman port in Manama. One Asian worker was killed and two others were seriously injured, the ministry said, in what it described as&nbsp;“Iranian aggression\".&nbsp; The fire was later brought under control by civil defence teams.&nbsp; عاجل بالفيديو | العدوان الإيراني يستهدف إحدى المنشآت البحرية بالقرب من ميناء سلمان والدفاع المدني يباشر إجراءاته للسيطرة على الحريق pic.twitter.com/0WKFV7suFG — صحيفة البلاد البحرينية (@albiladpress) March 1, 2026",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bahrain-says-missile-debris-iranian-aggression-caused-deadly-ship-fire",
+    "published": "2026-03-02T02:16:47+00:00",
+    "fetched_at": "2026-03-02T02:33:38.125898+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Bahrain says missile debris from 'Iranian aggression' caused deadly ship fire",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Debris from an intercepted Iranian missile struck a foreign vessel in the industrial zone near Mina Salman port in Manama, Bahrain, causing a fire that killed one Asian worker and injured two others. The incident marks the first direct hit on Bahraini territory during the current Iran-US conflict, occurring at a port facility in the capital. Bahrain, which hosts the US Navy's 5th Fleet and a major US air base, described the attack as 'Iranian aggression,' demonstrating the widening geographic scope of Iranian ballistic missile and drone strikes beyond US military installations.",
+    "keyword_matches": 8,
+    "matched_keywords": [
+      "missile",
+      "conflict",
+      "attack",
+      "killed",
+      "drone",
+      "ballistic"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us|ballistic_missile|naval_incident",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Bahrain",
+        "United States"
+      ],
+      "location": "Mina Salman port, Manama, Bahrain",
+      "brief": "Iranian missile debris struck a foreign vessel in Bahrain's port, killing one worker and injuring two others in the first direct hit on Bahraini territory during the Iran-US conflict."
+    },
+    "lat": 26.07,
+    "lng": 50.55
   },
   {
     "id": "4d75ecc6a4563df5",
@@ -2395,6 +2773,42 @@
       "location": "Unknown",
       "brief": "Classified by keyword matching (LLM unavailable)"
     }
+  },
+  {
+    "id": "0562b996cc459188",
+    "title_original": "Israel vows ‘forceful’ response to Hezbollah rocket barrage",
+    "content_original": "Israel vows ‘forceful’ response to Hezbollah rocket barrage Israel’s military said it was striking Hezbollah targets across Lebanon after the group fired a rocket barrage toward northern Israel. In a statement, the military said it would not allow Hezbollah to threaten Israeli territory or residents and pledged to respond “forcefully” to the attack.",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-vows-forceful-response-hezbollah-rocket-barrage",
+    "published": "2026-03-02T02:09:39+00:00",
+    "fetched_at": "2026-03-02T02:33:38.126143+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Israel vows 'forceful' response to Hezbollah rocket barrage",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Israel's military said it was striking Hezbollah targets across Lebanon after the group fired a rocket barrage toward northern Israel. The military pledged to respond \"forcefully\" and stated it would not allow Hezbollah to threaten Israeli territory or residents, signaling continued escalation on the northern front.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "hezbollah",
+      "rocket"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Lebanon"
+      ],
+      "location": "Lebanon-Israel border, northern Israel",
+      "brief": "Hezbollah fired rocket barrage toward northern Israel; Israel responds with forceful strikes on Hezbollah targets across Lebanon, signaling continued escalation."
+    },
+    "lat": 33.06,
+    "lng": 35.24
   },
   {
     "id": "b2bd85514f6b037e",
