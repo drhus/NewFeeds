@@ -36,6 +36,120 @@
     "lng": 54.56
   },
   {
+    "id": "2bc31a21cafa2b58",
+    "title_original": "ВС Ирана за последние часы сбили семь беспилотников США и Израиля",
+    "content_original": "ВС Ирана за последние часы сбили семь беспилотников США и Израиля",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26620359",
+    "published": "2026-03-02T21:54:53+03:00",
+    "fetched_at": "2026-03-02T19:01:34.137404+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Iranian Armed Forces Shoot Down Seven US and Israeli Drones in Recent Hours",
+    "relevant": true,
+    "summary_en": "Iranian Armed Forces have shot down seven US and Israeli drones over the past several hours. This represents a significant escalation in air defense operations by Iran against American and Israeli unmanned aircraft operating in or near Iranian airspace. The intercepts demonstrate active Iranian resistance to US/Israeli surveillance and potential strike missions in the ongoing conflict.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "conflict",
+      "shoot down",
+      "air defense",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "Israel"
+      ],
+      "location": "Iranian airspace/nearby regions",
+      "brief": "Iranian Armed Forces shot down seven US and Israeli drones in a significant escalation of direct engagement against American and Israeli unmanned aircraft."
+    },
+    "lat": 30.3354128,
+    "lng": 48.2896822
+  },
+  {
+    "id": "4acb8a8eef8208b3",
+    "title_original": "Минобороны ОАЭ: силы ПВО уничтожили более 160 баллистических ракет из Ирана",
+    "content_original": "В ведомстве сообщили, что 13 ракет упали в море",
+    "url": "https://tass.ru/mezhdunarodnaya-panorama/26620215",
+    "published": "2026-03-02T21:40:20+03:00",
+    "fetched_at": "2026-03-02T19:01:34.139061+00:00",
+    "source_name": "TASS",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "UAE Defense Ministry: Air Defense Forces Destroyed Over 160 Ballistic Missiles from Iran",
+    "relevant": true,
+    "summary_en": "UAE air defense forces intercepted and destroyed over 160 Iranian ballistic missiles, with 13 falling into the sea. This represents a significant escalation in Iranian attacks on US allies in the Gulf region, as the UAE hosts US military assets and is a key American partner in the Middle East. The successful interceptions demonstrate the effectiveness of Gulf state air defense systems but also indicate the scale of Iran's retaliatory missile campaign against US regional bases and allies.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "missile",
+      "air defense",
+      "ballistic"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "UAE",
+        "United States"
+      ],
+      "location": "UAE, Gulf region",
+      "brief": "Iran launched over 160 ballistic missiles at UAE, a US ally hosting American military assets, which were intercepted by UAE air defense in a significant escalation of Iran-US regional tensions."
+    },
+    "lat": 24.0,
+    "lng": 54.0
+  },
+  {
+    "id": "b009aa5ae5c10df4",
+    "title_original": "Беспилотники атаковали иракскую авиабазу в провинции Салах-эд-Дин",
+    "content_original": "Беспилотники атаковали иракскую авиабазу в провинции Салах-эд-Дин",
+    "url": "https://ria.ru/20260302/drony-2078030337.html",
+    "published": "2026-03-02T21:36:48+03:00",
+    "fetched_at": "2026-03-02T19:01:35.315256+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Drones Attack Iraqi Airbase in Salah ad-Din Province",
+    "relevant": true,
+    "summary_en": "Drones carried out an attack on an Iraqi airbase located in Salah ad-Din province. The attack occurred in a province that hosts US forces and is within the sphere of IRGC proxy operations in Iraq. This incident fits the pattern of Iranian-backed militia attacks on Iraqi territory amid the ongoing Iran-US conflict.",
+    "translated": true,
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "militia",
+      "irgc",
+      "attack",
+      "conflict",
+      "proxy"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "high",
+      "parties_involved": [
+        "IRGC proxies",
+        "US forces",
+        "Iraqi government"
+      ],
+      "location": "Salah ad-Din Province, Iraq",
+      "brief": "Drone attack on Iraqi airbase hosting US forces attributed to Iranian-backed militia marks continued proxy aggression in Iraq."
+    },
+    "lat": 33.1,
+    "lng": 44.17
+  },
+  {
     "id": "4d85b57657e041f8",
     "title_original": "Watch: Beirut rocked by explosions as Israel targets Hezbollah",
     "content_original": "Watch: Beirut rocked by explosions as Israel targets Hezbollah",
@@ -113,6 +227,41 @@
     "lng": 44.17
   },
   {
+    "id": "37e9701f6a8b12a9",
+    "title_original": "Tasnim: Израиль атаковал НПЗ Saudi Aramco «под чужим флагом»",
+    "content_original": "Атака на нефтеперерабатывающий завод (НПЗ) Saudi Aramco в саудовском Рас-Таннуре была проведена Израилем «под чужим флагом». Об этом сообщило агентство Tasnim со ссылкой на источник.",
+    "url": "https://www.kommersant.ru/doc/8478491",
+    "published": "2026-03-02T20:59:44+03:00",
+    "fetched_at": "2026-03-02T18:08:06.192703+00:00",
+    "source_name": "Kommersant",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Israel attacked Saudi Aramco refinery 'under false flag' - Tasnim",
+    "relevant": true,
+    "summary_en": "An attack on the Saudi Aramco refinery in Ras Tanura, Saudi Arabia, was conducted by Israel 'under a false flag,' according to a source cited by the Iranian Tasnim agency. This alleged attack on critical energy infrastructure in a US-aligned Gulf state represents a significant escalation potentially designed to obscure Israeli involvement while targeting strategic oil facilities.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike",
+      "severity": "major",
+      "parties_involved": [
+        "Israel",
+        "Saudi Arabia",
+        "Iran"
+      ],
+      "location": "Ras Tanura, Saudi Arabia",
+      "brief": "Israeli attack on Saudi Aramco refinery reported by Iranian Tasnim agency as false flag operation targeting critical US-aligned Gulf energy infrastructure."
+    },
+    "lat": 24.71,
+    "lng": 46.68
+  },
+  {
     "id": "176718afa3d38bfb",
     "title_original": "Вице-президент Ирана: Израиль дважды ударил по ядерному объекту в Натанзе",
     "content_original": "Вице-президент Ирана: Израиль дважды ударил по ядерному объекту в Натанзе",
@@ -148,6 +297,81 @@
     "merged_source_count": 3,
     "lat": 32.65,
     "lng": 54.56
+  },
+  {
+    "id": "4b889c89a2db358c",
+    "title_original": "Власти ОАЭ сообщили о пожаре под Абу-Даби после удара беспилотника",
+    "content_original": "Беспилотник ударил по топливному терминалу в индустриальном районе Мусаффа к юго-западу от Абу-Даби, сообщили власти эмирата в X.",
+    "url": "https://www.rbc.ru/politics/02/03/2026/69a5ceb29a7947d6a91e5dc1",
+    "published": "2026-03-02T20:57:00+03:00",
+    "fetched_at": "2026-03-02T18:08:07.458218+00:00",
+    "source_name": "RBC",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "UAE Authorities Report Fire Near Abu Dhabi After Drone Strike",
+    "relevant": true,
+    "summary_en": "A drone struck a fuel terminal in the Mussafah industrial area southwest of Abu Dhabi, causing a fire. The attack targets energy infrastructure in a key US-aligned Gulf state, representing potential escalation in the regional conflict involving Iran and its proxies.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "conflict",
+      "drone",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "houthi_attack",
+      "severity": "medium",
+      "parties_involved": [
+        "Houthis",
+        "UAE",
+        "Iran (proxy)"
+      ],
+      "location": "Abu Dhabi, UAE",
+      "brief": "Drone strike on fuel terminal in Mussafah industrial area marks escalation of Houthi attacks on US-aligned Gulf states amid Iran-US regional conflict."
+    },
+    "lat": 24.45,
+    "lng": 54.38
+  },
+  {
+    "id": "ae8752c5937d3576",
+    "title_original": "איראן מרחיבה את התקיפות: הבסיס הבריטי שהותקף בקפריסין - וההשלכות האזוריות",
+    "content_original": "בטהראן שיגרו כמה תקיפות לעבר שטח קפריסין, מדינה שחברה באיחוד האירופי • היעד: הבסיס הבריטי שנמצא בדרום המדינה, ונחשב לשטח ריבוני של בריטניה • הצעד הגיע לאחר שבריטניה סייעה במאמצי היירוט במזרח התיכון • בעקבות התקיפות - בריטניה אפשרה לארה\"ב להשתמש בבסיסים שלה, ויוון הודיע שתסייע בהגנת האי",
+    "url": "https://mivzakim.net/r/13968327/rss",
+    "published": "2026-03-02T20:54:57+02:00",
+    "fetched_at": "2026-03-02T19:01:44.462709+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Iran expands attacks: British base targeted in Cyprus - regional implications",
+    "relevant": true,
+    "summary_en": "Iran launched attacks targeting a British military base in southern Cyprus, which is sovereign British territory. The strikes came after Britain assisted with air defense interception efforts in the Middle East. The escalation prompted Britain to authorize US use of its bases in Cyprus, while Greece announced it would assist in defending the island, marking the conflict's expansion into European territory.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "conflict",
+      "air defense"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "escalation",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "United Kingdom",
+        "Cyprus",
+        "United States"
+      ],
+      "location": "Cyprus (British sovereign base)",
+      "brief": "Iran launched ballistic missile or airstrike attacks on a British military base in southern Cyprus in retaliation for UK assistance with US air defense operations, prompting Britain to authorize expanded US base access."
+    },
+    "lat": 34.5803747,
+    "lng": 32.9864312
   },
   {
     "id": "abb544d286436918",
@@ -187,6 +411,42 @@
     "lng": 54.0
   },
   {
+    "id": "2fb429a00636f3a7",
+    "title_original": "КСИР сообщил о пожаре на танкере-союзнике США в Ормузском проливе",
+    "content_original": "Танкер-союзник США «Атен Нова» в Ормузском проливе продолжает гореть после удара двух иранских беспилотников. Об этом сообщило агентство Tasnim со ссылкой на Корпус стражей исламской революции (КСИР).",
+    "url": "https://www.kommersant.ru/doc/8478471",
+    "published": "2026-03-02T20:46:21+03:00",
+    "fetched_at": "2026-03-02T18:08:06.193336+00:00",
+    "source_name": "Kommersant",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "IRGC reports fire on US-allied tanker in Strait of Hormuz",
+    "relevant": true,
+    "summary_en": "The Islamic Revolutionary Guard Corps (IRGC) reported that the US-allied tanker 'Aten Nova' in the Strait of Hormuz continues to burn after being struck by two Iranian drones. This marks another escalation in the ongoing Iran-US conflict, with the strategic Strait of Hormuz being a critical chokepoint for global oil shipments.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "conflict",
+      "irgc"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran (IRGC)",
+        "US-allied tanker Aten Nova"
+      ],
+      "location": "Strait of Hormuz",
+      "brief": "Iranian IRGC drones struck a US-allied tanker in the strategic Strait of Hormuz, causing it to burn and representing direct escalation in the Iran-US conflict."
+    },
+    "merged_source_count": 2,
+    "lat": 26.56,
+    "lng": 56.25
+  },
+  {
     "id": "89ad2f681902bd48",
     "title_original": "Watch: ‘We fight to win’: Pete Hegseth issues stark warning to Iran after U.S. strikes",
     "content_original": "U.S. Secretary of War Pete Hegseth delivered a defence of Washington’s military operation in Iran, calling it a “clear, devastating, decisive mission” aimed at destroying missile threats and preventing nuclear weapons.",
@@ -222,6 +482,232 @@
       "brief": "U.S. Secretary of War Hegseth defends military operation in Iran as devastating decisive mission to destroy missile threats and prevent nuclear weapons, marking escalation in US rhetoric and military posture."
     },
     "merged_source_count": 6,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "6841d7f63a7d4ac4",
+    "title_original": "דובר צה\"ל: \"לא נוותר על היעד של פירוז חיזבאללה מנשקו\"",
+    "content_original": "דובר צה\"ל תא\"ל אפי דפרין מסר הצהרה על החרפת הפעילות ההתקפית בלב טהרן, במסגרתה הטילו עשרות מטוסי קרב מאות חימושים על מפקדות המודיעין וגופי ביטחון הפנים של משטר הטרור • במקביל להעמקת הפגיעה במערכי השיגור והייצור באיראן, הבהיר דפרין כי צה\"ל נחוש להשיג את יעד הפירוז המלא של ארגון הטרור חיזבאללה מנשקו",
+    "url": "https://mivzakim.net/r/13968293/rss",
+    "published": "2026-03-02T20:40:33+02:00",
+    "fetched_at": "2026-03-02T19:01:44.464627+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "IDF Spokesperson: 'We will not give up on the goal of disarming Hezbollah'",
+    "relevant": true,
+    "summary_en": "IDF Spokesperson Avichay Adreevny announced intensified offensive operations in Tehran, with dozens of aircraft striking intelligence headquarters and internal security bodies of the Iranian regime, while also deepening strikes on launch and production facilities in Iran. The IDF emphasized its determination to achieve full disarmament of Hezbollah as a strategic objective.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "hezbollah",
+      "offensive",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Iran",
+        "IDF"
+      ],
+      "location": "Tehran, Iran",
+      "brief": "IDF conducts intensified airstrikes on Tehran targeting intelligence headquarters and internal security bodies, with expanded operations against launch and production facilities."
+    },
+    "lat": 35.69,
+    "lng": 51.39
+  },
+  {
+    "id": "2e3f438caf0a8bfb",
+    "title_original": "דובר צה\"ל: \"חיזבאללה ירה לעבר שטחינו - ומשלם על זה מחיר כבד מאוד\"",
+    "content_original": "דובר צה\"ל: \"חיזבאללה ירה לעבר שטחינו - ומשלם על זה מחיר כבד מאוד\"",
+    "url": "https://mivzakim.net/r/13968286/rss",
+    "published": "2026-03-02T20:39:06+02:00",
+    "fetched_at": "2026-03-02T19:01:45.086327+00:00",
+    "source_name": "Mivzakim Main",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "IDF Spokesperson: 'Hezbollah fired at our territory - and is paying a very heavy price for this'",
+    "relevant": true,
+    "summary_en": "The IDF Spokesperson stated that Hezbollah fired at Israeli territory and is paying a very heavy price for this attack. This represents ongoing hostilities between Israel and the Iranian proxy group Hezbollah on the northern Israeli front.",
+    "translated": true,
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "hezbollah",
+      "attack",
+      "proxy",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah (Iranian proxy)",
+        "Iran (patron)"
+      ],
+      "location": "Northern Israel",
+      "brief": "Hezbollah fired rockets at Israeli territory prompting IDF response that the group is paying a heavy price for the attack."
+    },
+    "lat": 33.06,
+    "lng": 35.24
+  },
+  {
+    "id": "2e3f438caf0a8bfb",
+    "title_original": "דובר צה\"ל: \"חיזבאללה ירה לעבר שטחינו - ומשלם על זה מחיר כבד מאוד\"",
+    "content_original": "דובר צה\"ל: \"חיזבאללה ירה לעבר שטחינו - ומשלם על זה מחיר כבד מאוד\"",
+    "url": "https://mivzakim.net/r/13968286/rss",
+    "published": "2026-03-02T20:39:06+02:00",
+    "fetched_at": "2026-03-02T19:01:44.465202+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "IDF Spokesperson: 'Hezbollah fired at our territory - and is paying a very heavy price for this'",
+    "relevant": true,
+    "summary_en": "The IDF spokesperson announced that Hezbollah fired rockets/missiles at Israeli territory, and that Israel is responding with significant retaliation. The statement emphasizes that Hezbollah is suffering heavy consequences for its attacks on Israel, indicating ongoing hostilities between the two sides.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "hezbollah",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "high",
+      "parties_involved": [
+        "Hezbollah",
+        "Israel"
+      ],
+      "location": "Israel",
+      "brief": "Hezbollah fired rockets/missiles at Israeli territory, prompting significant Israeli retaliation with heavy consequences for Hezbollah."
+    },
+    "merged_source_count": 3,
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
+    "id": "e14a7776b08a83f9",
+    "title_original": "דובר צה״ל: ״תקפנו יותר מ-600 יעדים של המשטר האיראני – כולל מפקדות של משמרות המהפכה״",
+    "content_original": "דובר צה״ל: ״תקפנו יותר מ-600 יעדים של המשטר האיראני – כולל מפקדות של משמרות המהפכה״",
+    "url": "https://mivzakim.net/r/13968285/rss",
+    "published": "2026-03-02T20:39:00+02:00",
+    "fetched_at": "2026-03-02T19:01:44.465339+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "IDF Spokesperson: 'We attacked more than 600 targets of the Iranian regime – including IRGC headquarters'",
+    "relevant": true,
+    "summary_en": "The IDF has conducted extensive strikes on over 600 targets linked to the Iranian regime, including Islamic Revolutionary Guard Corps (IRGC) command centers. This represents a significant escalation in Israeli military operations against Iranian assets, which are part of the broader Iran-US conflict dynamics in the region.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "conflict",
+      "irgc",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike",
+      "severity": "major",
+      "parties_involved": [
+        "Israel",
+        "Iran",
+        "IRGC"
+      ],
+      "location": "Israel/Iran",
+      "brief": "IDF conducted extensive airstrikes on over 600 Iranian regime targets including IRGC headquarters, marking a significant escalation in the Iran-US conflict."
+    },
+    "merged_source_count": 2,
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
+    "id": "803a89409b2f2001",
+    "title_original": "דובר צה\"ל: \"נמשיך ונעמיק את הפגיעות\"",
+    "content_original": "דובר צה\"ל: \"נמשיך ונעמיק את הפגיעות\"",
+    "url": "https://mivzakim.net/r/13968283/rss",
+    "published": "2026-03-02T20:38:52+02:00",
+    "fetched_at": "2026-03-02T19:01:45.690552+00:00",
+    "source_name": "Mivzakim Military",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "IDF Spokesperson: \"We will continue and deepen the strikes\"",
+    "relevant": true,
+    "summary_en": "The IDF Spokesperson has stated that Israel will continue and intensify its military strikes, likely referring to ongoing operations in Gaza. This statement reflects Israel's continued offensive posture in the conflict.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "conflict",
+      "offensive",
+      "idf"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "airstrike",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Gaza Strip",
+        "Palestinian militants"
+      ],
+      "location": "Gaza Strip, Israel",
+      "brief": "IDF states will continue and deepen military strikes in ongoing Gaza operations."
+    },
+    "lat": 31.5,
+    "lng": 34.47
+  },
+  {
+    "id": "c0d5ae9ec3c0fd0d",
+    "title_original": "Over 1,000 IRGC and Iranian security officials killed since start of war, source tells 'Post'",
+    "content_original": "Some estimates suggest much higher numbers, with facilities belonging to the IRGC, the Basij militia, and government buildings having been hit.",
+    "url": "https://www.jpost.com/middle-east/iran-news/article-888576",
+    "published": "2026-03-02T20:20:16+00:00",
+    "fetched_at": "2026-03-02T19:01:40.593710+00:00",
+    "source_name": "Jerusalem Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "israel",
+    "skip_translation": true,
+    "title_en": "Over 1,000 IRGC and Iranian security officials killed since start of war, source tells 'Post'",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Over 1,000 IRGC (Islamic Revolutionary Guard Corps) members and Iranian security officials have been killed since the start of the Iran-US war, with some estimates suggesting even higher numbers. IRGC facilities, Basij militia bases, and government buildings have been targeted by US and allied strikes, indicating significant attrition of Iran's核心军事和安全力量.",
+    "keyword_matches": 8,
+    "matched_keywords": [
+      "militia",
+      "war",
+      "irgc",
+      "killed"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Iran",
+        "IRGC",
+        "Allied forces"
+      ],
+      "location": "Iran",
+      "brief": "Over 1,000 IRGC members and Iranian security officials killed by US and allied strikes since the start of the Iran-US war."
+    },
+    "merged_source_count": 12,
     "lat": 32.65,
     "lng": 54.56
   },
@@ -941,6 +1427,81 @@
     "lng": 51.23
   },
   {
+    "id": "988c331630d5871f",
+    "title_original": "الدفاع الجوي البحريني يعلن التصدي لموجة جديدة من الصواريخ والمسيرات الإيرانية",
+    "content_original": "المنامة في 02 مارس /قنا/ أعلن مركز الاتصال الوطني البحريني أن منظومات الدفاع الجوي الصاروخي التابعة لقوة دفاع البحرين تصدت بنجاح لموجة جديدة من الهجمات العدائية بالصواريخ البالستية والمسيرات الإيرانية التي استهدفت مملكة البحرين.",
+    "url": "https://qna.org.qa/ar-QA/News-Area/News/2026-3/2/الدفاع-الجوي-البحريني-يعلن-التصدي-لموجة-جديدة-من-الصواريخ-والمسيرات-الايرانية",
+    "published": "2026-03-02T19:01:53.816197+00:00",
+    "fetched_at": "2026-03-02T19:01:53.816200+00:00",
+    "source_name": "QNA General (Arabic)",
+    "source_category": "state",
+    "language": "ar",
+    "region": "gulf",
+    "skip_translation": false,
+    "title_en": "Bahraini Air Defense Announces Interception of New Wave of Iranian Missiles and Drones",
+    "relevant": true,
+    "summary_en": "Bahrain's Air Defense forces successfully intercepted a new wave of Iranian ballistic missiles and drones targeting the Kingdom of Bahrain. This attack represents continued Iranian hostilities against US allies in the Gulf region, with Bahrain hosting the US Navy's 5th Fleet making it a strategic target. The successful interception demonstrates the effectiveness of Bahrain's air defense systems integrated with US regional defense capabilities.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "air defense",
+      "ballistic"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Bahrain",
+        "United States"
+      ],
+      "location": "Bahrain, Persian Gulf",
+      "brief": "Bahrain's Air Defense forces intercepted a new wave of Iranian ballistic missiles and drones targeting the Kingdom, which hosts the US Navy's 5th Fleet, representing continued Iranian hostilities against US allies in the Gulf."
+    },
+    "merged_source_count": 3,
+    "lat": 26.07,
+    "lng": 50.55
+  },
+  {
+    "id": "b4d712cc8371bc78",
+    "title_original": "هجوم أمريكي صهيوني على رصيف صيد الأسماك في جاسك محافظة هرمزگان: 🔹  شنت الطائرات المقاتلة للمعتدين الأمريكيين الصهاينة...",
+    "content_original": "هجوم أمريكي صهيوني على رصيف صيد الأسماك في جاسك محافظة هرمزگان: 🔹 شنت الطائرات المقاتلة للمعتدين الأمريكيين الصهاينة هجومًا جويًا على رصيف صيد الأسماك في مدينة جاسك. 🔹 نتيجة هذا الهجوم، اندلعت الحرائق وتعرضت أكثر من ۱۰۰ قاربا مملوكا للسكان لأضرار جسيمة. 🔹 أصيب شخص واحد في هذا الهجوم الجوي.",
+    "url": "https://t.me/Electrohizbullah/157197",
+    "published": "2026-03-02T19:01:47+00:00",
+    "fetched_at": "2026-03-02T19:03:08.626737+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "American Zionist attack on fishing pier in Jask, Hormozgan province",
+    "relevant": true,
+    "summary_en": "US and Israeli fighter jets carried out an air attack on a fishing pier in Jask city, Hormozgan province, Iran. The attack caused fires to break out and damaged more than 100 fishing boats belonging to local residents, with one person injured. This represents another strike on Iranian civilian infrastructure as part of the escalating US-Iran armed conflict.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "conflict",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "high",
+      "parties_involved": [
+        "United States",
+        "Israel",
+        "Iran"
+      ],
+      "location": "Jask, Hormozgan province, Iran",
+      "brief": "US and Israeli fighter jets conducted airstrike on civilian fishing pier in Jask, destroying over 100 fishing boats and injuring one person"
+    },
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
     "id": "5f08fec377326642",
     "title_original": "Kan: в центре Израиля упали фрагменты перехваченных ракет",
     "content_original": "Kan: в центре Израиля упали фрагменты перехваченных ракет",
@@ -1019,6 +1580,119 @@
     "lng": 35.86
   },
   {
+    "id": "37384277d7dd4bc3",
+    "title_original": "فرماندهی مرکزی آمریکا مدعی انجام حمله در «عمق خاک ایران» شد",
+    "content_original": "شفقنا- فرماندهی مرکزی ایالات متحده مدعی حمله «عمقی در خاک ایران» شد. به گزارش سرویس ترجمه شفقنا، گاردین نوشت: فرماندهی مرکزی ایالات متحده در پستی در X اعلام کرد: دیشب، بمب‌افکن‌های B-1 آمریکا «به عمق خاک ایران حمله کردند تا قابلیت‌های موشک‌های بالستیک ایران را تضعیف کنند». در این بیانیه ادعا شده همانطور که رئیس [&#8230;] نوشته فرماندهی مرکزی آمریکا مدعی انجام حمله در «عمق خاک ایران» شد اولین بار در خبرگزاری بین‌المللی شفقنا | خبرگزاری شیعیان، فتاوای آیت‌الله سیستانی و مرجعیت، آخرین اخبار ایران و جهان . پدیدار شد.",
+    "url": "https://fa.shafaqna.com/news/2223632/",
+    "published": "2026-03-02T18:54:29+00:00",
+    "fetched_at": "2026-03-02T19:01:25.948207+00:00",
+    "source_name": "Shafaqna Persian",
+    "source_category": "state-aligned",
+    "language": "fa",
+    "region": "iran",
+    "skip_translation": false,
+    "title_en": "US Central Command Claims Attack in 'Depth of Iranian Soil'",
+    "relevant": true,
+    "summary_en": "US Central Command claimed in a post on X that American B-1 bombers attacked deep within Iranian territory overnight to degrade Iran's ballistic missile capabilities. The statement cited CENTCOM leadership as justification for the strikes on Iranian soil.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack",
+      "missile",
+      "ballistic"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Iran",
+        "US Central Command"
+      ],
+      "location": "Iran (unspecified location inside Iranian territory)",
+      "brief": "US B-1 bombers conducted airstrikes deep inside Iran targeting ballistic missile capabilities, marking direct US military action on Iranian soil."
+    },
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "28fbeda70fa58a21",
+    "title_original": "Israel strikes Lebanon after Hezbollah rocket fire as Iran conflict widens",
+    "content_original": "Lebanon's health ministry says 31 people were killed by Israeli strikes, while there are no reports of casualties in Israel.",
+    "url": "https://www.bbc.com/news/articles/c5y4v8g13wxo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-03-02T18:53:27+00:00",
+    "fetched_at": "2026-03-02T19:02:57.021651+00:00",
+    "source_name": "BBC News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Israel strikes Lebanon after Hezbollah rocket fire as Iran conflict widens",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Israel conducted strikes in Lebanon after Hezbollah launched rockets at Israel, killing 31 people according to Lebanon's health ministry, with no reported Israeli casualties. This escalation widens the Iran-US conflict to include direct Israeli-Hezbollah hostilities, as Hezbollah operates as an IRGC proxy and represents another active front in the expanding regional war.",
+    "keyword_matches": 10,
+    "matched_keywords": [
+      "hezbollah",
+      "war",
+      "irgc",
+      "conflict",
+      "proxy",
+      "rocket"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "high",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran",
+        "Lebanon"
+      ],
+      "location": "Lebanon",
+      "brief": "Israel conducted airstrikes in Lebanon following Hezbollah rocket fire, killing 31 people and escalating the Iran-US conflict into direct Israeli-Hezbollah hostilities."
+    },
+    "merged_source_count": 5,
+    "lat": 33.85,
+    "lng": 35.86
+  },
+  {
+    "id": "3e16d20f9b835f14",
+    "title_original": "🔴  Provincial official in southern Iran says 100 fishing boats caught fire after attack  @PressTV",
+    "content_original": "🔴 Provincial official in southern Iran says 100 fishing boats caught fire after attack @PressTV",
+    "url": "https://t.me/presstv/177710",
+    "published": "2026-03-02T18:52:32+00:00",
+    "fetched_at": "2026-03-02T19:03:01.686369+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "Provincial official in southern Iran says 100 fishing boats caught fire after attack",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "A provincial official in southern Iran reported that approximately 100 fishing boats caught fire following an attack in the area. The specific details of the attack, including the perpetrator and weapons used, were not immediately clear, but the incident occurred in the context of ongoing Iran-US hostilities in the Gulf region.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "United States (unconfirmed)"
+      ],
+      "location": "Southern Iran",
+      "brief": "Approximately 100 fishing boats caught fire following an attack in southern Iran, with perpetrator and weapons used not immediately clear amid ongoing Iran-US hostilities."
+    },
+    "lat": 29.0,
+    "lng": 54.0
+  },
+  {
     "id": "1baae10ca71a5f7f",
     "title_original": "בישראל נערכים לשבועות של לחימה: \"מחכים לנקודת מפנה\"",
     "content_original": "בישיבת הקבינט נמסר לשרים כי המערכה באיראן תימשך לפחות כמה שבועות, וכי ישראל מנצלת אותה גם כדי להכות חזק בחיזבאללה - לצד היערכות לפעולה קרקעית אפשרית של החות'ים. \"נוקטים מגוון גדול של פעולות שיקלו על הציבור האיראני להפיל את המשטר\", אמרו גורמים שמעורים בפרטים",
@@ -1047,6 +1721,83 @@
       "location": "Unknown",
       "brief": "Classified by keyword matching (LLM unavailable)"
     }
+  },
+  {
+    "id": "036fc81f290bc47b",
+    "title_original": "Three days in, we still have no idea where this war is heading",
+    "content_original": "It's hard to predict how the war will end - but those fighting know how they would like it to.",
+    "url": "https://www.bbc.com/news/articles/c178z0p902vo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-03-02T18:48:02+00:00",
+    "fetched_at": "2026-03-02T19:02:57.020012+00:00",
+    "source_name": "BBC News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Three days in, we still have no idea where this war is heading",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "This analytical piece examines the uncertainty surrounding the Iran-US war now entering its fourth day, noting that while the ultimate outcome remains unpredictable, the various combatants have clear preferences for how they would like the conflict to resolve. The article highlights the strategic ambiguity facing all parties as they calibrate their responses amid ongoing missile strikes, drone attacks, and retaliatory operations across the Middle East.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "war",
+      "missile",
+      "conflict",
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "military_deployment",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Iran",
+        "IRGC",
+        "Hezbollah",
+        "Houthis"
+      ],
+      "location": "western Asia",
+      "brief": "Analytical article on day 3 of US-Iran war expressing uncertainty about conflict direction while noting various combatants' preferred outcomes."
+    },
+    "lat": 6.9474195,
+    "lng": 79.8625184
+  },
+  {
+    "id": "c5fdcd6081d066d0",
+    "title_original": "🔴  IRGC: Fuel tanker affiliated with US allies still on fire after being hit by two drones @PressTV",
+    "content_original": "🔴 IRGC: Fuel tanker affiliated with US allies still on fire after being hit by two drones @PressTV",
+    "url": "https://t.me/presstv/177704",
+    "published": "2026-03-02T18:34:49+00:00",
+    "fetched_at": "2026-03-02T19:03:01.682706+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "IRGC: Fuel tanker affiliated with US allies still on fire after being hit by two drones",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The IRGC claims its forces hit a fuel tanker linked to US allies with two drones, leaving the vessel still ablaze. This attack represents another incident in the ongoing Gulf maritime conflict between Iran and US-aligned shipping, continuing the pattern of IRGC proxy operations against commercial vessels perceived as supporting US interests.",
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "attack",
+      "conflict",
+      "irgc",
+      "proxy"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "high",
+      "parties_involved": [
+        "IRGC",
+        "US-aligned shipping"
+      ],
+      "location": "Gulf",
+      "brief": "IRGC drone strike on fuel tanker linked to US allies causes ongoing fire, marking another escalation in Gulf maritime conflict."
+    },
+    "lat": 29.9665252,
+    "lng": -85.2175889
   },
   {
     "id": "70b8287a4d46e109",
@@ -5781,6 +6532,37 @@
     "merged_source_count": 8,
     "lat": 32.65,
     "lng": 54.56
+  },
+  {
+    "id": "596c0864ca7e05d3",
+    "title_original": "Trump: ‘I got him before he got me’ after killing Iran’s Supreme Leader",
+    "content_original": "President Donald Trump said he authorized the strike that killed Iranian Supreme Leader Ayatollah Ali Khamenei before Tehran could act on alleged plots against him, telling ABC: \"I got him before he got me. They tried twice … I got him first.\" The president’s blunt remark appears to link Khamenei’s killing to previously reported Iranian-backed assassination plots targeting Trump during the 2024 election cycle — plots that U.S. prosecutors tied to Iran’s Islamic Revolutionary Guard Corps (IRGC). The U.S.-Israeli operation that killed Khamenei marked the most dramatic escalation in years of tensions between Washington and Iran. Iranian state media confirmed the longtime supreme leader’s death after coordinated strikes targeted senior regime figures and key facilities around Tehran, Iran. Trump has framed the strike as both a strategic blow to the Iranian regime and a personal reckoning with a government he says sought his life. US SURGES FORCES TO MIDDLE EAST AS PENTAGON WARNS IRAN FIGHT...",
+    "url": "https://www.foxnews.com/politics/trump-i-got-him-before-he-got-me-after-killing-irans-supreme-leader",
+    "published": "2026-03-02T13:35:45-05:00",
+    "fetched_at": "2026-03-02T19:02:47.174705+00:00",
+    "source_name": "FOX News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Trump: 'I got him before he got me' after killing Iran's Supreme Leader",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "President Trump authorized a strike that killed Iranian Supreme Leader Ayatollah Ali Khamenei, claiming he acted before Tehran could execute alleged Iranian-backed assassination plots targeting him during the 2024 election cycle. The U.S.-Israeli operation marks the most dramatic escalation in years of tensions between Washington and Iran. Iranian state media confirmed the longtime supreme leader's death.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "death",
+      "killed",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "high",
+      "parties_involved": [],
+      "location": "Unknown",
+      "brief": "Classified by keyword matching (LLM unavailable)"
+    }
   },
   {
     "id": "6e8ab4546c7e3e53",
