@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T07-29-39.509643_plus_00-00.json",
+    "generated_at": "2026-03-02T07:29:39.509643+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 858,
+    "summary_preview": "The Iran-US conflict remains at MAJOR severity with 858 incidents in 24h. The assassination of Supreme Leader Khamenei has triggered a new phase — Iran officially confirms his death and Hezbollah has "
+  },
+  {
     "filename": "2026-03-02T06-37-08.869399_plus_00-00.json",
     "generated_at": "2026-03-02T06:37:08.869399+00:00",
     "threat_label": "MAJOR",
