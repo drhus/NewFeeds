@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T15-14-38.842561_plus_00-00.json",
+    "generated_at": "2026-03-02T15:14:38.842561+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 796,
+    "summary_preview": "The Iran-US conflict has entered a decisive phase with Khamenei's death now widely reported and confirmed by multiple sources including spontaneous Iranian mourning gatherings. IRGC has launched direc"
+  },
+  {
     "filename": "2026-03-02T13-59-33.304607_plus_00-00.json",
     "generated_at": "2026-03-02T13:59:33.304607+00:00",
     "threat_label": "MAJOR",
