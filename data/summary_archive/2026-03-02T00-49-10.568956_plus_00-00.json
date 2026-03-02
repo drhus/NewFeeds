@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-03-02T00:49:10.568956+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 739,
+    "incident_count_6h": 206,
+    "severity_breakdown": {
+      "major": 347,
+      "high": 256,
+      "medium": 133,
+      "low": 3
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 136,
+    "articles_analyzed": 185,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "south_asia",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US conflict has escalated significantly in the last 4 hours with confirmed Iranian ballistic missile strikes hitting the U.S. Navy Fifth Fleet base in Bahrain and Salman Port, marking direct attacks on American military infrastructure. Iran’s Supreme Leader Khamenei has been confirmed killed, creating a critical leadership vacuum. Three U.S. service members are confirmed dead with Trump warning more casualties are expected. The conflict now spans at least 11 countries with 739 incidents in 24 hours. Gulf allies are fracturing—UAE closed its Tehran embassy and six Gulf states jointly demanded Iran stop attacks.",
+  "whats_new": [
+    "Iranian ballistic missiles struck the U.S. Navy Fifth Fleet base in Bahrain and Salman Port—direct attacks on American military infrastructure in a key Gulf ally",
+    "IRGC launched ballistic missile strikes targeting Qatar, representing escalation against another US-aligned Gulf state with major US military presence",
+    "Israeli forces continued attacking IRGC facilities across Tehran, including the state broadcaster IRIB",
+    "Pentagon investigating how Iranian drone penetrated air defenses at US base in Kuwait—security breach with potential systemic implications",
+    "UAE closed embassy in Tehran and withdrew ambassador plus all diplomatic staff following Iranian missile attacks on UAE territory",
+    "Six Gulf states issued joint demand calling on Iran to cease attacks on their territories—growing fracture in Gulf Arab alignment",
+    "Hezbollah pledged to take action against US and Israel following Khamenei's killing—first commitment to directly respond since escalation began",
+    "Spillover confirmed: Four lightly wounded in Syria from Iranian missile debris"
+  ],
+  "confirmed_events": [
+    "Confirmed by multiple sources: Iranian ballistic missiles struck central Tel Aviv and occupied Jerusalem after breaching Israeli air defense systems, with Israeli interception attempts failing",
+    "Confirmed by multiple sources: Three U.S. service members killed in Iranian counterattacks—two incidents reported near Erbil (Iraq) and Kuwait",
+    "IRGC claimed 40 killed in Haifa strike—major Iranian attack targeting Israeli city in northern territory",
+    "CENTCOM confirmed U.S. troops killed in Iran’s retaliatory strikes—first American combat casualties in direct Iran-US engagement",
+    "Israeli air defense systems failed to intercept multiple Iranian missiles, representing significant operational failure against ballistic missile threats"
+  ],
+  "unverified_emerging": [
+    "Unverified citizen reports claim US fighter jets bombed Tabriz in northwestern Iran—would represent major escalation if confirmed (source: citizen reports)",
+    "Unverified: Journalists close to Hezbollah hinting the party wasn't responsible for recent launch toward northern region—could indicate de-escalation attempt or misattribution (source: War Monitors/Telegram)",
+    "Reports of attack on Gandhi Hospital in Tehran—WHO Director-General responding (source: RIA Novosti)"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "Major Gulf aviation hubs remain disrupted with widespread flight cancellations",
+      "UAE diplomatic withdrawal from Tehran signals elevated threat environment for foreign nationals in Iran",
+      "Russian citizens being evacuated from Iran to Azerbaijan—civilian evacuation indicating heightened security concerns"
+    ],
+    "supply_chain": [
+      "Strait of Hormuz under sustained attack with GPS jamming, multiple attacks, and Houthi threats—critical global chokepoint under severe stress",
+      "Salman Port in Bahrain targeted—Iranian attack on key maritime infrastructure in Gulf region",
+      "Oil prices surging 13%—energy supply chain disruption accelerating"
+    ],
+    "market_macro": [
+      "Oil prices up 13% on conflict escalation—energy market shock intensifying",
+      "Spain condemns war on Iran as breach of international law—NATO member dissent growing",
+      "UK authorized US use of British bases for defensive missile strikes—British participation in coalition confirmed but limited to defensive role"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "The conflict is on an upward trajectory toward broader regionalization. With Khamenei killed and no confirmed successor, Iran’s command structure faces a critical leadership vacuum that could either paralyze decision-making or trigger more aggressive action by IRGC hardliners. Hezbollah’s commitment to respond marks a threshold crossing—the northern Israel front (Hezbollah) will likely activate within 24-72h. US forces in Iraq, Syria, Kuwait, and Bahrain remain high-value targets for Iranian strikes. The three confirmed American deaths will likely trigger accelerated US报复 operations, not de-escalation. Gulf states are fracturing—UAE embassy closure signals loss of diplomatic cover with Iran, potentially emboldening further Iranian attacks on Gulf infrastructure.",
+    "escalation_risks": [
+      "Hezbollah activation on northern Israel front—Lebanon border tensions escalating with confirmed Israeli drone activity",
+      "Iranian leadership vacuum could trigger erratic or escalatory decision-making by IRGC commanders",
+      "US base in Kuwait air defense breach—systemic vulnerability exposes forces to more drone/missile penetrations",
+      "Strait of Hormuz choke point under sustained attack—risk of shipping disruption or closure",
+      "Israeli attacks on Tehran likely to provoke more aggressive Iranian counterstrikes on Israeli population centers",
+      "Qatar strike (if confirmed) risks activating US Central Command assets from Al-Udeid"
+    ],
+    "de_escalation_pathways": "No apparent de-escalation pathways in the current 24-72h window. Iran’s leadership vacuum eliminates negotiation counterpart. Trump has vowed to continue until objectives are met and avenge casualties. Gulf states demanding Iran stop attacks signals diplomatic pressure but no ceasefire framework. UK and Spain split on coalition participation—Western alliance fracturing. The IRGC controls operational decisions absent central civilian leadership, making military de-escalation unlikely without major external intervention or complete exhaustion of one side’s strike capacity."
+  }
+}

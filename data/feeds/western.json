@@ -1,5 +1,50 @@
 [
   {
+    "id": "96b49fc75708dde6",
+    "title_original": "Trump Says Iran War Could Last Weeks and Gives Competing Visions of New Regime",
+    "content_original": "In a brief interview, he said the country’s hardened military should simply surrender their weapons to the Iranian public.",
+    "url": "https://www.nytimes.com/2026/03/01/us/politics/trump-iran-war-interview.html",
+    "published": "2026-03-02T00:50:57+00:00",
+    "fetched_at": "2026-03-02T00:54:47.566417+00:00",
+    "source_name": "New York Times – Iran",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Trump Says Iran War Could Last Weeks and Gives Competing Visions of New Regime",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "US President Trump stated in an interview that the Iran war could last weeks and provided competing visions for a new Iranian regime, suggesting the country's hardened military should surrender their weapons to the Iranian public. The statement reflects US leadership's perspective on both the war timeline and endgame strategy amid ongoing hostilities between US forces and Iranian targets."
+  },
+  {
+    "id": "2add8ae6a9c64b41",
+    "title_original": "Possums, asbestos and pigeons: snap review into NSW hospitals highlights serious maintenance issues",
+    "url": "https://www.theguardian.com/australia-news/2026/mar/02/nsw-hospitals-review-maintenance-issues-mould-possums-asbestos-pigeons",
+    "published": "2026-03-02T00:31:28+00:00",
+    "fetched_at": "2026-03-02T00:55:02.273381+00:00",
+    "source_name": "The Guardian World",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
+    "id": "af4e9b8506f456c1",
+    "title_original": "Ted Danson brings his rarely seen daughter Kate, 46, as his date to the Actors Awards",
+    "url": "https://www.dailymail.co.uk/tvshowbiz/article-15604823/Ted-Danson-daughter-Kate-rare-Actors-Awards-SAG.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+    "published": "2026-03-02T00:29:44+00:00",
+    "fetched_at": "2026-03-02T00:55:03.761614+00:00",
+    "source_name": "Daily Mail",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
     "id": "9e5a5284230c7e24",
     "title_original": "Actor Awards 2026 best dressed: Kristen Bell sizzles alongside Teyana Taylor, Kate Hudson and Michelle Williams as they lead glamour on the red carpet",
     "url": "https://www.dailymail.co.uk/tvshowbiz/article-15600267/Actor-Awards-2026-SAG-best-dressed-stars-red-carpet.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
@@ -1095,6 +1140,20 @@
     "translated": true,
     "relevant": true,
     "summary_en": "The US and Israel launched a joint military operation against Iran on Saturday, killing Iran's supreme leader Ayatollah Ali Khamenei. The podcast examines Trump's decision to attack Iran during nuclear deal negotiations and how he might sell the war to the American public. This represents a major escalation in the Iran-US conflict, eliminating Iran's highest religious and political leader and likely triggering significant retaliatory actions from Tehran."
+  },
+  {
+    "id": "3015576bdc6ae6d4",
+    "title_original": "Lions star David Montgomery sarcastically fires back at trade rumor report",
+    "url": "https://www.foxnews.com/sports/lions-star-david-montgomery-fires-back-trade-rumor-report-sarcastic-response",
+    "published": "2026-03-01T19:39:41-05:00",
+    "fetched_at": "2026-03-02T00:54:49.319019+00:00",
+    "source_name": "FOX News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "79e0eb1150c5dad5",

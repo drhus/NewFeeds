@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T00-49-10.568956_plus_00-00.json",
+    "generated_at": "2026-03-02T00:49:10.568956+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 739,
+    "summary_preview": "The Iran-US conflict has escalated significantly in the last 4 hours with confirmed Iranian ballistic missile strikes hitting the U.S. Navy Fifth Fleet base in Bahrain and Salman Port, marking direct "
+  },
+  {
     "filename": "2026-03-02T00-15-14.692054_plus_00-00.json",
     "generated_at": "2026-03-02T00:15:14.692054+00:00",
     "threat_label": "MAJOR",

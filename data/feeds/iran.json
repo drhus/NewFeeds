@@ -1,5 +1,19 @@
 [
   {
+    "id": "63bcb7502dc7f2ad",
+    "title_original": "إيران.. انعقاد الجلسة الثانية لمجلس القيادة المؤقت",
+    "url": "https://www.alalam.ir/news/7420783",
+    "published": "2026-03-02T03:03:20+00:00",
+    "fetched_at": "2026-03-02T00:52:44.900676+00:00",
+    "source_name": "Al Alam",
+    "source_category": "state",
+    "language": "ar",
+    "region": "iran",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": true
+  },
+  {
     "id": "81ff22f884733562",
     "title_original": "الحرس الثوري: إسقاط طائرتين مسيرتين من طراز هيرمس في تبريز وخرم آباد",
     "content_original": "أعلنت العلاقات العامة للحرس الثوري عن إسقاط طائرتين مسيرتين من طراز «هيرمس» تابعتين للكيان الصهيوني في مدينتي تبريز وخرم آباد....",
@@ -32,6 +46,51 @@
     "relevant": true,
     "summary_en": "Iranian Foreign Minister Seyed Abbas Iraqi stated that Iran, not external powers, will determine when and how the current war ends. He emphasized that enemy attacks on Tehran will not affect Iran's resolve to continue the conflict. The statement underscores Iran's position of defiance despite continued strikes on Iranian territory.",
     "translated": true
+  },
+  {
+    "id": "0ef27eb61d447780",
+    "title_original": "Ansarullah mourns Leader's martyrdom as 'great loss' caused by 'most wretched terrorists'",
+    "url": "https://presstv.ir/Detail/2026/03/02/764875/Yemen-Iran-Ansarullah-Leader-martyrdom",
+    "published": "2026-03-02T00:52:44.257979+00:00",
+    "fetched_at": "2026-03-02T00:52:44.257982+00:00",
+    "source_name": "Press TV",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
+    "id": "190ab9b5038f5db6",
+    "title_original": "China ‘strongly condemns’ US-Israeli assassination of Iran’s Leader China has strongly condemned the assassination of...",
+    "url": "https://t.me/presstv/177547",
+    "published": "2026-03-02T00:48:00+00:00",
+    "fetched_at": "2026-03-02T00:55:05.523800+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
+    "id": "95c94b8f0ceca04c",
+    "title_original": "Another angle of an Iranian missile making direct impact in occupied al-Quds @PressTV",
+    "content_original": "Another angle of an Iranian missile making direct impact in occupied al-Quds @PressTV",
+    "url": "https://t.me/presstv/177546",
+    "published": "2026-03-02T00:28:44+00:00",
+    "fetched_at": "2026-03-02T00:55:05.523159+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "Another angle of an Iranian missile making direct impact in occupied al-Quds",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Video footage shows an Iranian missile directly hitting occupied al-Quds (Jerusalem). This represents a significant escalation as Iranian missiles now directly target Israeli territory in occupied Palestinian land, following Iran's ballistic missile and drone attacks on US bases and Israeli targets as part of the ongoing Iran-US armed conflict."
   },
   {
     "id": "b419bb65671fdf86",
