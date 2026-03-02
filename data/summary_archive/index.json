@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T22-56-13.829939_plus_00-00.json",
+    "generated_at": "2026-03-02T22:56:13.829939+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 753,
+    "summary_preview": "The Iran-US conflict has escalated dramatically with Iran's Supreme Leader confirmed killed in a US-Israeli coordinated strike. Over 1,000 IRGC members and 555 Iranian civilians are confirmed dead. US"
+  },
+  {
     "filename": "2026-03-02T22-08-45.532098_plus_00-00.json",
     "generated_at": "2026-03-02T22:08:45.532098+00:00",
     "threat_label": "MAJOR",
@@ -880,14 +889,5 @@
     "trend": "escalating",
     "incident_count_24h": 222,
     "summary_preview": "The Iran–US conflict has escalated to a critical phase with direct military engagements, including coordinated US-Israeli strikes on Iran and retaliatory attacks by Iran on US and allied assets. The s"
-  },
-  {
-    "filename": "2026-02-28T18-57-28.899416_plus_00-00.json",
-    "generated_at": "2026-02-28T18:57:28.899416+00:00",
-    "threat_label": "MAJOR",
-    "threat_level": 1,
-    "trend": "stable",
-    "incident_count_24h": 207,
-    "summary_preview": "The Iran–US conflict has dramatically escalated with multiple direct military engagements, including coordinated US-Israeli airstrikes on Iran, retaliatory missile attacks by Iran on Israel and US ass"
   }
 ]

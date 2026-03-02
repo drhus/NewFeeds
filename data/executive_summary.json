@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-02T22:56:13.829939+00:00",
+  "generated_at": "2026-03-02T23:43:27.981168+00:00",
   "threat_snapshot": {
     "level": 1,
     "label": "MAJOR",
     "color": "#DC2626",
     "trend": "stable",
-    "incident_count_24h": 753,
-    "incident_count_6h": 155,
+    "incident_count_24h": 756,
+    "incident_count_6h": 176,
     "severity_breakdown": {
-      "major": 319,
-      "high": 254,
-      "medium": 174,
-      "low": 6
+      "major": 325,
+      "high": 256,
+      "medium": 168,
+      "low": 7
     }
   },
   "source_count": {
-    "attacks_analyzed": 120,
-    "articles_analyzed": 197,
+    "attacks_analyzed": 139,
+    "articles_analyzed": 199,
     "event_window_hours": 4,
     "article_window_hours": 2,
     "regions_covered": [
@@ -30,57 +30,53 @@
       "western"
     ]
   },
-  "executive_summary": "The Iran-US conflict has escalated dramatically with Iran's Supreme Leader confirmed killed in a US-Israeli coordinated strike. Over 1,000 IRGC members and 555 Iranian civilians are confirmed dead. US forces have destroyed all Iranian warships in Oman and struck the Natanz nuclear facility. Gulf states report their Patriot air defenses will be depleted within 4 days. The Strait of Hormuz is now effectively closed as insurers cancel coverage and IRGC threatens to attack any transiting ship. US casualties have risen to 6 troops.",
+  "executive_summary": "The Iran-US armed conflict has reached a new phase of intensification with the confirmed killing of Iran's Supreme Leader Khamenei in a US-Israeli coordinated strike, triggering Iran's 12th wave of attacks against US and Israeli targets. Gulf states report intercepting hundreds of missiles/drones while their Patriot air defenses face depletion within 4 days. The Strait of Hormuz remains contested—CENTCOM denies closure but insurers have canceled coverage and IRGC threatens to fire on any transiting ship. US casualties have risen to 6 troops killed, with Iranian civilian deaths now exceeding 555.",
   "whats_new": [
-    "Trump declares 'I got him before he got me' after Iran's Supreme Leader killed in Israeli strike on Tehran - confirmed by multiple sources",
-    "UAE Defense Ministry: Air Defense Forces Destroyed Over 160 Ballistic Missiles from Iran - largest single interception claim",
-    "Qatar and UAE warn Patriot air defense systems will be depleted within 4 days, request urgent international assistance",
-    "US Central Command confirms death toll rises to 6 American troops, with remains of 2 additional soldiers recovered",
-    "Iran claims US-Israeli attack on Natanz nuclear facility - represents escalation to critical nuclear infrastructure",
-    "Qatar sends formal diplomatic message to UN Security Council regarding Iranian aggression on its territory",
-    "Bahrain's permanent mission on behalf of GCC states sends urgent letter to UN Secretary-General about Iranian missile attacks",
-    "Israel issues evacuation orders for 31 villages in southern Lebanon as operations expand against Hezbollah"
+    "Qatar shot down two Iranian Su-24 jets and seven ballistic missiles—first reported Iranian air attack on a Gulf state",
+    "Iran struck Cyprus despite British neutrality, marking geographic expansion of Iranian retaliation",
+    "Missiles successfully evaded US air defense systems in Kuwait airspace—demonstrating advancing Iranian strike capabilities",
+    "Hezbollah launches limited to three rockets so far—lower proxy activity than expected on northern Israel front",
+    "US Secretary Rubio confirms US attacked Iran preemptively after learning Israel planned to strike, fearing Tehran would retaliate against US forces"
   ],
   "confirmed_events": [
-    "Gulf states (Bahrain, Qatar, UAE) intercepting hundreds of Iranian missiles and drones - Bahrain 70 missiles/59 drones, Qatar destroyed 2 Iranian Su-24 jets and 7 ballistic missiles, UAE intercepted 9 ballistic missiles/6 cruise missiles/148 drones",
-    "US forces destroyed all 11 Iranian warships in Gulf of Oman and 11 drone carrier vessels - major elimination of Iranian naval capability",
-    "Israeli Air Force completed three additional attack waves in western Iran targeting missile launchers and defense systems",
-    "Israeli forces struck broadcasting authority compound in Tehran's Ain neighborhood - escalation inside Iranian capital",
-    "IRGC launched Wave 12 of 'Honest Promise 4' operations targeting US and Israeli sites with 700 drones and hundreds of missiles"
+    "Iran's Supreme Leader Ayatollah Ali Khamenei confirmed killed in Israeli strike on Tehran (Operation Epic Fury)",
+    "Over 1,000 IRGC members and 555 Iranian civilians confirmed dead in US-Israeli strikes—Israeli intelligence estimate",
+    "US forces destroyed all 11 Iranian warships in Gulf of Oman—footage published by CENTCOM",
+    "Gulf states (Bahrain, Qatar, UAE) intercepting hundreds of Iranian missiles and drones; Bahrain: 70 missiles/76 drones, UAE: 9 ballistic/6 cruise/148 drones",
+    "US and Israel struck Natanz nuclear facility—Iranian Atomic Energy Organization protested to IAEA"
   ],
   "unverified_emerging": [
-    "IRGC official threatens to 'set ablaze' any ships in Strait of Hormuz - single source (Middle East Eye) but represents major escalation in energy warfare",
-    "Photo published of graves of over 160 girls killed in Minab school attack - claim from Iraqji source, unverified",
-    "Explosions reported in Jordan near American base - single source (Mivzakim Breaking), unconfirmed",
-    "Iran claims drone strike on US Marine base in Kuwait - IRGC press service claim, not independently verified",
-    "Trump claims Iran could have obtained nuclear weapons three years ago if US stayed in JCPOA - political statement, unverifiable"
+    "Claims of over 160 girls killed in US-Israeli attack on girls' school in Minab, southern Iran (Iraqji photo, unverified)",
+    "Norway-based Hengaw reports day-3 death toll at 1,500 including civilians and Iranian forces—cannot independently confirm",
+    "Investigators examining Iran war as possible motive in Austin, Texas shooting—potential homeland spillover link",
+    "Iranian missiles directly hit Muwaffaq Salti Air Base in Jordan causing power outages—visual confirmation exists but extent unclear"
   ],
   "operational_impacts": {
     "people_travel": [
-      "Airports closures and flight disruptions across region - multiple airports affected",
-      "Mass evacuation orders issued for 31 villages in southern Lebanon - civilian displacement ongoing",
-      "Dubai no longer considered safe haven - missile attacks directly targeting city"
+      "Dubai flights disrupted—missile attacks shatter 'safe haven' perception for expats and business travelers",
+      "Air raid sirens active in Tel Aviv and northern Israel—civilian population under ongoing threat",
+      "Qatar's Al Udeid Air Base area reported explosions—US regional hub under threat"
     ],
     "supply_chain": [
-      "Strait of Hormuz effectively closed - world's largest insurers cancel war-risk coverage for Persian Gulf vessels",
-      "Energy prices rising globally - 20% of world oil supplies at risk from potential Hormuz closure",
-      "Supply chain disruption from port closures and shipping route blocks in Gulf region"
+      "World's largest insurers have canceled war-risk coverage for vessels in Persian Gulf—commercial shipping effectively halted",
+      "Strait of Hormuz increasingly contested—20% of global oil supplies at risk despite CENTCOM stating it remains 'open'",
+      "IRGC threatens to 'set ablaze' any ship attempting to pass—explicit threat to global oil transit"
     ],
     "market_macro": [
-      "Global energy prices spiking due to Hormuz closure threat",
-      "International stock markets declining on regional escalation",
-      "Major economic implications from potential disruption to 20% of world oil transit"
+      "UN Secretary-General calls for de-escalation—diplomatic channel exists but no ceasefire progress",
+      "Trump signals US prepared for long war, won't rule out ground troops—conflict duration indefinite",
+      "Gulf states urgently requesting additional Patriot systems from US and Italy—defensive posture critical shortage"
     ]
   },
   "outlook_24_72h": {
-    "base_case": "Conflict will intensify with Iran leadership succession crisis and continued IRGC missile/drone campaigns against US bases and Gulf allies. Gulf states face critical air defense depletion within 4 days without international replenishment. Strait of Hormuz closure threat poses immediate global energy supply risk. Israel expanding operations into Lebanon against Hezbollah while US maintains pressure on Iranian nuclear facilities. US casualties expected to rise as Iranian retaliation continues.",
+    "base_case": "The conflict will likely intensify over the next 24-72 hours. With Iran's Supreme Leader killed, Tehran will seek to demonstrate resolve through continued missile/drone salvos against US bases and Gulf partners. IRGC's Wave 12 operations confirm sustained offensive capacity. Gulf air defenses face critical depletion within 4 days without resupply. The Strait of Hormuz situation remains the primary wild card—if IRGC executes threats against commercial shipping, global oil supplies face severe disruption.",
     "escalation_risks": [
-      "Iran executes Strait of Hormuz threat - attacks on commercial shipping would trigger global energy crisis and likely US escalation",
-      "Nuclear facility strikes (Natanz) could trigger Iranian response with asymmetric attacks or WMD escalation",
-      "Gulf state air defense depletion could lead to strategic defeats and regional instability",
-      "Hezbollah expansion of attacks on Israel could draw US deeper into multi-front conflict",
-      "Iranian cyberattacks on critical infrastructure in US or allied nations"
+      "IRGC executes threat to attack commercial vessels in Strait of Hormuz—potential global oil supply shock",
+      "Hezbollah significantly escalates attacks on northern Israel—opens multi-front war with Lebanon",
+      "Iranian cyberattacks on Gulf state infrastructure—water, power, financial systems",
+      "US ground troop deployment to Iran—Trump hasn't ruled this out",
+      "Russian/Chinese intervention to support Iran—geopolitical扩大"
     ],
-    "de_escalation_pathways": "De-escalation appears unlikely in near-term as both sides have committed to maximalist objectives. Iran faces leadership succession crisis but IRGC appears determined to continue resistance. US has not defined clear endgame. International pressure from UN could potentially create diplomatic off-ramp if Gulf states mediate, but current trajectory suggests continued escalation for at least 7-14 days before possible exhaustion or negotiated ceasefire."
+    "de_escalation_pathways": "No clear de-escalation pathway exists in the near term. The killing of Iran's Supreme Leader removes a key figure for potential negotiations and hardens both sides' positions. UN Secretary-General's call for dialogue has gone unheeded. The only plausible paths would be: (1) a decisive US-Israeli military outcome that forces Tehran to negotiate under terms of weakness, or (2) mutual exhaustion after significant casualties on both sides. Neither appears imminent within the 24-72h window."
   }
 }
