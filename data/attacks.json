@@ -1170,41 +1170,6 @@
     "lng": 46.68
   },
   {
-    "id": "1a457a0c595cc86c",
-    "title_original": "\"פוקס ניוז\": השגרירות בסעודיה הייתה ריקה בזמן המתקפה האיראנית",
-    "content_original": "\"פוקס ניוז\": השגרירות בסעודיה הייתה ריקה בזמן המתקפה האיראנית",
-    "url": "https://mivzakim.net/r/13969006/rss",
-    "published": "2026-03-03T02:38:46+02:00",
-    "fetched_at": "2026-03-03T00:53:07.128110+00:00",
-    "source_name": "Mivzakim Breaking",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Fox News: US embassy in Saudi Arabia was empty during Iranian attack",
-    "relevant": true,
-    "summary_en": "Iran launched an attack targeting US assets in the region. According to Fox News reporting, the US embassy in Saudi Arabia was empty at the time of the Iranian attack. The significance remains unclear - it could indicate the US had advance warning and evacuated personnel, or that the attack was not specifically aimed at the embassy compound.",
-    "translated": true,
-    "keyword_matches": 4,
-    "matched_keywords": [
-      "attack"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "iran_strike_on_us",
-      "severity": "major",
-      "parties_involved": [
-        "Iran",
-        "United States",
-        "Saudi Arabia"
-      ],
-      "location": "Saudi Arabia (US Embassy in Riyadh)",
-      "brief": "Iran launched an attack targeting US assets in the region, with the US embassy in Saudi Arabia found to be empty at the time of the attack, suggesting either advance warning and evacuation or that the attack's intended target was elsewhere."
-    },
-    "lat": 24.71,
-    "lng": 46.68
-  },
-  {
     "id": "f7fefb2c010aecb7",
     "title_original": "דיווח על תקיפה נוספת בדאחייה",
     "content_original": "דיווח על תקיפה נוספת בדאחייה",
@@ -1580,46 +1545,6 @@
     },
     "lat": 33.06,
     "lng": 35.24
-  },
-  {
-    "id": "10946e4f3ccc9cca",
-    "title_original": "חיזבאללה: השיגורים לעבר ישראל - פעולה הגנתית",
-    "content_original": "חיזבאללה: השיגורים לעבר ישראל - פעולה הגנתית",
-    "url": "https://mivzakim.net/r/13968954/rss",
-    "published": "2026-03-03T01:56:34+02:00",
-    "fetched_at": "2026-03-03T00:20:53.561463+00:00",
-    "source_name": "Mivzakim Military",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Hezbollah: Launches toward Israel - a defensive action",
-    "relevant": true,
-    "summary_en": "Hezbollah has claimed that its rocket and missile launches toward Israel constitute a defensive action. This statement comes as part of the ongoing hostilities on Israel's northern border, where Hezbollah, an IRGC proxy group backed by Iran, has been conducting operations against Israeli targets since October 2023 and increasingly since the current Iran-US conflict began. The framing as 'defensive' is part of Hezbollah's messaging strategy to justify its attacks on Israel as retaliation for Israeli operations in Lebanon and Gaza.",
-    "translated": true,
-    "keyword_matches": 9,
-    "matched_keywords": [
-      "missile",
-      "hezbollah",
-      "irgc",
-      "proxy",
-      "conflict",
-      "rocket"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "medium",
-      "parties_involved": [
-        "Hezbollah",
-        "Israel",
-        "Iran (backing)"
-      ],
-      "location": "Israel's northern border",
-      "brief": "Hezbollah claimed its rocket and missile launches toward Israel constitute defensive action amid ongoing hostilities on Israel's northern border."
-    },
-    "lat": 31.1745655,
-    "lng": 34.2845249
   },
   {
     "id": "c1fdc5906dd52592",
@@ -2001,42 +1926,6 @@
       ],
       "location": "Dahieh district, southern Beirut, Lebanon",
       "brief": "Israeli forces conducted an airstrike in Beirut's Dahieh district targeting Hezbollah infrastructure and leadership elements in this densely populated suburb."
-    },
-    "lat": 33.85,
-    "lng": 35.86
-  },
-  {
-    "id": "7beeb9a45c2c1a3d",
-    "title_original": "דיווח: תקיפה בדאחייה",
-    "content_original": "דיווח: תקיפה בדאחייה",
-    "url": "https://mivzakim.net/r/13968909/rss",
-    "published": "2026-03-03T01:20:33+02:00",
-    "fetched_at": "2026-03-02T23:47:36.254947+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Report: Attack in Dahiyeh",
-    "relevant": true,
-    "summary_en": "A reported attack in Dahiyeh, the southern suburb of Beirut known as a Hezbollah stronghold in Lebanon. The specific details of the attack, including perpetrators, targets, and casualties, are not yet clear from this report. This incident falls within the active Hezbollah front of the ongoing Iran-US conflict and broader regional hostilities.",
-    "translated": true,
-    "keyword_matches": 6,
-    "matched_keywords": [
-      "conflict",
-      "attack",
-      "hezbollah"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "medium",
-      "parties_involved": [
-        "Hezbollah",
-        "Lebanon"
-      ],
-      "location": "Dahiyeh, Beirut, Lebanon",
-      "brief": "Reported attack in Dahiyeh, a Hezbollah stronghold in southern Beirut, with perpetrators targets and casualties still unclear."
     },
     "lat": 33.85,
     "lng": 35.86
@@ -3488,44 +3377,6 @@
     "lng": 54.56
   },
   {
-    "id": "9008dfde9bb138a0",
-    "title_original": "ציד המשגרים והטילים",
-    "content_original": "מערכי השיגור והייצור של הטילים הבליסטיים הם אחת המטרות העיקריות של התקיפות באיראן. הכוחות הישראלים והאמריקאים מתמודדים מול האיום שהאיראנים הקפידו להסתיר אחרי המלחמה הקודמת",
-    "url": "https://mivzakim.net/r/13968758/rss",
-    "published": "2026-03-03T00:10:26+02:00",
-    "fetched_at": "2026-03-02T22:12:53.767010+00:00",
-    "source_name": "Mivzakim Breaking",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Hunting Launchers and Missiles",
-    "relevant": true,
-    "summary_en": "Israeli and American forces are prioritizing attacks on Iranian ballistic missile launch and production facilities as key military targets. The forces are confronting an Iranian threat that was carefully concealed following the previous conflict.",
-    "translated": true,
-    "keyword_matches": 4,
-    "matched_keywords": [
-      "conflict",
-      "missile",
-      "threat",
-      "ballistic"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "us_strike_on_iran",
-      "severity": "major",
-      "parties_involved": [
-        "Israel",
-        "United States",
-        "Iran"
-      ],
-      "location": "Iran (target) / Israel (launching from)",
-      "brief": "Israeli and American forces are conducting strikes on Iranian ballistic missile launch and production facilities, representing direct US-Iran military engagement."
-    },
-    "lat": 32.65,
-    "lng": 54.56
-  },
-  {
     "id": "1910d2190efccb1e",
     "title_original": "דיווח: הפיצוצים בירדן - תקיפה בבסיס אמריקני",
     "content_original": "דיווח: הפיצוצים בירדן - תקיפה בבסיס אמריקני",
@@ -3824,43 +3675,6 @@
     "merged_source_count": 3,
     "lat": 31.5,
     "lng": 34.8
-  },
-  {
-    "id": "cbcc7f57a36c2250",
-    "title_original": "צה\"ל: \"הושמד מרכז התקשורת והתעמולה של משטר הטרור האיראני\"",
-    "content_original": "צה\"ל: \"הושמד מרכז התקשורת והתעמולה של משטר הטרור האיראני\"",
-    "url": "https://mivzakim.net/r/13968740/rss",
-    "published": "2026-03-03T00:02:59+02:00",
-    "fetched_at": "2026-03-02T22:12:54.646177+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "IDF: 'The communication and propaganda center of the Iranian terrorist regime was destroyed'",
-    "relevant": true,
-    "summary_en": "The Israeli Defense Forces (IDF) announced the destruction of an Iranian communication and propaganda center, targeting Tehran's informational warfare capabilities. This strike represents part of Israel's ongoing operations against Iranian regime assets and infrastructure linked to the IRGC.",
-    "translated": true,
-    "keyword_matches": 4,
-    "matched_keywords": [
-      "strike",
-      "irgc",
-      "idf"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "airstrike",
-      "severity": "high",
-      "parties_involved": [
-        "Israel",
-        "Iran",
-        "IRGC"
-      ],
-      "location": "Middle East (specific location unspecified)",
-      "brief": "Israeli Defense Forces conducted an airstrike destroying an Iranian communication and propaganda center targeting Tehran's informational warfare capabilities."
-    },
-    "lat": 29.0,
-    "lng": 47.0
   },
   {
     "id": "f1237a54c162bfa9",
@@ -4790,44 +4604,6 @@
     "lng": 34.8
   },
   {
-    "id": "cc0c642db898163e",
-    "title_original": "9 בני אדם, 5 משפחות: אלו סיפורי ההרוגים באסון בבית שמש",
-    "content_original": "נער, אם ובת, בן ואם, אב לארבעה, שתי אחיות ואח: גבריאל, רונית ושרה, יוסף וברוריה, אורן, יעקב, אביגיל ושרה נהרגו מפגיעת הטיל האיראני. קרוביהם ספדו וסיפרו על התקרית הקשה, ועל הלוויה שנערכה במקום בר מצווה. אביהם של ילדי משפחת ביטון: \"היה פיצוץ אדיר, מהחלון ראיתי עיי חורבות - וידעתי\"",
-    "url": "https://mivzakim.net/r/13968635/rss",
-    "published": "2026-03-02T23:20:26+02:00",
-    "fetched_at": "2026-03-02T21:24:59.654862+00:00",
-    "source_name": "Mivzakim World",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "9 People, 5 Families: These Are the Stories of the Dead in the Beit Shemesh Disaster",
-    "relevant": true,
-    "summary_en": "Nine civilians from five families, including children and adults, were killed by an Iranian missile strike in Beit Shemesh, Israel. The victims included Gabriel, Ronit and Sarah, Joseph and Bruria, Ornan, Yaakov, Avigail and Sarah, with relatives mourning and describing a massive explosion visible from windows as rubble. This represents a significant civilian casualty toll from Iran's direct missile attacks on Israeli territory.",
-    "translated": true,
-    "keyword_matches": 6,
-    "matched_keywords": [
-      "explosion",
-      "dead",
-      "missile",
-      "strike",
-      "killed"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "iran_strike_on_us",
-      "severity": "major",
-      "parties_involved": [
-        "Iran",
-        "Israel"
-      ],
-      "location": "Beit Shemesh, Israel",
-      "brief": "Iranian ballistic missile strike killed nine Israeli civilians from five families in Beit Shemesh, marking a significant escalation with mass civilian casualties."
-    },
-    "lat": 31.5,
-    "lng": 34.8
-  },
-  {
     "id": "397b9b73f70fab9a",
     "title_original": "صواريخ إيرانية في سماء طولكرم، أثناء توجهها إلى فلسطين المحتلة. شبكة قدس الإخبارية",
     "content_original": "صواريخ إيرانية في سماء طولكرم، أثناء توجهها إلى فلسطين المحتلة. شبكة قدس الإخبارية",
@@ -5013,44 +4789,6 @@
     "lng": 35.37
   },
   {
-    "id": "c21a49cc093beb90",
-    "title_original": "ЦАХАЛ «эвакуирует» посреди ночи жителей 30 ливанских городков и деревень",
-    "content_original": "ЦАХАЛ «эвакуирует» посреди ночи жителей 30 ливанских городков и деревень",
-    "url": "https://news.israelinfo.co.il/141652",
-    "published": "2026-03-02T23:14:01+02:00",
-    "fetched_at": "2026-03-02T21:24:54.295702+00:00",
-    "source_name": "IsraelInfo Events",
-    "source_category": "independent",
-    "language": "ru",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "IDF 'Evacuates' Residents of 30 Lebanese Towns and Villages in Middle of Night",
-    "relevant": true,
-    "summary_en": "The Israeli Defense Forces (IDF) conducted overnight operations to evacuate residents from 30 Lebanese towns and villages. This represents a significant escalation in Israeli operations along the northern border with Lebanon, where hostilities with Hezbollah (an Iranian proxy) have been ongoing as part of the wider regional conflict.",
-    "translated": true,
-    "keyword_matches": 5,
-    "matched_keywords": [
-      "idf",
-      "hezbollah",
-      "conflict",
-      "proxy"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "proxy_operation",
-      "severity": "high",
-      "parties_involved": [
-        "Israel",
-        "Hezbollah",
-        "Lebanon"
-      ],
-      "location": "Lebanon (northern border with Israel)",
-      "brief": "IDF conducted overnight operations evacuating residents from 30 Lebanese towns and villages, representing a significant escalation in Israeli operations against Iranian proxy Hezbollah along the northern border."
-    },
-    "lat": 33.85,
-    "lng": 35.86
-  },
-  {
     "id": "62679c4fa03f044f",
     "title_original": "צה\"ל באזהרת פינוי למתחם רשות השידור האיראנית: \"נתקוף בשעות הקרובות\"",
     "content_original": "צה\"ל באזהרת פינוי למתחם רשות השידור האיראנית: \"נתקוף בשעות הקרובות\"",
@@ -5088,43 +4826,6 @@
     "lng": 54.56
   },
   {
-    "id": "62679c4fa03f044f",
-    "title_original": "צה\"ל באזהרת פינוי למתחם רשות השידור האיראנית: \"נתקוף בשעות הקרובות\"",
-    "content_original": "צה\"ל באזהרת פינוי למתחם רשות השידור האיראנית: \"נתקוף בשעות הקרובות\"",
-    "url": "https://mivzakim.net/r/13968613/rss",
-    "published": "2026-03-02T23:11:51+02:00",
-    "fetched_at": "2026-03-02T21:24:57.274022+00:00",
-    "source_name": "Mivzakim Breaking",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "IDF issues evacuation warning for Iranian Broadcasting Authority complex: 'We will attack in the coming hours'",
-    "relevant": true,
-    "summary_en": "The Israeli Defense Forces have issued an evacuation warning for the Iranian Broadcasting Authority complex, stating they will attack the location within the coming hours. This represents a direct escalation of Israeli military operations against Iranian infrastructure, expanding hostilities beyond the previously reported strikes on IRGC assets and nuclear facilities.",
-    "translated": true,
-    "keyword_matches": 5,
-    "matched_keywords": [
-      "attack",
-      "idf",
-      "irgc",
-      "nuclear"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "airstrike",
-      "severity": "major",
-      "parties_involved": [
-        "Israel",
-        "Iran"
-      ],
-      "location": "Iran (Iranian Broadcasting Authority complex)",
-      "brief": "IDF issued evacuation warning for Iranian Broadcasting Authority complex, announcing imminent airstrike within hours, marking direct Israeli attack on Iranian infrastructure."
-    },
-    "lat": 32.65,
-    "lng": 54.56
-  },
-  {
     "id": "1d40876574f8da2a",
     "title_original": "מספר ההרוגים האמריקנים עלה ל-6",
     "content_original": "מספר ההרוגים האמריקנים עלה ל-6",
@@ -5155,42 +4856,6 @@
       ],
       "location": "Israel",
       "brief": "Iranian attacks on US forces in the region have killed six Americans, marking a significant escalation in direct Iran-US engagement."
-    },
-    "lat": 31.5,
-    "lng": 34.8
-  },
-  {
-    "id": "1d40876574f8da2a",
-    "title_original": "מספר ההרוגים האמריקנים עלה ל-6",
-    "content_original": "מספר ההרוגים האמריקנים עלה ל-6",
-    "url": "https://mivzakim.net/r/13968605/rss",
-    "published": "2026-03-02T23:04:47+02:00",
-    "fetched_at": "2026-03-02T21:24:57.876934+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Number of American dead rises to 6",
-    "relevant": true,
-    "summary_en": "American casualty count has increased to 6 killed, presumably from Iranian attacks on US bases or personnel in the region. This represents an escalation in American losses since the start of the Iran-US armed conflict in 2026.",
-    "translated": true,
-    "keyword_matches": 3,
-    "matched_keywords": [
-      "killed",
-      "dead",
-      "conflict"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "iran_strike_on_us",
-      "severity": "major",
-      "parties_involved": [
-        "Iran",
-        "United States"
-      ],
-      "location": "Israel/region",
-      "brief": "Six American personnel killed in Iranian attacks on US bases in the region, marking a significant escalation in direct US-Iran combat casualties."
     },
     "lat": 31.5,
     "lng": 34.8
@@ -6824,40 +6489,6 @@
     "merged_source_count": 2
   },
   {
-    "id": "210e33e1a5c95865",
-    "title_original": "ארה\"ב השמידה את כל ספינות המלחמה של איראן בעומאן",
-    "content_original": "ארה\"ב השמידה את כל ספינות המלחמה של איראן בעומאן",
-    "url": "https://mivzakim.net/r/13968423/rss",
-    "published": "2026-03-02T21:36:17+02:00",
-    "fetched_at": "2026-03-02T19:53:57.505402+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "US Destroyed All of Iran's Warships in Oman",
-    "relevant": true,
-    "summary_en": "US forces reportedly destroyed all Iranian warships stationed in Oman. This represents a significant naval strike against Iran's military assets in the Gulf region, potentially eliminating a substantial portion of Iran's naval capabilities in Omani waters.",
-    "translated": true,
-    "keyword_matches": 1,
-    "matched_keywords": [
-      "strike"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "us_strike_on_iran",
-      "severity": "major",
-      "parties_involved": [
-        "United States",
-        "Iran"
-      ],
-      "location": "Oman,Gulf of Oman",
-      "brief": "US forces destroyed all Iranian warships stationed in Oman, eliminating a significant portion of Iran's naval capabilities in the region."
-    },
-    "lat": 21.0000287,
-    "lng": 57.0036901
-  },
-  {
     "id": "20a751d260632d29",
     "title_original": "מרי אן נהרגה מפגיעת הטיל האיראני בתל אביב: \"מלאך עלי אדמות\"",
     "content_original": "מרי אן דה-ורה, מטפלת סיעודית פיליפינית בת 32 היתה המלאך של משפחת גורין • במשך שנים היא טיפלה באם המשפחה דוריס, ולבנותיה לא נותרו מילים: \"נשמה מיוחדת, אדם כל כך ייחודי, אדיב, מסור ואכפתי\"",
@@ -7870,42 +7501,6 @@
     },
     "lat": 33.06,
     "lng": 35.24
-  },
-  {
-    "id": "2e3f438caf0a8bfb",
-    "title_original": "דובר צה\"ל: \"חיזבאללה ירה לעבר שטחינו - ומשלם על זה מחיר כבד מאוד\"",
-    "content_original": "דובר צה\"ל: \"חיזבאללה ירה לעבר שטחינו - ומשלם על זה מחיר כבד מאוד\"",
-    "url": "https://mivzakim.net/r/13968286/rss",
-    "published": "2026-03-02T20:39:06+02:00",
-    "fetched_at": "2026-03-02T19:01:44.465202+00:00",
-    "source_name": "Mivzakim Breaking",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "IDF Spokesperson: 'Hezbollah fired at our territory - and is paying a very heavy price for this'",
-    "relevant": true,
-    "summary_en": "The IDF spokesperson announced that Hezbollah fired rockets/missiles at Israeli territory, and that Israel is responding with significant retaliation. The statement emphasizes that Hezbollah is suffering heavy consequences for its attacks on Israel, indicating ongoing hostilities between the two sides.",
-    "translated": true,
-    "keyword_matches": 5,
-    "matched_keywords": [
-      "hezbollah",
-      "idf"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "high",
-      "parties_involved": [
-        "Hezbollah",
-        "Israel"
-      ],
-      "location": "Israel",
-      "brief": "Hezbollah fired rockets/missiles at Israeli territory, prompting significant Israeli retaliation with heavy consequences for Hezbollah."
-    },
-    "merged_source_count": 3,
-    "lat": 31.5,
-    "lng": 34.8
   },
   {
     "id": "e14a7776b08a83f9",
@@ -13430,44 +13025,6 @@
     "lng": 34.8
   },
   {
-    "id": "ff52f6b5c0d7a4e7",
-    "title_original": "אזעקות בזרעית שבגבול הצפון",
-    "content_original": "אזעקות בזרעית שבגבול הצפון",
-    "url": "https://mivzakim.net/r/13967075/rss",
-    "published": "2026-03-02T14:37:10+02:00",
-    "fetched_at": "2026-03-02T12:48:44.952591+00:00",
-    "source_name": "Mivzakim Breaking",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Sirens in Zare'it on the northern border",
-    "relevant": true,
-    "summary_en": "Air raid sirens were activated in Zare'it, a community located on Israel's northern border with Lebanon. The sounding of sirens in this area typically indicates incoming rocket, missile, or drone fire from Lebanese Hezbollah forces, reflecting ongoing hostilities along the northern front.",
-    "translated": true,
-    "keyword_matches": 5,
-    "matched_keywords": [
-      "missile",
-      "rocket",
-      "hezbollah",
-      "raid",
-      "drone"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "medium",
-      "parties_involved": [
-        "Israel",
-        "Hezbollah"
-      ],
-      "location": "Zare'it, Israel (northern border with Lebanon)",
-      "brief": "Air raid sirens in Zare'it indicate incoming rocket, missile, or drone fire from Hezbollah forces along Israel's northern border."
-    },
-    "lat": 31.5,
-    "lng": 34.8
-  },
-  {
     "id": "8101123045b871fa",
     "title_original": "תיעוד דרמטי: גל פיצוצים אדיר בלב טהרן",
     "content_original": "בתיעוד דרמטי מלב טהרן נראה גל פיצוצים עוצמתי כשהוא מתרחש בזמן התיעוד - ככל הנראה במתקפה בתצורת \"חגורת אש\"",
@@ -15704,45 +15261,6 @@
     "lng": 34.8
   },
   {
-    "id": "2c676fafa7275d95",
-    "title_original": "זוהו שיגורים נוספים מאיראן למרכז",
-    "content_original": "זוהו שיגורים נוספים מאיראן למרכז",
-    "url": "https://mivzakim.net/r/13966520/rss",
-    "published": "2026-03-02T12:33:22+02:00",
-    "fetched_at": "2026-03-02T10:37:49.774992+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Additional launches from Iran identified toward center",
-    "relevant": true,
-    "summary_en": "Iran has launched additional projectiles toward the central region, likely Israel. This follows the pattern of ongoing Iranian ballistic missile and drone attacks as part of the escalating Iran-US conflict. The attack represents a significant escalation in regional hostilities.",
-    "translated": true,
-    "keyword_matches": 5,
-    "matched_keywords": [
-      "ballistic",
-      "conflict",
-      "attack",
-      "missile",
-      "drone"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "ballistic_missile",
-      "severity": "major",
-      "parties_involved": [
-        "Iran",
-        "Israel",
-        "United States"
-      ],
-      "location": "Israel (central region)",
-      "brief": "Iran launched additional ballistic missiles and projectiles toward central Israel, marking a significant escalation in the ongoing Iran-US conflict with direct Iranian strikes on Israeli territory."
-    },
-    "lat": 31.5,
-    "lng": 34.8
-  },
-  {
     "id": "92e5998070117dd3",
     "title_original": "#إعلام_العدو   وسائل إعلام إسرائيلية: ارتفاع عدد الإصابات من جراء سقوط صاروخ إيراني في بئر السبع إلى 26",
     "content_original": "#إعلام_العدو وسائل إعلام إسرائيلية: ارتفاع عدد الإصابات من جراء سقوط صاروخ إيراني في بئر السبع إلى 26",
@@ -17223,42 +16741,6 @@
     },
     "lat": 31.5,
     "lng": 34.8
-  },
-  {
-    "id": "2379f14cda3834e9",
-    "title_original": "צה\"ל חיסל את בכירי מיניסטריון המודיעין האיראני, גוף המודיעין המרכזי של משטר הטרור האיראני",
-    "content_original": "צה\"ל חיסל את בכירי מיניסטריון המודיעין האיראני, גוף המודיעין המרכזי של משטר הטרור האיראני",
-    "url": "https://mivzakim.net/r/13966261/rss",
-    "published": "2026-03-02T11:31:12+02:00",
-    "fetched_at": "2026-03-02T09:33:41.344684+00:00",
-    "source_name": "Mivzakim Military",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "IDF eliminates senior officials of Iranian Intelligence Ministry, central intelligence body of Iranian terrorist regime",
-    "relevant": true,
-    "summary_en": "The Israeli Defense Forces (IDF) eliminated senior officials from Iran's Intelligence Ministry, which serves as the central intelligence apparatus of the Iranian regime. This targeted assassination represents an escalation in Israeli operations against Iranian intelligence assets and personnel, targeting the core infrastructure of Iran's intelligence apparatus that coordinates proxy operations across the region.",
-    "translated": true,
-    "keyword_matches": 3,
-    "matched_keywords": [
-      "idf",
-      "proxy"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "irgc_action",
-      "severity": "high",
-      "parties_involved": [
-        "Israel",
-        "Iran",
-        "IDF"
-      ],
-      "location": "Middle East (regional)",
-      "brief": "IDF conducted targeted assassination operation eliminating senior officials from Iran's Intelligence Ministry, marking significant escalation in Israeli operations against Iranian intelligence apparatus."
-    },
-    "lat": 29.0,
-    "lng": 47.0
   },
   {
     "id": "6b0aa8e947cb687a",
@@ -19868,42 +19350,6 @@
       ],
       "location": "Saudi Arabia (Eastern Province)",
       "brief": "Iranian UAV strike on Aramco refinery marks escalation of Iranian proxy and direct operations against US-aligned Gulf states, targeting critical oil infrastructure."
-    },
-    "lat": 24.71,
-    "lng": 46.68
-  },
-  {
-    "id": "74c192c09981d6bf",
-    "title_original": "כטב\"ם איראני פגע בבית זיקוק של חברת ארמקו בסעודיה",
-    "content_original": "כטב\"ם איראני פגע בבית זיקוק של חברת ארמקו בסעודיה",
-    "url": "https://mivzakim.net/r/13965789/rss",
-    "published": "2026-03-02T09:25:39+02:00",
-    "fetched_at": "2026-03-02T07:33:22.599637+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Iranian UAV hits Aramco refinery in Saudi Arabia",
-    "relevant": true,
-    "summary_en": "An Iranian unmanned aerial vehicle (UAV) struck an oil refinery belonging to Saudi Aramco in Saudi Arabia. This attack represents an escalation in Iranian proxy or direct operations against energy infrastructure in the Gulf region, targeting critical Saudi oil facilities as part of the ongoing Iran–US armed conflict.",
-    "translated": true,
-    "keyword_matches": 3,
-    "matched_keywords": [
-      "proxy",
-      "attack",
-      "conflict"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "drone_strike",
-      "severity": "high",
-      "parties_involved": [
-        "Iran",
-        "Saudi Arabia"
-      ],
-      "location": "Saudi Arabia (Gulf region - Saudi Aramco refinery)",
-      "brief": "Iranian UAV strike on Saudi Aramco oil refinery represents escalation targeting critical Gulf energy infrastructure."
     },
     "lat": 24.71,
     "lng": 46.68
@@ -23403,42 +22849,6 @@
     "lng": 52.58
   },
   {
-    "id": "432475b6e7f38b28",
-    "title_original": "דיווח באיראן: צה\"ל וצבא ארה\"ב תוקפים בכרמאן ובשיראז",
-    "content_original": "דיווח באיראן: צה\"ל וצבא ארה\"ב תוקפים בכרמאן ובשיראז",
-    "url": "https://mivzakim.net/r/13965293/rss",
-    "published": "2026-03-02T06:34:12+02:00",
-    "fetched_at": "2026-03-02T04:41:30.387004+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Report in Iran: IDF and US Army Attacking in Kerman and Shiraz",
-    "relevant": true,
-    "summary_en": "Israeli Defense Forces (IDF) and US military forces are conducting coordinated attacks on the Iranian cities of Kerman and Shiraz, according to reports from Iran. This represents a significant escalation, as it marks direct strikes on Iranian civilian population centers by US and Israeli forces. The targeting of these two cities suggests a broadening of the conflict beyond military installations to include strategic Iranian urban centers.",
-    "translated": true,
-    "keyword_matches": 3,
-    "matched_keywords": [
-      "idf",
-      "conflict"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "us_strike_on_iran",
-      "severity": "major",
-      "parties_involved": [
-        "United States",
-        "Israel",
-        "Iran"
-      ],
-      "location": "Iran (Kerman and Shiraz)",
-      "brief": "US and Israeli forces conducting coordinated strikes on Iranian civilian cities of Kerman and Shiraz, marking direct attacks on Iran by American and Israeli military."
-    },
-    "lat": 32.65,
-    "lng": 54.56
-  },
-  {
     "id": "1e3d9787d6399acd",
     "title_original": "חיזבאללה מצטרף למלחמה",
     "content_original": "חיזבאללה בחר בימים האחרונים במהלך מחושב וזהיר: שיגורים בודדים מלבנון לעבר הצפון והמרכז, רובם לשטחים פתוחים וללא נפגעים, שנועדו לשדר מעורבות – אך לא הידרדרות. מאחורי הירי המוגבל מסתתר ניסיון לאזן בין מחויבות פומבית לאיראן לבין רצון מובהק להימנע ממלחמה רחבה נוספת מול ישראל. בארגון מבקשים להוכיח כי עמדו בהתחייבותם להגיב על חיסולו של המנהיג העליון האיראני, אך בפועל הקפידו על מינון שמפחית את הסיכון להסלמה כוללת. המסר המשתמע: היכולת קיימת, אך הכוונה היא לסמן נוכחות בלבד ולא לפתוח חזית כוללת. הרקע לצעדים הזהירים נעוץ גם בזירה הפנימית בלבנון. ביקורת חריפה נשמעה מצד הדרג המדיני בביירות, ובראשה ראש הממשלה נוואף סלאם, שהזהיר מפני גרירת המדינה לעימותים חדשים. ההתנגדות אינה מוגבלת לממשלה או לעדות אחרות בלבד; גם בתוך הקהילה השיעית נשמעות הסתייגויות מהסתבכות צבאית נוספת שעלולה להמיט הרס נוסף על המדינה השברירית ממילא. מנגד, ישראל כבר הגיבה בתקיפות בדאחייה שבביירות והעבירה מסרים תקיפים לתושבי עשרות כפרים בדרום לבנון. במקביל גויסו כ־100 אלף אנשי מילואים, ורבים מהם מוצבים בגבולות לבנון וסוריה. האפשרות של...",
@@ -24337,44 +23747,6 @@
     },
     "lat": 33.85,
     "lng": 35.86
-  },
-  {
-    "id": "db9aa185ad0c9feb",
-    "title_original": "דיווח סעודי: חוסל ראש הזרוע הפוליטית של חיזבאללה",
-    "content_original": "דיווח סעודי: חוסל ראש הזרוע הפוליטית של חיזבאללה",
-    "url": "https://mivzakim.net/r/13965210/rss",
-    "published": "2026-03-02T05:51:49+02:00",
-    "fetched_at": "2026-03-02T04:02:49.571060+00:00",
-    "source_name": "Mivzakim World",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Saudi report: Head of Hezbollah's political wing eliminated",
-    "relevant": true,
-    "summary_en": "According to a Saudi report, the head of Hezbollah's political wing has been eliminated. This represents a significant targeting of Hezbollah's leadership structure, a key IRGC proxy force active on Israel's northern border and in Lebanon. The elimination of a senior Hezbollah political figure could impact the group's operational command and its interface with Iranian leadership.",
-    "translated": true,
-    "keyword_matches": 6,
-    "matched_keywords": [
-      "proxy",
-      "hezbollah",
-      "irgc"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "proxy_operation",
-      "severity": "high",
-      "parties_involved": [
-        "Israel",
-        "Hezbollah",
-        "IRGC",
-        "Saudi Arabia"
-      ],
-      "location": "Israel/Lebanon border region",
-      "brief": "Saudi report claims head of Hezbollah's political wing eliminated in apparent targeted operation against IRGC proxy leadership"
-    },
-    "lat": 31.5,
-    "lng": 34.8
   },
   {
     "id": "bc6c972618e3d4ea",
@@ -26093,45 +25465,6 @@
     "lng": 35.37
   },
   {
-    "id": "6fe3510df2ec80bd",
-    "title_original": "דיווחים בלבנון: צה\"ל החל בתקיפות בהמשך להודעות הפינוי לכפרים",
-    "content_original": "דיווחים בלבנון: צה\"ל החל בתקיפות בהמשך להודעות הפינוי לכפרים",
-    "url": "https://mivzakim.net/r/13965146/rss",
-    "published": "2026-03-02T04:52:14+02:00",
-    "fetched_at": "2026-03-02T03:00:44.791299+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Reports from Lebanon: IDF began attacks following evacuation notices to villages",
-    "relevant": true,
-    "summary_en": "Reports from Lebanon indicate the Israeli Defense Forces (IDF) have begun conducting military attacks following evacuation notices issued to villages. This represents an escalation of Israeli military operations in Lebanese territory, directly connected to the ongoing conflict with Iranian-backed Hezbollah forces operating from Lebanon.",
-    "translated": true,
-    "keyword_matches": 4,
-    "matched_keywords": [
-      "idf",
-      "hezbollah",
-      "conflict"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "high",
-      "parties_involved": [
-        "Israel",
-        "IDF",
-        "Lebanon",
-        "Hezbollah",
-        "Iran"
-      ],
-      "location": "Lebanon",
-      "brief": "IDF began military attacks in Lebanon following evacuation notices to villages, representing an escalation of Israeli operations against Iranian-backed Hezbollah."
-    },
-    "lat": 33.85,
-    "lng": 35.86
-  },
-  {
     "id": "9d43e8b9bd48e8b5",
     "title_original": "В Иране 170 учеников и учителей погибли в результате ударов США и Израиля",
     "content_original": "По меньшей мере 170 школьников и учителей погибли в результате ударов США и Израиля по территории Ирана, сообщает агентство Fars со ссылкой на министерство просвещения&nbsp;страны.",
@@ -26771,45 +26104,6 @@
     "lng": 32.9561709
   },
   {
-    "id": "958ddc4b87ee070d",
-    "title_original": "פגיעה איראנית ראשונה במדינה אירופית: ירי הטילים, הנזק מהכטב\"ם - והקשר ל\"כנף ציון\"",
-    "content_original": "שני טילים שוגרו אתמול לקפריסין, ונפלו בים. בחצות כבר נפגע באי הבסיס הבריטי אקרוטירי, על פי החשד מכטב\"ם איראני. מטוס ראשי המדינה לא נחת בקפריסין אחרי 8 שעות באוויר אלא דווקא בברלין - אולי בעקבות ההערכה שייתכן ירי כזה",
-    "url": "https://mivzakim.net/r/13965104/rss",
-    "published": "2026-03-02T04:02:46+02:00",
-    "fetched_at": "2026-03-02T02:03:15.344156+00:00",
-    "source_name": "Mivzakim World",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "First Iranian strike on European country: missiles fired, damage from UAV - and connection to 'Zion Wing'",
-    "relevant": true,
-    "summary_en": "Iran carried out its first attack on a European country by firing two missiles at Cyprus that fell into the sea, while the British base Akrotiri was reportedly hit by an Iranian drone at midnight. Cyprus is home to British military bases and serves as a key location for monitoring the Middle East conflict, marking a significant expansion of Iranian strikes beyond the region.",
-    "translated": true,
-    "keyword_matches": 4,
-    "matched_keywords": [
-      "conflict",
-      "drone",
-      "attack",
-      "strike"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "drone_strike|ballistic_missile",
-      "severity": "high",
-      "parties_involved": [
-        "Iran",
-        "Cyprus",
-        "United Kingdom",
-        "British military bases"
-      ],
-      "location": "Cyprus (Akrotiri)",
-      "brief": "Iran conducted its first strike on a European country by firing two missiles at Cyprus and hitting a British military base with a drone, marking a significant escalation in Iranian attacks beyond the Middle East."
-    },
-    "lat": 34.6008434,
-    "lng": 32.9561709
-  },
-  {
     "id": "e2efe023f3f6da24",
     "title_original": "Morning recap",
     "content_original": "Morning recap Good morning, Middle East Eye readers. Events are still unfolding rapidly across the Middle East, so here's a quick recap: President Donald Trump has suggested that the Israeli-US war on Iran could continue for up to a month. The United Kingdom has agreed to a US request to use British military bases for what Prime Minister Keir Starmer claimed are “defensive” strikes on Iranian missile sites. Mass displacement has been reported in south Lebanon after Israeli attacks as Hezbollah joins the war. More than 20 people were killed in a US-Israeli attack&nbsp;on Tehran’s Niloofar Square, as explosions were heard across the capital. &nbsp; The death toll from the US-Israeli strike on a girls’ school in Minab has climbed to 180.&nbsp; Iran’s Foreign Minister Abbas Araghchi has dismissed Trump’s warning against retaliation, vowing that Tehran will place “no limit” on its right to defend itself.&nbsp; The US military says it has hit more than 1,000 targets across Iran since launchi...",
@@ -27299,43 +26593,6 @@
     },
     "lat": 33.85,
     "lng": 35.86
-  },
-  {
-    "id": "44cc386fd0e4f4e2",
-    "title_original": "צה\"ל: תקפנו \"מחבלים בכירים\" בדאחייה ו\"מחבל מרכזי\" בדרום לבנון",
-    "content_original": "צה\"ל: תקפנו \"מחבלים בכירים\" בדאחייה ו\"מחבל מרכזי\" בדרום לבנון",
-    "url": "https://mivzakim.net/r/13965090/rss",
-    "published": "2026-03-02T03:44:14+02:00",
-    "fetched_at": "2026-03-02T02:03:13.233179+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "IDF: We attacked 'senior terrorists' in Dahieh and 'central terrorist' in southern Lebanon",
-    "relevant": true,
-    "summary_en": "The Israeli Defense Forces announced strikes targeting senior terrorists in Dahieh (Beirut suburb, Hezbollah stronghold) and a central terrorist in southern Lebanon. This represents ongoing Israeli operations against Hezbollah leadership and operatives as part of the expanded conflict front with Iran-linked forces.",
-    "translated": true,
-    "keyword_matches": 4,
-    "matched_keywords": [
-      "hezbollah",
-      "conflict",
-      "idf"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "airstrike",
-      "severity": "high",
-      "parties_involved": [
-        "Israel",
-        "Hezbollah",
-        "Iran"
-      ],
-      "location": "Dahieh, Beirut suburb and southern Lebanon",
-      "brief": "Israeli IDF airstrikes targeted senior Hezbollah terrorists in Dahieh (Beirut suburb) and a central terrorist in southern Lebanon as part of ongoing operations against Iranian proxy forces."
-    },
-    "lat": 33.54,
-    "lng": 35.37
   },
   {
     "id": "52e685689542e627",
@@ -28010,46 +27267,6 @@
     "lng": 35.3
   },
   {
-    "id": "d6dcdecb3112aaf8",
-    "title_original": "הרמטכ\"ל: חיזבאללה פתח במערכה מול ישראל - האחריות להסלמה עליו",
-    "content_original": "הרמטכ\"ל: חיזבאללה פתח במערכה מול ישראל - האחריות להסלמה עליו",
-    "url": "https://mivzakim.net/r/13965060/rss",
-    "published": "2026-03-02T03:12:31+02:00",
-    "fetched_at": "2026-03-02T01:25:25.490082+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Chief of Staff: Hezbollah has opened a campaign against Israel - responsibility for escalation lies with it",
-    "relevant": true,
-    "summary_en": "Israel's IDF Chief of Staff Herzi Halevi stated that Hezbollah has initiated an offensive campaign against Israel, asserting that Hezbollah bears full responsibility for the current escalation on the northern border. The statement indicates intensifying hostilities between Israel and the Iranian-backed Hezbollah militia, a key proxy in the regional conflict.",
-    "translated": true,
-    "keyword_matches": 9,
-    "matched_keywords": [
-      "militia",
-      "hezbollah",
-      "idf",
-      "conflict",
-      "proxy",
-      "offensive"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "high",
-      "parties_involved": [
-        "Hezbollah",
-        "Israel",
-        "Iran (backing)"
-      ],
-      "location": "Northern Israel-Lebanon border",
-      "brief": "IDF Chief of Staff Herzi Halevi stated Hezbollah has initiated an offensive campaign against Israel, holding Hezbollah responsible for escalation on the northern border."
-    },
-    "lat": 33.1,
-    "lng": 35.3
-  },
-  {
     "id": "0e22ff78aa06f3f2",
     "title_original": "ללא התרעות: הדי פיצוצים עזים נשמעו במרכז הארץ",
     "content_original": "ללא התרעות: הדי פיצוצים עזים נשמעו במרכז הארץ",
@@ -28648,45 +27865,6 @@
       "brief": "Hezbollah claimed responsibility for launching projectiles at Israel while IDF announced intensive attacks across Lebanon, marking a significant escalation in the Iran-backed proxy conflict."
     },
     "geocode_failed": true
-  },
-  {
-    "id": "991002b605403bcb",
-    "title_original": "חיזבאללה קיבל אחריות לירי לישראל, צה\"ל: תוקפים בעוצמה ברחבי לבנון",
-    "content_original": "חיזבאללה קיבל אחריות לירי לישראל, צה\"ל: תוקפים בעוצמה ברחבי לבנון",
-    "url": "https://mivzakim.net/r/13965042/rss",
-    "published": "2026-03-02T02:52:11+02:00",
-    "fetched_at": "2026-03-02T00:53:30.652176+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Hezbollah claims responsibility for fire toward Israel, IDF: Attacking with force throughout Lebanon",
-    "relevant": true,
-    "summary_en": "Hezbollah has claimed responsibility for launching attacks against Israel. The IDF stated that Israeli forces are conducting powerful strikes throughout Lebanon. This represents continued hostilities between Hezbollah (an IRGC proxy) and Israel, functioning as part of the broader Iran-US conflict front with Iranian-backed proxy forces engaging Israeli targets.",
-    "translated": true,
-    "keyword_matches": 9,
-    "matched_keywords": [
-      "proxy",
-      "irgc",
-      "hezbollah",
-      "idf",
-      "conflict"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "medium",
-      "parties_involved": [
-        "Hezbollah",
-        "Israel",
-        "IRGC (proxy)"
-      ],
-      "location": "Lebanon/Israel border",
-      "brief": "Hezbollah claimed responsibility for launching attacks against Israel while the IDF announced powerful strikes throughout Lebanon, representing continued hostilities between the IRGC proxy and Israel."
-    },
-    "lat": 33.85,
-    "lng": 35.86
   },
   {
     "id": "7d6e3ef7ab2c7a7d",
@@ -29577,45 +28755,6 @@
     },
     "lat": 33.06,
     "lng": 35.24
-  },
-  {
-    "id": "d02b521c0914deda",
-    "title_original": "בצה\"ל אישרו: חיזבאללה ביצע את השיגורים מלבנון",
-    "content_original": "בצה\"ל אישרו: חיזבאללה ביצע את השיגורים מלבנון",
-    "url": "https://mivzakim.net/r/13964993/rss",
-    "published": "2026-03-02T02:08:35+02:00",
-    "fetched_at": "2026-03-02T00:19:14.956683+00:00",
-    "source_name": "Mivzakim Main",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "IDF confirms: Hezbollah carried out the launches from Lebanon",
-    "relevant": true,
-    "summary_en": "The Israeli Defense Forces confirmed that Hezbollah launched projectiles from Lebanon into Israel. This attack represents another escalation in the ongoing Iran-Israel front, with Hezbollah acting as an IRGC proxy force. The launches come amid heightened regional tensions following US-Iran hostilities and Israeli operations against Iran-linked targets.",
-    "translated": true,
-    "keyword_matches": 7,
-    "matched_keywords": [
-      "hezbollah",
-      "idf",
-      "proxy",
-      "attack",
-      "irgc"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "medium",
-      "parties_involved": [
-        "Israel",
-        "Hezbollah",
-        "Iran"
-      ],
-      "location": "Israel-Lebanon border",
-      "brief": "IDF confirmed Hezbollah launched projectiles from Lebanon into Israel, marking an escalation in the Iran-Israel conflict with Hezbollah acting as an IRGC proxy force."
-    },
-    "lat": 33.1,
-    "lng": 35.3
   },
   {
     "id": "4184602119c98bab",
@@ -30793,43 +29932,6 @@
     "merged_source_count": 2,
     "lat": 33.85,
     "lng": 35.86
-  },
-  {
-    "id": "21dff59be54f1960",
-    "title_original": "המטח מלבנון: ככל הנראה נורו בין שש לשבע רקטות, אין נפגעים",
-    "content_original": "המטח מלבנון: ככל הנראה נורו בין שש לשבע רקטות, אין נפגעים",
-    "url": "https://mivzakim.net/r/13964904/rss",
-    "published": "2026-03-02T01:16:03+02:00",
-    "fetched_at": "2026-03-01T23:40:40.103363+00:00",
-    "source_name": "Mivzakim Military",
-    "source_category": "independent",
-    "language": "he",
-    "region": "israel",
-    "skip_translation": false,
-    "title_en": "Fire from Lebanon: Apparently six to seven rockets fired, no casualties",
-    "relevant": true,
-    "summary_en": "Hezbollah forces in Lebanon fired approximately 6-7 rockets toward Israeli territory. No casualties were reported in the incident. This represents ongoing hostilities along the Israel-Lebanon border as part of the wider Iran-linked proxy conflict in the region.",
-    "translated": true,
-    "keyword_matches": 3,
-    "matched_keywords": [
-      "conflict",
-      "proxy",
-      "hezbollah"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "hezbollah_action",
-      "severity": "medium",
-      "parties_involved": [
-        "Hezbollah",
-        "Israel",
-        "Iran (backing)"
-      ],
-      "location": "Israel-Lebanon border",
-      "brief": "Hezbollah fired 6-7 rockets toward Israeli territory with no casualties reported, continuing proxy hostilities along the northern border."
-    },
-    "lat": 33.1,
-    "lng": 35.3
   },
   {
     "id": "27bc85ad80c82f30",
@@ -36293,44 +35395,6 @@
     },
     "lat": 51.2086975,
     "lng": 89.2343748
-  },
-  {
-    "id": "a593aebc52e8e11f",
-    "title_original": "Stakes Quickly Rise for U.S. in Iran War, With 3 Service Members Killed",
-    "content_original": "Smoke rose on Sunday near Erbil International Airport, which hosts U.S.-led coalition troops in Iraq’s autonomous Kurdistan region.",
-    "url": "https://www.nytimes.com/2026/03/01/us/politics/iran-war-troops-deaths-casualties.html",
-    "published": "2026-03-01T21:02:15+00:00",
-    "fetched_at": "2026-03-01T21:11:44.450785+00:00",
-    "source_name": "NYT Top Stories",
-    "source_category": "independent",
-    "language": "en",
-    "region": "western",
-    "skip_translation": true,
-    "title_en": "Stakes Quickly Rise for U.S. in Iran War, With 3 Service Members Killed",
-    "translated": true,
-    "summary_en": "{\"h\":\"Stakes Quickly Rise for U.S. in Iran War, With 3 Service Members Killed\",\"r\":true,\"s\":\"Three U.S. service members were killed in an attack near Erbil International Airport in Iraq's Kurdistan region, where U.S.-led coalition forces are stationed. The attack, which occurred amid escalating Iran-U.S. hostilities, marks a significant escalation with direct American",
-    "relevant": true,
-    "keyword_matches": 7,
-    "matched_keywords": [
-      "war",
-      "killed",
-      "attack"
-    ],
-    "classification": {
-      "is_attack": true,
-      "category": "iran_strike_on_us",
-      "severity": "major",
-      "parties_involved": [
-        "Iran",
-        "IRGC",
-        "United States",
-        "US-led coalition forces"
-      ],
-      "location": "Erbil International Airport, Iraqi Kurdistan",
-      "brief": "Three U.S. service members were killed in an Iran-linked attack near Erbil International Airport in Iraq's Kurdistan region where U.S.-led coalition forces are stationed."
-    },
-    "lat": 36.2404123,
-    "lng": 43.9465692
   },
   {
     "id": "fd8e7df6c6669075",

@@ -54,7 +54,7 @@ const AttackCard = forwardRef<HTMLElement, AttackCardProps>(function AttackCard(
 
   const regionCfg = REGIONS.find((r) => r.key === article.region);
   const regionColor = regionCfg?.color || "#6366f1";
-  const severityColor = SEVERITY_COLORS[classification.severity] || "#16a34a";
+  const severityColor = SEVERITY_COLORS[classification.severity ?? "low"] || "#16a34a";
 
   const categoryIcons: Record<string, string> = {
     airstrike: "💥",
@@ -72,7 +72,7 @@ const AttackCard = forwardRef<HTMLElement, AttackCardProps>(function AttackCard(
     other: "📋",
   };
 
-  const icon = categoryIcons[classification.category] || "📋";
+  const icon = categoryIcons[classification.category ?? "other"] || "📋";
 
   return (
     <article
@@ -153,13 +153,13 @@ const AttackCard = forwardRef<HTMLElement, AttackCardProps>(function AttackCard(
               letterSpacing: 0.5,
             }}
           >
-            {classification.severity}
+            {classification.severity ?? "unknown"}
           </span>
 
           {/* Category */}
           <span style={{ fontSize: 13 }}>
             {icon}{" "}
-            {classification.category.replace(/_/g, " ")}
+            {(classification.category ?? "unknown").replace(/_/g, " ")}
           </span>
 
           {/* Region */}
