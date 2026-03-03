@@ -8,6 +8,7 @@ import AttackMapClient from "./AttackMapClient";
 import type { NumberedAttack } from "./AttackMap";
 import { useAttackArticles, useThreatLevel } from "@/lib/hooks";
 import TimeRangeFilter, { type TimeRange } from "@/components/TimeRangeFilter";
+import CountryFilter from "./CountryFilter";
 
 interface AttackMonitorProps {
   attackArticles: Article[];
@@ -43,6 +44,7 @@ export default function AttackMonitor({
 
   const [severityFilter, setSeverityFilter] =
     useState<SeverityFilter>("all");
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
   const [selectedAttackId, setSelectedAttackId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [timeRange, setTimeRange] = useState<TimeRange>(() => ({
@@ -76,10 +78,23 @@ export default function AttackMonitor({
     });
   }, [attackArticles, timeRange]);
 
+  const availableCountries = useMemo(() => {
+    const set = new Set<string>();
+    attackArticles.forEach((a) => a.countries_mentioned?.forEach((c) => set.add(c)));
+    return Array.from(set).sort();
+  }, [attackArticles]);
+
+  const countryFiltered = useMemo(() => {
+    if (selectedCountries.length === 0) return timeFiltered;
+    return timeFiltered.filter((a) =>
+      selectedCountries.some((c) => a.countries_mentioned?.includes(c))
+    );
+  }, [timeFiltered, selectedCountries]);
+
   const severityFiltered =
     severityFilter === "all"
-      ? timeFiltered
-      : timeFiltered.filter(
+      ? countryFiltered
+      : countryFiltered.filter(
           (a) => a.classification?.severity === severityFilter
         );
 
@@ -142,11 +157,11 @@ export default function AttackMonitor({
   }, []);
 
   const severityCounts = {
-    all: timeFiltered.length,
-    major: timeFiltered.filter((a) => a.classification?.severity === "major").length,
-    high: timeFiltered.filter((a) => a.classification?.severity === "high").length,
-    medium: timeFiltered.filter((a) => a.classification?.severity === "medium").length,
-    low: timeFiltered.filter((a) => a.classification?.severity === "low").length,
+    all: countryFiltered.length,
+    major: countryFiltered.filter((a) => a.classification?.severity === "major").length,
+    high: countryFiltered.filter((a) => a.classification?.severity === "high").length,
+    medium: countryFiltered.filter((a) => a.classification?.severity === "medium").length,
+    low: countryFiltered.filter((a) => a.classification?.severity === "low").length,
   };
 
   const severityColors: Record<SeverityFilter, string> = {
@@ -173,6 +188,15 @@ export default function AttackMonitor({
 
       {/* Time range filter */}
       <TimeRangeFilter value={timeRange} onChange={setTimeRange} />
+
+      {/* Country filter */}
+      <div style={{ marginBottom: 12 }}>
+        <CountryFilter
+          available={availableCountries}
+          selected={selectedCountries}
+          onChange={setSelectedCountries}
+        />
+      </div>
 
       {/* Search input */}
       <div

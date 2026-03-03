@@ -20,6 +20,7 @@ export interface Article {
   keyword_matches?: number;
   matched_keywords?: string[];
   classification?: AttackClassification;
+  countries_mentioned?: string[];
 }
 
 export interface AttackClassification {

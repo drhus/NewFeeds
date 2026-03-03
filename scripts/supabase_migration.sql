@@ -180,3 +180,9 @@ CREATE POLICY IF NOT EXISTS "anon_select_operational_briefing"
 
 -- Service role bypasses RLS automatically, so no explicit policies needed.
 -- The Python pipeline uses the service_role key for all writes.
+
+-- ============================================================
+-- SCHEMA ADDITIONS (safe to re-run)
+-- ============================================================
+ALTER TABLE articles ADD COLUMN IF NOT EXISTS countries_mentioned TEXT[] DEFAULT '{}';
+ALTER TABLE attacks  ADD COLUMN IF NOT EXISTS countries_mentioned TEXT[] DEFAULT '{}';

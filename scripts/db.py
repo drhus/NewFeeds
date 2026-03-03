@@ -77,6 +77,7 @@ def _article_to_row(a: dict) -> dict:
         "relevant": a.get("relevant"),
         "title_en": a.get("title_en"),
         "summary_en": a.get("summary_en"),
+        "countries_mentioned": a.get("countries_mentioned") or [],
     }
     # Only include fetched_at when non-null — prevents checkpoint upserts from
     # overwriting a previously stored fetched_at with null, which would break

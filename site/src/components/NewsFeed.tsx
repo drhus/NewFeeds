@@ -5,6 +5,7 @@ import type { Article, RegionKey } from "@/lib/types";
 import { REGIONS } from "@/lib/types";
 import NewsCard from "./NewsCard";
 import TimeRangeFilter, { type TimeRange } from "@/components/TimeRangeFilter";
+import CountryFilter from "./CountryFilter";
 
 function useDebounce(value: string, delay: number): string {
   const [debounced, setDebounced] = useState(value);
@@ -27,6 +28,7 @@ interface NewsFeedProps {
 export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
   const [activeRegion, setActiveRegion] = useState<RegionKey | "all">("all");
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
   const [timeRange, setTimeRange] = useState<TimeRange>(() => ({
     from: null,
     to: null,
@@ -62,6 +64,19 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
     });
   }, [regionArticles, timeRange]);
 
+  const availableCountries = useMemo(() => {
+    const set = new Set<string>();
+    allArticles.forEach((a) => a.countries_mentioned?.forEach((c) => set.add(c)));
+    return Array.from(set).sort();
+  }, [allArticles]);
+
+  const countryFiltered = useMemo(() => {
+    if (selectedCountries.length === 0) return timeFilteredArticles;
+    return timeFilteredArticles.filter((a) =>
+      selectedCountries.some((c) => a.countries_mentioned?.includes(c))
+    );
+  }, [timeFilteredArticles, selectedCountries]);
+
   const searchWords = useMemo(
     () => debouncedQuery.toLowerCase().split(/\s+/).filter(Boolean),
     [debouncedQuery]
@@ -69,8 +84,8 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
 
   const displayedArticles = useMemo(() => {
     // Require at least 2 characters to avoid matching on single-letter typos while typing
-    if (searchWords.length === 0 || debouncedQuery.trim().length < 2) return timeFilteredArticles;
-    return timeFilteredArticles.filter((a) => {
+    if (searchWords.length === 0 || debouncedQuery.trim().length < 2) return countryFiltered;
+    return countryFiltered.filter((a) => {
       const haystack = [
         a.title_en,
         a.summary_en,
@@ -81,7 +96,7 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
         .toLowerCase();
       return searchWords.every((w) => haystack.includes(w));
     });
-  }, [regionArticles, searchWords, debouncedQuery]);
+  }, [countryFiltered, searchWords, debouncedQuery]);
 
   return (
     <div>
@@ -118,6 +133,15 @@ export default function NewsFeed({ articlesByRegion }: NewsFeedProps) {
 
       {/* Time range filter */}
       <TimeRangeFilter value={timeRange} onChange={setTimeRange} />
+
+      {/* Country filter */}
+      <div style={{ marginBottom: 12 }}>
+        <CountryFilter
+          available={availableCountries}
+          selected={selectedCountries}
+          onChange={setSelectedCountries}
+        />
+      </div>
 
       {/* Search input */}
       <div

@@ -62,6 +62,7 @@ function rowToArticle(row: Record<string, unknown>): Article {
     classification: typeof row.classification === "string"
       ? JSON.parse(row.classification)
       : row.classification as Article["classification"],
+    countries_mentioned: (row.countries_mentioned as string[]) ?? [],
   };
 }
 

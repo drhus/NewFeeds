@@ -54,8 +54,9 @@ YOUR TASK for each article:
    Mark FALSE for: domestic Iranian politics unrelated to war, sports, entertainment, weather, local crime, economy (unless oil/sanctions), culture, health (unless bioweapons).
 3. If r=true: write a 2-3 sentence English summary → field "s" covering WHO did WHAT to WHOM, WHERE, and the military/strategic significance.
 4. If r=false: set "s" to null.
+5. Always output "c": a JSON array of country names (English, official short form) that are meaningfully mentioned in the article — e.g. ["Iran", "United States", "Israel"]. Include only sovereign states actually referenced, not vague regions. Use empty array [] if none.
 
-Respond with ONLY valid JSON: {"h": "...", "r": true or false, "s": "..." or null}
+Respond with ONLY valid JSON: {"h": "...", "r": true or false, "s": "..." or null, "c": ["Country", ...]}
 """
 
 # ──────────────────────────────────────────────────────────────
@@ -150,12 +151,12 @@ def process_article(article: dict, api_key: str) -> dict:
     if language == "en":
         prompt = (
             f"[English] {title}\n---\n{content}\n---\n"
-            'JSON only: {"h":"headline","r":true/false,"s":"summary or null"}'
+            'JSON only: {"h":"headline","r":true/false,"s":"summary or null","c":["Country","..."]}'
         )
     else:
         prompt = (
             f"[{lang_name}] {title}\n---\n{content}\n---\n"
-            'JSON only: {"h":"English headline","r":true/false,"s":"summary or null"}'
+            'JSON only: {"h":"English headline","r":true/false,"s":"summary or null","c":["Country","..."]}'
         )
 
     try:
@@ -179,8 +180,9 @@ def process_article(article: dict, api_key: str) -> dict:
         article["relevant"] = is_relevant
         summary = result.get("s")
         article["summary_en"] = summary if (is_relevant and summary) else "[Not relevant to Iran–US war monitor]"
-        article["translated"] = True
-
+        article["translated"] = True        # Countries mentioned
+        countries = result.get("c", [])
+        article["countries_mentioned"] = [str(c) for c in countries] if isinstance(countries, list) else []
     except json.JSONDecodeError:
         logger.warning(f"JSON parse error for {article.get('id', '?')}, raw: {response_text[:120]}")
         # Try to salvage fields from truncated/malformed JSON via regex
@@ -193,6 +195,7 @@ def process_article(article: dict, api_key: str) -> dict:
             article["summary_en"] = (s_match.group(1) if s_match else (h_match.group(1) if h_match else ""))
             article["relevant"] = (r_match.group(1) == "true") if r_match else True
             article["translated"] = True
+            article["countries_mentioned"] = []
         else:
             article["title_en"] = title
             article["summary_en"] = f"[Parse error — {lang_name} source]"
