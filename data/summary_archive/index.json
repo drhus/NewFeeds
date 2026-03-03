@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-02T23-43-27.981168_plus_00-00.json",
+    "generated_at": "2026-03-02T23:43:27.981168+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 756,
+    "summary_preview": "The Iran-US armed conflict has reached a new phase of intensification with the confirmed killing of Iran's Supreme Leader Khamenei in a US-Israeli coordinated strike, triggering Iran's 12th wave of at"
+  },
+  {
     "filename": "2026-03-02T22-56-13.829939_plus_00-00.json",
     "generated_at": "2026-03-02T22:56:13.829939+00:00",
     "threat_label": "MAJOR",
@@ -880,14 +889,5 @@
     "trend": "escalating",
     "incident_count_24h": 234,
     "summary_preview": "The Iran–US conflict has escalated to a critical level with direct military engagements, including coordinated US-Israeli airstrikes on Iran, retaliatory missile attacks by Iran on Israel and US bases"
-  },
-  {
-    "filename": "2026-02-28T19-29-09.414023_plus_00-00.json",
-    "generated_at": "2026-02-28T19:29:09.414023+00:00",
-    "threat_label": "MAJOR",
-    "threat_level": 1,
-    "trend": "escalating",
-    "incident_count_24h": 222,
-    "summary_preview": "The Iran–US conflict has escalated to a critical phase with direct military engagements, including coordinated US-Israeli strikes on Iran and retaliatory attacks by Iran on US and allied assets. The s"
   }
 ]

@@ -1,5 +1,33 @@
 [
   {
+    "id": "a306f4ba6e6f26b1",
+    "title_original": "US considers capping Nvidia H200 sales at 75,000 per Chinese customer",
+    "url": "https://www.scmp.com/tech/big-tech/article/3345195/us-considers-capping-nvidia-h200-sales-75000-chinese-customer?utm_source=rss_feed",
+    "published": "2026-03-02T23:45:24+00:00",
+    "fetched_at": "2026-03-02T23:48:26.050930+00:00",
+    "source_name": "South China Morning Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "china",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
+    "id": "6e826b9c5dcb1faa",
+    "title_original": "Investors lock onto NPC as markets seek policy lift amid AI jitters",
+    "url": "https://www.scmp.com/business/china-business/article/3345073/investors-lock-npc-markets-seek-policy-lift-amid-ai-jitters?utm_source=rss_feed",
+    "published": "2026-03-02T23:30:07+00:00",
+    "fetched_at": "2026-03-02T23:48:26.051185+00:00",
+    "source_name": "South China Morning Post",
+    "source_category": "independent",
+    "language": "en",
+    "region": "china",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
     "id": "245e63bc14a37856",
     "title_original": "US House panel releases video of Clintons’ Epstein depositions",
     "url": "https://www.scmp.com/news/world/united-states-canada/article/3345193/us-house-panel-releases-video-clintons-epstein-depositions?utm_source=rss_feed",
@@ -2109,19 +2137,6 @@
     "published": "2026-02-27T21:30:08+00:00",
     "source_name": "South China Morning Post",
     "source_category": "independent",
-    "language": "en",
-    "region": "china",
-    "skip_translation": true,
-    "relevant": false,
-    "translated": true
-  },
-  {
-    "id": "02257919ffa0d4d2",
-    "title_original": "CPC Central Committee, State Council congratulate Chinese Winter Olympics delegation",
-    "url": "https://www.globaltimes.cn/page/202602/1355612.shtml",
-    "published": "2026-02-24T00:00:00+00:00",
-    "source_name": "Global Times",
-    "source_category": "state-aligned",
     "language": "en",
     "region": "china",
     "skip_translation": true,
