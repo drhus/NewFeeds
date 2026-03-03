@@ -1,8 +1,6 @@
 name: Generate Executive Summary
 
-on:
-  0 minutes
-  workflow_dispatch: {}       # Manual trigger
+    # Manual trigger
 
 concurrency:
   group: generate-summary
