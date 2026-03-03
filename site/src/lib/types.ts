@@ -142,6 +142,13 @@ export interface CountrySummary {
   bullets: string[];
 }
 
+export interface BriefingSource {
+  index: number;
+  title: string;
+  url: string;
+  source_name: string;
+}
+
 export interface OperationalBriefingData {
   generated_at: string;
   window_minutes: number;
@@ -153,6 +160,7 @@ export interface OperationalBriefingData {
   executive_summary: string;
   trends: string[];
   country_summaries: CountrySummary[];
+  sources?: BriefingSource[];
   source_count: {
     attacks_analyzed: number;
     articles_analyzed: number;

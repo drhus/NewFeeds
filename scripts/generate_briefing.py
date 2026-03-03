@@ -48,6 +48,9 @@ USER_PROMPT_TEMPLATE = """Produce an operational briefing for the Iran–US conf
 
 REPORTING WINDOW: {window_start} to {window_end} (last {window_minutes} minutes)
 
+=== NUMBERED SOURCE LIST (use [N] to cite inline) ===
+{sources_block}
+
 === CLASSIFIED ATTACK EVENTS IN THIS WINDOW (ordered by severity) ===
 {attacks_block}
 
@@ -58,15 +61,17 @@ REPORTING WINDOW: {window_start} to {window_end} (last {window_minutes} minutes)
 
 After the caveat, provide a concise and granular executive summary that strictly describes what occurred during the reporting window without adding strategic interpretation or wider analytical framing. Then present exactly three short trends that directly arise from the events in the document and reflect observable patterns across the reporting hour. Finally, summarise all incidents by country using simplified, operational bullet points that capture every relevant event mentioned in the source material without any speculation or additional commentary. All content should be succinct, fact‑based, and suitable for an internal operational email, relying solely on the information contained in the provided document.
 
+IMPORTANT: Use inline citations [N] from the numbered source list above whenever attributing a specific fact or event. Place citations at the END of the sentence or bullet point they support, e.g. "Hezbollah launched UAVs toward northern Israel [3]." Use the most specific source number available; cite multiple numbers if needed, e.g. [2][5].
+
 Respond with ONLY this JSON structure:
 {{
   "caveat": "A one-sentence caveat noting the reporting window and data limitations",
-  "executive_summary": "A concise, granular description of what occurred during this reporting window — no strategic framing",
-  "trends": ["trend 1 (short, observable pattern)", "trend 2", "trend 3"],
+  "executive_summary": "A concise, granular description with inline [N] citations",
+  "trends": ["trend 1 with [N] citation if applicable", "trend 2", "trend 3"],
   "country_summaries": [
     {{
       "country": "Country Name",
-      "bullets": ["event bullet 1", "event bullet 2"]
+      "bullets": ["event bullet with [N] citation", "event bullet 2"]
     }}
   ]
 }}
@@ -77,6 +82,7 @@ Rules:
 - Do NOT add strategic interpretation, forecasts, or wider analytical framing.
 - Do NOT speculate beyond the provided data.
 - Each country entry should only appear if it had events in the window.
+- Only cite source numbers that appear in the NUMBERED SOURCE LIST above.
 """
 
 
@@ -104,7 +110,55 @@ def _filter_window(items: list[dict], minutes: int) -> tuple[list[dict], datetim
     return result, cutoff, now
 
 
-def _build_attacks_block(attacks: list[dict]) -> str:
+def _build_source_list(attacks: list[dict], articles: list[dict]) -> list[dict]:
+    """Build a unified numbered source list (URL-deduplicated) for citation."""
+    sources: list[dict] = []
+    seen_urls: set[str] = set()
+
+    severity_order = {"major": 0, "high": 1, "medium": 2, "low": 3}
+    attacks_sorted = sorted(
+        attacks,
+        key=lambda a: (
+            severity_order.get(a.get("classification", {}).get("severity", "low"), 3),
+            a.get("published", ""),
+        ),
+    )
+
+    for a in attacks_sorted[:25]:
+        url = a.get("url", "")
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            sources.append({
+                "index": len(sources) + 1,
+                "title": (a.get("title_en") or a.get("title_original") or "Unknown")[:120],
+                "url": url,
+                "source_name": a.get("source_name", "Unknown"),
+            })
+
+    for a in articles[:30]:
+        url = a.get("url", "")
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            sources.append({
+                "index": len(sources) + 1,
+                "title": (a.get("title_en") or a.get("title_original") or "Unknown")[:120],
+                "url": url,
+                "source_name": a.get("source_name", "Unknown"),
+            })
+
+    return sources
+
+
+def _build_sources_block(sources: list[dict]) -> str:
+    if not sources:
+        return "No sources available."
+    lines = []
+    for s in sources:
+        lines.append(f"[{s['index']}] {s['source_name']}: {s['title']}")
+    return "\n".join(lines)
+
+
+def _build_attacks_block(attacks: list[dict], source_map: dict[str, int]) -> str:
     if not attacks:
         return "No attack events in this window."
 
@@ -121,9 +175,11 @@ def _build_attacks_block(attacks: list[dict]) -> str:
     for i, a in enumerate(attacks_sorted[:30], 1):
         c = a.get("classification", {})
         pub = a.get("published", "unknown time")
+        src_idx = source_map.get(a.get("url", ""), None)
+        ref = f" [source {src_idx}]" if src_idx else ""
         lines.append(
             f"{i}. [{c.get('severity', 'unknown').upper()}] "
-            f"({pub}) {a.get('title_en', 'No title')} — "
+            f"({pub}) {a.get('title_en', 'No title')}{ref} — "
             f"Category: {c.get('category', 'unknown')}; "
             f"Location: {c.get('location', 'unknown')}; "
             f"Parties: {', '.join(c.get('parties_involved', []))}; "
@@ -132,7 +188,7 @@ def _build_attacks_block(attacks: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def _build_articles_block(articles: list[dict]) -> str:
+def _build_articles_block(articles: list[dict], source_map: dict[str, int]) -> str:
     if not articles:
         return "No feed articles in this window."
 
@@ -145,8 +201,10 @@ def _build_articles_block(articles: list[dict]) -> str:
     for region, region_articles in by_region.items():
         lines.append(f"\n--- {region.upper()} ---")
         for a in region_articles[:8]:
+            src_idx = source_map.get(a.get("url", ""), None)
+            ref = f" [{src_idx}]" if src_idx else ""
             lines.append(
-                f"• [{a.get('source_name', '?')}] {a.get('title_en', 'No title')}: "
+                f"• [{a.get('source_name', '?')}]{ref} {a.get('title_en', 'No title')}: "
                 f"{(a.get('summary_en', '') or '')[:200]}"
             )
     return "\n".join(lines)
@@ -236,13 +294,18 @@ def generate_briefing(
     window_start_str = window_start.strftime(fmt)
     window_end_str = window_end.strftime(fmt)
 
+    # Build source list and map (URL → index)
+    sources = _build_source_list(attacks_window, articles_window)
+    source_map: dict[str, int] = {s["url"]: s["index"] for s in sources}
+
     # Build prompt
     user_prompt = USER_PROMPT_TEMPLATE.format(
         window_start=window_start_str,
         window_end=window_end_str,
         window_minutes=WINDOW_MINUTES,
-        attacks_block=_build_attacks_block(attacks_window),
-        articles_block=_build_articles_block(articles_window),
+        sources_block=_build_sources_block(sources),
+        attacks_block=_build_attacks_block(attacks_window, source_map),
+        articles_block=_build_articles_block(articles_window, source_map),
     )
 
     result = _call_minimax(api_key, user_prompt)
@@ -273,6 +336,7 @@ def generate_briefing(
             "attacks_analyzed": len(attacks_window),
             "articles_analyzed": len(articles_window),
         },
+        "sources": sources,
         **result,
     }
 

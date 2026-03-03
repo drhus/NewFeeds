@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import { useOperationalBriefing, useThreatLevel } from "@/lib/hooks";
-import type { OperationalBriefingData, CountrySummary } from "@/lib/types";
+import type { OperationalBriefingData, CountrySummary, BriefingSource } from "@/lib/types";
 
 function formatBriefingTime(iso: string): string {
   try {
@@ -20,6 +20,43 @@ function formatBriefingTime(iso: string): string {
   } catch {
     return iso;
   }
+}
+
+function CitedText({ text, sources }: { text: string; sources?: BriefingSource[] }) {
+  if (!sources?.length) return <>{text}</>;
+  const parts = text.split(/(\[\d+\])/g);
+  return (
+    <>
+      {parts.map((part, i) => {
+        const m = part.match(/^\[(\d+)\]$/);
+        if (m) {
+          const idx = parseInt(m[1]);
+          const src = sources.find((s) => s.index === idx);
+          if (src) {
+            return (
+              <sup key={i} style={{ lineHeight: 0 }}>
+                <a
+                  href={src.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={src.title}
+                  style={{
+                    color: "#3b82f6",
+                    textDecoration: "none",
+                    fontWeight: 700,
+                    fontSize: "0.75em",
+                  }}
+                >
+                  [{idx}]
+                </a>
+              </sup>
+            );
+          }
+        }
+        return <span key={i}>{part}</span>;
+      })}
+    </>
+  );
 }
 
 function SectionHeader({ title, icon }: { title: string; icon: string }) {
@@ -45,10 +82,12 @@ function BulletList({
   items,
   color,
   muted,
+  sources,
 }: {
   items: string[];
   color?: string;
   muted?: boolean;
+  sources?: BriefingSource[];
 }) {
   if (!items || items.length === 0) return null;
   return (
@@ -85,14 +124,14 @@ function BulletList({
               marginTop: 8,
             }}
           />
-          {item}
+          <CitedText text={item} sources={sources} />
         </li>
       ))}
     </ul>
   );
 }
 
-function CountryCard({ summary }: { summary: CountrySummary }) {
+function CountryCard({ summary, sources }: { summary: CountrySummary; sources?: BriefingSource[] }) {
   return (
     <div
       style={{
@@ -117,7 +156,7 @@ function CountryCard({ summary }: { summary: CountrySummary }) {
       >
         🏳️ {summary.country}
       </div>
-      <BulletList items={summary.bullets} color="#3b82f6" />
+      <BulletList items={summary.bullets} color="#3b82f6" sources={sources} />
     </div>
   );
 }
@@ -221,7 +260,7 @@ function BriefingContent({ briefing }: { briefing: OperationalBriefingData }) {
             borderLeft: "3px solid #3b82f6",
           }}
         >
-          {briefing.executive_summary}
+          <CitedText text={briefing.executive_summary} sources={briefing.sources} />
         </div>
       </section>
 
@@ -229,7 +268,7 @@ function BriefingContent({ briefing }: { briefing: OperationalBriefingData }) {
       {briefing.trends?.length > 0 && (
         <section>
           <SectionHeader title="Trends (This Hour)" icon="📊" />
-          <BulletList items={briefing.trends} color="#8b5cf6" />
+          <BulletList items={briefing.trends} color="#8b5cf6" sources={briefing.sources} />
         </section>
       )}
 
@@ -238,8 +277,48 @@ function BriefingContent({ briefing }: { briefing: OperationalBriefingData }) {
         <section>
           <SectionHeader title="By Country" icon="🌍" />
           {briefing.country_summaries.map((cs, i) => (
-            <CountryCard key={i} summary={cs} />
+            <CountryCard key={i} summary={cs} sources={briefing.sources} />
           ))}
+        </section>
+      )}
+
+      {/* Sources */}
+      {briefing.sources && briefing.sources.length > 0 && (
+        <section>
+          <SectionHeader title="Sources" icon="📎" />
+          <ol
+            style={{
+              padding: "0 0 0 20px",
+              margin: 0,
+              display: "flex",
+              flexDirection: "column",
+              gap: 6,
+            }}
+          >
+            {briefing.sources.map((s) => (
+              <li
+                key={s.index}
+                style={{
+                  fontSize: 12,
+                  lineHeight: 1.5,
+                  color: "var(--color-text-muted)",
+                }}
+              >
+                <span style={{ fontWeight: 600, color: "var(--color-text)" }}>
+                  {s.source_name}
+                </span>
+                {" — "}
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#3b82f6", textDecoration: "underline" }}
+                >
+                  {s.title}
+                </a>
+              </li>
+            ))}
+          </ol>
         </section>
       )}
 
