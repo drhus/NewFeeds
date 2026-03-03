@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-03T00-48-52.996631_plus_00-00.json",
+    "generated_at": "2026-03-03T00:48:52.996631+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 758,
+    "summary_preview": "The Iran-US conflict has reached a critical inflection point with the confirmed elimination of Iran's Supreme Leader Khamenei in an Israeli strike, triggering massive Iranian retaliation across the Gu"
+  },
+  {
     "filename": "2026-03-03T00-16-14.295642_plus_00-00.json",
     "generated_at": "2026-03-03T00:16:14.295642+00:00",
     "threat_label": "MAJOR",
@@ -880,14 +889,5 @@
     "trend": "stable",
     "incident_count_24h": 114,
     "summary_preview": "The Iran–US conflict has escalated to a critical level, with direct military engagements between Iran, the US, and Israel, including missile barrages, airstrikes, and naval incidents. The conflict has"
-  },
-  {
-    "filename": "2026-02-28T20-18-55.771562_plus_00-00.json",
-    "generated_at": "2026-02-28T20:18:55.771562+00:00",
-    "threat_label": "MAJOR",
-    "threat_level": 1,
-    "trend": "stable",
-    "incident_count_24h": 103,
-    "summary_preview": "The Iran–US conflict has escalated significantly with coordinated strikes by the US and Israel inside Iran, followed by extensive retaliatory attacks from Iran on US bases, regional allies, and civili"
   }
 ]

@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-03-03T00:48:52.996631+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 758,
+    "incident_count_6h": 193,
+    "severity_breakdown": {
+      "major": 326,
+      "high": 259,
+      "medium": 167,
+      "low": 6
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 146,
+    "articles_analyzed": 221,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US conflict has reached a critical inflection point with the confirmed elimination of Iran's Supreme Leader Khamenei in an Israeli strike, triggering massive Iranian retaliation across the Gulf. US casualties have risen to 6 troops killed. The IRGC has closed the Strait of Hormuz, threatening global oil supplies, while Iran launched Wave 12 of operations targeting US assets. Trump stated the war will last 4 weeks. Civilian casualties are mounting on both sides, with over 160 killed in a school strike in Minab and 9 Israeli civilians dead in Bet Shemesh.",
+  "whats_new": [
+    "Israeli strike killed Iran's Supreme Leader Ayatollah Khamenei in Tehran - confirmed by Trump statement and multiple sources",
+    "US embassy in Riyadh attacked with fire following explosion - assessment indicates Iranian UAV strike",
+    "IRGC closed the Strait of Hormuz, a critical global oil chokepoint - major supply chain disruption",
+    "Trump stated war will last 4 weeks, signaling US expects prolonged conflict",
+    "Double-tap bombing raid confirmed on downtown Tehran - striking rescue workers is IHL violation",
+    "Hezbollah has launched only 3 rockets since escalation began, indicating limited proxy engagement",
+    "Investigation underway into Austin shooting as possible Iran war-related domestic incident"
+  ],
+  "confirmed_events": [
+    "Six US troops killed in Iran-US conflict - confirmed by CENTCOM across Iraq, Syria, and Gulf bases",
+    "Israeli fighter pilot evaded Iranian missile over Iranian territory - direct Israel-Iran air engagement",
+    "Iranian ballistic missile directly struck Muwaffaq Salti Air Base in Jordan - geographic escalation",
+    "Iranian missiles successfully evaded US air defense systems in Kuwait - significant tactical development",
+    "UAE air defenses intercepting ballistic missile volleys directly launched from Iran"
+  ],
+  "unverified_emerging": [
+    "IRGC claims 40 American terrorists killed in Dubai drone-missile attack (Tasnim News) - unverified, no corroborating US confirmation",
+    "Norwegian rights group Hengaw reports day-three death toll in Iran at 1,500 (The Guardian) - cannot independently verify",
+    "Austin shooting being investigated as possibly linked to Iran war motive (NYT) - early investigation stage",
+    "Iranian President Pezeshkian claims attacks on hospitals and schools 'strike at life itself' - unverified context"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "US embassy in Riyadh attack - US citizens in Saudi Arabia should exercise extreme caution",
+      "All US diplomatic facilities in Gulf region at elevated risk following embassy attacks in Riyadh and prior incidents",
+      "Airspace restrictions and missile activity over Israel, Lebanon, Jordan, and Gulf states"
+    ],
+    "supply_chain": [
+      "Strait of Hormuz closed by IRGC - threatens 20% of global oil supply, tanker attacks ongoing",
+      "Asia-Pacific markets extending losses due to Iran conflict - oil prices rising",
+      "Brent crude increased 12% since conflict began - supply chain disruption ongoing"
+    ],
+    "market_macro": [
+      "Oil prices spiking with Strait of Hormuz closure - global energy security threatened",
+      "Asia-Pacific markets extend losses on Iran conflict escalation",
+      "US developing action plan to curb price growth from Middle East war - Rubio confirmed"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "The conflict will continue escalating over the next 24-72 hours with Iran vowing prolonged war and launching Wave 12 operations. With the Supreme Leader eliminated, Iran's response will likely focus on vengeance and sustaining military pressure across multiple fronts (Gulf, Iraq, Syria, Israel). The Strait of Hormuz closure represents a major strategic escalation that will drive oil prices higher and increase global economic pressure. US and Israeli forces will likely continue intensive strikes on Iranian territory while Iran expands proxy attacks on Gulf allies.",
+    "escalation_risks": [
+      "Iranian retaliation for Khamenei's death could include unprecedented attacks on Gulf oil infrastructure",
+      "Strait of Hormuz closure could trigger broader naval conflict with US 5th Fleet",
+      "Israeli strikes on Iranian nuclear facilities (Natanz) reported - could trigger broader WMD escalation",
+      "US ground troop deployment not ruled out by Trump - potential major escalation",
+      "Austin shooting domestic incident may indicate conflict spillover to US homeland",
+      "Double-tap bombing tactics indicate willingness to violate IHL - could escalate civilian targeting"
+    ],
+    "de_escalation_pathways": "De-escalation appears unlikely in the near term. Trump has committed to a 4-week timeline suggesting intensive military campaign. Iran has stated it is prepared for prolonged war while implying the US is not. The elimination of the Supreme Leader removes a key decision-maker who might have pursued negotiations. Qatar's UN complaint represents diplomatic engagement but Iran shows no indication of halting attacks. UN Secretary-General called for de-escalation but lacks leverage with parties committed to military victory."
+  }
+}
