@@ -97,7 +97,9 @@ REGION: {article.get('region', '')}
 
 is_attack MUST be false for: political commentary, opinion pieces, domestic political reactions, partisan criticism of military policy, protest coverage, diplomatic statements without concrete military action, election/campaign rhetoric, media/pundit analysis. Only set is_attack=true when the article reports an ACTUAL military event, concrete threat, or direct operational activity.
 
-Severity: major=direct US-Iran engagement/ballistic/nuclear/mass casualties, high=strikes with casualties/major ops, medium=proxy clashes/drones/threats/mobilization, low=sanctions/minor/routine/unconfirmed"""
+Severity: major=direct US-Iran engagement/ballistic/nuclear/mass casualties, high=strikes with casualties/major ops, medium=proxy clashes/drones/threats/mobilization, low=sanctions/minor/routine/unconfirmed
+
+location: extract the specific place where the event occurred. If no explicit location in text, infer the country from context (e.g. "Iran", "Israel", "Qatar"). Only use "unspecified" if there is truly zero geographic information."""
 
     headers = {
         "Authorization": f"Bearer {api_key}",

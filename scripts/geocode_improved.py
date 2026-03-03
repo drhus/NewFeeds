@@ -225,13 +225,37 @@ def geocode_attacks(attacks: list[dict], logger=None) -> list[dict]:
         # Already has coords → skip
         if attack.get("lat") is not None and attack.get("lng") is not None:
             continue
-        # Already failed in a previous run → skip silently
+        # Previously failed — but still try title-salvage before giving up
         if attack.get("geocode_failed"):
+            title_text = (attack.get("title_en") or attack.get("title_original") or "").lower()
+            for place_key in FALLBACK:
+                if place_key and len(place_key) > 3 and place_key in title_text:
+                    coords = FALLBACK[place_key]
+                    attack["lat"] = coords[0]
+                    attack["lng"] = coords[1]
+                    attack.pop("geocode_failed", None)
+                    log.info(f"Salvaged prev-failed from title via '{place_key}' -> {coords[0]:.4f}, {coords[1]:.4f}")
+                    geocoded += 1
+                    break
             continue
 
         location = (attack.get("classification") or {}).get("location", "").strip()
-        if not location or location.lower() in SKIP:
-            failed.append(("(no location)", attack))
+        if not location or location.lower() in SKIP or location.lower() == "(no location)":
+            # Try to salvage location from the article title using known place names
+            title_text = (attack.get("title_en") or attack.get("title_original") or "").lower()
+            salvaged = None
+            for place_key in FALLBACK:
+                if place_key and len(place_key) > 3 and place_key in title_text:
+                    salvaged = place_key
+                    break
+            if salvaged:
+                coords = FALLBACK[salvaged]
+                attack["lat"] = coords[0]
+                attack["lng"] = coords[1]
+                log.info(f"Salvaged coords from title via '{salvaged}' -> {coords[0]:.4f}, {coords[1]:.4f}")
+                geocoded += 1
+            else:
+                failed.append(("(no location)", attack))
             continue
 
         coords = geocode_location(location)
