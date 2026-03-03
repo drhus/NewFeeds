@@ -1,17 +1,16 @@
 import Header from "@/components/Header";
 import ExecutiveSummary from "@/components/ExecutiveSummary";
-import { getExecutiveSummary, getThreatLevel, getArchiveIndex, getAttackArticles } from "@/lib/data";
+import DownloadSummariesButton from "@/components/DownloadSummariesButton";
+import { getExecutiveSummary, getThreatLevel, getAttackArticles } from "@/lib/data";
 import Link from "next/link";
 import { THREAT_LEVEL_COLORS } from "@/lib/types";
 
 export default async function SummaryPage() {
-  const [summary, threatLevel, archiveEntries, attacks] = await Promise.all([
+  const [summary, threatLevel, attacks] = await Promise.all([
     getExecutiveSummary(),
     getThreatLevel(),
-    getArchiveIndex(),
     getAttackArticles(),
   ]);
-  const archiveCount = archiveEntries.length;
 
   const tlLevel = threatLevel.current;
   const tlColor = tlLevel ? (THREAT_LEVEL_COLORS[tlLevel.label] || "#16a34a") : "#16a34a";
@@ -126,25 +125,7 @@ export default async function SummaryPage() {
           >
             Executive Summary
           </h2>
-          {archiveCount > 0 && (
-            <Link
-              href="/summary/archives"
-              style={{
-                fontSize: 13,
-                fontWeight: 600,
-                color: "var(--color-text-muted)",
-                textDecoration: "none",
-                padding: "6px 14px",
-                border: "1px solid var(--color-border)",
-                borderRadius: 6,
-                display: "flex",
-                alignItems: "center",
-                gap: 6,
-              }}
-            >
-              🗄️ Archives ({archiveCount})
-            </Link>
-          )}
+          <DownloadSummariesButton />
         </div>
         <p
           style={{
