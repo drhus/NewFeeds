@@ -131,24 +131,15 @@ def upsert_articles(region: str, articles: list[dict]) -> int:
     if not rows:
         return 0
 
-    # Deduplicate by id within batch to avoid Postgres conflict error
-    # Drop rows with no id entirely — they would all conflict on the same null PK
-    seen: set[str] = set()
-    deduped: list[dict] = []
+    # Deduplicate by id — keep oldest published (first report), drop null-id rows
+    seen: dict[str, dict] = {}
     for row in rows:
         rid = row.get("id")
-        if rid and rid not in seen:
-            seen.add(rid)
-            deduped.append(row)
-    rows = deduped
-
-    total = 0
-    for batch in _chunked(rows, BATCH_SIZE):
-        try:
-            client.table("articles").upsert(batch, on_conflict="id").execute()
-            total += len(batch)
-        except Exception as e:
-            logger.error(f"Supabase upsert_articles failed for region={region}: {e}")
+        if not rid:
+            continue
+        if rid not in seen or (row.get("published") or "") < (seen[rid].get("published") or ""):
+            seen[rid] = row
+    rows = list(seen.values())
 
     logger.info(f"Supabase: upserted {total} articles for region '{region}'")
     return total
@@ -160,37 +151,29 @@ def upsert_attacks(attacks: list[dict]) -> int:
     if client is None:
         return 0
 
-    # Pre-deduplicate the source list by id before any conversion
-    seen_pre: set[str] = set()
-    attacks_deduped: list[dict] = []
+    # Pre-deduplicate the source list by id — keep oldest published (first report)
+    seen_pre: dict[str, dict] = {}
     for a in attacks:
         aid = a.get("id")
-        if aid and aid not in seen_pre:
-            seen_pre.add(aid)
-            attacks_deduped.append(a)
+        if not aid:
+            continue
+        if aid not in seen_pre or (a.get("published") or "") < (seen_pre[aid].get("published") or ""):
+            seen_pre[aid] = a
+    attacks_deduped = list(seen_pre.values())
 
     rows = [_attack_to_row(a) for a in attacks_deduped]
     if not rows:
         return 0
 
-    # Deduplicate by id within batch to avoid Postgres conflict error
-    # Drop rows with no id entirely — they would all conflict on the same null PK
-    seen: set[str] = set()
-    deduped: list[dict] = []
+    # Deduplicate rows by id — keep oldest published (first report), drop null-id rows
+    seen: dict[str, dict] = {}
     for row in rows:
         rid = row.get("id")
-        if rid and rid not in seen:
-            seen.add(rid)
-            deduped.append(row)
-    rows = deduped
-
-    total = 0
-    for batch in _chunked(rows, BATCH_SIZE):
-        try:
-            client.table("attacks").upsert(batch, on_conflict="id").execute()
-            total += len(batch)
-        except Exception as e:
-            logger.error(f"Supabase upsert_attacks failed: {e}")
+        if not rid:
+            continue
+        if rid not in seen or (row.get("published") or "") < (seen[rid].get("published") or ""):
+            seen[rid] = row
+    rows = list(seen.values())
 
     logger.info(f"Supabase: upserted {total} attack articles")
     return total
