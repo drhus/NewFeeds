@@ -314,8 +314,9 @@ def translate_articles(
                 idx = counter["done"]
 
             logger.info(
-                f"[{idx}/{len(to_process)}] {article.get('source_name', '?')} — "
-                f"{article.get('title_original', '')[:60]}..."
+                f"[{idx}/{len(to_process)}] {'✓ RELEVANT' if result.get('relevant') else '✗ irrelevant'} | "
+                f"{article.get('source_name', '?')} — "
+                f"{(result.get('title_en') or article.get('title_original', ''))[:80]}"
             )
 
             # Checkpoint after every N articles to avoid losing work on interruption
@@ -342,5 +343,15 @@ def translate_articles(
         f"Done: {relevant_count} relevant, {irrelevant_count} not relevant, "
         f"{failed_count} failed, {len(overflow)} deferred to next run"
     )
+
+    # Log all relevant articles for visibility in CI logs
+    relevant_articles = [a for a in processed if a.get("relevant") is True]
+    if relevant_articles:
+        logger.info(f"── Relevant articles ({len(relevant_articles)}) ──")
+        for a in relevant_articles:
+            title = (a.get("title_en") or a.get("title_original", ""))[:100]
+            region = a.get("region", "?")
+            source = a.get("source_name", "?")
+            logger.info(f"  [{region}] {source}: {title}")
 
     return already_done + processed + overflow
