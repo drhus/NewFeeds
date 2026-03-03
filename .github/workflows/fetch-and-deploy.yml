@@ -108,11 +108,4 @@ jobs:
         id: deploy
         uses: actions/deploy-pages@v4
 
-      - name: Re-trigger pipeline (chain)
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Waiting 2 minutes before re-triggering…"
-          sleep 120
-          gh workflow run fetch-and-deploy.yml --ref main
+
