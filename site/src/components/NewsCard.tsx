@@ -201,20 +201,7 @@ export default function NewsCard({ article, searchQuery }: NewsCardProps) {
           {article.language.toUpperCase()}
         </span>
 
-        {article.relevant === true && (
-          <span
-            style={{
-              fontSize: 11,
-              padding: "1px 6px",
-              borderRadius: 4,
-              background: "#16a34a20",
-              color: "#16a34a",
-              fontWeight: 600,
-            }}
-          >
-            Relevant
-          </span>
-        )}
+
       </div>
     </article>
   );

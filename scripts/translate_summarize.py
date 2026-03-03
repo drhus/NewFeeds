@@ -48,15 +48,14 @@ CONFLICT CONTEXT:
 - Priority entities: IRGC, Quds Force, Houthis/Ansar Allah, Hezbollah, Hamas, PMF (Iraq), US CENTCOM, US Navy/5th Fleet, IDF, Russian and Chinese positions on the conflict.
 
 YOUR TASK for each article:
-1. Translate the headline to concise English → field "h".
-2. Decide RELEVANT (field "r": true/false):
+1. Decide RELEVANT (field "r": true/false):
    Mark TRUE for anything touching: military strikes/attacks/casualties, US forces in the region, Iran (military, nuclear, leadership, IRGC), Israeli operations, Houthi/Hezbollah/Hamas/PMF actions, US bases in Iraq/Syria/Qatar/Bahrain/UAE, naval incidents in Gulf/Red Sea/Arabian Sea, missile/drone launches, air-defense intercepts, nuclear developments, proxy operations, Iranian leadership statements on war, US/Israeli official war statements, escalation/de-escalation signals, oil infrastructure attacks, sanctions directly linked to the war.
    Mark FALSE for: domestic Iranian politics unrelated to war, sports, entertainment, weather, local crime, economy (unless oil/sanctions), culture, health (unless bioweapons).
-3. If r=true: write a 2-3 sentence English summary → field "s" covering WHO did WHAT to WHOM, WHERE, and the military/strategic significance.
-4. If r=false: set "s" to null.
-5. Always output "c": a JSON array of country names (English, official short form) that are meaningfully mentioned in the article — e.g. ["Iran", "United States", "Israel"]. Include only sovereign states actually referenced, not vague regions. Use empty array [] if none.
+2. If r=true: translate the headline to concise English → field "h". Write a 2-3 sentence English summary → field "s" covering WHO did WHAT to WHOM, WHERE, and the military/strategic significance.
+3. If r=false: set "h" to null and "s" to null — do not translate.
+4. Always output "c": a JSON array of country names (English, official short form) that are meaningfully mentioned in the article — e.g. ["Iran", "United States", "Israel"]. Include only sovereign states actually referenced, not vague regions. Use empty array [] if none.
 
-Respond with ONLY valid JSON: {"h": "...", "r": true or false, "s": "..." or null, "c": ["Country", ...]}
+Respond with ONLY valid JSON: {"r": true or false, "h": "..." or null, "s": "..." or null, "c": ["Country", ...]}
 """
 
 # ──────────────────────────────────────────────────────────────
@@ -151,12 +150,12 @@ def process_article(article: dict, api_key: str) -> dict:
     if language == "en":
         prompt = (
             f"[English] {title}\n---\n{content}\n---\n"
-            'JSON only: {"h":"headline","r":true/false,"s":"summary or null","c":["Country","..."]}'
+            'JSON only: {"r":true/false,"h":"English headline or null","s":"summary or null","c":["Country","..."]}'
         )
     else:
         prompt = (
             f"[{lang_name}] {title}\n---\n{content}\n---\n"
-            'JSON only: {"h":"English headline","r":true/false,"s":"summary or null","c":["Country","..."]}'
+            'JSON only: {"r":true/false,"h":"English headline or null (only if r=true)","s":"summary or null","c":["Country","..."]}'
         )
 
     try:
@@ -175,12 +174,17 @@ def process_article(article: dict, api_key: str) -> dict:
 
         result = json.loads(response_text)
 
-        article["title_en"] = result.get("h") or title
         is_relevant = bool(result.get("r", False))
         article["relevant"] = is_relevant
-        summary = result.get("s")
-        article["summary_en"] = summary if (is_relevant and summary) else "[Not relevant to Iran–US war monitor]"
-        article["translated"] = True        # Countries mentioned
+        if is_relevant:
+            article["title_en"] = result.get("h") or title
+            article["summary_en"] = result.get("s") or ""
+            article["translated"] = True
+        else:
+            article["title_en"] = title
+            article["summary_en"] = ""
+            article["translated"] = False
+        # Countries mentioned
         countries = result.get("c", [])
         article["countries_mentioned"] = [str(c) for c in countries] if isinstance(countries, list) else []
     except json.JSONDecodeError:
