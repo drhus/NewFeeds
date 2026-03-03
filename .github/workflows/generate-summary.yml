@@ -1,8 +1,7 @@
 name: Generate Executive Summary
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'   # Every 30 minutes
+  0 minutes
   workflow_dispatch: {}       # Manual trigger
 
 concurrency:
