@@ -114,7 +114,16 @@ CREATE TABLE IF NOT EXISTS executive_summary (
 INSERT INTO executive_summary (id) VALUES ('current') ON CONFLICT (id) DO NOTHING;
 
 -- ============================================================
--- 5. OPERATIONAL_BRIEFING TABLE — 1-hour window operational email briefing
+-- 5. SUMMARY_ARCHIVE TABLE — append-only history of every generated summary
+-- ============================================================
+CREATE TABLE IF NOT EXISTS summary_archive (
+  id           BIGSERIAL PRIMARY KEY,
+  generated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  data         JSONB NOT NULL DEFAULT '{}'
+);
+
+-- ============================================================
+-- 6. OPERATIONAL_BRIEFING TABLE — 1-hour window operational email briefing
 -- ============================================================
 CREATE TABLE IF NOT EXISTS operational_briefing (
   id           TEXT PRIMARY KEY DEFAULT 'current',   -- always 'current'
@@ -134,6 +143,7 @@ ALTER TABLE articles          ENABLE ROW LEVEL SECURITY;
 ALTER TABLE attacks           ENABLE ROW LEVEL SECURITY;
 ALTER TABLE threat_level      ENABLE ROW LEVEL SECURITY;
 ALTER TABLE executive_summary ENABLE ROW LEVEL SECURITY;
+ALTER TABLE summary_archive   ENABLE ROW LEVEL SECURITY;
 
 -- Anon role: read-only access (used by the frontend static build)
 CREATE POLICY IF NOT EXISTS "anon_select_articles"
@@ -147,6 +157,9 @@ CREATE POLICY IF NOT EXISTS "anon_select_threat_level"
 
 CREATE POLICY IF NOT EXISTS "anon_select_executive_summary"
   ON executive_summary FOR SELECT TO anon USING (true);
+
+CREATE POLICY IF NOT EXISTS "anon_select_summary_archive"
+  ON summary_archive FOR SELECT TO anon USING (true);
 
 ALTER TABLE operational_briefing ENABLE ROW LEVEL SECURITY;
 

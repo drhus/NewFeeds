@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import ExecutiveSummary from "@/components/ExecutiveSummary";
@@ -9,13 +10,46 @@ import {
   useExecutiveSummary,
 } from "@/lib/hooks";
 import { THREAT_LEVEL_COLORS } from "@/lib/types";
+import { getSupabaseBrowser } from "@/lib/supabase-browser";
 
 export default function SummaryClient() {
   const { attacks } = useAttackArticles();
   const { threatLevel, loading: threatLoading } = useThreatLevel();
   const { summary, loading: summaryLoading } = useExecutiveSummary();
+  const [downloadLoading, setDownloadLoading] = useState(false);
 
   const loading = threatLoading || summaryLoading;
+
+  async function handleDownloadAll() {
+    setDownloadLoading(true);
+    try {
+      const sb = getSupabaseBrowser();
+      if (!sb) { alert("Supabase client unavailable."); return; }
+      const { data, error } = await sb
+        .from("summary_archive")
+        .select("*")
+        .order("generated_at", { ascending: true });
+      if (error || !data?.length) {
+        alert(error ? `Error: ${error.message}` : "No archived summaries found yet.");
+        return;
+      }
+      const JSZip = (await import("jszip")).default;
+      const zip = new JSZip();
+      data.forEach((row: { generated_at: string; data: unknown }) => {
+        const ts = row.generated_at.replace(/[:.]/g, "-").slice(0, 19);
+        zip.file(`summary_${ts}.json`, JSON.stringify(row.data, null, 2));
+      });
+      const blob = await zip.generateAsync({ type: "blob" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "executive_summaries.zip";
+      a.click();
+      URL.revokeObjectURL(url);
+    } finally {
+      setDownloadLoading(false);
+    }
+  }
 
   const tlLevel = threatLevel.current;
   const tlColor = tlLevel
@@ -144,6 +178,26 @@ export default function SummaryClient() {
           }}
         >
           <h2 style={{ fontSize: 24, fontWeight: 700 }}>Executive Summary</h2>
+          <button
+            onClick={handleDownloadAll}
+            disabled={downloadLoading}
+            style={{
+              background: downloadLoading ? "var(--color-border)" : "var(--color-surface)",
+              border: "1.5px solid var(--color-border)",
+              borderRadius: 8,
+              padding: "7px 14px",
+              fontSize: 13,
+              fontWeight: 600,
+              cursor: downloadLoading ? "not-allowed" : "pointer",
+              color: downloadLoading ? "var(--color-text-muted)" : "var(--color-text)",
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
+              whiteSpace: "nowrap",
+            }}
+          >
+            {downloadLoading ? "Preparing…" : "⬇ Download All"}
+          </button>
         </div>
         <p
           style={{

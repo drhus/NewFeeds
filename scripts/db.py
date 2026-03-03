@@ -195,6 +195,18 @@ def upsert_executive_summary(data: dict) -> bool:
         }
         client.table("executive_summary").upsert(row, on_conflict="id").execute()
         logger.info("Supabase: upserted executive_summary")
+
+        # Also append to summary_archive for historical download
+        try:
+            archive_row = {
+                "generated_at": row["generated_at"],
+                "data": data,
+            }
+            client.table("summary_archive").insert(archive_row).execute()
+            logger.info("Supabase: appended to summary_archive")
+        except Exception as archive_err:
+            logger.warning(f"Supabase summary_archive insert failed (non-fatal): {archive_err}")
+
         return True
     except Exception as e:
         logger.error(f"Supabase upsert_executive_summary failed: {e}")
