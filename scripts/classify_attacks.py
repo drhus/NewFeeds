@@ -95,6 +95,8 @@ REGION: {article.get('region', '')}
 
 {{"is_attack":bool,"category":"us_strike_on_iran|iran_strike_on_us|ballistic_missile|drone_strike|airstrike|naval_incident|houthi_attack|hezbollah_action|proxy_operation|nuclear_development|irgc_action|cyber_attack|threat_statement|escalation|military_deployment|sanctions|ceasefire_violation|other","severity":"major|high|medium|low","parties_involved":["..."],"location":"...","brief":"one sentence"}}
 
+is_attack MUST be false for: political commentary, opinion pieces, domestic political reactions, partisan criticism of military policy, protest coverage, diplomatic statements without concrete military action, election/campaign rhetoric, media/pundit analysis. Only set is_attack=true when the article reports an ACTUAL military event, concrete threat, or direct operational activity.
+
 Severity: major=direct US-Iran engagement/ballistic/nuclear/mass casualties, high=strikes with casualties/major ops, medium=proxy clashes/drones/threats/mobilization, low=sanctions/minor/routine/unconfirmed"""
 
     headers = {
