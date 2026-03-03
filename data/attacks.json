@@ -1,5 +1,229 @@
 [
   {
+    "id": "7dac2c2365ad57b1",
+    "title_original": "Trump warns of longer Iran war as violence spreads",
+    "content_original": "Trump said that the war, which began on February 28, with a strike that killed Iran's supreme leader, Ayatollah Ali Khamenei, was going \"substantially\" ahead of schedule but that the United States was equipped for a prolonged conflict",
+    "url": "https://www.thehindu.com/news/international/trump-warns-of-longer-iran-war-as-violence-spreads/article70697744.ece",
+    "published": "2026-03-03T05:58:17+05:30",
+    "fetched_at": "2026-03-03T00:54:11.143815+00:00",
+    "source_name": "The Hindu International",
+    "source_category": "independent",
+    "language": "en",
+    "region": "south_asia",
+    "skip_translation": true,
+    "title_en": "Trump warns of longer Iran war as violence spreads",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Trump stated that the US-Iran war, which began on February 28 with a strike that killed Iran's Supreme Leader Ayatollah Ali Khamenei, is progressing 'substantially' ahead of schedule, while warning that the United States is prepared for a prolonged conflict as violence continues to spread across multiple fronts.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "killed",
+      "war",
+      "strike",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran|escalation|military_deployment",
+      "severity": "major",
+      "parties_involved": [
+        "United States",
+        "Iran",
+        "Iranian leadership",
+        "IRGC"
+      ],
+      "location": "south_asia",
+      "brief": "Trump acknowledges US-initiated war with Iran began February 28 with strike killing Supreme Leader Khamenei, warns conflict will extend as violence escalates across region."
+    },
+    "lat": 11.0046133,
+    "lng": 124.6069737
+  },
+  {
+    "id": "8cdeabcd2c833393",
+    "title_original": "Армия Израиля нанесла удары по зданию ливанского телеканала Al-Manar",
+    "content_original": "Армия Израиля нанесла удары по зданию ливанского телеканала Al-Manar",
+    "url": "https://ria.ru/20260303/beyrut-2078066010.html",
+    "published": "2026-03-03T03:49:13+03:00",
+    "fetched_at": "2026-03-03T00:52:54.460712+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Israeli army strikes building of Lebanese TV channel Al-Manar",
+    "relevant": true,
+    "summary_en": "The Israeli military struck the building of Al-Manar television channel in Lebanon. Al-Manar is the official television channel of Hezbollah, and the strike represents part of Israel's ongoing operations against Hezbollah's media and infrastructure assets in Lebanon.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "hezbollah",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Lebanon"
+      ],
+      "location": "Lebanon",
+      "brief": "Israeli military struck Al-Manar television building, the official channel of Hezbollah, targeting the Iran-backed proxy group's media infrastructure."
+    },
+    "lat": 33.85,
+    "lng": 35.86
+  },
+  {
+    "id": "547ac278ba662486",
+    "title_original": "США предстоит принять, что от атаки на Иран погибли дети, заявил Ньюсом",
+    "content_original": "США предстоит принять, что от атаки на Иран погибли дети, заявил Ньюсом",
+    "url": "https://ria.ru/20260303/iran-2078065426.html",
+    "published": "2026-03-03T03:40:25+03:00",
+    "fetched_at": "2026-03-03T00:52:54.461058+00:00",
+    "source_name": "RIA Novosti",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "USA Will Have to Accept That Children Died From Attack on Iran, Newsom Said",
+    "relevant": true,
+    "summary_en": "California Governor Gavin Newsom stated that the United States will have to accept that children were killed in an attack on Iran. The statement appears to be in response to US military operations against Iran and the resulting civilian casualties, highlighting the political and humanitarian implications of the ongoing conflict.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "conflict",
+      "killed",
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "us_strike_on_iran",
+      "severity": "major",
+      "parties_involved": [
+        "USA",
+        "Iran"
+      ],
+      "location": "Iran",
+      "brief": "California Governor Gavin Newsom states US must accept civilian casualties including children from American attack on Iran"
+    },
+    "merged_source_count": 2,
+    "lat": 32.65,
+    "lng": 54.56
+  },
+  {
+    "id": "c83464256b6753a9",
+    "title_original": "Авиабаза Австралии на Ближнем Востоке подверглась атаке Ирана",
+    "content_original": "Министр обороны Австралии Ричард Марлес сообщил, что на прошедших выходных иранские беспилотники атаковали штаб вооруженных сил страны на Ближнем Востоке. Как пишет AFP, речь идет об авиабазе Аль-Минхад в ОАЭ.",
+    "url": "https://www.kommersant.ru/doc/8478577",
+    "published": "2026-03-03T03:37:33+03:00",
+    "fetched_at": "2026-03-03T00:52:59.398115+00:00",
+    "source_name": "Kommersant",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Australian Air Base in Middle East Attacked by Iran",
+    "relevant": true,
+    "summary_en": "Iranian drones attacked Australia's Al-Minhad air base in the UAE over the weekend, Australian Defense Minister Richard Marles confirmed. This represents an expansion of Iranian attacks beyond US forces to include other coalition allies in the Gulf region, marking a notable escalation in the ongoing Iran-US conflict.",
+    "translated": true,
+    "keyword_matches": 1,
+    "matched_keywords": [
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "high",
+      "parties_involved": [
+        "Iran",
+        "Australia",
+        "UAE"
+      ],
+      "location": "Al-Minhad air base, UAE",
+      "brief": "Iranian drones attacked Australia's Al-Minhad air base in the UAE, expanding attacks beyond US forces to include coalition allies and marking a notable escalation in Gulf region tensions."
+    },
+    "lat": 24.0,
+    "lng": 54.0
+  },
+  {
+    "id": "2e1cee64d4ea8681",
+    "title_original": "غارات صهيونية على \"قناة المنار\" وهيئة الإذاعة والتلفزيون الإيرانية.. محاولات فاشلة لحجب صورة خسائر الأعداء",
+    "content_original": "المسيرة نت | خاص: في سياق العدوان المتواصل الذي تشنه الولايات المتحدة وكيان العدو الصهيوني ضد الجمهورية الإسلامية، برزت خلال الساعات الماضية استهدافات مباشرة لمرافق إعلامية في محاولة يائسة لحجب الصورة التي تكشف حجم الضربات التي يتلقاها العدو في أكثر من ساحة.",
+    "url": "https://almasirah.net.ye/static/static/77485adc-383c-465e-a3c5-01c6de1a9549.jpg",
+    "published": "2026-03-03T03:30:09+00:00",
+    "fetched_at": "2026-03-03T00:53:54.401439+00:00",
+    "source_name": "Al Masirah (Houthi)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Zionist raids on Al-Manar Channel and Iranian Radio and Television Organization.. Failed attempts to hide image of enemy losses",
+    "relevant": true,
+    "summary_en": "Israeli airstrikes targeted Al-Manar Channel (Hezbollah's television network) and Iranian Radio and Television Organization facilities, in what sources describe as failed attempts to conceal the extent of Israeli losses across multiple fronts. The strikes represent direct targeting of media infrastructure linked to the resistance axis amid the ongoing US-Israeli conflict with Iran and its proxies.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "hezbollah",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran"
+      ],
+      "location": "Lebanon (Beirut)",
+      "brief": "Israeli airstrikes targeted Al-Manar Channel (Hezbollah's TV network) and Iranian Radio and Television Organization facilities, allegedly attempting to conceal Israeli losses across multiple fronts."
+    },
+    "lat": 33.85,
+    "lng": 35.86
+  },
+  {
+    "id": "a15f850c6faed6e2",
+    "title_original": "Страны Ближнего Востока отразили ракетную атаку со стороны Ирана",
+    "content_original": "Об отражении ракетной атаки со стороны Ирана сообщили власти Израиля, ОАЭ, Сирии, Катара, Кувейта, Саудовской Аравии. Как передает AFP, два сильных взрыва прогремели в дипломатическом квартале Эр-Рияда, в Саудовской Аравии.",
+    "url": "https://www.kommersant.ru/doc/8478575",
+    "published": "2026-03-03T03:25:21+03:00",
+    "fetched_at": "2026-03-03T00:52:59.398300+00:00",
+    "source_name": "Kommersant",
+    "source_category": "state",
+    "language": "ru",
+    "region": "russia",
+    "skip_translation": false,
+    "title_en": "Middle Eastern Countries Repel Missile Attack from Iran",
+    "relevant": true,
+    "summary_en": "Authorities in Israel, UAE, Syria, Qatar, Kuwait, and Saudi Arabia reported repelling a missile attack launched by Iran. Two strong explosions were heard in the diplomatic quarter of Riyadh, Saudi Arabia. This coordinated regional defense against Iranian strikes represents a significant escalation in the ongoing Iran-US conflict and demonstrates the broader regional involvement in the hostilities.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "attack",
+      "conflict",
+      "missile"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Israel",
+        "UAE",
+        "Syria",
+        "Qatar",
+        "Kuwait",
+        "Saudi Arabia"
+      ],
+      "location": "Israel, UAE, Syria, Qatar, Kuwait, Saudi Arabia (Riyadh)",
+      "brief": "Iran launched a coordinated ballistic missile attack on multiple Middle Eastern countries which were repelled by regional defenses, marking a significant escalation in Iranian aggression."
+    },
+    "lat": 31.5,
+    "lng": 34.8
+  },
+  {
     "id": "d56b37a77a73add6",
     "title_original": "Сотни жителей Тель-Авива ночуют в общественных убежищах",
     "content_original": "Сотни жителей Тель-Авива ночуют в общественных убежищах",
@@ -189,6 +413,121 @@
     "lng": 35.86
   },
   {
+    "id": "be0bbef1aa6396b7",
+    "title_original": "אזעקה על חדירת כלי טיס עוין בגליל העליון",
+    "content_original": "אזעקה על חדירת כלי טיס עוין בגליל העליון",
+    "url": "https://mivzakim.net/r/13969014/rss",
+    "published": "2026-03-03T02:52:28+02:00",
+    "fetched_at": "2026-03-03T00:53:07.983530+00:00",
+    "source_name": "Mivzakim Main",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Alert on hostile aircraft infiltration in Upper Galilee",
+    "relevant": true,
+    "summary_en": "Israeli air raid sirens sounded in the Upper Galilee region alerting to the infiltration of hostile aircraft. The incident occurred in northern Israel near the border area, potentially connected to Hezbollah activity or Iranian proxy operations targeting Israeli territory.",
+    "translated": true,
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "proxy",
+      "hezbollah",
+      "raid"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran"
+      ],
+      "location": "Upper Galilee, Northern Israel",
+      "brief": "Israeli air raid sirens triggered by hostile aircraft infiltration in Upper Galilee near the northern border, reportedly linked to Hezbollah or Iranian proxy operations."
+    },
+    "lat": 33.06,
+    "lng": 35.24
+  },
+  {
+    "id": "3c59fde68815ed34",
+    "title_original": "אזעקות בצפון מחשש לחדירת כלי טיס עוין",
+    "content_original": "אזעקות בצפון מחשש לחדירת כלי טיס עוין",
+    "url": "https://mivzakim.net/r/13969013/rss",
+    "published": "2026-03-03T02:52:21+02:00",
+    "fetched_at": "2026-03-03T00:53:07.127551+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Air raid sirens in northern Israel over fears of hostile aircraft infiltration",
+    "relevant": true,
+    "summary_en": "Air raid sirens sounded in northern Israel due to concerns about hostile aircraft infiltration, likely from Hezbollah or Iranian proxy forces operating from Lebanon. This represents ongoing hostilities on Israel's northern border, a key front in the broader Iran-US conflict and Iranian proxy warfare against Israel.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "proxy",
+      "hezbollah",
+      "conflict",
+      "raid"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Iran"
+      ],
+      "location": "Northern Israel",
+      "brief": "Air raid sirens sounded in northern Israel due to fears of hostile aircraft infiltration from Hezbollah or Iranian proxy forces in Lebanon, representing ongoing proxy hostilities on Israel's northern border in the broader Iran-US conflict."
+    },
+    "lat": 33.06,
+    "lng": 35.24
+  },
+  {
+    "id": "278b331def02e386",
+    "title_original": "חדירת כלי טיס (02:51): שלומי, מטה אשר, מעלה יוסף",
+    "content_original": "חדירת כלי טיס (02:51): שלומי, מטה אשר, מעלה יוסף",
+    "url": "https://mivzakim.net/r/13969011/rss",
+    "published": "2026-03-03T02:52:01+02:00",
+    "fetched_at": "2026-03-03T00:53:07.127723+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Aircraft Infiltration Alert: Shlomi, Matte Asher, Maale Yossef",
+    "relevant": true,
+    "summary_en": "Israeli air defense systems detected incoming aircraft infiltration targeting northern Israeli communities of Shlomi, Matte Asher, and Maale Yossef at 02:51. The alert indicates potential rocket, missile, or drone threat from Lebanon-based Hezbollah forces, continuing the ongoing cross-border hostilities in the northern theater.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "threat",
+      "drone",
+      "hezbollah",
+      "missile",
+      "rocket",
+      "air defense"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah",
+        "Lebanon"
+      ],
+      "location": "Northern Israel (Shlomi, Matte Asher, Maale Yossef) near Lebanon border",
+      "brief": "Hezbollah launched aircraft infiltration (rockets, missiles or drones) targeting northern Israeli communities, triggering air defense alerts."
+    },
+    "lat": 33.0760504,
+    "lng": 35.1485842
+  },
+  {
     "id": "8a1f54a5a0dbd52d",
     "title_original": "US-Allied Fuel Tanker Attacked by Iran Still Burning in Strait of Hormuz: IRGC",
     "content_original": "US-Allied Fuel Tanker Attacked by Iran Still Burning in Strait of Hormuz: IRGC",
@@ -334,6 +673,119 @@
     },
     "lat": 33.1,
     "lng": 44.17
+  },
+  {
+    "id": "1a457a0c595cc86c",
+    "title_original": "\"פוקס ניוז\": השגרירות בסעודיה הייתה ריקה בזמן המתקפה האיראנית",
+    "content_original": "\"פוקס ניוז\": השגרירות בסעודיה הייתה ריקה בזמן המתקפה האיראנית",
+    "url": "https://mivzakim.net/r/13969006/rss",
+    "published": "2026-03-03T02:38:46+02:00",
+    "fetched_at": "2026-03-03T00:53:07.983707+00:00",
+    "source_name": "Mivzakim Main",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Fox News: US embassy in Saudi Arabia was empty during Iranian attack",
+    "relevant": true,
+    "summary_en": "Fox News reported that the US embassy in Saudi Arabia was empty at the time of the Iranian attack. This report relates to the safety and preparedness of US diplomatic facilities in the region during the Iranian ballistic missile and drone strike campaign against US bases and assets.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "drone",
+      "attack",
+      "missile",
+      "ballistic",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "ballistic_missile|drone_strike",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "Saudi Arabia"
+      ],
+      "location": "Saudi Arabia",
+      "brief": "Iranian ballistic missile and drone strike campaign targeted US bases and assets, with reports the US embassy in Saudi Arabia was empty during the attack."
+    },
+    "merged_source_count": 4,
+    "lat": 24.71,
+    "lng": 46.68
+  },
+  {
+    "id": "1a457a0c595cc86c",
+    "title_original": "\"פוקס ניוז\": השגרירות בסעודיה הייתה ריקה בזמן המתקפה האיראנית",
+    "content_original": "\"פוקס ניוז\": השגרירות בסעודיה הייתה ריקה בזמן המתקפה האיראנית",
+    "url": "https://mivzakim.net/r/13969006/rss",
+    "published": "2026-03-03T02:38:46+02:00",
+    "fetched_at": "2026-03-03T00:53:07.128110+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Fox News: US embassy in Saudi Arabia was empty during Iranian attack",
+    "relevant": true,
+    "summary_en": "Iran launched an attack targeting US assets in the region. According to Fox News reporting, the US embassy in Saudi Arabia was empty at the time of the Iranian attack. The significance remains unclear - it could indicate the US had advance warning and evacuated personnel, or that the attack was not specifically aimed at the embassy compound.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "Saudi Arabia"
+      ],
+      "location": "Saudi Arabia (US Embassy in Riyadh)",
+      "brief": "Iran launched an attack targeting US assets in the region, with the US embassy in Saudi Arabia found to be empty at the time of the attack, suggesting either advance warning and evacuation or that the attack's intended target was elsewhere."
+    },
+    "lat": 24.71,
+    "lng": 46.68
+  },
+  {
+    "id": "f7fefb2c010aecb7",
+    "title_original": "דיווח על תקיפה נוספת בדאחייה",
+    "content_original": "דיווח על תקיפה נוספת בדאחייה",
+    "url": "https://mivzakim.net/r/13969000/rss",
+    "published": "2026-03-03T02:33:32+02:00",
+    "fetched_at": "2026-03-03T00:53:07.128624+00:00",
+    "source_name": "Mivzakim Breaking",
+    "source_category": "independent",
+    "language": "he",
+    "region": "israel",
+    "skip_translation": false,
+    "title_en": "Report of Another Attack in Dahiyah",
+    "relevant": true,
+    "summary_en": "Israeli forces reportedly carried out another attack in the Dahiyah suburb of Beirut, a Hezbollah stronghold in southern Lebanon. The Dahiyah area has been a primary target in recent Israeli operations against Hezbollah leadership and infrastructure. This attack is part of the ongoing escalation on Israel's northern front, which is connected to the broader Iran-linked proxy conflict in the region.",
+    "translated": true,
+    "keyword_matches": 7,
+    "matched_keywords": [
+      "proxy",
+      "hezbollah",
+      "conflict",
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah"
+      ],
+      "location": "Beirut, Lebanon (Dahiyah suburb)",
+      "brief": "Israeli forces attacked the Dahiyah suburb of Beirut, a Hezbollah stronghold, continuing operations against Hezbollah leadership and infrastructure in southern Lebanon."
+    },
+    "merged_source_count": 3,
+    "lat": 33.85,
+    "lng": 35.86
   },
   {
     "id": "4fba1b8a670d1c52",
@@ -1485,6 +1937,42 @@
     "lng": 35.24
   },
   {
+    "id": "a42702e968cf361c",
+    "title_original": "US-allied fuel tanker attacked by Iran still burning in Strait of Hormuz: IRGC  The Islamic Revolution Guards Corps (...",
+    "content_original": "US-allied fuel tanker attacked by Iran still burning in Strait of Hormuz: IRGC The Islamic Revolution Guards Corps (IRGC) says a US-allied fuel tanker attacked in Iran’s retaliatory drone strikes is still burning in the Strait of Hormuz. @PressTV",
+    "url": "https://t.me/presstv/177745",
+    "published": "2026-03-03T00:49:58+00:00",
+    "fetched_at": "2026-03-03T00:54:31.361402+00:00",
+    "source_name": "Press TV (TG)",
+    "source_category": "state",
+    "language": "en",
+    "region": "iran",
+    "skip_translation": true,
+    "title_en": "US-allied fuel tanker attacked by Iran still burning in Strait of Hormuz: IRGC",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The Islamic Revolution Guards Corps (IRGC) confirmed that a US-allied fuel tanker attacked during Iran's retaliatory drone strikes remains burning in the Strait of Hormuz. The attack on the tanker represents one of Iran's direct military actions against US-aligned vessels in the strategic Persian Gulf waterway, demonstrating the expansion of hostilities beyond fixed military targets to include energy infrastructure.",
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "irgc",
+      "drone",
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "irgc_action",
+      "severity": "major",
+      "parties_involved": [
+        "Iran (IRGC)",
+        "United States (allied vessel)"
+      ],
+      "location": "Strait of Hormuz",
+      "brief": "IRGC confirms Iranian drone strike on US-allied fuel tanker still burning in Strait of Hormuz, marking direct Iranian military action against US-aligned vessel."
+    },
+    "lat": 26.56,
+    "lng": 56.25
+  },
+  {
     "id": "b4c5191e2af378e9",
     "title_original": "США знали о планах Израиля нанести удар по Ирану, заявил Рубио",
     "content_original": "США знали о планах Израиля нанести удар по Ирану, заявил Рубио",
@@ -1790,6 +2278,43 @@
     "lng": 34.79
   },
   {
+    "id": "f711fc127f79bafa",
+    "title_original": "🔻 مشاهد من اطلاق المقاومة الاسلامية في العراق لطيران مسيّر باتجاه قواعد الاحتلال في العراق والمنطقة.",
+    "content_original": "🔻 مشاهد من اطلاق المقاومة الاسلامية في العراق لطيران مسيّر باتجاه قواعد الاحتلال في العراق والمنطقة.",
+    "url": "https://t.me/Electrohizbullah/157342",
+    "published": "2026-03-03T00:39:12+00:00",
+    "fetched_at": "2026-03-03T00:54:41.813295+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Scenes from the Islamic Resistance in Iraq launching a drone towards occupation bases in Iraq and the region",
+    "relevant": true,
+    "summary_en": "The Islamic Resistance in Iraq released footage of a drone launch targeting US military occupation bases in Iraq and the broader region. This represents continued proxy attacks by Iran-aligned militias against American forces stationed in Iraq, consistent with the pattern of IRGC-coordinated operations across the region as part of the ongoing Iran-US armed conflict.",
+    "translated": true,
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "proxy",
+      "irgc",
+      "conflict",
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "proxy_operation",
+      "severity": "medium",
+      "parties_involved": [
+        "Islamic Resistance in Iraq",
+        "United States military"
+      ],
+      "location": "Iraq",
+      "brief": "Iran-aligned Iraqi militia group launched a drone attack on US occupation bases in Iraq, continuing the pattern of IRGC-coordinated proxy operations against American forces."
+    },
+    "lat": 33.1,
+    "lng": 44.17
+  },
+  {
     "id": "def5e071f68bfbb6",
     "title_original": "אזעקות בדרום",
     "content_original": "אזעקות בדרום",
@@ -1905,6 +2430,44 @@
     "lng": 34.99
   },
   {
+    "id": "1eb5e9228e029dfb",
+    "title_original": "عاجل | لحظة إصابة قوية لطائرة دون طيار “شاهد 136” بمبنى يضم قوات أمريكية في دبي",
+    "content_original": "عاجل | لحظة إصابة قوية لطائرة دون طيار “شاهد 136” بمبنى يضم قوات أمريكية في دبي",
+    "url": "https://t.me/Electrohizbullah/157340",
+    "published": "2026-03-03T00:33:37+00:00",
+    "fetched_at": "2026-03-03T00:54:41.812269+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Breaking | Moment of strong impact of Shahed 136 drone on building housing American forces in Dubai",
+    "relevant": true,
+    "summary_en": "A Shahed 136 drone struck a building in Dubai housing American forces, marking a significant escalation in the Iran-US conflict. The Iranian-made loitering munition hit its target in the UAE, which hosts significant US military presence, demonstrating the expansion of Iranian proxy attacks beyond traditional theaters like Iraq and Syria into the Gulf states.",
+    "translated": true,
+    "keyword_matches": 4,
+    "matched_keywords": [
+      "proxy",
+      "conflict",
+      "drone"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "drone_strike",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "United Arab Emirates",
+        "IRGC"
+      ],
+      "location": "Dubai, UAE",
+      "brief": "Iranian Shahed 136 loitering munition struck a building housing American forces in Dubai, marking a direct escalation in Iran-US conflict."
+    },
+    "lat": 25.2,
+    "lng": 55.27
+  },
+  {
     "id": "4e6c01400e906fc2",
     "title_original": "אזעקות גם בגולן ובגליל העליון",
     "content_original": "אזעקות גם בגולן ובגליל העליון",
@@ -2016,6 +2579,117 @@
     },
     "lat": 29.0,
     "lng": 47.0
+  },
+  {
+    "id": "85b65630419223db",
+    "title_original": "وزير الدفاع الأسترالي: قاعدة المنهاد الجوية في  #دبي  حيث تتمركز قوات أسترالية تعرضت لهجوم إيراني مطلع الأسبوع",
+    "content_original": "وزير الدفاع الأسترالي: قاعدة المنهاد الجوية في #دبي حيث تتمركز قوات أسترالية تعرضت لهجوم إيراني مطلع الأسبوع",
+    "url": "https://t.me/Electrohizbullah/157339",
+    "published": "2026-03-03T00:32:44+00:00",
+    "fetched_at": "2026-03-03T00:54:41.811659+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Australian Defense Minister: Al Minhad Air Base in Dubai where Australian forces are stationed subjected to Iranian attack earlier this week",
+    "relevant": true,
+    "summary_en": "Australian Defense Minister Richard Marles confirmed that Al Minhad Air Base in Dubai, where Australian forces are stationed, was targeted in an Iranian attack earlier this week. The base hosts Australian Defense Force personnel as part of Australia's deployment to the Middle East. This marks an escalation targeting coalition forces in the Gulf region as part of Iran's ongoing retaliation against US and allied assets.",
+    "translated": true,
+    "keyword_matches": 2,
+    "matched_keywords": [
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Australia",
+        "United Arab Emirates"
+      ],
+      "location": "Al Minhad Air Base, Dubai, UAE",
+      "brief": "Iranian attack confirmed on Al Minhad Air Base in Dubai where Australian Defense Force personnel are stationed, marking direct Iranian strike on US-allied forces."
+    },
+    "lat": 25.2,
+    "lng": 55.27
+  },
+  {
+    "id": "818c141690f63d19",
+    "title_original": "#لبنان   طيران الاحتلال الإسرائيلي يشن غارة جديدة على الضاحية الجنوبية لبيروت",
+    "content_original": "#لبنان طيران الاحتلال الإسرائيلي يشن غارة جديدة على الضاحية الجنوبية لبيروت",
+    "url": "https://t.me/Electrohizbullah/157338",
+    "published": "2026-03-03T00:31:41+00:00",
+    "fetched_at": "2026-03-03T00:54:41.811218+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "title_en": "Israeli occupation aircraft carries out new raid on Beirut's southern suburb",
+    "relevant": true,
+    "summary_en": "Israeli aircraft conducted a new airstrike on Beirut's southern suburb (Dahieh), a known Hezbollah stronghold. The strike is part of ongoing Israeli operations against Hezbollah targets in Lebanon, representing continued escalation on Israel's northern front amid the broader regional conflict involving Iran-backed proxies.",
+    "translated": true,
+    "keyword_matches": 6,
+    "matched_keywords": [
+      "hezbollah",
+      "conflict",
+      "raid",
+      "airstrike",
+      "strike"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "hezbollah_action",
+      "severity": "medium",
+      "parties_involved": [
+        "Israel",
+        "Hezbollah"
+      ],
+      "location": "Beirut's southern suburb (Dahieh), Lebanon",
+      "brief": "Israeli airstrike hits Hezbollah stronghold in Beirut's Dahieh suburb amid ongoing operations against the Iranian proxy group."
+    },
+    "lat": 33.85,
+    "lng": 35.86
+  },
+  {
+    "id": "e57039b385b956da",
+    "title_original": "🇺🇸 🇮🇷 🇸🇦 ⚡️ - BREAKING: A fire has been reported at the U.S. Embassy in Riyadh, Saudi Arabia, following a large explo...",
+    "content_original": "🇺🇸 🇮🇷 🇸🇦 ⚡️ - BREAKING: A fire has been reported at the U.S. Embassy in Riyadh, Saudi Arabia, following a large explosion, according to Reuters.",
+    "url": "https://t.me/CIG_telegram/70212",
+    "published": "2026-03-03T00:25:06+00:00",
+    "fetched_at": "2026-03-03T00:54:36.841580+00:00",
+    "source_name": "Conflict Intelligence Team (TG)",
+    "source_category": "independent",
+    "language": "en",
+    "region": "russia",
+    "skip_translation": true,
+    "title_en": "Fire Reported at U.S. Embassy in Riyadh Following Large Explosion",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "A fire has been reported at the U.S. Embassy in Riyadh, Saudi Arabia, following a large explosion, according to Reuters. The incident represents a direct attack on U.S. diplomatic facilities in the region, occurring amid the ongoing Iran-U.S. armed conflict. The Saudi Arabian location places this attack in a critical U.S. ally nation bordering the Persian Gulf.",
+    "keyword_matches": 5,
+    "matched_keywords": [
+      "explosion",
+      "conflict",
+      "attack"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "other",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "Iranian_Proxies",
+        "United_States"
+      ],
+      "location": "Riyadh, Saudi Arabia",
+      "brief": "Large explosion and fire at U.S. Embassy in Riyadh represents direct attack on American diplomatic facility amid Iran-US armed conflict."
+    },
+    "merged_source_count": 14,
+    "lat": 24.71,
+    "lng": 46.68
   },
   {
     "id": "67ad286f8c3ca97b",
@@ -7710,6 +8384,43 @@
     },
     "lat": 32.65,
     "lng": 54.56
+  },
+  {
+    "id": "c9640193ff8ff41f",
+    "title_original": "Will Iran's missiles drain US interceptor stocks?",
+    "content_original": "US forces have shot down hundreds of Iranian ballistic missiles in recent days, raising questions about how long American air defense interceptor stocks will last in a war that could continue for weeks or more. Iran responded to the massive US-Israeli air campaign launched over the weekend with barrages of hundreds of missiles and drones against countries in the Middle East that host American forces and bases.",
+    "url": "https://www.al-monitor.com/originals/2026/03/will-irans-missiles-drain-us-interceptor-stocks",
+    "published": "2026-03-02T19:30:20-05:00",
+    "fetched_at": "2026-03-03T00:53:19.806494+00:00",
+    "source_name": "Al-Monitor",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Will Iran's missiles drain US interceptor stocks?",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "US forces have intercepted hundreds of Iranian ballistic missiles and drones launched in recent days as retaliation for US-Israeli airstrikes on Iran. The high volume of interceptions raises concerns about the sustainability of American air defense interceptor stockpiles if the conflict continues for weeks or longer.",
+    "keyword_matches": 3,
+    "matched_keywords": [
+      "air defense",
+      "ballistic",
+      "conflict"
+    ],
+    "classification": {
+      "is_attack": true,
+      "category": "iran_strike_on_us",
+      "severity": "major",
+      "parties_involved": [
+        "Iran",
+        "United States",
+        "Israel"
+      ],
+      "location": "middle_east",
+      "brief": "Iran launched ballistic missiles and drones at US forces in retaliation for US-Israeli airstrikes, raising concerns about sustainability of American air defense interceptor stockpiles."
+    },
+    "lat": 39.3014159,
+    "lng": -76.5888477
   },
   {
     "id": "49e2a10ea5d69452",
