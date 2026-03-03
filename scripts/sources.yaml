@@ -874,3 +874,10 @@ regions:
         url: "https://www.cbsnews.com/latest/rss/60-minutes"
         category: independent
         skip_translation: true
+
+      - name: "DW News"
+        type: rss
+        language: en
+        url: "https://rss.dw.com/rdf/rss-en-all"
+        category: independent
+        skip_translation: true
