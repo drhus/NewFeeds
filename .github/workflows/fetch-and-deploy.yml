@@ -29,11 +29,11 @@ jobs:
       matrix:
         batch:
           - name: batch-1
-            regions: "iran,russia,israel"
+            regions: "iran,russia,turkey"
           - name: batch-2
             regions: "gulf,proxies,middle_east"
           - name: batch-3
-            regions: "china,turkey,south_asia,western"
+            regions: "china,israel,south_asia,western"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
