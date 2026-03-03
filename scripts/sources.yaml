@@ -881,3 +881,9 @@ regions:
         url: "https://rss.dw.com/rdf/rss-en-all"
         category: independent
         skip_translation: true
+
+      - name: "Tagesschau Ausland"
+        type: rss
+        language: de
+        url: "https://www.tagesschau.de/ausland/index~rss2.xml"
+        category: independent
