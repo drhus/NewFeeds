@@ -62,13 +62,12 @@ def _parse_ts(value: str | None) -> str | None:
 
 def _article_to_row(a: dict) -> dict:
     """Convert an in-memory article dict to a flat row for the articles table."""
-    return {
+    row: dict = {
         "id": a["id"],
         "title_original": a.get("title_original", ""),
         "content_original": a.get("content_original"),
         "url": a.get("url", ""),
         "published": _parse_ts(a.get("published")),
-        "fetched_at": _parse_ts(a.get("fetched_at")),
         "source_name": a.get("source_name", ""),
         "source_category": a.get("source_category", "unknown"),
         "language": a.get("language", "en"),
@@ -79,6 +78,13 @@ def _article_to_row(a: dict) -> dict:
         "title_en": a.get("title_en"),
         "summary_en": a.get("summary_en"),
     }
+    # Only include fetched_at when non-null — prevents checkpoint upserts from
+    # overwriting a previously stored fetched_at with null, which would break
+    # effective_time sorting on the frontend.
+    fetched_at = _parse_ts(a.get("fetched_at"))
+    if fetched_at is not None:
+        row["fetched_at"] = fetched_at
+    return row
 
 
 def _attack_to_row(a: dict) -> dict:
