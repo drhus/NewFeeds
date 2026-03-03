@@ -123,6 +123,15 @@ CREATE TABLE IF NOT EXISTS summary_archive (
 );
 
 -- ============================================================
+-- 5b. BRIEFING_ARCHIVE TABLE — append-only history of every generated briefing
+-- ============================================================
+CREATE TABLE IF NOT EXISTS briefing_archive (
+  id           BIGSERIAL PRIMARY KEY,
+  generated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  data         JSONB NOT NULL DEFAULT '{}'
+);
+
+-- ============================================================
 -- 6. OPERATIONAL_BRIEFING TABLE — 1-hour window operational email briefing
 -- ============================================================
 CREATE TABLE IF NOT EXISTS operational_briefing (
@@ -160,6 +169,9 @@ CREATE POLICY IF NOT EXISTS "anon_select_executive_summary"
 
 CREATE POLICY IF NOT EXISTS "anon_select_summary_archive"
   ON summary_archive FOR SELECT TO anon USING (true);
+
+CREATE POLICY IF NOT EXISTS "anon_select_briefing_archive"
+  ON briefing_archive FOR SELECT TO anon USING (true);
 
 ALTER TABLE operational_briefing ENABLE ROW LEVEL SECURITY;
 

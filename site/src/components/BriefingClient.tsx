@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Header from "@/components/Header";
+import DownloadBriefingsButton from "@/components/DownloadBriefingsButton";
 import { useOperationalBriefing, useThreatLevel } from "@/lib/hooks";
 import type { OperationalBriefingData, CountrySummary, BriefingSource } from "@/lib/types";
 
@@ -489,6 +490,7 @@ export default function BriefingClient() {
           <h2 style={{ fontSize: 24, fontWeight: 700 }}>
             Operational Briefing
           </h2>
+          <DownloadBriefingsButton />
         </div>
         <p
           style={{

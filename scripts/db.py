@@ -227,6 +227,18 @@ def upsert_operational_briefing(data: dict) -> bool:
         }
         client.table("operational_briefing").upsert(row, on_conflict="id").execute()
         logger.info("Supabase: upserted operational_briefing")
+
+        # Also append to briefing_archive for historical download
+        try:
+            archive_row = {
+                "generated_at": row["generated_at"],
+                "data": data,
+            }
+            client.table("briefing_archive").insert(archive_row).execute()
+            logger.info("Supabase: appended to briefing_archive")
+        except Exception as archive_err:
+            logger.warning(f"Supabase briefing_archive insert failed (non-fatal): {archive_err}")
+
         return True
     except Exception as e:
         logger.error(f"Supabase upsert_operational_briefing failed: {e}")
