@@ -92,7 +92,7 @@ export function useArticlesByRegion() {
           .eq("region", region)
           .not("relevant", "is", false)
           .eq("translated", true)
-          .order("effective_time", { ascending: false });
+          .order("fetched_at", { ascending: false, nullsFirst: false });
 
         if (error) {
           console.warn(`[useArticlesByRegion] ${region}:`, error.message);
