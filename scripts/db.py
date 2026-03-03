@@ -92,6 +92,9 @@ def _attack_to_row(a: dict) -> dict:
     """Convert an in-memory attack dict to a flat row for the attacks table."""
     row = _article_to_row(a)  # base article fields
     row.pop("countries_mentioned", None)  # attacks table doesn't have this column yet
+    # Always ensure fetched_at is set so effective_time sorts correctly
+    if "fetched_at" not in row:
+        row["fetched_at"] = datetime.now(timezone.utc).isoformat()
     row.update({
         "keyword_matches": a.get("keyword_matches", 0),
         "matched_keywords": a.get("matched_keywords", []),
