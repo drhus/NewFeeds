@@ -123,6 +123,19 @@ def upsert_articles(region: str, articles: list[dict]) -> int:
     if not rows:
         return 0
 
+    # Deduplicate by id — duplicate ids in the same batch cause
+    # "ON CONFLICT DO UPDATE command cannot affect row a second time"
+    seen: set[str] = set()
+    deduped: list[dict] = []
+    for row in rows:
+        rid = row.get("id")
+        if rid and rid not in seen:
+            seen.add(rid)
+            deduped.append(row)
+        elif not rid:
+            deduped.append(row)
+    rows = deduped
+
     total = 0
     for batch in _chunked(rows, BATCH_SIZE):
         try:
@@ -144,6 +157,18 @@ def upsert_attacks(attacks: list[dict]) -> int:
     rows = [_attack_to_row(a) for a in attacks]
     if not rows:
         return 0
+
+    # Deduplicate by id within batch to avoid Postgres conflict error
+    seen: set[str] = set()
+    deduped: list[dict] = []
+    for row in rows:
+        rid = row.get("id")
+        if rid and rid not in seen:
+            seen.add(rid)
+            deduped.append(row)
+        elif not rid:
+            deduped.append(row)
+    rows = deduped
 
     total = 0
     for batch in _chunked(rows, BATCH_SIZE):
