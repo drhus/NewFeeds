@@ -142,7 +142,16 @@ export async function getAttackArticles(): Promise<Article[]> {
         .order("effective_time", { ascending: false });
 
       if (!error && data) {
-        return data.map(rowToArticle);
+        const now = Date.now();
+        return data
+          .map(rowToArticle)
+          .sort((a, b) => {
+            const tA = new Date(a.published).getTime();
+            const tB = new Date(b.published).getTime();
+            const effA = !isNaN(tA) && tA <= now ? tA : (a.fetched_at ? new Date(a.fetched_at).getTime() : 0);
+            const effB = !isNaN(tB) && tB <= now ? tB : (b.fetched_at ? new Date(b.fetched_at).getTime() : 0);
+            return effB - effA;
+          });
       }
       console.warn("[data] Supabase attacks query failed:", error?.message);
     } catch (e) {

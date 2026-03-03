@@ -141,7 +141,17 @@ export function useAttackArticles() {
     if (error) {
       console.warn("[useAttackArticles]", error.message);
     } else {
-      setAttacks((data || []).map(rowToArticle));
+      const now = Date.now();
+      const sorted = (data || [])
+        .map(rowToArticle)
+        .sort((a, b) => {
+          const tA = new Date(a.published).getTime();
+          const tB = new Date(b.published).getTime();
+          const effA = !isNaN(tA) && tA <= now ? tA : (a.fetched_at ? new Date(a.fetched_at).getTime() : 0);
+          const effB = !isNaN(tB) && tB <= now ? tB : (b.fetched_at ? new Date(b.fetched_at).getTime() : 0);
+          return effB - effA;
+        });
+      setAttacks(sorted);
     }
     setLoading(false);
   }, []);
