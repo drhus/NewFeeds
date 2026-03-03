@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-03-02T18:57:40.812703+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 770,
+    "incident_count_6h": 134,
+    "severity_breakdown": {
+      "major": 344,
+      "high": 242,
+      "medium": 178,
+      "low": 6
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 101,
+    "articles_analyzed": 181,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "south_asia",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US conflict intensifies with confirmed US casualties (18 personnel injured) and significant military losses (3 F-15s downed in Kuwait). Iran launched its 12th wave of attacks on Gulf states—UAE intercepted 15 missiles and 148 drones; Qatar downed 2 Iranian aircraft. Gulf oil/gas production has shut down. Israeli officials estimate Iran will reduce launches in coming days, but Trump warns the 'big wave' of US attacks is not yet launched. The leadership vacuum after Khamenei's death creates strategic uncertainty.",
+  "whats_new": [
+    "18 US military personnel injured during strike operations on Iranian targets including IRGC assets and nuclear facilities",
+    "Three US F-15s downed in Kuwait as conflict expands",
+    "Rockets fired at British base in Cyprus—conflict spreading to new geographic front",
+    "Gulf oil and gas production halted due to Iranian strikes (Saudi Arabia and Qatar affected)",
+    "Israeli officials estimate Iran will decrease ballistic missile and drone launches in coming days—potential de-escalation signal",
+    "Trump: 'Large wave' of attacks not yet launched on Iran"
+  ],
+  "confirmed_events": [
+    "UAE air defenses successfully intercepted 9 ballistic missiles, 6 cruise missiles, and 148 Iranian drones (Ministry of Defense confirmed)",
+    "Qatar Defense Ministry: downed 2 Iranian SU-24 aircraft, intercepted 7 ballistic missiles and 5 drones",
+    "IRGC launched 11th-12th wave of attacks targeting 500+ US and Israeli military sites with 700+ drones and hundreds of missiles",
+    "At least 555 Iranians killed and hundreds injured across 131 counties since February 28—deadliest single incident was airstrike on girls' elementary school in Minab (165 civilians killed)",
+    "Israeli airstrikes on Lebanon killed 52 and wounded 154, targeting Hezbollah positions"
+  ],
+  "unverified_emerging": [
+    "Iran imposes total naval and air blockade on Gulf countries—Kuwait, Bahrain, Qatar, UAE and partially Saudi Arabia (social media claim, not confirmed)",
+    "Explosion reported at nuclear facility in Isfahan—source of attack unconfirmed",
+    "Iranian air defense narrowly missed Israeli fighter jet over Tehran (video footage, unconfirmed attribution)"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "Dubai airspace closed due to missile strikes—tourists stranded",
+      "Kuwait airport operations disrupted following attacks on US base",
+      "British base in Cyprus targeted—regional aviation risk elevated"
+    ],
+    "supply_chain": [
+      "Gulf oil production halted—major supply disruption to global markets",
+      "LNG shipments from Qatar affected—European energy supply chain impact",
+      "Strait of Hormuz tensions threaten global shipping lanes"
+    ],
+    "market_macro": [
+      "UK Chancellor faces pressure to address energy prices in spring statement",
+      "Global oil prices spiking on Gulf production shutdown",
+      "Prediction markets trading on Khamenei death—market speculation on conflict outcomes"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "The conflict appears to be approaching a potential inflection point. Israeli military assessments suggest Iran will reduce launches in coming days, possibly due to depleted stockpiles or operational tempo constraints. However, Trump explicitly warned that the 'big wave' of US attacks has not yet been launched, indicating the most intense phase may lie ahead. The Gulf states' active diplomatic pressure and Russia's expressions of support for Bahrain suggest intensifying international mediation efforts. The leadership vacuum in Tehran post-Khamenei adds significant unpredictability to Iran's decision-making calculus.",
+    "escalation_risks": [
+      "Unverified reports of Iranian naval blockade could trigger direct US-Gulf military confrontation",
+      "If Israeli operations continue for 'at least a month' as reported, Iranian proxies (Hezbollah, Houthis) likely to escalate",
+      "F-15 losses in Kuwait may prompt more aggressive US retaliatory strikes",
+      "Nuclear facility strikes (Natanz, Isfahan) risk environmental catastrophe and further Iranian desperation",
+      "UK military involvement in Cyprus could draw additional Western powers into direct conflict"
+    ],
+    "de_escalation_pathways": "Gulf states (UAE, Qatar) continue active diplomatic pressure on Trump to end bombing campaign—most viable pathway. Israeli estimate of reduced Iranian launches creates window for negotiated ceasefire before Trump's 'big wave' arrives. However, Khamenei's death removes a key interlocutor for diplomacy, while Israeli officials push for operations to continue for at least a month. International mediation from Russia (supporting Bahrain) and potential UN action may provide off-ramps, though IRGC's continued offensive operations suggest Tehran intends to fight rather than negotiate."
+  }
+}

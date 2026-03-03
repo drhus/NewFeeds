@@ -1,26 +1,25 @@
 {
-  "generated_at": "2026-03-02T05:03:01.769832+00:00",
+  "generated_at": "2026-03-03T01:21:29.390679+00:00",
   "threat_snapshot": {
     "level": 1,
     "label": "MAJOR",
     "color": "#DC2626",
     "trend": "stable",
-    "incident_count_24h": 830,
-    "incident_count_6h": 229,
+    "incident_count_24h": 741,
+    "incident_count_6h": 204,
     "severity_breakdown": {
-      "major": 368,
-      "high": 297,
-      "medium": 162,
-      "low": 3
+      "major": 327,
+      "high": 244,
+      "medium": 164,
+      "low": 6
     }
   },
   "source_count": {
-    "attacks_analyzed": 148,
-    "articles_analyzed": 134,
+    "attacks_analyzed": 165,
+    "articles_analyzed": 180,
     "event_window_hours": 4,
     "article_window_hours": 2,
     "regions_covered": [
-      "china",
       "gulf",
       "iran",
       "israel",
@@ -31,58 +30,50 @@
       "western"
     ]
   },
-  "executive_summary": "The Iran-US conflict continues at MAJOR intensity with 830 incidents in 24h. The most significant escalation is IRGC's ballistic missile volley against the USS Abraham Lincoln carrier — the first known Iranian attack on a US aircraft carrier. UK has authorized US strikes from British bases, Trump indicates the war could last 4-5 weeks, and the conflict has expanded to target central Iranian cities (Yazd, Isfahan) while Bahrain and UAE face direct Iranian strikes. Three British nationals were killed in Dubai, and Hezbollah's senior political leader was assassinated in Beirut.",
-  "whats_new": [
-    "IRGC launched ballistic missile volley at USS Abraham Lincoln carrier — first known Iranian attack on a US aircraft carrier, representing direct escalation to US naval assets",
-    "Israeli-US strikes expanded to central Iranian cities Yazd and Isfahan — significant geographic escalation of strikes inside Iran",
-    "Hezbollah political leader Mohammed Raad killed in Israeli airstrike on Beirut — targeting of senior Hezbollah leadership",
-    "British air base in Cyprus struck by suspected drone — expansion of attacks beyond Iraq-Syria theater to British assets",
-    "Three British nationals killed in Dubai by Iranian suicide drones — direct Western casualties in Gulf strikes",
-    "US military briefly acknowledged (then deleted) Iranian strike on Haifa oil refinery — potential confirmation of direct Iranian attack on Israeli civilian energy infrastructure",
-    "IAEA emergency meeting scheduled for March 2 to discuss US-Israeli strikes on Iran — international nuclear watchdog responding to conflict"
+  "executive_summary": "The Iran-US conflict has entered a new phase of expanded geographic targeting and heightened diplomatic incidents. Iran's retaliatory missile campaign continues across six Middle Eastern countries, with the IRGC closing the Strait of Hormuz and targeting US diplomatic facilities. A drone strike on the US Embassy in Riyadh marks the first direct attack on a US embassy in this conflict. Israel has issued an evacuation warning for the Iranian Broadcasting Authority, signaling imminent strikes on Tehran media infrastructure.",
+  "whats": [
+    "Drone strike on US Embassy in Riyadh: Two drones attacked the US embassy, causing fire and material damage — first direct embassy attack in current conflict",
+    "IDF issues evacuation warning for Iranian Broadcasting Authority complex in Tehran, announcing imminent airstrike within hours",
+    "IRGC launches 11th wave of attacks targeting US intelligence centers and military depots across the region",
+    "Qatar files formal UN complaint claiming Iranian aggression violated its territorial sovereignty",
+    "Saudi Crown Prince Salman holds emergency talks with Swiss President Parmelin regarding regional military escalation"
   ],
   "confirmed_events": [
-    "CENTCOM confirms 3 US troops killed, 5 wounded in Iranian retaliatory strikes on bases in Iraq/Syria region — first direct US casualties",
-    "Iranian Supreme Leader Khamenei confirmed dead in joint US-Israeli strike on Tehran — confirmed by multiple sources including IRGC statements",
-    "Hezbollah formally entered the war with precision missile/drone strikes on Haifa missile defense site — in retaliation for Khamenei's killing",
-    "Iran attacked offshore facility near Salman Port, Bahrain — missile debris killed one worker, injured two, marking first direct hit on Bahraini territory",
-    "UK authorized US to use British bases for limited strikes on Iranian missile storage depots and launchers — direct US-UK military action against Iran",
-    "Amazon Web Services data centre in UAE struck by Iranian missiles/drones causing fire and power outage — confirmed by multiple sources",
-    "Oil price surged to $80/barrel, Asian stocks dropped — market reaction to Strait of Hormuz attacks and tanker strikes"
+    "Confirmed by multiple sources: Israeli strike killed Iran's Supreme Leader Khamenei on Feb 28 as part of Operation Epic Fury",
+    "Confirmed: 6 US troops killed in Iran missile/drone strikes on bases in Iraq, Syria, and Gulf states — no change from previous cycle",
+    "Confirmed: IRGC closed the Strait of Hormuz; US-allied fuel tanker remains burning in the waterway after Iranian attack",
+    "Confirmed: Double-tap US/Israeli airstrike struck downtown Tehran, targeting rescuers — grave IHL violation per witnesses",
+    "Confirmed: Iranian ballistic missiles struck Dubai (UAE), Kuwait, Jordan (Muwaffaq Salti Air Base), and Qatar"
   ],
   "unverified_emerging": [
-    "IRGC claims it shot down an American MQ-9 Reaper drone in Isfahan airspace — single-source claim from IRGC, not independently confirmed",
-    "Report from Iran: IDF and US Army attacking in Kerman and Shiraz — reports from Iranian sources, limited verification",
-    "Israeli strikes killed more than 20 people in Lebanon — multiple Lebanese reports, casualty figures pending verification",
-    "Iranian Foreign Minister Araghchi sent message to UN Security Council regarding 'revolution leader's martyrdom' — diplomatic communication but details unverified"
+    "IRGC claims 40 American personnel killed in combined drone-missile attack in Dubai — source: Tasnim News, unverified; official US casualty count remains 6",
+    "IRGC claims over 160 American soldiers targeted in Kuwait and Dubai — source: Al Masirah (Houthi), unverified",
+    "Press blackout reported on details of drone strike on US embassy in Riyadh — source: War Monitors, limited verification available",
+    "Norwegian rights group Hengaw reports 1,500 civilian deaths in western Iran over three days — cannot independently verify"
   ],
-  "operational_impacts": {
+  "operational_impairs": {
     "people_travel": [
-      "Cathay Pacific suspended all Middle East operations — major commercial aviation disruption",
-      "British nationals advised to shelter in Dubai as city hit by Iranian suicide drones — travel advisory升级",
-      "Multiple Gulf airports and airspace affected by ongoing missile and drone activity"
+      "All US personnel evacuated from Riyadh embassy at time of drone attack per Fox News",
+      "Air raid sirens active in northern Israel (Upper Galilee, Shlomi, Matte Asher, Maale Yossef) — ongoing threat from Lebanese Hezbollah rockets"
     ],
     "supply_chain": [
-      "Strait of Hormuz attacked by US-Israeli forces — critical global oil chokepoint disrupted",
-      "Amazon Web Services data centre in UAE knocked out — regional cloud infrastructure impacted",
-      "Bahrain Salman Port targeted — Gulf maritime logistics disrupted",
-      "Shipping routes through Persian Gulf under threat — insurers and carriers likely rerouting"
+      "Strait of Hormuz closed by IRGC — critical global oil chokepoint disrupted, tanker attack threatens shipping through Persian Gulf",
+      "Asia-Pacific markets extend losses; oil prices rising on supply disruption fears"
     ],
     "market_macro": [
-      "Oil prices surged to $80/barrel — highest level in recent months",
-      "Asian stock markets dropped significantly — regional market volatility",
-      "Energy infrastructure attacks (Haifa refinery, UAE facilities) adding supply concerns"
+      "South Korean defense stocks surge: Hanwha Aerospace +22% — Kospi index falls 2%",
+      "Global oil prices climbing on Strait of Hormuz closure; energy supply threat escalating"
     ]
   },
   "outlook_24_72h": {
-    "base_case": "The conflict is likely to intensify over the next 24-72h. With Trump indicating 4-5 week timeline and IRGC now targeting US carriers, we can expect continued exchanges of strikes. The UK authorization for US strikes from British bases and the expansion of US-Israeli operations to central Iranian cities (Yazd, Isfahan) signal the conflict will deepen. Hezbollah's formal entry and Iran's attacks on Gulf allies (UAE, Bahrain) indicate the war is broadening geographically.",
+    "base_case": "Conflict will intensify over the next 24-72 hours with Israel preparing imminent strikes on Iranian media/infrastructure in Tehran following evacuation warnings. Iran will continue Wave 11+ operations targeting US bases across six countries. The Strait of Hormuz closure remains the primary supply chain risk, with tanker attacks demonstrating Iran's area-denial capability. Trump administration maintains 4-week timeline estimate while Rubio warns next phase will be 'more painful' for Iran.",
     "escalation_risks": [
-      "IRGC ballistic missile attack on USS Abraham Lincoln could provoke US carrier group retaliation — risk of major naval engagement",
-      "Israeli strikes on Beirut killing Hezbollah leadership may trigger massive Hezbollah response against Israeli cities",
-      "Iranian attacks on Gulf states (UAE, Bahrain) could draw those countries more directly into conflict",
-      "Central Iranian city strikes (Yazd, Isfahan) may trigger broader Iranian retaliation against Gulf and regional targets",
-      "MQ-9 drone downing (if confirmed) represents further escalation in US-Iran direct engagement"
+      "Further Iranian strikes on US embassies or consulates in Gulf states (Saudi Arabia, Qatar, UAE)",
+      "Expansion of IRGC naval operations in Strait of Hormuz — additional tanker/shipping attacks likely",
+      "Israeli strike on Iranian nuclear facilities (Natanz) following IAEA complaint — would represent major escalation",
+      "Hezbollah intensification of rocket attacks on northern Israel — air raid alerts ongoing",
+      "Iranian missile strike on Israeli civilian population centers (follow-up to Bet Shemesh casualties)"
     ],
-    "de_escalation_pathways": "De-escalation appears unlikely in the near term. Iran's Security Council has denied WSJ reports of talks with US. Trump has signaled openness to talks with 'new leadership' but conditions for Iranian surrender (weapons handover + immunity) appear non-negotiable. The killing of Khamenei and senior Iranian military leadership has removed potential negotiating counterparts. International pressure via IAEA emergency meeting may create diplomatic off-ramp, but both sides appear committed to sustained military campaign."
+    "de_escalation_pathways": "No clear de-escalation pathways visible. Trump has stated war will last 4 weeks, suggesting the US intends sustained military pressure rather than negotiated settlement. Iran's leadership (with Supreme Leader eliminated) appears committed to continued retaliation. Regional Gulf states (Saudi Arabia, Qatar, UAE) are increasingly targeted but have limited leverage to mediate. The killing of Khamenei has removed a potential off-ramp for negotiation, while civilian casualties (160+ at school, 200+ total in Iran; 9 Israeli civilians) have hardened both sides' positions."
   }
 }

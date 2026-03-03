@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-03-02T13:59:33.304607+00:00",
+  "threat_snapshot": {
+    "level": 1,
+    "label": "MAJOR",
+    "color": "#DC2626",
+    "trend": "stable",
+    "incident_count_24h": 844,
+    "incident_count_6h": 161,
+    "severity_breakdown": {
+      "major": 392,
+      "high": 267,
+      "medium": 179,
+      "low": 6
+    }
+  },
+  "source_count": {
+    "attacks_analyzed": 108,
+    "articles_analyzed": 120,
+    "event_window_hours": 4,
+    "article_window_hours": 2,
+    "regions_covered": [
+      "china",
+      "gulf",
+      "iran",
+      "israel",
+      "middle_east",
+      "proxies",
+      "russia",
+      "south_asia",
+      "western"
+    ]
+  },
+  "executive_summary": "The Iran-US armed conflict continues rapid escalation with significant new developments: Iranian missiles struck Qatar (water/power infrastructure), an oil tanker attack killed one person off Oman, and Iranian ballistic missiles continue pummeling Israel including central Jerusalem. US military casualties rose to four dead. The death toll in Iran from US-Israeli strikes reached 555. The conflict now spans eight active fronts with direct Iranian strikes on five Gulf states. Unverified claims of Khamenei's death persist with IRGC execution announcements continuing.",
+  "whats_new": [
+    "Iranian drones struck Qatari state facilities (Mesaieed Power Plant, Ras Laffan) — expanding targets to Qatar where Al Udeid US base is located",
+    "Oil tanker attacked by drone boat 52nm northwest of Muscat, Oman — one crew killed, marking maritime escalation near Strait of Hormuz",
+    "CENTCOM confirms fourth US service member died from injuries — all four deaths from Iran's initial ballistic missile/drone attacks",
+    "Israeli strikes on Beirut southern suburbs kill 31, wound 149 — major escalation in Israel-Hezbollah front",
+    "Iranian missiles strike central Israel including Jerusalem — sirens triggered across Sharon region to Dead Sea",
+    "IRGC claims assassination attempt on Israeli PM Netanyahu and IAF Commander Bar — unverified, marking potential direct leadership targeting"
+  ],
+  "confirmed_events": [
+    "Iranian death toll reaches 555 across 131+ cities — Red Crescent Society confirms civilian casualties from US-Israeli strikes",
+    "Three US F-15E jets shot down in friendly fire over Kuwait — confirmed by CENTCOM and multiple sources",
+    "Gulf states (Qatar, Saudi, UAE, Bahrain, Kuwait, Jordan) issue joint condemnation of Iranian missile/drone attacks",
+    "US-Israeli strikes hit Natanz nuclear facility — confirmed by Iranian sources, marking direct strike on civilian nuclear infrastructure",
+    "France announces readiness to defend Gulf nations, Jordan, Iraq against Iran — significant Western military commitment"
+  ],
+  "unverified_emerging": [
+    "Khamenei death: Houthi leader claims martyrdom; IRGC continues operations claiming to act in his name; no independent verification — source: Al Masirah (Houthi)",
+    "Assassination attempt on Netanyahu/IAF Commander: IRGC claims targeting of Israeli leadership but fate ambiguous — source: Tasnim/IRGC, unconfirmed by Israeli sources",
+    "Fresh footage of explosion at Iranian regime headquarters — claims show Khamenei moment of death, unverified — source: social media reports"
+  ],
+  "operational_impacts": {
+    "people_travel": [
+      "All major Gulf airports remain operational but missile threat elevated — avoid UAE, Qatar, Kuwait, Bahrain proximity to US military assets",
+      "European airlines continues flights to Gulf but risk increasing — monitor NOTAMs",
+      "Strait of Hormuz transits highly risky — Danish shipping company Norden suspended all transits"
+    ],
+    "supply_chain": [
+      "Maritime insurance premiums soaring as tanker attacks resume near Oman — Lloyd's war risk zones expanded",
+      "Qatar LNG production at risk — Al Mismatch facility struck, European gas prices jumped 30%",
+      "Strait of Hormuz flow disrupted — major shipping companies rerouting or suspending operations"
+    ],
+    "market_macro": [
+      "Defense stocks rallying on conflict escalation — Wall Street sees safe-haven flows",
+      "European gas prices surge 30% on Qatar LNG suspension concerns — Goldman warns potential 130% spike if Hormuz blocked",
+      "Oil prices climbing on supply disruption fears — tanker attacks and Strait threats driving market anxiety"
+    ]
+  },
+  "outlook_24_72h": {
+    "base_case": "Conflict will continue escalating with Iran expanding Gulf strikes to additional US allies and intensifying ballistic missile campaigns against Israel. US-Israeli strikes on Iranian territory will persist. Israel-Hezbollah front will intensify with Beirut strikes likely to continue. Maritime security in Gulf of Oman/Strait of Hormuz will deteriorate further with additional tanker/merchant vessel attacks highly probable.",
+    "escalation_risks": [
+      "Iranian attacks on Saudi Arabian oil infrastructure — Kingdom not yet directly hit but increasingly likely target",
+      "IRGC sleeper cells activation in European cities — intelligence reports indicate cells positioned, potential terror attacks",
+      "Israeli preemptive strike on Lebanese Hezbollah command — could trigger full Lebanon front escalation",
+      "US military assets in Gulf further targeted — additional American casualties likely as Iran demonstrates willingness to engage US forces directly",
+      "Russian military intervention — Moscow expressing deep concern, could escalate through Syria or naval positioning"
+    ],
+    "de_escalation_pathways": "Unlikely in near-term. Iran has demonstrated willingness to absorb major civilian casualties (555+) and continue strikes. US has no indication Iran was planning preemptive attack (Pentagon acknowledgment), undermining stated justification. Trump claims Iran 'wants a deal' but IRGC operations continue at high tempo. Qatar mediation possible but unlikely givenIRGC's declared True Promise operations continuing into 11th wave. Gulf state pressure may increase but Tehran appears committed to sustained campaign."
+  }
+}

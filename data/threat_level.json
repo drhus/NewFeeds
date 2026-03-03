@@ -1,30 +1,30 @@
 {
   "current": {
-    "score": 5492,
+    "score": 4824,
     "level": 1,
     "label": "MAJOR",
     "color": "#DC2626",
-    "incident_count": 830,
+    "incident_count": 741,
     "severity_breakdown": {
-      "major": 368,
-      "high": 297,
-      "medium": 162,
-      "low": 3
+      "major": 327,
+      "high": 244,
+      "medium": 164,
+      "low": 6
     },
     "window_hours": 24,
-    "computed_at": "2026-03-02T05:02:02.042073+00:00"
+    "computed_at": "2026-03-03T01:20:35.655299+00:00"
   },
   "short_term_6h": {
-    "score": 1396,
+    "score": 1379,
     "level": 1,
     "label": "MAJOR",
-    "incident_count": 229
+    "incident_count": 204
   },
   "medium_term_48h": {
-    "score": 7370,
+    "score": 9933,
     "level": 1,
     "label": "MAJOR",
-    "incident_count": 1138
+    "incident_count": 1507
   },
   "trend": "stable",
   "history": [
@@ -734,7 +734,168 @@
       "label": "MAJOR",
       "score": 5492,
       "incident_count": 830
+    },
+    {
+      "timestamp": "2026-03-02T05:43:24.014506+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5529,
+      "incident_count": 837
+    },
+    {
+      "timestamp": "2026-03-02T06:36:14.781060+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5637,
+      "incident_count": 855
+    },
+    {
+      "timestamp": "2026-03-02T07:29:03.321811+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5637,
+      "incident_count": 858
+    },
+    {
+      "timestamp": "2026-03-02T08:23:45.781117+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5700,
+      "incident_count": 859
+    },
+    {
+      "timestamp": "2026-03-02T09:29:08.590376+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5655,
+      "incident_count": 852
+    },
+    {
+      "timestamp": "2026-03-02T10:33:01.883631+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5679,
+      "incident_count": 858
+    },
+    {
+      "timestamp": "2026-03-02T11:32:53.454130+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5749,
+      "incident_count": 867
+    },
+    {
+      "timestamp": "2026-03-02T12:43:21.938812+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5702,
+      "incident_count": 855
+    },
+    {
+      "timestamp": "2026-03-02T13:58:40.349633+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5619,
+      "incident_count": 844
+    },
+    {
+      "timestamp": "2026-03-02T15:11:48.144137+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5304,
+      "incident_count": 796
+    },
+    {
+      "timestamp": "2026-03-02T16:16:15.748829+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5160,
+      "incident_count": 781
+    },
+    {
+      "timestamp": "2026-03-02T17:09:39.154686+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5105,
+      "incident_count": 779
+    },
+    {
+      "timestamp": "2026-03-02T18:03:27.977918+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5026,
+      "incident_count": 771
+    },
+    {
+      "timestamp": "2026-03-02T18:56:49.516637+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 5012,
+      "incident_count": 770
+    },
+    {
+      "timestamp": "2026-03-02T19:49:18.050378+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4862,
+      "incident_count": 750
+    },
+    {
+      "timestamp": "2026-03-02T20:35:35.196850+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4906,
+      "incident_count": 759
+    },
+    {
+      "timestamp": "2026-03-02T21:20:14.316710+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4740,
+      "incident_count": 742
+    },
+    {
+      "timestamp": "2026-03-02T22:07:53.592653+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4835,
+      "incident_count": 755
+    },
+    {
+      "timestamp": "2026-03-02T22:55:42.581309+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4814,
+      "incident_count": 753
+    },
+    {
+      "timestamp": "2026-03-02T23:42:35.513476+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4873,
+      "incident_count": 756
+    },
+    {
+      "timestamp": "2026-03-03T00:15:46.725653+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4898,
+      "incident_count": 759
+    },
+    {
+      "timestamp": "2026-03-03T00:47:40.456956+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4895,
+      "incident_count": 758
+    },
+    {
+      "timestamp": "2026-03-03T01:20:35.658178+00:00",
+      "level": 1,
+      "label": "MAJOR",
+      "score": 4824,
+      "incident_count": 741
     }
   ],
-  "updated_at": "2026-03-02T05:02:02.043899+00:00"
+  "updated_at": "2026-03-03T01:20:35.658308+00:00"
 }
