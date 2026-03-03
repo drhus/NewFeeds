@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-02T23:43:27.981168+00:00",
+  "generated_at": "2026-03-03T00:16:14.295642+00:00",
   "threat_snapshot": {
     "level": 1,
     "label": "MAJOR",
     "color": "#DC2626",
     "trend": "stable",
-    "incident_count_24h": 756,
-    "incident_count_6h": 176,
+    "incident_count_24h": 759,
+    "incident_count_6h": 182,
     "severity_breakdown": {
       "major": 325,
-      "high": 256,
-      "medium": 168,
-      "low": 7
+      "high": 262,
+      "medium": 166,
+      "low": 6
     }
   },
   "source_count": {
-    "attacks_analyzed": 139,
-    "articles_analyzed": 199,
+    "attacks_analyzed": 138,
+    "articles_analyzed": 177,
     "event_window_hours": 4,
     "article_window_hours": 2,
     "regions_covered": [
@@ -26,57 +26,56 @@
       "middle_east",
       "proxies",
       "russia",
-      "south_asia",
       "western"
     ]
   },
-  "executive_summary": "The Iran-US armed conflict has reached a new phase of intensification with the confirmed killing of Iran's Supreme Leader Khamenei in a US-Israeli coordinated strike, triggering Iran's 12th wave of attacks against US and Israeli targets. Gulf states report intercepting hundreds of missiles/drones while their Patriot air defenses face depletion within 4 days. The Strait of Hormuz remains contested—CENTCOM denies closure but insurers have canceled coverage and IRGC threatens to fire on any transiting ship. US casualties have risen to 6 troops killed, with Iranian civilian deaths now exceeding 555.",
+  "executive_summary": "The Iran-US conflict has escalated significantly with confirmed US plans to intensify attacks on Iran within 24 hours, while IRGC launches Wave 12 of missile operations. Gulf states report massive interception efforts (Kuwait: 380+ drones, 180 missiles; Bahrain: 70 missiles, 76 drones). The conflict has expanded geographically with Iranian strikes on Qatar and new attacks on US base at Erbil. Iranian leadership signals readiness for prolonged war. Death tolls: 6 US troops, 555+ Iranian civilians confirmed by Red Crescent.",
   "whats_new": [
-    "Qatar shot down two Iranian Su-24 jets and seven ballistic missiles—first reported Iranian air attack on a Gulf state",
-    "Iran struck Cyprus despite British neutrality, marking geographic expansion of Iranian retaliation",
-    "Missiles successfully evaded US air defense systems in Kuwait airspace—demonstrating advancing Iranian strike capabilities",
-    "Hezbollah launches limited to three rockets so far—lower proxy activity than expected on northern Israel front",
-    "US Secretary Rubio confirms US attacked Iran preemptively after learning Israel planned to strike, fearing Tehran would retaliate against US forces"
+    "US plans to intensify attacks on Iran in next 24 hours — major escalation signal (CNN/TASS)",
+    "Drone struck American base at Erbil International Airport in northern Iraq — new front activation",
+    "Qatar formally complained to UN Security Council over Iranian attack on Qatari territory — diplomatic escalation",
+    "IDF issued evacuation warning for Iranian Broadcasting Authority complex, then struck it — confirmed by multiple sources",
+    "IRGC launched Wave 12 of 'Honest Promise 4' operations against US-Israeli targets"
   ],
   "confirmed_events": [
-    "Iran's Supreme Leader Ayatollah Ali Khamenei confirmed killed in Israeli strike on Tehran (Operation Epic Fury)",
-    "Over 1,000 IRGC members and 555 Iranian civilians confirmed dead in US-Israeli strikes—Israeli intelligence estimate",
-    "US forces destroyed all 11 Iranian warships in Gulf of Oman—footage published by CENTCOM",
-    "Gulf states (Bahrain, Qatar, UAE) intercepting hundreds of Iranian missiles and drones; Bahrain: 70 missiles/76 drones, UAE: 9 ballistic/6 cruise/148 drones",
-    "US and Israel struck Natanz nuclear facility—Iranian Atomic Energy Organization protested to IAEA"
+    "Multi-source: Kuwait Air Defense destroyed 380+ Iranian drones and 180 missiles since conflict began",
+    "Multi-source: Bahrain downed 70 Iranian missiles and 76 drones; hosts US 5th Fleet",
+    "Multi-source: 6 US troops confirmed killed in Iran retaliatory strikes on bases in Iraq/Syria/Jordan",
+    "Multi-source: Iranian Red Crescent reports 555 civilians martyred in US-Israeli attacks across 131 cities",
+    "Multi-source: Israel struck Al-Manar building (Hezbollah media) in Beirut as part of expanded operations"
   ],
   "unverified_emerging": [
-    "Claims of over 160 girls killed in US-Israeli attack on girls' school in Minab, southern Iran (Iraqji photo, unverified)",
-    "Norway-based Hengaw reports day-3 death toll at 1,500 including civilians and Iranian forces—cannot independently confirm",
-    "Investigators examining Iran war as possible motive in Austin, Texas shooting—potential homeland spillover link",
-    "Iranian missiles directly hit Muwaffaq Salti Air Base in Jordan causing power outages—visual confirmation exists but extent unclear"
+    "IRGC claims strike in Dubai killed 40+ American personnel — unverified, source Tasnim News",
+    "Report of fatal error in US attack on Iran — source US media, nature of error unclear",
+    "Iranian claim over 1,000 IRGC/security officials killed since war began — unverified count",
+    "Hezbollah launched only 3 rockets since escalation began — limited proxy engagement noted"
   ],
   "operational_impacts": {
     "people_travel": [
-      "Dubai flights disrupted—missile attacks shatter 'safe haven' perception for expats and business travelers",
-      "Air raid sirens active in Tel Aviv and northern Israel—civilian population under ongoing threat",
-      "Qatar's Al Udeid Air Base area reported explosions—US regional hub under threat"
+      "All commercial flights to/from Gulf airports face severe disruption due to active missile/drone traffic",
+      "US Embassy advisories likely in effect for all regional capitals",
+      "Erbil airport operations directly impacted by drone strike"
     ],
     "supply_chain": [
-      "World's largest insurers have canceled war-risk coverage for vessels in Persian Gulf—commercial shipping effectively halted",
-      "Strait of Hormuz increasingly contested—20% of global oil supplies at risk despite CENTCOM stating it remains 'open'",
-      "IRGC threatens to 'set ablaze' any ship attempting to pass—explicit threat to global oil transit"
+      "Strait of Hormuz remains contested — insurers continue to cancel coverage",
+      "Gulf port operations (Dubai, Bahrain, Kuwait) disrupted by ongoing missile interceptions",
+      "Qatar LNG exports potentially affected by Iranian attack on Qatari territory"
     ],
     "market_macro": [
-      "UN Secretary-General calls for de-escalation—diplomatic channel exists but no ceasefire progress",
-      "Trump signals US prepared for long war, won't rule out ground troops—conflict duration indefinite",
-      "Gulf states urgently requesting additional Patriot systems from US and Italy—defensive posture critical shortage"
+      "Oil prices likely surging on widening Middle East conflict footprint",
+      "US defense stocks rallying on prolonged war signals",
+      "Gulf real estate (Dubai) safe-haven status shattered by direct Iranian missile strikes"
     ]
   },
   "outlook_24_72h": {
-    "base_case": "The conflict will likely intensify over the next 24-72 hours. With Iran's Supreme Leader killed, Tehran will seek to demonstrate resolve through continued missile/drone salvos against US bases and Gulf partners. IRGC's Wave 12 operations confirm sustained offensive capacity. Gulf air defenses face critical depletion within 4 days without resupply. The Strait of Hormuz situation remains the primary wild card—if IRGC executes threats against commercial shipping, global oil supplies face severe disruption.",
+    "base_case": "Conflict will intensify significantly over next 24-72 hours with US launching expanded strike campaign against Iranian nuclear facilities, IRGC assets, and proxy infrastructure. Iran will continue ballistic missile/drone volleys targeting US bases in Iraq, Jordan, Kuwait, and Bahrain. Gulf states will face continued Iranian attacks while their air defenses deplete. Regional spread to Lebanon (Hezbollah operations) and potential expansion to additional Gulf states is highly likely.",
     "escalation_risks": [
-      "IRGC executes threat to attack commercial vessels in Strait of Hormuz—potential global oil supply shock",
-      "Hezbollah significantly escalates attacks on northern Israel—opens multi-front war with Lebanon",
-      "Iranian cyberattacks on Gulf state infrastructure—water, power, financial systems",
-      "US ground troop deployment to Iran—Trump hasn't ruled this out",
-      "Russian/Chinese intervention to support Iran—geopolitical扩大"
+      "US ground troop deployment to Iran not ruled out by Trump — major escalation pathway",
+      "Israeli strikes on Iranian nuclear facilities (Natanz confirmed targeted) could trigger nuclear escalation",
+      "Iranian attacks on Gulf oil infrastructure could close Strait of Homuz permanently",
+      "Potential US homeland incident — Austin shooting under investigation as Iran war-linked",
+      "Russian/Chinese intervention risk increases with conflict prolongation"
     ],
-    "de_escalation_pathways": "No clear de-escalation pathway exists in the near term. The killing of Iran's Supreme Leader removes a key figure for potential negotiations and hardens both sides' positions. UN Secretary-General's call for dialogue has gone unheeded. The only plausible paths would be: (1) a decisive US-Israeli military outcome that forces Tehran to negotiate under terms of weakness, or (2) mutual exhaustion after significant casualties on both sides. Neither appears imminent within the 24-72h window."
+    "de_escalation_pathways": "De-escalation highly unlikely in near term. UN Secretary-General called for cessation but with both sides signaling prolonged war readiness and US announcing intensification, diplomatic off-ramps appear remote. Iran has rejected negotiations while under attack. Gulf state mediation efforts (Saudi Crown Prince contacted Swiss President) remain non-substantive. Ceasefire would require major battlefield reversal or internal political change in Tehran."
   }
 }
