@@ -84,27 +84,29 @@ export function useArticlesByRegion() {
     }
 
     const regions: RegionKey[] = REGIONS.map((r) => r.key);
-    const results = await Promise.all(
-      regions.map(async (region) => {
-        const { data, error } = await sb
-          .from("articles")
-          .select("*")
-          .eq("region", region)
-          .not("relevant", "is", false)
-          .eq("translated", true)
-          .order("fetched_at", { ascending: false, nullsFirst: false });
 
-        if (error) {
-          console.warn(`[useArticlesByRegion] ${region}:`, error.message);
-          return { region, articles: [] as Article[] };
-        }
-        return { region, articles: (data || []).map(rowToArticle) };
-      })
-    );
+    // Single query for all regions instead of 10 parallel queries
+    const { data, error } = await sb
+      .from("articles")
+      .select("*")
+      .in("region", regions)
+      .not("relevant", "is", false)
+      .eq("translated", true)
+      .order("fetched_at", { ascending: false, nullsFirst: false })
+      .limit(500);
 
+    if (error) {
+      console.warn("[useArticlesByRegion]", error.message);
+      setLoading(false);
+      return;
+    }
+
+    // Group by region client-side
     const map: Record<string, Article[]> = {};
-    for (const { region, articles } of results) {
-      map[region] = articles;
+    for (const row of data || []) {
+      const article = rowToArticle(row);
+      if (!map[article.region]) map[article.region] = [];
+      map[article.region].push(article);
     }
     setArticlesByRegion(map);
     setLoading(false);
