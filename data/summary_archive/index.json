@@ -1,5 +1,14 @@
 [
   {
+    "filename": "2026-03-03T03-59-28.895656_plus_00-00.json",
+    "generated_at": "2026-03-03T03:59:28.895656+00:00",
+    "threat_label": "MAJOR",
+    "threat_level": 1,
+    "trend": "stable",
+    "incident_count_24h": 657,
+    "summary_preview": "The Iran-US conflict continues at MAJOR severity with 657 incidents in 24h. Iranian missiles and drones now targeting Qatar and expanded coalition assets, with confirmed 6 US soldiers killed in Kuwait"
+  },
+  {
     "filename": "2026-03-03T01-59-22.182921_plus_00-00.json",
     "generated_at": "2026-03-03T01:59:22.182921+00:00",
     "threat_label": "MAJOR",
@@ -880,14 +889,5 @@
     "trend": "stable",
     "incident_count_24h": 170,
     "summary_preview": "The Iran–US conflict has escalated dramatically with multiple direct military engagements, including coordinated US-Israeli airstrikes on Iran, retaliatory missile attacks by Iran on US bases and regi"
-  },
-  {
-    "filename": "2026-02-28T23-14-27.898178_plus_00-00.json",
-    "generated_at": "2026-02-28T23:14:27.898178+00:00",
-    "threat_label": "MAJOR",
-    "threat_level": 1,
-    "trend": "stable",
-    "incident_count_24h": 160,
-    "summary_preview": "The Iran–US conflict has escalated significantly, with a coordinated US-Israeli attack on Iran and retaliatory strikes by Iran on US bases and regional allies. The situation remains highly volatile, w"
   }
 ]

@@ -1,25 +1,26 @@
 {
-  "generated_at": "2026-03-03T03:59:28.895656+00:00",
+  "generated_at": "2026-03-03T12:55:34.112948+00:00",
   "threat_snapshot": {
     "level": 1,
     "label": "MAJOR",
     "color": "#DC2626",
     "trend": "stable",
-    "incident_count_24h": 657,
-    "incident_count_6h": 148,
+    "incident_count_24h": 407,
+    "incident_count_6h": 37,
     "severity_breakdown": {
-      "major": 289,
-      "high": 213,
-      "medium": 149,
-      "low": 6
+      "major": 183,
+      "high": 136,
+      "medium": 86,
+      "low": 2
     }
   },
   "source_count": {
-    "attacks_analyzed": 76,
-    "articles_analyzed": 55,
+    "attacks_analyzed": 37,
+    "articles_analyzed": 187,
     "event_window_hours": 4,
     "article_window_hours": 2,
     "regions_covered": [
+      "china",
       "gulf",
       "iran",
       "israel",
@@ -30,56 +31,55 @@
       "western"
     ]
   },
-  "executive_summary": "The Iran-US conflict continues at MAJOR severity with 657 incidents in 24h. Iranian missiles and drones now targeting Qatar and expanded coalition assets, with confirmed 6 US soldiers killed in Kuwait. IRGC claims 160+ US Marines hit in UAE; Australian forces at Al Minhad base struck. Civilian casualties mount (742+ dead in Iran). Trump projects 4-week war while US Ambassador to UN announces 'ending 47-year war' — contradictory signals. Strait of Hormuz remains closed with burning tanker.",
-  "whats_new": [
-    "Qatar intercepts 2 ballistic missiles from Iran targeting Al-Udeid air base — expansion of Iranian ballistic missile campaign to include Qatari territory",
-    "Australian Defense Minister confirms Al Minhad Air Base in Dubai attacked — Iranian strike on US-allied facility with Australian forces stationed",
-    "IRGC claims strike on gathering of 160+ US Marine infantry personnel in UAE — direct claim of major casualties among US forces",
-    "US embassy in Riyadh struck by Iranian UAV — confirmed attack on diplomatic facility, second embassy targeted after Kuwait",
-    "Israeli double-tap strike on downtown Tehran — rescuers targeted in secondary strike",
-    "Trump projects 4-week war timeline; US Ambassador to UN simultaneously announces 'ending 47-year war' — contradictory signals on conflict trajectory"
+  "executive_summary": "The Iran-US conflict remains at MAJOR severity with 407 incidents in 24h. The war has expanded geographically with Israel launching a ground incursion into southern Lebanon and Iranian strikes hitting the UAE (812 drones/186 missiles), Kuwait (178 missiles/384 drones), and the US embassy in Riyadh. US-Israeli interceptor stockpiles risk depletion within a week according to CNN. A targeted killing of the IRGC Quds Force Lebanon Corps commander was reported in Beirut. China and France are now actively pursuing diplomatic de-escalation.",
+  "whatsetails": [
+    "Israeli ground forces launched incursion into southern Lebanon, killing senior Hezbollah commander (HIGH)",
+    "Iran launched major assault on UAE: 812 drones + 186 ballistic missiles; 3 killed, 755 drones/172 missiles intercepted",
+    "Kuwait Ministry confirms intercepting 178 ballistic missiles and 384 drones from Iran",
+    "Hezbollah intensifies rocket attacks: multiple barrages targeting Haifa, Galilee, Western Galilee",
+    "US embassy in Riyadh attacked with drones causing fire; Saudi Arabia condemns Iranian attack",
+    "Israeli airstrike in Isfahan killed three Iranian family members (HIGH)",
+    "Trump hints at deploying ground troops to Iran while threatening stronger strikes on Tehran"
   ],
   "confirmed_events": [
-    "Six US soldiers confirmed killed in Kuwait by Iranian missile strike — direct military casualties confirmed by multiple sources",
-    "US-Israeli strike on girls' elementary school in Minab, Iran killed over 160 people — confirmed by Iranian state media, US acknowledges strike occurred",
-    "IRGC launched 10 attack drones against Arifjan military base in Kuwait — confirmed strike on US facility",
-    "IRGC announces Wave 12 of 'Honest Promise 4' operations using 700 drones and hundreds of missiles against US/Israel",
-    "Hezbollah and Iran launched joint ballistic missile barrage on Israel triggering nationwide sirens",
-    "US-allied fuel tanker attacked by Iran still burning in Strait of Hormuz — confirmed ongoing maritime threat"
+    "IAEA confirmed US-Israeli strikes damaged entrances to Iran's underground Natanz uranium-enrichment facility",
+    "Death toll from US-Israeli strikes on Iran rises to 787 (Day 4)",
+    "Iranian ballistic missiles struck Tel Aviv and northern Israel (Kfar Yuval, Bet Shemesh) causing fires and civilian casualties",
+    "Hezbollah destroyed Israeli Merkava tank with guided missile in Kfarshouba, southern Lebanon",
+    "Saudi Arabia condemns Iranian attack on US embassy in Riyadh as 'cowardly and unjustified'",
+    "US closed embassies in Kuwait and Saudi Arabia as Iran widened strikes",
+    "UK Prime Minister Starmer considering deploying HMS Duncan warship to Middle East after RAF Cyprus strike"
   ],
   "unverified_emerging": [
-    "IRGC claims 'dozens of US officers and commanders killed in Dubai' — unverified claim, no independent confirmation",
-    "Trump hints at possible ground troop deployment — stated at news conference, no orders confirmed",
-    "Netanyah says conflict 'won't be endless war' — political statement, military trajectory unclear",
-    "Australian casualties at Al Minhad — base struck but no confirmation of Australian casualties",
-    "IRGC claims 50 strategic targets and 500 military points struck — unverifiable, likely inflated"
+    "Report: Target of Beirut assassination is Lebanon Corps commander from Quds Force Daoud Ali Zada (source: unspecified Israeli report) — if confirmed, represents major escalation in IRGC-Israeli shadow war",
+    "UN calls for investigation into strike on school in Minab, Iran — attackers unidentified",
+    "US destroys Iranian drone mothership used for attacks (source: Daily Mail) — limited corroboration",
+    "Germany summons Iran's ambassador over Middle East escalation (source: TASS)"
   ],
   "operational_impacts": {
     "people_travel": [
-      "US State Department urging citizens to evacuate from 12 countries in region — mass evacuation advisory active",
-      "Air navigation paralyzed across Gulf region —航班大规模延误取消",
-      "Maritime navigation disrupted in Strait of Hormuz —油轮遇袭持续燃烧"
+      "Pakistan Aviation Authority denies airspace closure reports — airspace remains fully open",
+      "Suez Canal Authority: 56 ships crossed Tuesday carrying 2.6M tons; some major lines suspended transits pending developments"
     ],
     "supply_chain": [
-      "Strait of Hormuz closed to oil transit — 20% global oil supply threatened",
-      "Burning tanker in Strait creating navigation hazard — shipping delays expected",
-      "Al Minhad Air Base struck — Australian logistics hub impacted"
+      "Oil supertanker rates hit all-time high as insurers withdraw war risk protection in Middle East",
+      "Fujairah port fire after drone interception; oil facility fire from drone debris — both contained, no injuries",
+      "Suez Canal operations continuing but some shipping lines pausing transits"
     ],
     "market_macro": [
-      "Markets reacting to widening Gulf conflict — aviation and energy sectors under pressure",
-      "US interceptor stockpiles under strain — air defense sustainability concerns raised",
-      "Regional air defenses showing stress — multiple countries repelling Iranian missiles simultaneously"
+      "Egypt warns war will have major economic repercussions on entire world",
+      "CNN: US and Israeli interceptor stockpiles at risk of depletion within next week — potential air defense gap"
     ]
   },
   "outlook_24_72h": {
-    "base_case": "Conflict enters intensifying phase with Iran expanding targets to include Qatar and Australian assets. Trump projects 4-week timeline but US Ambassador's statement on 'ending 47-year war' creates diplomatic ambiguity. IRGC continuing mass drone/missile waves; civilian casualties mounting (742+). US likely to respond to embassy strikes. Ground invasion of Iran not yet ordered but not ruled out. Strait of Hormuz closure to persist.",
+    "base_case": "Conflict enters Day 4 with no signs of de-escalation. Iran continues mass missile/drone attacks on Gulf states and Israel while facing sustained US-Israeli airstrikes on Iranian territory. Israeli ground operation in Lebanon expands the geographic scope. Interceptor depletion risk creates pressure on US/Israeli air defense. Hezbollah and Houthi fronts remain active. China-France diplomatic effort may open channels but faces significant obstacles given leadership losses and kinetic intensity.",
     "escalation_risks": [
-      "Iran expands ballistic missile campaign to include Qatar — risk of broader Gulf state entanglement",
-      "IRGC targeting US-allied facilities beyond direct American bases — Australian, British assets now in Iranian crosshairs",
-      "Potential Israeli ground operations in Lebanon — second front opening",
-      "US ground troop deployment not ruled out by Trump — significant escalation possible",
-      "Civilian casualty toll mounting rapidly — 742+ dead in Iran, risk of humanitarian crisis triggering third-party intervention"
+      "Iranian missile/drone volUME overwhelming interceptor capacity leading to mass casualties in Gulf states or Israel",
+      "Hezbollah escalating to strategic rocket attacks on Israeli population centers",
+      "Israel targeting IRGC commanders in Beirut expanding covert war",
+      "Ground troop deployment by US (as hinted by Trump) would dramatically escalate",
+      "EU nations drawn in through British warship deployment, Cyprus base attacks"
     ],
-    "de_escalation_pathways": "US Ambassador's announcement of 'ending 47-year war' may signal diplomatic off-ramp, though military operations continue. Qatar missile interception provides opportunity for Gulf state-mediated de-escalation. Israeli statement that conflict 'won't be endless' suggests both US and Israel may seek rapid conclusion. However, IRGC momentum of attacks and civilian casualties in Iran create domestic pressure on Tehran not to concede. Pathway uncertain — likely requires both sides to claim sufficient victory while avoiding total collapse."
+    "de_escalation_pathways": "China-France diplomatic push represents first major de-escalation effort. Iran claims no uranium enrichment at time of strikes (possible diplomatic opening). US domestic protests against war growing. However, Khamenei's death and IRGC decapitation strikes create powerful political momentum against compromise. Any ceasefire would require both sides to claim victory while preserving core interests — difficult given current intensity."
   }
 }

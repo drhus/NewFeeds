@@ -1,5 +1,19 @@
 [
   {
+    "id": "05b33956d2c8b3d0",
+    "title_original": "Starmer crisis deepens as shock poll shows hard-Left Greens surging past Labour - and only just behind Reform - in wake of by-election humiliation",
+    "url": "https://www.dailymail.co.uk/news/article-15608989/Starmer-poll-Left-Greens-Labour-Reform-byelection-Gorton.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+    "published": "2026-03-03T12:33:08+00:00",
+    "fetched_at": "2026-03-03T12:38:39.916845+00:00",
+    "source_name": "Daily Mail",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
     "id": "6358db109774919f",
     "title_original": "Oil supertanker rates hit all-time high as insurers drop war risk protection in the Middle East",
     "content_original": "The cost of hauling crude oil from the Middle East to China rose more than 94% to hit a record high of $423,736 per day on Monday.",
@@ -10,7 +24,12 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Oil supertanker rates hit all-time high as insurers drop war risk protection in the Middle East",
+    "translated": true,
+    "summary_en": "War risk insurers have withdrawn protection for vessels in the Middle East, causing oil tanker freight rates",
+    "relevant": true,
+    "countries_mentioned": []
   },
   {
     "id": "dea1291863c176e1",
@@ -23,12 +42,21 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Starmer considers sending warship HMS Duncan to Middle East after Iran strikes on Cyprus RAF base",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "British Prime Minister Starmer is considering deploying the HMS Duncan warship to the Middle East following Iranian strikes on a RAF base in Cyprus. The deployment would be part of increased Western military presence in the region amid the escalating US-Iran conflict. This represents a significant escalation of British involvement in the ongoing hostilities.",
+    "countries_mentioned": [
+      "United Kingdom",
+      "Iran",
+      "United States",
+      "Cyprus"
+    ]
   },
   {
     "id": "13952f5dd59d249b",
     "title_original": "Energy bills could surge to £2,500 a year thanks to Iran conflict - should you fix now?",
-    "content_original": "Energy bills could surge to £2,500 a year thanks to Iran conflict - should you fix now?",
     "url": "https://www.dailymail.co.uk/money/bills/article-15609583/Energy-bills-surge-2-500-year-thanks-Iran-conflict-you-fix-now.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:28:02+00:00",
     "fetched_at": "2026-03-03T12:33:59.105967+00:00",
@@ -36,7 +64,10 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "71058c2e697ba2cb",
@@ -49,12 +80,23 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "U.S. closes two gulf embassies as Iran widens strikes; Israel bombs Lebanon",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "U.S. diplomatic outposts in Kuwait and Saudi Arabia were closed on Tuesday as Israel struck Iran and Lebanon and war spread into the fourth day. This represents an escalation with the conflict spreading geographically and the U.S. taking protective measures for its diplomatic personnel amid widening Iranian strikes.",
+    "countries_mentioned": [
+      "United States",
+      "Iran",
+      "Israel",
+      "Lebanon",
+      "Kuwait",
+      "Saudi Arabia"
+    ]
   },
   {
     "id": "454d10198ac53023",
     "title_original": "Alison Hammond shows off her incredible 11 stone weight loss as she puts on a leggy display in a pair of red stilettos for glam shots",
-    "content_original": "Alison Hammond shows off her incredible 11 stone weight loss as she puts on a leggy display in a pair of red stilettos for glam shots",
     "url": "https://www.dailymail.co.uk/tvshowbiz/article-15609299/Alison-Hammond-shows-incredible-11-stone-weight-loss-puts-leggy-display-pair-red-stilettos-glam-shots.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:27:27+00:00",
     "fetched_at": "2026-03-03T12:33:59.106024+00:00",
@@ -62,7 +104,9 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "7926f87c767295b3",
@@ -75,12 +119,19 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "US destroys Iranian drone mothership used for attacks on Western allies and bases",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "A US military strike has destroyed an Iranian drone 'mothership' that was being used to launch attacks on Western allies and military bases in the region. The strike represents a direct US countermeasure against Iranian proxy warfare and unmanned aerial vehicle capabilities.",
+    "countries_mentioned": [
+      "Iran",
+      "United States"
+    ]
   },
   {
     "id": "15a5f2e9934092a0",
     "title_original": "'The Rooneys have a special understanding': As Wayne is spotted tumbling out of a bar with yet another two women in tow, and Coleen is seen without her ring, friends lift the lid on the secret state of their marriage",
-    "content_original": "'The Rooneys have a special understanding': As Wayne is spotted tumbling out of a bar with yet another two women in tow, and Coleen is seen without her ring, friends lift the lid on the secret state of their marriage",
     "url": "https://www.dailymail.co.uk/tvshowbiz/article-15609367/Rooneys-Wayne-bar-women-Coleen-ring-friends-secret-marriage.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:25:52+00:00",
     "fetched_at": "2026-03-03T12:29:21.741805+00:00",
@@ -88,12 +139,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "5c567cc82b287519",
     "title_original": "Gang jailed for drone smuggling scheme likened to ‘Uber Eats for prisoners’",
-    "content_original": "They carried out dozens of ‘drops’, delivering drugs, weapons and phones to inmates",
     "url": "https://www.independent.co.uk/news/uk/crime/drones-prisons-drugs-gang-court-b2930936.html",
     "published": "2026-03-03T12:25:39+00:00",
     "fetched_at": "2026-03-03T12:29:22.756910+00:00",
@@ -101,7 +153,10 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "da1a7b21033f4355",
@@ -114,12 +169,19 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Europe at greater risk as Trump's 'decapitation' of Iran's military leaves missiles with inexperienced fanatics - expert",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "An expert warns that Europe faces increased attack risk following US strikes that have 'decapitated' Iran's military leadership, potentially leaving missile capabilities in the hands of inexperienced fanatics. The analysis suggests this creates unpredictable escalation risks as Iran's remaining forces may act erratically. The warning comes as part of ongoing tensions between the US and Iran, with European targets potentially becoming more vulnerable.",
+    "countries_mentioned": [
+      "United States",
+      "Iran"
+    ]
   },
   {
     "id": "058492cb8404fda4",
     "title_original": "Iran warns the 'gates of hell will open more and more' on US and Israel as it vows to unleash more intense attacks",
-    "content_original": "Iran warns the 'gates of hell will open more and more' on US and Israel as it vows to unleash more intense attacks",
     "url": "https://www.dailymail.co.uk/news/article-15609581/Iran-warns-gates-hell-open-US-Israel-vows-unleash-intense-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:24:33+00:00",
     "fetched_at": "2026-03-03T12:33:59.106292+00:00",
@@ -127,12 +189,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "85ab402fbc549686",
     "title_original": "The murder that shook Britain. Five years on, chilling minute-by-minute reconstruction of how Sarah Everard was abducted, raped, murdered and then callously set on fire by a serving police officer",
-    "content_original": "The murder that shook Britain. Five years on, chilling minute-by-minute reconstruction of how Sarah Everard was abducted, raped, murdered and then callously set on fire by a serving police officer",
     "url": "https://www.dailymail.co.uk/news/article-15174669/Sarah-Everard-murder-reconstruction.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:23:13+00:00",
     "fetched_at": "2026-03-03T12:29:21.741932+00:00",
@@ -140,12 +203,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "0c8684df61d7437e",
     "title_original": "British Museum staff member stole over 300 pieces of art before being caught red-handed",
-    "content_original": "Former employee smuggled out and sold hundreds of prints during the early 1990s, new book reveals",
     "url": "https://www.independent.co.uk/news/uk/home-news/british-museum-art-theft-london-b2930911.html",
     "published": "2026-03-03T12:23:12+00:00",
     "fetched_at": "2026-03-03T12:29:22.757023+00:00",
@@ -153,12 +217,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "dc632a545ff4a4f0",
     "title_original": "Celebrities including Amanda Holden, Joanna Lumley and Jonathan Ross back plans to shut animal testing breeders",
-    "content_original": "Celebrities including Amanda Holden, Joanna Lumley and Jonathan Ross back plans to shut animal testing breeders",
     "url": "https://www.dailymail.co.uk/news/article-15609241/Amanda-Holden-Joanna-Lumley-Jonathan-Ross-shut-testing.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:19:47+00:00",
     "fetched_at": "2026-03-03T12:29:21.741987+00:00",
@@ -166,12 +231,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "bfead60dae699a2c",
     "title_original": "Everything you need to do NOW to save your holiday to Dubai and the Middle East: Mail's ULTIMATE insider guide to how to get a refund and what to do if you're stuck in the travel chaos... and why time is of the essence",
-    "content_original": "Everything you need to do NOW to save your holiday to Dubai and the Middle East: Mail's ULTIMATE insider guide to how to get a refund and what to do if you're stuck in the travel chaos... and why time is of the essence",
     "url": "https://www.dailymail.co.uk/money/mailplus/article-15609497/save-holiday-Dubai-Middle-East-guide-refund-stuck-travel-chaos.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:19:29+00:00",
     "fetched_at": "2026-03-03T12:29:21.742041+00:00",
@@ -179,7 +245,9 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "01ba46f30216702c",
@@ -192,12 +260,21 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "UK considering sending warship to Cyprus to defend RAF airbase",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The UK is considering deploying HMS Duncan to Cyprus to defend an RAF airbase amid escalating Middle East conflict following US and Israeli airstrikes on Iran. The defence secretary has not made a final decision, while the Green party has proposed legislation requiring parliamentary approval for any UK military intervention.",
+    "countries_mentioned": [
+      "United Kingdom",
+      "Iran",
+      "United States",
+      "Israel"
+    ]
   },
   {
     "id": "99b0cabe92ee179b",
     "title_original": "It's all fine, honest! Smiling Reeves braces to unveil growth downgrades in Spring Statement TODAY… as her plans are torched by Middle East war",
-    "content_original": "It's all fine, honest! Smiling Reeves braces to unveil growth downgrades in Spring Statement TODAY… as her plans are torched by Middle East war",
     "url": "https://www.dailymail.co.uk/news/article-15609177/Rachel-Reeves-Labour-downgrades-Spring-Statement-Middle-East-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:17:26+00:00",
     "fetched_at": "2026-03-03T12:29:21.742096+00:00",
@@ -205,12 +282,14 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "77b2633f682b2e80",
     "title_original": "Poor coordination can cost couples an average $14,000 in retirement wealth, research finds",
-    "content_original": "Couples may leave money on the table if they don't prioritize the highest employer match on retirement savings, research finds.",
     "url": "https://www.cnbc.com/2026/03/03/poor-coordination-couples-retirement-wealth.html",
     "published": "2026-03-03T12:17:01+00:00",
     "fetched_at": "2026-03-03T12:29:21.359681+00:00",
@@ -218,7 +297,9 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "8fd759e105985562",
@@ -231,12 +312,21 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Iranian drones attack major UAE oil refinery and target largest US military base in Qatar",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Iranian drones attacked a major oil refinery in the UAE and targeted the largest US military base in Qatar, marking a significant escalation in Iran's ongoing offensive against US assets in the region. The dual attacks demonstrate Iran's strategy of hitting both energy infrastructure and US military installations simultaneously. This follows Iran's earlier ballistic missile and drone strikes on US bases in Iraq and Syria, as well as attacks on US carrier groups in the Gulf.",
+    "countries_mentioned": [
+      "Iran",
+      "United Arab Emirates",
+      "Qatar",
+      "United States"
+    ]
   },
   {
     "id": "785982b44e074a77",
     "title_original": "'Back up, I'm American!' Incredible moment local threatens US airman with a metal pipe, thinking he was Iranian, after he parachuted out of F-15 mistakenly shot down by Kuwait",
-    "content_original": "'Back up, I'm American!' Incredible moment local threatens US airman with a metal pipe, thinking he was Iranian, after he parachuted out of F-15 mistakenly shot down by Kuwait",
     "url": "https://www.dailymail.co.uk/news/article-15608885/Back-Im-American-Incredible-moment-local-threatens-US-airman-metal-pipe-thinking-Iranian-parachuted-F-15-mistakenly-shot-Kuwait.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:16:42+00:00",
     "fetched_at": "2026-03-03T12:29:21.742204+00:00",
@@ -244,12 +334,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "f9a9b2d43908bdbd",
     "title_original": "Target says it's on track to end its sales slump after another lackluster quarter",
-    "content_original": "The big-box retailer Target posted its fourth-quarter results as it hosted an investor meeting at its Minneapolis headquarters.",
     "url": "https://www.cnbc.com/2026/03/03/target-tgt-q4-2025-earnings.html",
     "published": "2026-03-03T12:16:11+00:00",
     "fetched_at": "2026-03-03T12:29:21.359434+00:00",
@@ -257,12 +348,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "133b1c3574c4ce70",
     "title_original": "Jaw-dropping moment Channel 4 producer gasps 'don't push me!' as Handcuffed star charges at him and launches foul-mouthed attack before quitting show",
-    "content_original": "Jaw-dropping moment Channel 4 producer gasps 'don't push me!' as Handcuffed star charges at him and launches foul-mouthed attack before quitting show",
     "url": "https://www.dailymail.co.uk/tv/article-15609023/channel-4-handcuffed-star-quits-producer-confrontation.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:16:11+00:00",
     "fetched_at": "2026-03-03T12:29:21.742257+00:00",
@@ -270,12 +362,14 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "71c01e9eb0e51220",
     "title_original": "Spring statement live: Rachel Reeves to deliver budget forecast as oil prices surge amid Middle East conflict",
-    "content_original": "The chancellor is under pressure to keep energy prices down as stock markets tumble across the UK and Europe",
     "url": "https://www.independent.co.uk/news/uk/home-news/spring-statement-2026-uk-budget-rachel-reeves-live-updates-b2930888.html",
     "published": "2026-03-03T12:14:07+00:00",
     "fetched_at": "2026-03-03T12:29:22.757133+00:00",
@@ -283,12 +377,14 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "24e2dc07388a063f",
     "title_original": "Elderly siblings face homelessness after £600k inheritance feud with sister",
-    "content_original": "One of the children was written out of his mother’s will because he was going through a divorce",
     "url": "https://www.independent.co.uk/news/uk/home-news/david-isaacs-will-inheritance-court-b2930784.html",
     "published": "2026-03-03T12:12:55+00:00",
     "fetched_at": "2026-03-03T12:29:22.757239+00:00",
@@ -296,12 +392,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "a2f5261ad18d698e",
     "title_original": "Versant debut earnings report shows continued pay TV pressure, digital growth",
-    "content_original": "Versant reported its 2025 earnings, giving Wall Street its first detailed look inside the company that started publicly trading in January.",
     "url": "https://www.cnbc.com/2026/03/03/versant-vsnt-debut-earnings-report-digital-growth.html",
     "published": "2026-03-03T12:12:06+00:00",
     "fetched_at": "2026-03-03T12:29:21.359496+00:00",
@@ -309,12 +406,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "bc7a4ab939b3090a",
     "title_original": "Grocery price inflation rises for the first time in four months in latest blow to households",
-    "content_original": "Grocery price inflation rises for the first time in four months in latest blow to households",
     "url": "https://www.dailymail.co.uk/money/markets/article-15608981/Grocery-price-inflation-rises-time-four-months-new-data-shows.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:10:13+00:00",
     "fetched_at": "2026-03-03T12:29:21.742309+00:00",
@@ -322,12 +420,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "7b00f5e5681dc321",
     "title_original": "Lily Allen poses in lingerie and a sheer nightie as she takes to the stage on the opening night of her West End Girl tour in Glasgow - as fans brand the show 'a school singalong'",
-    "content_original": "Lily Allen poses in lingerie and a sheer nightie as she takes to the stage on the opening night of her West End Girl tour in Glasgow - as fans brand the show 'a school singalong'",
     "url": "https://www.dailymail.co.uk/tvshowbiz/article-15609621/Lily-Allen-poses-lingerie-sheer-nightie-takes-stage-opening-night-West-End-Girl-tour-Glasgow-fans-brand-school-singalong.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:09:28+00:00",
     "fetched_at": "2026-03-03T12:29:21.742362+00:00",
@@ -335,12 +434,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "31e7566a657596f8",
     "title_original": "The Midterms Begin During War",
-    "content_original": "We’re following the first primaries of the midterm elections.",
     "url": "https://www.nytimes.com/2026/03/03/briefing/the-midterms-begin-during-war.html",
     "published": "2026-03-03T12:09:21+00:00",
     "fetched_at": "2026-03-03T12:29:21.119774+00:00",
@@ -348,12 +448,14 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "9e624f490e644ba3",
     "title_original": "Spring forecast: Reeves to insist she has ‘right economic plan’ as markets plunge amid Middle East crisis – live updates",
-    "content_original": "Chancellor’s statement comes amid backdrop of economic turmoil, including gas prices at three-year high Rachel Reeves’s plans could be hit by Middle East conflict, say economists UK grocery price inflation has risen, showing that people are being hit in the pocket even before the surge in energy prices feeds through to the economy. Data provider Worldpanel by Numerator has reported that annual grocery inflation rose to 4.3% in February, after four consecutive months of falls, in a blow for households. That’s up from 4% in January. Sentiment towards BP and Shell has strengthened significantly off the back of oil price spikes. But it’s a complex picture. Neither company has production in Iran. But BP’s significant production in Iraq and Abu Dhabi risks being bottlenecked through disruption to the Strait of Hormuz. For Shell the same applies to its LNG facilities in Qatar and the Emirates. If a moderate sustainable regime is established in Iran, there is the potential for substantial deri...",
     "url": "https://www.theguardian.com/business/live/2026/mar/03/spring-forecast-rachel-reeves-statement-economic-plan-obr-oil-gas-stock-markets-live-updates",
     "published": "2026-03-03T12:09:07+00:00",
     "fetched_at": "2026-03-03T12:29:21.391159+00:00",
@@ -361,7 +463,10 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "c2621c8b608a2c78",
@@ -374,12 +479,21 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Israel launches fresh attacks on Tehran and Beirut",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Israeli Air Force has launched simultaneous extensive strikes on Tehran and Beirut, with Israeli soldiers also deployed on the ground in southern Lebanon. US Secretary of State Marco Rubio confirmed the US struck Iran after learning Israel was planning an attack, saying pre-emptive action was taken to prevent higher casualties to US forces. The attacks mark a significant escalation as the conflict expands across multiple fronts including Beirut and southern Lebanon.",
+    "countries_mentioned": [
+      "Israel",
+      "Iran",
+      "United States",
+      "Lebanon"
+    ]
   },
   {
     "id": "eebc88d622a1d4e2",
     "title_original": "AMANDA PLATELL: Why I fear for Kelly Osbourne now more than ever, and why I believe her dysfunctional childhood and a long-standing feud with Lady Gaga could be to blame for her desperately sad state",
-    "content_original": "AMANDA PLATELL: Why I fear for Kelly Osbourne now more than ever, and why I believe her dysfunctional childhood and a long-standing feud with Lady Gaga could be to blame for her desperately sad state",
     "url": "https://www.dailymail.co.uk/tvshowbiz/article-15609427/AMANDA-PLATELL-fear-Kelly-Osbourne-childhood-feud-Lady-Gaga.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:08:53+00:00",
     "fetched_at": "2026-03-03T12:29:21.742414+00:00",
@@ -387,12 +501,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "f3877a8604c3b6fd",
     "title_original": "Now the luvvies flock to the Greens! Lifelong Labour voter Paloma Faith says Zack Polanski is 'exactly what we need'",
-    "content_original": "Now the luvvies flock to the Greens! Lifelong Labour voter Paloma Faith says Zack Polanski is 'exactly what we need'",
     "url": "https://www.dailymail.co.uk/news/article-15609569/Now-luvvies-flock-Greens-Lifelong-Labour-voter-Paloma-Faith-says-Zack-Polanski-exactly-need.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:07:20+00:00",
     "fetched_at": "2026-03-03T12:33:59.106759+00:00",
@@ -400,12 +515,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "fdb15ce743cd60d8",
     "title_original": "POLL OF THE DAY: Should Britain join the US and Israeli strikes against Iran?",
-    "content_original": "POLL OF THE DAY: Should Britain join the US and Israeli strikes against Iran?",
     "url": "https://www.dailymail.co.uk/news/article-15609495/POLL-Britain-join-US-Israeli-strikes-against-Iran.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:06:26+00:00",
     "fetched_at": "2026-03-03T12:29:21.742466+00:00",
@@ -413,12 +529,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "efea69ed20426387",
     "title_original": "Is YOUR face Old Money? Cosmetic experts reveal why it's now chic to look 'polished rather than enhanced' - and the celebs who are getting it right and wrong",
-    "content_original": "Is YOUR face Old Money? Cosmetic experts reveal why it's now chic to look 'polished rather than enhanced' - and the celebs who are getting it right and wrong",
     "url": "https://www.dailymail.co.uk/lifestyle/beauty/article-15606519/Is-face-Old-Money-Cosmetic-experts-reveal-chic-look-polished-enhanced-celebs-getting-right-wrong.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:05:07+00:00",
     "fetched_at": "2026-03-03T12:29:21.742516+00:00",
@@ -426,12 +543,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "eeca16136e5d0347",
     "title_original": "Best Buy’s holiday sales disappoint, but retailer shows progress in growing profits",
-    "content_original": "Best Buy beat fourth-quarter earnings expectations but missed Wall Street's revenue estimates.",
     "url": "https://www.cnbc.com/2026/03/03/best-buy-bby-q4-2026-earnings.html",
     "published": "2026-03-03T12:04:54+00:00",
     "fetched_at": "2026-03-03T12:29:21.359361+00:00",
@@ -439,12 +557,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "3247a00e431091dc",
     "title_original": "Richard Osman quits quiz show House of Games after 'amazing nine years'",
-    "content_original": "The novelist and presenter says: \"With the writing, there comes a point where you have to hand it over.\"",
     "url": "https://www.bbc.com/news/articles/cvg1j3zyl3do?at_medium=RSS&at_campaign=rss",
     "published": "2026-03-03T12:04:16+00:00",
     "fetched_at": "2026-03-03T12:29:21.404849+00:00",
@@ -452,7 +571,9 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "cea74d8900e1f74d",
@@ -465,7 +586,18 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Zelenskyy warns that Iran conflict could disrupt weapons flow to Ukraine",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Ukrainian President Zelenskyy warns that the US-Israeli war with Iran could hinder Ukraine's ability to defend itself against Russia by disrupting weapons supplies. This comes ahead of his call with EU Commission President von der Leyen to discuss Ukraine's EU accession ambitions.",
+    "countries_mentioned": [
+      "Ukraine",
+      "United States",
+      "Israel",
+      "Russia",
+      "Iran"
+    ]
   },
   {
     "id": "8128ec46eb469b6b",
@@ -478,12 +610,21 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "The war in the Middle East in maps, video and photos",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The US-Israeli war against Iran began with bombing and missile attacks that killed Iran's supreme leader Ali Khamenei, and has exploded into a regional conflict with Tehran retaliating by launching strikes across the Middle East. On Tuesday, Israel launched a ground invasion of Lebanon following intense strikes after Iran ally Hezbollah fired rockets across the frontier.",
+    "countries_mentioned": [
+      "United States",
+      "Israel",
+      "Iran",
+      "Lebanon"
+    ]
   },
   {
     "id": "893f5c0bb485edf0",
     "title_original": "Full House and Senate to be briefed on Iran strikes – US politics live",
-    "content_original": "Rubio, Hegseth and Caine to address lawmakers Sign up for the Breaking News US email to get newsletter alerts in your inbox The marquee matchup for the open US Senate seat in North Carolina will begin to resolve into focus Tuesday, with a well-known former Democratic governor and a Donald Trump-endorsed but untested Republican appearing to lead the field. In the Democratic primary, former two-term governor Roy Cooper is ahead in recent polling against the slate of other candidates who have never held elected office. Cooper is widely seen among North Carolina’s Democrats as their best chance at flipping a Republican-controlled seat, now held by retiring US senator Thom Tillis, a conservative who has turned hard against the Trump administration on its handling of healthcare, defense and the Epstein file disclosures. Continue reading...",
     "url": "https://www.theguardian.com/us-news/live/2026/mar/03/donald-trump-iran-war-powers-kristi-noem-primaries-friedrich-merz-latest-news-updates",
     "published": "2026-03-03T12:01:23+00:00",
     "fetched_at": "2026-03-03T12:29:21.391394+00:00",
@@ -491,12 +632,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "f414e88aef0ba6d9",
     "title_original": "Harry Potter's Daniel Radcliffe reveals he's become a 'fitness freak' and has developed an 'addiction to the gym'",
-    "content_original": "Harry Potter's Daniel Radcliffe reveals he's become a 'fitness freak' and has developed an 'addiction to the gym'",
     "url": "https://www.dailymail.co.uk/tvshowbiz/article-15609147/Harry-Potters-Daniel-Radcliffe-reveals-hes-fitness-freak-developed-addiction-gym.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
     "published": "2026-03-03T12:01:01+00:00",
     "fetched_at": "2026-03-03T12:29:21.742567+00:00",
@@ -504,12 +646,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "3fa460316c3e6cf6",
     "title_original": "Showdown over datacenter politics at heart of North Carolina primary",
-    "content_original": "Democratic rematch in Durham-area district draws focus to fight over AI datacenters increasingly shaping US elections A North Carolina congressional primary on Tuesday is an early test of datacenter politics – a fight increasingly shaping elections nationwide. In the Durham-area fourth district, Congresswoman Valerie Foushee is seeking her third term against progressive challenger Nida Allam, a Durham county commissioner she defeated in 2022. Continue reading...",
     "url": "https://www.theguardian.com/us-news/2026/mar/03/datacenter-politics-north-carolina-primary",
     "published": "2026-03-03T12:00:03+00:00",
     "fetched_at": "2026-03-03T12:29:21.392089+00:00",
@@ -517,12 +660,34 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
+    "id": "fc9aa0bf9137f6b8",
+    "title_original": "Ex-Obama advisor warns Iran military strikes 'might' lead to civilian massacres, overlooking protester deaths",
+    "content_original": "Former national security advisor Ben Rhodes said President Donald Trump's military strikes against Iran \"may\" get civilians killed, appearing to overlook the deaths of Iranian protesters. Rhodes, who previously worked under the Obama administration, wrote in a New York Times essay on Monday that Trump \"may come to regret\" his strikes against Iran over the weekend, warning that Iranian citizens \"may\" be killed as a result. \"Mr. Trump’s only stated plan for regime change was a call for the Iranian people to rise up,\" Rhodes wrote. \"Then what? Those who do may be massacred. Some version of the regime could still cling to power.\" EX-CIA CHIEF WARNS NOT TO UNDERESTIMATE IRAN’S RESPONSE AFTER OPERATION EPIC FURY EXPOSED REGIME ‘ARROGANCE’ Rhodes' essay did not reference the thousands of deaths reported after the Iranian regime's crackdown on protesters. The death toll has ranged from approximately 3,100 to over 36,000, though exact numbers have not been verified. Instead, he allowed, \"Iran’s...",
+    "url": "https://www.foxnews.com/media/former-obama-advisor-warns-iran-military-strikes-might-lead-civilian-massacres-ignores-protester-deaths",
+    "published": "2026-03-03T07:27:08-05:00",
+    "fetched_at": "2026-03-03T12:38:39.667235+00:00",
+    "source_name": "FOX News",
+    "source_category": "independent",
+    "language": "en",
+    "region": "western",
+    "skip_translation": true,
+    "title_en": "Ex-Obama advisor warns Iran strikes may cause civilian deaths, regrets overlooked protester killings",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Former Obama national security advisor Ben Rhodes warned that Trump's military strikes against Iran might kill civilians, saying Trump 'may come to regret' the attacks. Rhodes argued that if Iranian protesters heeded Trump's call to rise up against the regime, they 'may be massacred,' questioning the US strategy for regime change. The comments follow a CIA chief's warning not to underestimate Iran's response capabilities.",
+    "countries_mentioned": [
+      "Iran",
+      "United States"
+    ]
   },
   {
     "id": "d0a7cbdfb9c962f1",
     "title_original": "China's compact humanoid robot shows off balance and flips",
-    "content_original": "Humanoid robotics companies have already shown their machines can run at 22 mph, land backflips and even pull off front flips. So the new proving ground is not raw speed or acrobatics. It is control when something unexpected happens. That is where the EngineAI PM01 humanoid robot comes in. In newly released footage, the compact humanoid keeps dancing after being deliberately pushed off balance. It performs a controlled forward slip, absorbs the disruption and smoothly regains rhythm within seconds. The motion looks fluid and surprisingly natural. Then it lands another front flip, this time as part of a broader demonstration of balance and recovery. Sign up for my FREE CyberGuy Report Get my best tech tips, urgent security alerts and exclusive deals delivered straight to your inbox. Plus, you’ll get instant access to my Ultimate Scam Survival Guide – free when you join my CYBERGUY.COM newsletter. HUMANOID ROBOT MAKES ARCHITECTURAL HISTORY BY DESIGNING A BUILDING Speed gets attention. Re...",
     "url": "https://www.foxnews.com/tech/chinas-compact-humanoid-robot-shows-off-balance-flips",
     "published": "2026-03-03T07:22:19-05:00",
     "fetched_at": "2026-03-03T12:29:21.584244+00:00",
@@ -530,12 +695,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "da5591569446f6ce",
     "title_original": "Slam Fest to bring pro wrestling festival to Palms Casino Resort in Las Vegas",
-    "content_original": "Las Vegas will turn into the pro wrestling capital of the world for a few days in April. WrestleMania 42 will be the main course for most fans who will make the trek to Sin City. But in the days leading up to the star-studded show at Allegiant Stadium, there will be plenty of events taking place up and down The Strip that could leave them satisfied and smiling. Paragon Talent Group and Palms Casino Resort announced last week that Slam Fest will be hosted at the venue, starting on April 15 and lasting until April 18. It will bring several pro wrestling companies together, including Tokyo Joshi Pro Wrestling (TJPW), Consejo Mundial de Lucha Libre (CMLL), House of Glory (HOG), World Wonder Ring Stardom and Maple Leaf Pro Wrestling, for days of matches. CLICK HERE FOR MORE SPORTS COVERAGE ON FOXNEWS.COM Additionally, WWE Hall of Famer Mick Foley will host his comedy show, pro wrestling star Saraya will have a live episode of her podcast, \"Rulebreakers with Saraya\" and tag team legends Matt...",
     "url": "https://www.foxnews.com/sports/slam-fest-bring-pro-wrestling-festival-palms-casino-resort-las-vegas",
     "published": "2026-03-03T07:21:06-05:00",
     "fetched_at": "2026-03-03T12:29:21.584462+00:00",
@@ -543,7 +709,9 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "69b7cbef23106e18",
@@ -556,12 +724,14 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Pelosi's war powers flip-flop exposed in resurfaced Obama-era clip contradicts Trump criticism on Iran",
+    "translated": false,
+    "summary_en": "[API unavailable — English source]"
   },
   {
     "id": "84b7906e388361bb",
     "title_original": "5 must-watch World Baseball Classic pool play matchups, including Team USA vs Mexico",
-    "content_original": "Before the 2026 MLB season gets underway, the World Baseball Classic has returned to determine who the best national team in the world is. There will be 20 teams vying for that title, and pool play begins this week with the final set for March 17 at loanDepot Park in Miami, Florida – the home of the Miami Marlins . The tournament will feature baseball powerhouses, including Team USA, which will have the likes of Aaron Judge, Paul Skenes, Cal Raleigh, Bryce Harper, Kyle Schwarber and many others leading the way to what the U.S. hopes is more victories in 2026, especially after how the Milan Cortina Games finished. CLICK HERE FOR MORE SPORTS COVERAGE ON FOXNEWS.COM But others, like Japan, the reigning WBC champions, and the Dominican Republic, want bragging rights for the next three years until the tournament returns. Only two teams from each of the four pools will advance to the quarterfinals, and there are some amazing matchups already in store for this year’s tournament. With that in ...",
     "url": "https://www.foxnews.com/sports/5-must-watch-world-baseball-classic-pool-play-matchups-including-team-usa-vs-mexico",
     "published": "2026-03-03T07:01:33-05:00",
     "fetched_at": "2026-03-03T12:29:21.584806+00:00",
@@ -569,12 +739,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "8a53e4a1bc65abd8",
     "title_original": "Seniors over 80 who eat specific diet may be less likely to reach 100 years old",
-    "content_original": "Older adults who avoid meat in their golden years may be less likely to reach age 100 than their meat-eating counterparts, new research suggests. Researchers tracked more than 5,000 adults aged 80 or older who were enrolled in the Chinese Longitudinal Healthy Longevity Survey. Between 1998 and 2018, data showed that those who did not eat meat were less likely to reach their 100th birthday than those who consumed animal products regularly. SCIENTISTS REVEAL THE ONE PRACTICE THAT COULD PREVENT DEMENTIA AS YOU AGE The findings seem to contradict previous studies that have linked vegetarianism and plant-based diets to lower risks of heart disease, stroke, diabetes and obesity. Most evidence supporting the benefits of plant-based diets comes from studies tracking younger populations, the researchers noted. The study, published in The American Journal of Clinical Nutrition, points to losses in muscle mass and bone density with age, shifts that can increase the risk of malnutrition and frailt...",
     "url": "https://www.foxnews.com/health/seniors-over-80-who-eat-specific-diet-may-less-likely-reach-100-years-old",
     "published": "2026-03-03T07:00:40-05:00",
     "fetched_at": "2026-03-03T12:29:21.584958+00:00",
@@ -582,12 +753,13 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "6873be0b92a11d65",
     "title_original": "'The right thing': Paxton, Cornyn trade blows in Texas primary but unite for Trump's Iran strikes",
-    "content_original": "WACO, TEXAS — Two of this primary season’s fiercest rivals have one thing in common: unflinching support for President Donald Trump’s decision to strike Iran. Texas Attorney General Ken Paxton and Sen. John Cornyn, R-Texas, are both leaning into their relationship with Trump and their record of support over the years as they vie for the Republican nomination in Texas’ contentious Senate primary. While it's a crowded primary, including Rep. Wesley Hunt, R-Texas, all eyes are on Paxton and Cornyn. And as they push for Trump’s coveted endorsement in the final stretch of their intense campaign, their support of the president has remained unwavering. BIPARTISAN REVOLT TARGETS TRUMP'S WAR POWERS AFTER MASSIVE IRAN STRIKES Paxton told Fox News Digital outside his final campaign event ahead of the March 3 primary that he believed Trump \"did the right thing\" with Operation Epic Fury. When asked what voters were saying, he said, \"No one wants foreign wars.\" \"But the reality is, when you've got a...",
     "url": "https://www.foxnews.com/politics/the-right-thing-paxton-cornyn-trade-blows-texas-primary-unite-trumps-iran-strikes",
     "published": "2026-03-03T07:00:35-05:00",
     "fetched_at": "2026-03-03T12:29:21.585093+00:00",
@@ -595,7 +767,10 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "cd40fa2b4f57d547",
@@ -608,7 +783,15 @@
     "source_category": "independent",
     "language": "en",
     "region": "western",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "REP RO KHANNA: Congress must reclaim war powers from an out-of-control Trump over Iran",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Congressman Ro Khanna announced he will force a vote in the House on a bipartisan resolution with Republican Thomas Massie to reclaim war powers from Trump regarding Iran. Khanna, a longtime opponent of military adventurism, criticized Trump's acknowledgment that American servicemembers will be killed in the conflict and his refusal to rule out ground troops. The resolution aims to prevent what Khanna calls a 'war of choice' before more American casualties occur.",
+    "countries_mentioned": [
+      "United States",
+      "Iran"
+    ]
   },
   {
     "id": "73f5741075285fa6",

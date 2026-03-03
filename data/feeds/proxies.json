@@ -1,8 +1,21 @@
 [
   {
+    "id": "fb1f8d930c75c1c3",
+    "title_original": "Almasirah Media Network Condemns Israeli Strikes on Lebanese and Iranian Broadcasters",
+    "url": "https://english.masirahtv.net/post/54220/",
+    "published": "2026-03-03T15:36:35+00:00",
+    "fetched_at": "2026-03-03T12:38:38.295402+00:00",
+    "source_name": "Al Masirah TV English",
+    "source_category": "proxy",
+    "language": "en",
+    "region": "proxies",
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
+  },
+  {
     "id": "2608e82cac4446c3",
     "title_original": "غروي: مظاهرات اليمن والبحرين تجسيدٌ للأصالة الإيمانية والوفاء لمحور القدس وطهران",
-    "content_original": "المسيرة نت | خاص: أكد الكاتب والإعلامي محمد غروي، أن الشعب الإيراني الثوري مازال يحمل نفس الروح التي ظهرت قبل سبعة وأربعين سنة، ويزداد صلابة وشجاعة كلما تآمر عليه العدوان، وكلما قدم شهداء على مذبح الوطن.",
     "url": "https://almasirah.net.ye/static/static/53ee953d-0fdc-4016-9f92-d2c907842bb4.jpg",
     "published": "2026-03-03T15:33:07+00:00",
     "fetched_at": "2026-03-03T12:33:57.696705+00:00",
@@ -10,12 +23,14 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
   },
   {
     "id": "221171cc37443303",
     "title_original": "Ansarullah Condemns Ongoing Zionist Aggression on Lebanon, Affirms Right to Respond",
-    "content_original": "Ansarullah Condemns Ongoing Zionist Aggression on Lebanon, Affirms Right to Respond",
     "url": "https://english.masirahtv.net/post/54219/",
     "published": "2026-03-03T15:28:09+00:00",
     "fetched_at": "2026-03-03T12:29:20.085762+00:00",
@@ -23,7 +38,9 @@
     "source_category": "proxy",
     "language": "en",
     "region": "proxies",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "33336e164144ed87",
@@ -36,7 +53,12 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "title_en": "Palestinian Mujahideen Movement Condemns Zionist Aggression on Lebanese Media",
+    "summary_en": "The Palestinian Mujahideen Movement condemned Israeli attacks on the headquarters of Al-Manar channel and Al-Nour radio in Beirut, describing the aggression as part of the ongoing war on Lebanon and the peoples of the nation. This statement reflects broader regional tensions involving Israeli operations targeting media infrastructure linked to Hezbollah and other Iran-aligned entities in",
+    "relevant": true,
+    "translated": true,
+    "countries_mentioned": []
   },
   {
     "id": "f7849e2353da6866",
@@ -49,7 +71,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Wide protests in the United States against the war on Iran",
+    "summary_en": "Hundreds of thousands of American citizens protested in various US cities to denounce American military aggression against Iran, affirming their rejection of sending forces or conducting airstrikes without the consent of their people and legislative institutions. The protests represent a significant display of domestic opposition to the US military campaign.",
+    "translated": true,
+    "countries_mentioned": [
+      "United States",
+      "Iran"
+    ]
   },
   {
     "id": "0c928be162723455",
@@ -62,7 +92,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Resistance Targets Israeli Merkava Tank in Kfar Shouba South Lebanon",
+    "summary_en": "Lebanese resistance forces targeted an Israeli Merkava tank in the town of Kfar Shouba in southern Lebanon on Tuesday, as part of the ongoing confrontation against Israeli military aggression on Lebanese territory. The attack represents continued hostilities along the Israel-Lebanon border as part of the wider regional conflict involving Hezbollah and other Iran-aligned proxy forces.",
+    "translated": true,
+    "countries_mentioned": [
+      "Lebanon",
+      "Israel"
+    ]
   },
   {
     "id": "629855c9185e73f9",
@@ -75,7 +113,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Iranian Strikes Send Message to World on Consequences of Supporting Aggression - Military Expert",
+    "summary_en": "Brigadier General Nidal Zahawi, a military expert, stated that ongoing Iranian strikes have caused significant losses to American forces that are difficult for the US to bear at once. He added these strikes represent tactical pressure on American and Zionist military systems and send a message to the Arab and European world about the consequences of any involvement or support for aggression.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "United States",
+      "Israel"
+    ]
   },
   {
     "id": "4b8118543f87a573",
@@ -88,7 +135,12 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "title_en": "Israeli forces continue closing Al-Aqsa Mosque for fourth day amid warnings of new reality",
+    "summary_en": "Israeli forces continued closing the Al-Aqsa Mosque in Jerusalem for the fourth consecutive day, citing a ",
+    "relevant": true,
+    "translated": true,
+    "countries_mentioned": []
   },
   {
     "id": "049babfbf39491bf",
@@ -101,7 +153,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Israeli Forces Arrest 40 Palestinians During Raids in Occupied West Bank and Jerusalem",
+    "summary_en": "Israeli forces conducted widespread raids in the occupied West Bank and Jerusalem on Tuesday, resulting in confrontations and the arrest of 40 Palestinians. This operation is part of intensified military measures occurring in conjunction with the ongoing US-Israeli aggression against Iran since October 2026.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Palestine"
+    ]
   },
   {
     "id": "b8f428c51c28d170",
@@ -114,7 +174,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Researcher: Lebanese Government Weakened Country's Position by Yielding to US Pressure",
+    "summary_en": "Writer and researcher Samir Ayyoub stated that Hezbollah's rocket strikes and drone operations were preemptive, moving ahead of any Israeli operational planning to strike Lebanon. He criticized the Lebanese government for weakening the country's stance by succumbing to American pressure.",
+    "translated": true,
+    "countries_mentioned": [
+      "Lebanon",
+      "United States",
+      "Israel"
+    ]
   },
   {
     "id": "e23a98eacb398879",
@@ -127,7 +196,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Iran mourns Minab school martyrs in American Zionist aviation massacre",
+    "summary_en": "The Islamic Republic of Iran held funeral proceedings on Tuesday for elementary school students from Minab who were killed in what is described as a massacre carried out by American Zionist aviation. The incident represents an escalation in the ongoing Iran-US conflict, with Iran accusing the US and Israel of targeting civilians on Iranian soil.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "United States",
+      "Israel"
+    ]
   },
   {
     "id": "90086d3a2b8ceff2",
@@ -140,12 +218,19 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Islamic Resistance in Iraq's Saraya Awliya al-Dam Drone Attack Targets Hotel in Erbil Housing US Soldiers",
+    "summary_en": "The Islamic Resistance in Iraq - Saraya Awliya al-Dam announced on Tuesday that it carried out a drone attack targeting a hotel in Erbil (Kurdistan Region, Iraq) that houses American occupation soldiers. This attack represents another in a series of pro-Iranian proxy strikes against US forces in Iraq, continuing the pattern of targeted operations against American personnel stationed in the region.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iraq",
+      "United States"
+    ]
   },
   {
     "id": "5b5e565e30113e6d",
     "title_original": "Saudi Forces Shell Residential Area in Saadah, Escalating Border Violations",
-    "content_original": "Saudi Forces Shell Residential Area in Saadah, Escalating Border Violations",
     "url": "https://english.masirahtv.net/post/54218/",
     "published": "2026-03-03T14:32:12+00:00",
     "fetched_at": "2026-03-03T12:29:20.085816+00:00",
@@ -153,7 +238,10 @@
     "source_category": "proxy",
     "language": "en",
     "region": "proxies",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
   },
   {
     "id": "b63d2898d930609d",
@@ -166,7 +254,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Al-Masira Network condemns targeting of media institutions in Lebanon and Iran",
+    "summary_en": "Al-Masira Network (affiliated with Yemen's Houthi movement) condemned Israeli airstrikes targeting Al-Manar TV station and Al-Nour radio in Lebanon, as well as the Islamic Republic of Iran Broadcasting (IRIB) building in Iran. These attacks on media infrastructure represent an escalation in Israel's campaign against pro-Iranian media networks in the region, with the network affirming its full solidarity with the targeted institutions.",
+    "translated": true,
+    "countries_mentioned": [
+      "Lebanon",
+      "Iran",
+      "Israel"
+    ]
   },
   {
     "id": "fc5509e07a92afd7",
@@ -179,12 +276,20 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Iranian Armed Forces: Our Attacks Target Only Zionist Enemy and American Military Sites",
+    "summary_en": "The headquarters of the Seal of the Prophets in the Islamic Republic of Iran stated that operations carried out by the Iranian Armed Forces come within the framework of legitimate response to aggression, emphasizing that strikes are directed exclusively against Zionist enemy locations and American military positions in the region. This statement affirms that Iranian attacks are intentionally targeting both Israeli and U.S. assets.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "Israel",
+      "United States"
+    ]
   },
   {
     "id": "3563b48265319209",
     "title_original": "عساف: المجرم ترامب شريك لـ \"نتنياهو\" في العدوان ويواجه رفضاً متصاعداً داخل أمريكا",
-    "content_original": "المسيرة نت | خاص: أكد منسق المؤتمر الشعبي الفلسطيني عمر عساف، أن الرئيس الأمريكي المجرم ترامب شريك مباشر في العدوان الجاري، ولا يحتاج إلى ضغوط من نتنياهو للانخراط في هذه الحرب، معتبراً أن سياساته تنسجم بالكامل مع نهج الاحتلال تجاه فلسطين وإيران ودول الإقليم.",
     "url": "https://almasirah.net.ye/static/static/358842e0-2f0c-44b0-be57-d61d53854ded.jpg",
     "published": "2026-03-03T14:03:24+00:00",
     "fetched_at": "2026-03-03T12:29:20.610556+00:00",
@@ -192,7 +297,10 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
   },
   {
     "id": "14123d6428c77c11",
@@ -205,7 +313,16 @@
     "source_category": "proxy",
     "language": "en",
     "region": "proxies",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Hezbollah: Attack on Al-Manar TV, Al-Nour Radio Won't Silence Voice of Resistance",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Hezbollah has responded to an attack on its media outlets Al-Manar TV and Al-Nour Radio, stating that the strikes will not silence the 'voice of resistance.' The attack appears to be part of ongoing hostilities between Hezbollah and Israel along Lebanon's southern border. This represents continued escalation in the Israel-Hezbollah front, with media infrastructure becoming a target in the broader regional conflict linked to Iran-backed proxy operations.",
+    "countries_mentioned": [
+      "Lebanon",
+      "Israel",
+      "Iran"
+    ]
   },
   {
     "id": "0f42085185ba38b7",
@@ -218,7 +335,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Houthi political office condemns Zionist criminal escalation against Lebanon",
+    "summary_en": "The political office of Ansar Allah (Houthis) condemned the escalation of Zionist Israeli aggression against the Lebanese Republic, noting that violations have not stopped since the ceasefire agreement was announced, occurring before the eyes of the world without serious action from the Lebanese government or agreement guarantors to halt these repeated violations.",
+    "translated": true,
+    "countries_mentioned": [
+      "Lebanon",
+      "Israel"
+    ]
   },
   {
     "id": "bb70a6f754011d55",
@@ -231,7 +356,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "IRGC Announces Launch of 15th Wave of 'True Promise 4' Operation Against American Targets in Region",
+    "summary_en": "The Iranian Revolutionary Guard Corps announced the launch of the 15th wave of the 'True Promise 4' operation, targeting American sites and objectives in several countries across the region. This continues the ongoing Iranian response to what Iran describes as American-Zionist aggression.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "United States"
+    ]
   },
   {
     "id": "429155ed3bf17af4",
@@ -244,7 +377,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Analyst: Iran-US Agreement Near Finalization Before War, Foiled by Israeli Pressure",
+    "summary_en": "Ridwan Qasim, founder of the Brugn Center for Studies, claims Iranian-American negotiations had reached their final stages before current hostilities began, with an agreement reportedly close to signing. He alleges direct Israeli pressure forced the Trump administration to abandon diplomacy and pursue military action instead. The claim suggests a diplomatic resolution was within reach but was undermined by external pressure, framing the current conflict as a political decision rather than an inevitable outcome.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "United States",
+      "Israel"
+    ]
   },
   {
     "id": "ff25f02ae5fd6230",
@@ -257,7 +399,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Saudi Bombardment Targets Al-Thabit Area in Saada Governorate Border District",
+    "summary_en": "Saudi forces shelled the Al-Thabit area in the border district of Qatabar in Saada governorate, Yemen, marking another violation in the ongoing escalation along the Saudi-Yemeni border. The attack targets an area under Houthi (Ansar Allah) control, an Iranian proxy group currently engaged in hostilities against US forces in the Red Sea.",
+    "translated": true,
+    "countries_mentioned": [
+      "Saudi Arabia",
+      "Yemen"
+    ]
   },
   {
     "id": "e7077f7cec97353b",
@@ -270,7 +420,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Israeli forces expand aggression on Lebanon with phosphorus munitions",
+    "summary_en": "Israeli forces continue brutal attacks on southern Beirut suburbs and target various areas across Lebanon with artillery bombardment and prohibited phosphorus munitions since Tuesday morning. The escalation marks an expansion of hostilities on the Lebanon front.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Lebanon"
+    ]
   },
   {
     "id": "dc43800411d55c2f",
@@ -283,7 +441,17 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Special Coverage: Developments in US-Israeli Aggression Against Islamic Republic of Iran and Lebanon",
+    "summary_en": "A panel of analysts discusses the latest developments in the ongoing US-Israeli military campaign against Iran and Lebanon. The discussion comes amid escalated hostilities including US strikes on Iranian territory and Israeli operations affecting Lebanon. The panel features Dr. Sa'id Assaf, Dr. Nizar Nizal, Khaled Barakat, Dr. Imad Akkoush, and Dr. Ibrahim Al-Aradi analyzing the strategic implications of the conflict.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "Lebanon",
+      "United States",
+      "Israel"
+    ]
   },
   {
     "id": "ada16f1a89a31572",
@@ -296,7 +464,140 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Iranian Spokesperson: Claims of Rejecting Geneva Proposals Are Justification for War",
+    "summary_en": "Iranian Foreign Ministry spokesperson Ismail Baqaei stated that allegations claiming Tehran received and rejected proposals during the latest round of Geneva negotiations represent a justification for waging war against the Islamic Republic. He emphasized that these claims aim to mislead international public opinion and cover up ongoing aggression.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran"
+    ]
+  },
+  {
+    "id": "04dea3969882f998",
+    "title_original": "أنباء عن استهداف دبابة إسرائيلية ثانية في  #جنوب_لبنان",
+    "content_original": "أنباء عن استهداف دبابة إسرائيلية ثانية في #جنوب_لبنان",
+    "url": "https://t.me/Electrohizbullah/157532",
+    "published": "2026-03-03T12:37:53+00:00",
+    "fetched_at": "2026-03-03T12:38:52.221356+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Reports of Second Israeli Tank Targeted in South Lebanon",
+    "summary_en": "Reports emerged of a second Israeli tank being targeted in southern Lebanon, indicating continued hostilities along the Israel-Lebanon border. This follows ongoing exchanges between Hezbollah forces and Israeli military assets in the region.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Lebanon"
+    ]
+  },
+  {
+    "id": "2a4c84023e605398",
+    "title_original": "#إعلام_العدو   صفارات الإنذار تدوي في حيفا. #الإعلام_الحربي",
+    "content_original": "#إعلام_العدو صفارات الإنذار تدوي في حيفا. #الإعلام_الحربي",
+    "url": "https://t.me/Electrohizbullah/157531",
+    "published": "2026-03-03T12:37:13+00:00",
+    "fetched_at": "2026-03-03T12:38:52.221180+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Air Raid Sirens Sound in Haifa",
+    "summary_en": "Enemy media reports that air raid sirens are sounding in Haifa, northern Israel. The report comes from sources monitoring Israeli media as part of ongoing regional hostilities. Haifa is a major strategic port city in northern Israel, and siren activations typically indicate incoming aerial threats or air defense activities in the area.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Iran"
+    ]
+  },
+  {
+    "id": "f8788a187153edfe",
+    "title_original": "#إعلام_العدو   صفارات الإنذار تدوي في الجليل الغربي. #الإعلام_الحربي",
+    "content_original": "#إعلام_العدو صفارات الإنذار تدوي في الجليل الغربي. #الإعلام_الحربي",
+    "url": "https://t.me/Electrohizbullah/157530",
+    "published": "2026-03-03T12:36:07+00:00",
+    "fetched_at": "2026-03-03T12:38:52.220951+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Air Raid Sirens Sound in Western Galilee",
+    "summary_en": "Israeli media reports air raid sirens sounding in Western Galilee, indicating a potential incoming missile or drone threat from the northern border. This reflects ongoing tensions between Israel and Hezbollah along the northern front.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Lebanon"
+    ]
+  },
+  {
+    "id": "accb33342e1f3843",
+    "title_original": "#إعلام_العدو   صفارات الإنذار تدوي في الكريوت. #الإعلام_الحربي",
+    "content_original": "#إعلام_العدو صفارات الإنذار تدوي في الكريوت. #الإعلام_الحربي",
+    "url": "https://t.me/Electrohizbullah/157529",
+    "published": "2026-03-03T12:35:53+00:00",
+    "fetched_at": "2026-03-03T12:38:52.220737+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Air Raid Sirens Sound in Al-Krayot",
+    "summary_en": "Air raid sirens have sounded in Al-Krayot (Kiryat), indicating an incoming aerial threat. This report comes from pro-Resistance war media channels, suggesting possible rocket or missile fire targeting Israeli territory as part of the ongoing regional conflict.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Iran"
+    ]
+  },
+  {
+    "id": "aa03d20452535d1b",
+    "title_original": "مراسلة «الأخبار»: غارة إسرائيلية تستهدف منزلاً من عدّة طبقات في اللوبية (قضاء صيدا)",
+    "content_original": "مراسلة «الأخبار»: غارة إسرائيلية تستهدف منزلاً من عدّة طبقات في اللوبية (قضاء صيدا)",
+    "url": "https://t.me/Electrohizbullah/157528",
+    "published": "2026-03-03T12:35:25+00:00",
+    "fetched_at": "2026-03-03T12:38:52.220479+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Israeli Airstrike Targets Multi-Story Building in Lobiya, Sidon District",
+    "summary_en": "An Israeli airstrike targeted a multi-story building in Lobiya, located in the Sidon district of southern Lebanon. The strike is part of ongoing Israeli military operations against Hezbollah and Iran-linked targets in Lebanese territory, continuing tensions along the Israel-Lebanon border.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Lebanon"
+    ]
+  },
+  {
+    "id": "b75f42a593116bc7",
+    "title_original": "#إعلام_العدو   الجبهة الداخلية الإسرائيلية: رصد إطلاق صواريخ من إيران اتجاه \"إسرائيل\". #الإعلام_الحربي",
+    "content_original": "#إعلام_العدو الجبهة الداخلية الإسرائيلية: رصد إطلاق صواريخ من إيران اتجاه \"إسرائيل\". #الإعلام_الحربي",
+    "url": "https://t.me/Electrohizbullah/157527",
+    "published": "2026-03-03T12:34:38+00:00",
+    "fetched_at": "2026-03-03T12:38:52.220315+00:00",
+    "source_name": "Hezbollah Electronic Army (TG)",
+    "source_category": "proxy",
+    "language": "ar",
+    "region": "proxies",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Israeli Home Front Reports Missile Launch from Iran Towards Israel",
+    "summary_en": "The Israeli Home Front command reported detecting ballistic missile launches from Iran targeting Israeli territory. This represents a significant escalation in the ongoing Iran-Israel conflict and marks a direct Iranian strike on Israel, potentially drawing the US deeper into hostilities as it continues to support Israeli defenses and conduct its own strikes against Iranian military assets.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "Israel"
+    ]
   },
   {
     "id": "cb453ceceebab0f1",
@@ -309,7 +610,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "New Batch of Haidari Missiles",
+    "summary_en": "Reports indicate a new shipment of Haidari ballistic missiles has been delivered to Houthi forces in Yemen. The Haidari missile, named after Imam Haidar, is an Iranian-origin ballistic missile in the Houthis' arsenal, used in attacks on US Navy vessels and shipping in the Red Sea as part of Iran's proxy war against American forces.",
+    "translated": true,
+    "countries_mentioned": [
+      "Yemen",
+      "Iran",
+      "United States"
+    ]
   },
   {
     "id": "8ff8cd7e03890f19",
@@ -322,7 +632,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Lebanon: Raid on Tulin",
+    "summary_en": "A raid has been conducted on the town of Tulin in Lebanon. While details are limited, such raids in Lebanon are typically associated with Israeli operations targeting Hezbollah positions and infrastructure in the area.",
+    "translated": true,
+    "countries_mentioned": [
+      "Lebanon",
+      "Israel"
+    ]
   },
   {
     "id": "62ef3954a3a0c37d",
@@ -335,7 +653,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Hezbollah Targets Mitzpeh Baruch in Upper Galilee With Rocket Salvo in Response to Israeli Aggression on Lebanese Cities",
+    "summary_en": "Hezbollah fired a rocket barrage at Mitzpeh Baruch in the Upper Galilee at 10:50 AM on March 3, 2026, in response to Israeli aggression that targeted dozens of Lebanese cities and towns, including the southern suburbs of Beirut. This attack represents another escalation in the ongoing Israel-Hezbollah front connected to the broader Iran-US conflict.",
+    "translated": true,
+    "countries_mentioned": [
+      "Lebanon",
+      "Israel",
+      "Syria"
+    ]
   },
   {
     "id": "650844c51a04255f",
@@ -348,12 +675,20 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Hezbollah: Israeli aggression on Al-Manar channel and Al-Nour radio will not extinguish resistance voice",
+    "summary_en": "Hezbollah's media relations department strongly condemned Israel's savage and destructive aggression targeting the buildings of Al-Manar channel and Al-Nour radio, stating this is part of a systematic policy targeting resistance media institutions that speak truth against Zionist and American aggression.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "United States",
+      "Lebanon"
+    ]
   },
   {
     "id": "5d18552a971625df",
     "title_original": "“الأوقاف” الفلسطينية ترصد اعتداءات العدو الإسرائيلي على “الأقصى” والإبراهيمي” خلال شهر فبراير الماضي",
-    "content_original": "الثورة نت / وكالات قالت وزارة الأوقاف والشؤون الدينية الفلسطينية إن سلطات العدو الاسرائيلي، اقتحمت المسجد الأقصى أكثر من 24 مرة، ومنعت رفع الأذان في الحرم الإبراهيمي بالخليل 45 وقتا. وحسب وكالة الانباء الفلسطينية (وفا)، اليوم الثلاثاء، أضافت الوزارة في تقرير حول الاعتداءات والانتهاكات الإسرائيلية على &#8220;الأقصى&#8221; و&#8221;الإبراهيمي&#8221; خلال شهر فبراير الماضي، أن هناك تصعيدا [&#8230;]",
     "url": "https://althawrah.ye/archives/1144411",
     "published": "2026-03-03T12:21:00+00:00",
     "fetched_at": "2026-03-03T12:29:19.993036+00:00",
@@ -361,12 +696,14 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
   },
   {
     "id": "704b42322dec9d8d",
     "title_original": "🚨 تهران ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ 🚨  تحولات و اخبار جدید ایران و آمریکا  🌐 ✅   @SABERIN_NEWS",
-    "content_original": "🚨 تهران ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ 🚨 تحولات و اخبار جدید ایران و آمریکا 🌐 ✅ @SABERIN_NEWS",
     "url": "https://t.me/saberin_news/45298",
     "published": "2026-03-03T12:19:25+00:00",
     "fetched_at": "2026-03-03T12:34:10.418725+00:00",
@@ -374,7 +711,10 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
   },
   {
     "id": "213d3e15b508767e",
@@ -387,12 +727,19 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Palestinian death toll from Israeli operations in Gaza rises to 72,116",
+    "summary_en": "The Palestinian Ministry of Health in Gaza reported that the death toll from Israeli military operations has risen to 72,116 martyrs and 171,798 injuries since October 7, 2023. The statistics were collected from hospitals across Gaza over the past 24 hours. This represents the cumulative casualties from over two years of ongoing Israeli operations in the strip.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Palestine"
+    ]
   },
   {
     "id": "5a6af05b07b154c7",
     "title_original": "غارة تستهدف السكسكية",
-    "content_original": "غارة تستهدف السكسكية",
     "url": "https://t.me/Electrohizbullah/157523",
     "published": "2026-03-03T12:16:53+00:00",
     "fetched_at": "2026-03-03T12:34:10.424457+00:00",
@@ -400,7 +747,10 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
   },
   {
     "id": "e4b4642ae8a32744",
@@ -413,7 +763,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "UNIFIL Reports Israeli Soldiers Crossed Into Lebanese Territory Near Four Villages",
+    "summary_en": "UNIFIL peacekeepers observed Israeli soldiers crossing into Lebanese territory near Markaba, al-Adeissiya, Kfar Kila, and Ramia villages on Tuesday morning before returning. The observation highlights ongoing tensions along the Israel-Lebanon border, where Hezbollah operates and cross-border incidents continue despite international diplomatic efforts.",
+    "translated": true,
+    "countries_mentioned": [
+      "Lebanon",
+      "Israel"
+    ]
   },
   {
     "id": "3282a9ac932cc68c",
@@ -426,7 +784,12 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "title_en": "Al-Aqsa Martyrs Hospital: Decision to Freeze Ban on International Organizations 'Miscalculated'",
+    "summary_en": "The spokesperson for Al-Aqsa Martyrs Hospital in Gaza stated that an Israeli court's decision to freeze the ban on international relief organizations working in Palestinian territories is problematic, emphasizing that Israel continues to tighten its siege on Gaza, which has been experiencing a",
+    "relevant": true,
+    "translated": true,
+    "countries_mentioned": []
   },
   {
     "id": "55156738f7ac0254",
@@ -439,12 +802,19 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Israeli media: tank hit by guided missile at Lebanon border",
+    "summary_en": "Israeli media reported that a tank was struck by a guided missile at the border with Lebanon. The incident occurred amid ongoing hostilities between Israel and Hezbollah along the northern border, representing continued cross-border military activity.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Lebanon"
+    ]
   },
   {
     "id": "6a47cd10e1d22c0c",
     "title_original": "حجت‌الاسلام‌والمسلمین مجتبی خامنه‌ای، فرزند رهبر معظم انقلاب در سلامت کامل است ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ...",
-    "content_original": "حجت‌الاسلام‌والمسلمین مجتبی خامنه‌ای، فرزند رهبر معظم انقلاب در سلامت کامل است ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ ـ 🚨 تحولات و اخبار جدید ایران و آمریکا 🌐 ✅ @SABERIN_NEWS",
     "url": "https://t.me/saberin_news/45297",
     "published": "2026-03-03T12:06:40+00:00",
     "fetched_at": "2026-03-03T12:34:10.418474+00:00",
@@ -452,7 +822,10 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
   },
   {
     "id": "41936e531a8314ec",
@@ -465,7 +838,12 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Palestinian Resistance Carries Out 16 Operations in West Bank and Jerusalem Over 48 Hours",
+    "summary_en": "Palestinian information center 'Ma'taa' reported 16 resistance operations in occupied West Bank and Jerusalem over the past 48 hours. The operations included 2 confrontations with Israeli settlers, 1 targeting settler vehicles, and 13 arson operations. These activities represent continued resistance efforts in the West Bank theater amid ongoing regional hostilities.",
+    "translated": true,
+    "countries_mentioned": []
   },
   {
     "id": "3db43aae7bd954a6",
@@ -478,7 +856,16 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Iranian Revolutionary Guard: 15th Wave of 'Promise of the Honest 4' Operations Targets Ten American Sites",
+    "summary_en": "The Iranian Revolutionary Guard announced that the 15th wave of 'Promise of the Honest 4' operations targeted ten major strategic command sites and equipment complexes of the American military at Sheikh Isa Air Base in Bahrain. This represents another major escalation in Iran's retaliatory campaign against US military presence in the Gulf region, continuing the series of attacks that began with Operation Promise of the Honest.",
+    "translated": true,
+    "countries_mentioned": [
+      "Iran",
+      "United States",
+      "Bahrain"
+    ]
   },
   {
     "id": "2fb851fb0482c563",
@@ -491,7 +878,12 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "title_en": "Palestinian Resistance Committees condemn Israeli aggression on Al-Manar TV and Radio al-Nour",
+    "summary_en": "Palestinian Resistance Committees condemned what they called the savage Zionist aggression that targeted Al-Manar TV channel and Radio al-Nour last night and this morning. The committees stated that these media outlets represent a truthful and free voice for the oppressed, weak, and free people, describing the attack on two civilian media outlets as revealing the weakness of the Zionist entity. Al-Manar is Hezbollah's official television channel, making this incident connected to the broader Iran",
+    "relevant": true,
+    "translated": true,
+    "countries_mentioned": []
   },
   {
     "id": "821231f63c4efbff",
@@ -504,7 +896,15 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "China urges halt to military operations in Iran, warns against war expansion",
+    "summary_en": "China's Foreign Ministry has called on all parties to stop military operations and prevent the conflict from spreading. This represents China's diplomatic intervention in the Iran-US conflict, urging de-escalation amid ongoing hostilities.",
+    "translated": true,
+    "countries_mentioned": [
+      "China",
+      "Iran"
+    ]
   },
   {
     "id": "f611e4e1868c6d1e",
@@ -517,7 +917,18 @@
     "source_category": "proxy",
     "language": "ar",
     "region": "proxies",
-    "skip_translation": false
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Palestinian Journalists Forum condemns Zionist enemy targeting of media institutions in Lebanon and Iran",
+    "summary_en": "The Palestinian Journalists Forum condemned Israeli airstrikes targeting Al-Nour radio station in Beirut's southern suburbs, Al-Manar channel, and Iranian radio and television buildings. The forum described these attacks on civilian media institutions as a blatant violation of press freedom. The targeting of these media outlets represents an escalation in the ongoing regional conflict.",
+    "translated": true,
+    "countries_mentioned": [
+      "Palestine",
+      "Israel",
+      "Lebanon",
+      "Iran",
+      "Yemen"
+    ]
   },
   {
     "id": "bb2028e7863c7ae6",

@@ -10,12 +10,20 @@
     "source_category": "independent",
     "language": "en",
     "region": "south_asia",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "MEA on Iran-US war: One crore Indians in Gulf, economic consequences",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "India's Ministry of External Affairs stated that nearly one crore (10 million) Indian nationals reside and work in the Gulf region, making their safety the foremost priority amid the Iran-US conflict. The MEA also warned of potential economic consequences stemming from the ongoing hostilities in the region.",
+    "countries_mentioned": [
+      "India",
+      "Iran",
+      "United States"
+    ]
   },
   {
     "id": "80fb0563c7a51c37",
     "title_original": "Is the Sultan of Brunei in the Epstein files? Bill Clinton's hot tub photo sparks fresh row after deposition",
-    "content_original": "Bill Clinton clarified that the infamous hot tub photos were from a Brunei hotel visit and mentioned that the Sultan of Brunei invited the party to the resort.&nbsp;",
     "url": "https://www.hindustantimes.com/world-news/us-news/is-the-sultan-of-brunei-in-the-epstein-files-bill-clintons-hot-tub-photo-sparks-fresh-row-after-deposition-101772500705706.html",
     "published": "2026-03-03T17:39:56+05:30",
     "fetched_at": "2026-03-03T12:29:21.137258+00:00",
@@ -23,7 +31,9 @@
     "source_category": "independent",
     "language": "en",
     "region": "south_asia",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "9e9c2a1f3894c14a",
@@ -36,12 +46,20 @@
     "source_category": "independent",
     "language": "en",
     "region": "south_asia",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "When will US-Israel-Iran war stop? Trump, Netanyahu share views as war rages on Day 4",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The US-Israel-Iran conflict continues into its fourth day following the death of Iran's Supreme Leader Ayatollah Ali Khamenei in an Israeli strike. Tehran has launched retaliatory strikes on US bases in response. US President Trump and Israeli Prime Minister Netanyahu have shared their perspectives on the ongoing war as hostilities escalate across multiple fronts.",
+    "countries_mentioned": [
+      "United States",
+      "Israel",
+      "Iran"
+    ]
   },
   {
     "id": "13486ebfc2a3506c",
     "title_original": "Iran-Israel war: PM Modi speaks with leaders of Oman, Kuwait, expresses concern over attacks",
-    "content_original": "During the discussions, PM Modi expressed concern at the attacks in the respective countries and discussed the welfare and security of the Indian community",
     "url": "https://www.thehindu.com/news/national/iran-israel-war-pm-modi-speaks-with-leaders-of-oman-kuwait-expresses-concern-over-attacks/article70699346.ece",
     "published": "2026-03-03T17:30:54+05:30",
     "fetched_at": "2026-03-03T12:29:20.880210+00:00",
@@ -49,12 +67,18 @@
     "source_category": "independent",
     "language": "en",
     "region": "south_asia",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": [
+      "India",
+      "Oman",
+      "Kuwait"
+    ]
   },
   {
     "id": "71a45c20639d2bd8",
     "title_original": "Indian media aflutter after ‘airplane shaped balloon’ spotted in occupied Kashmir",
-    "content_original": "A balloon in the shape of an airplane has caused a stir on Indian media. According to several media outlets, the balloon has been taken into police custody. Indian news agency ANI posted on X that an “aircraft-shaped balloon” with “PIA” written on its was found in Rajouri in occupied Kashmir. “The police team took the object into possession. No electrical or electronic components were found affixed,” the post said, citing police. The images shared with the post showed a deflated balloon in the shape of a plane and with the words PIA on the sides, ostensibly a reference to Pakistan International Airlines. The development was also reported by the Hindustan Times , Times of India . Meanwhile, NDTV also shared the the same on its X account. “Further proceedings underway to determine its origin,” it said. In 2021, a similar incident had occurred, with authorities in occupied Kashmir seizing a plane-shaped balloon bearing the name of the Pakistan International Airlines. According to the repo...",
     "url": "https://www.dawn.com/news/1977887/indian-media-aflutter-after-airplane-shaped-balloon-spotted-in-occupied-kashmir",
     "published": "2026-03-03T17:26:14+05:00",
     "fetched_at": "2026-03-03T12:29:21.552251+00:00",
@@ -62,7 +86,9 @@
     "source_category": "independent",
     "language": "en",
     "region": "south_asia",
-    "skip_translation": true
+    "skip_translation": true,
+    "translated": true,
+    "relevant": false
   },
   {
     "id": "713079114cf323d2",
@@ -75,7 +101,16 @@
     "source_category": "independent",
     "language": "en",
     "region": "south_asia",
-    "skip_translation": true
+    "skip_translation": true,
+    "title_en": "Pakistan's airspace remains fully open, PAA denies partial closure reports",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Pakistan Aviation Authority has clarified that Pakistan's airspace remains fully open and operational, denying reports of any partial closure. The authority stated that a Notice to Airmen (Notam) in question was merely a routine operational advisory. Global air travel continues to experience disruptions amid the ongoing US-Iran conflict.",
+    "countries_mentioned": [
+      "Pakistan",
+      "United States",
+      "Iran"
+    ]
   },
   {
     "id": "3cb3ad9c44f5f32f",

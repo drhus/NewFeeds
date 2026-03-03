@@ -2,7 +2,6 @@
   {
     "id": "ab3e5d352885449c",
     "title_original": "EgyptAir offers penalty-free refunds for cancelled flights until March 15",
-    "content_original": "EgyptAir has confirmed it will allow passengers affected by recent flight cancellations to refund their tickets without penalty. The national carrier’s decision comes as it continues to navigate operational challenges, offering travelers more flexibility during the current period of instability. &nbsp; Full refunds and rebooking Under the new directive, passengers can cancel their bookings free of charge through their original point of purchase. This includes tickets booked via the airline&#8217;s official website, corporate offices, or authorized travel agencies. The airline clarified that the waiver applies specifically to flights impacted by the recent wave of cancellations, subject to standard ticketing terms. &nbsp; Customer support channels Travelers are encouraged to verify their flight status and manage bookings through the following official channels: Within Egypt: Call 1717 (Mobile) or 090070000 (Landline). International: +971 4 230 6666 or +966 12 229 7777. Online: Visit egy...",
     "url": "https://egyptindependent.com/egyptair-offers-penalty-free-refunds-for-cancelled-flights-until-march-15/",
     "published": "2026-03-03T12:37:59+00:00",
     "fetched_at": "2026-03-03T12:38:38.589869+00:00",
@@ -11,14 +10,42 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "EgyptAir offers penalty-free refunds for cancelled flights until March 15",
     "translated": true,
     "relevant": false
   },
   {
+    "id": "0a798f158a82138e",
+    "title_original": "كركوك.. نجاح عملية جراحية دقيقة لشاب يعاني من سرطان الغدة الدرقية",
+    "url": "https://almasra.iq/178660/",
+    "published": "2026-03-03T12:37:33+00:00",
+    "fetched_at": "2026-03-03T12:38:37.683016+00:00",
+    "source_name": "Al-Masra (Iraq)",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
+    "id": "636cd262db19d048",
+    "title_original": "الهيئة العامة للاستثمار ومجموعة السويدى يبحثان إنشاء أول منطقة استثمارية خاصة بمصر",
+    "url": "https://www.nile.eg/%d8%a7%d9%84%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%84%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d9%88%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%b3%d9%88",
+    "published": "2026-03-03T12:37:00+00:00",
+    "fetched_at": "2026-03-03T12:38:38.670839+00:00",
+    "source_name": "Nile News Egypt",
+    "source_category": "state",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
     "id": "f29e30bbd75dba4f",
     "title_original": "⚡ Launches from Iran to the North of Israel now",
-    "content_original": "⚡ Launches from Iran to the North of Israel now",
     "url": "https://t.me/warmonitors/40672",
     "published": "2026-03-03T12:36:31+00:00",
     "fetched_at": "2026-03-03T12:38:52.206195+00:00",
@@ -27,9 +54,30 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "⚡ Launches from Iran to the North of Israel now",
     "translated": true,
     "relevant": false
+  },
+  {
+    "id": "73df188c7adb5324",
+    "title_original": "رئيس الوزراء: مصر تبذل جهودا كبيرة وتعمل على احتواء وتجنب التصعيد الاقليمى",
+    "content_original": "أكد رئيس الوزراء مصطفى مدبولي اليوم الثلاثاء إن مصر تبذل جهودا كبيرة وتعمل على احتواء وتجنب التصعيد الاقليمي ووقف الحرب. وقال رئيس الوزراء، خلال مؤتمر صحفى عقد اليوم، إن الحرب الدائرة سيكون لها تداعيات اقتصادية كبيرة على العالم كله فيما فيه مصر. وشدد على أن الدولة &#8220;تعمل على توفير إمدادات الطاقة بطرق مختلفة&#8221;. وأوضح أن الحكومة وضعت خطة لتأمين مخزون الغاز فى مصر. وأضاف أن الحكومة وضعت خطة لتأمين مخزون السلع الاستراتيجية واللحوم والدواجن.",
+    "url": "https://www.nile.eg/%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d9%88%d8%b2%d8%b1%d8%a7%d8%a1-%d9%85%d8%b5%d8%b1-%d8%aa%d8%a8%d8%b0%d9%84-%d8%ac%d9%87%d9%88%d8%af%d8%a7-%d9%83%d8%a8%d9%8a%d8%b1%d8%a9-%d9%88%d8%aa%d8%b9%d9%85",
+    "published": "2026-03-03T12:32:34+00:00",
+    "fetched_at": "2026-03-03T12:33:57.603458+00:00",
+    "source_name": "Nile News Egypt",
+    "source_category": "state",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Prime Minister: Egypt Making Great Efforts to Contain and Avoid Regional Escalation",
+    "summary_en": "Egyptian Prime Minister Mustafa Madbouly stated that Egypt is making significant efforts to contain and avoid regional escalation and to stop the war. During a press conference, he warned that the ongoing war will have major economic repercussions on the entire world, including Egypt. He emphasized that the government is working to secure energy supplies through various methods and has developed plans to secure gas reserves and strategic food stockpiles.",
+    "translated": true,
+    "countries_mentioned": [
+      "Egypt",
+      "United States",
+      "Iran"
+    ]
   },
   {
     "id": "2dc842026611bba3",
@@ -55,9 +103,29 @@
     ]
   },
   {
+    "id": "0f5398bfd781aa93",
+    "title_original": "الحرب السيبرانية.. مواجهة رقمية توازن بين الردع والتصعيد المفتوح",
+    "content_original": "تُعدّ الحرب السيبرانية اليوم من أخطر أدوات الصراع في الشرق الأوسط، خصوصًا في ظل المواجهة المتصاعدة بين أمريكا وإيران. فبينما تتبادل الأطراف التهديدات العسكرية التقليدية، تدور في الخفاء حرب تكنولوجية معقّدة، تستهدف البنى التحتية الحساسة، وأنظمة الطاقة، وشبكات الاتصالات، وحتى الأسواق المالية. هذه المواجهة لا تُرى بالعين المجردة، لكنها قد تُحدث شللاً كاملاً خلال دقائق، وتفتح الباب أمام تصعيد عسكري واسع. &nbsp; جذور الصراع الرقمي… من الاختراق إلى الردع &nbsp; المواجهة الإلكترونية بين واشنطن وطهران ليست وليدة اللحظة. فقد شكّل الهجوم الشهير بفيروس Stuxnet نقطة تحوّل مفصلية في تاريخ الحروب الرقمية، بعدما استهدف منشآت نووية إيرانية وأدخل مفهوم “الهجوم السيبراني الاستراتيجي” إلى المعادلات العسكرية. منذ ذلك الحين، دخلت إيران سباق تطوير قدراتها الإلكترونية، فيما عززت الولايات المتحدة وإسرائيل منظومات الهجوم والدفاع الرقمي باعتبارها خط الدفاع الأول في أي مواجهة مستقبلية. &nbsp; تصعيد حالي… والرسائل تُرسل عبر الكود &nbsp; مع احتدام المواجهة بين أمريكا وإيران، يرى خبراء أمنيون أن أي ضربة عسكرية محتم...",
+    "url": "https://almasra.iq/178657/",
+    "published": "2026-03-03T12:31:39+00:00",
+    "fetched_at": "2026-03-03T12:33:56.756408+00:00",
+    "source_name": "Al-Masra (Iraq)",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Cyber War: Digital Confrontation Balances Between Deterrence and Open Escalation",
+    "summary_en": "Cyber warfare has emerged as one of the most dangerous tools of conflict in the Middle East, particularly in the escalating US-Iran confrontation. While traditional military threats are exchanged, a covert technological war targets sensitive infrastructure, energy systems, communications networks, and financial markets. The article notes that the Stuxnet attack on Iranian nuclear facilities marked a pivotal turning point, introducing the concept of 'strategic cyber attack' into military equations.",
+    "translated": true,
+    "countries_mentioned": [
+      "United States",
+      "Iran"
+    ]
+  },
+  {
     "id": "199e6916fdb050ba",
     "title_original": "⚡️  Iran's Provisional Leadership Council: The council consists of President Masoud Pazakhian, Chief of the Judiciary...",
-    "content_original": "⚡️ Iran's Provisional Leadership Council: The council consists of President Masoud Pazakhian, Chief of the Judiciary Gholam-Hossein Ajayi, and the head of the Guardian Council, Ali-Reza Arapi.",
     "url": "https://t.me/warmonitors/40671",
     "published": "2026-03-03T12:31:32+00:00",
     "fetched_at": "2026-03-03T12:34:10.312936+00:00",
@@ -66,9 +134,28 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "⚡️  Iran's Provisional Leadership Council: The council consists of President Masoud Pazakhian, Chief of the Judiciary...",
     "translated": true,
     "relevant": false
+  },
+  {
+    "id": "f436ce28c69e9b93",
+    "title_original": "هيئة قناة السويس:”حركة الملاحة بالقناة منتظمة من الاتجاهين”",
+    "content_original": "صرح الفريق أسامة ربيع رئيس هيئة قناة السويس، بأن حركة الملاحة بالقناة تعمل بصورة منتظمة من الاتجاهين، مؤكدا استمرار القناة في تقديم خدماتها الملاحية بصورة طبيعية على مدار الساعة. وأضاف الفريق ربيع أن قناة السويس تشهد اليوم الثلاثاء، عبور 56 سفينة من الاتجاهين، بإجمالي حمولات صافية قدرها 2.6 مليون طن، حيث تعبر 24 سفينة من قافلة الشمال بإجمالي حمولات صافية قدرها مليون طن، فيما تعبر 32 سفينة من قافلة الجنوب بإجمالي حمولات صافية قدرها 1.6 مليون طن. وأشار رئيس الهيئة إلى أن إعلان بعض الخطوط الملاحية الكبرى تعليق عبورها من قناة السويس يظل أمراً مؤقتاً مرهون بتطورات الأوضاع الأمنية في المنطقة، مؤكدا أن قناة السويس تواصل جهودها في التواصل مع كافة العملاء والخطوط الملاحية والتنسيق المشترك لخدمة حركة التجارة العالمية، وضمان استدامة سلاسل الإمداد. وأعرب الفريق ربيع عن أمله في أن تشهد الفترة المُقبلة انفراجة في الأوضاع الأمنية لما لها من تأثيرات جوهرية على حرية الملاحة في المنطقة.",
+    "url": "https://www.nile.eg/%d9%87%d9%8a%d8%a6%d8%a9-%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%b3%d9%88%d9%8a%d8%b3%d8%ad%d8%b1%d9%83%d8%a9-%d8%a7%d9%84%d9%85%d9%84%d8%a7%d8%ad%d8%a9-%d8%a8%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9",
+    "published": "2026-03-03T12:30:13+00:00",
+    "fetched_at": "2026-03-03T12:33:57.603573+00:00",
+    "source_name": "Nile News Egypt",
+    "source_category": "state",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Suez Canal Authority: Shipping Traffic Through Canal Regular in Both Directions",
+    "summary_en": "Suez Canal Authority Chairman Osama Rabie confirmed that shipping traffic is running normally in both directions, with 56 ships crossing on Tuesday carrying 2.6 million tons total. He noted that some major shipping lines have temporarily suspended transits pending developments in the regional security situation, while the canal continues coordinating with clients to maintain operations.",
+    "translated": true,
+    "countries_mentioned": [
+      "Egypt"
+    ]
   },
   {
     "id": "eafa1445a799825f",
@@ -113,6 +200,87 @@
     ]
   },
   {
+    "id": "8b7817ce48b34a6d",
+    "title_original": "محافظ كركوك يوجه بإكمال متطلبات توزيع الأراضي على المعلمين",
+    "url": "https://almasra.iq/178640/",
+    "published": "2026-03-03T12:28:15+00:00",
+    "fetched_at": "2026-03-03T12:29:19.679067+00:00",
+    "source_name": "Al-Masra (Iraq)",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
+    "id": "b7e37fa3c6f0192b",
+    "title_original": "وزير الأشغال يتفقد مشروع صيانة إسكان الأميرة إيمان في سحاب",
+    "url": "https://www.hala.jo/2026/03/03/%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%a3%d8%b4%d8%ba%d8%a7%d9%84-%d9%8a%d8%aa%d9%81%d9%82%d8%af-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%a5%d8%b3%d9%83%d8%a7%d9%86-%d8%a7/",
+    "published": "2026-03-03T12:24:44+00:00",
+    "fetched_at": "2026-03-03T12:38:37.893070+00:00",
+    "source_name": "Hala Jordan",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
+    "id": "af07de04b922bd53",
+    "title_original": "الرافدين يعلن المباشرة بتوزيع رواتب المتقاعدين",
+    "url": "https://almasra.iq/178652/",
+    "published": "2026-03-03T12:23:58+00:00",
+    "fetched_at": "2026-03-03T12:29:19.679146+00:00",
+    "source_name": "Al-Masra (Iraq)",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
+    "id": "0ab0c181434e93d5",
+    "title_original": "شكرا دولة الرئيس",
+    "url": "https://www.hala.jo/2026/03/03/%d8%b4%d9%83%d8%b1%d8%a7-%d8%af%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3/",
+    "published": "2026-03-03T12:22:57+00:00",
+    "fetched_at": "2026-03-03T12:38:37.893150+00:00",
+    "source_name": "Hala Jordan",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
+    "id": "b964bbcff19ca850",
+    "title_original": "سلسلة غارات جديدة تستهدف الضاحية الجنوبية لبيروت",
+    "content_original": "استهدفت اليوم الثلاثاء سلسلة جديدة من الغارات الجوية الإسرائيلية العنيفة الضاحية الجنوبية لبيروت دون سابق انذار مخلفة أضرارا كبيرة في المباني المستهدفة. وكانت الضاحية الجنوبية منذ الصباح الباكر قد تعرضت لغارات عنيفة متزامنة مع تحليق مكثف للطيران الحربي المسير على علو منخفض جدا وقد سمع دوي الانفجارات في العاصمة بيروت. المصدر: وكالة أنباء الشرق الأوسط (أ ش أ)",
+    "url": "https://www.nile.eg/%d8%b3%d9%84%d8%b3%d9%84%d8%a9-%d8%ba%d8%a7%d8%b1%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%a7%d9%84%d8%b6%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d9%86",
+    "published": "2026-03-03T12:20:16+00:00",
+    "fetched_at": "2026-03-03T12:29:20.456629+00:00",
+    "source_name": "Nile News Egypt",
+    "source_category": "state",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "New Series of Airstrikes Target Southern Suburbs of Beirut",
+    "summary_en": "Israeli airstrikes targeted the southern suburbs of Beirut on Tuesday without warning, causing significant damage to buildings. The southern suburbs had been under heavy bombardment since early morning alongside intense low-altitude drone activity, with explosions heard throughout the Lebanese capital. The strikes target an area known as a Hezbollah stronghold.",
+    "translated": true,
+    "countries_mentioned": [
+      "Israel",
+      "Lebanon"
+    ]
+  },
+  {
     "id": "d28cbed9f3ce808f",
     "title_original": "Israel launches new ground incursions into southern Lebanon",
     "content_original": "The Israeli army on Tuesday launched a series of ground&nbsp; incursions into southern Lebanon , as the conflict sparked by&nbsp; the US-Israeli assault on Iran spills outside the Gulf. Israeli Defence Minister Israel Katz announced the deployment of troops from the 91st Division to southern Lebanon, who have now positioned themselves at several new \"strategic points\" along the border. It comes after Hezbollah fired missiles into Israel on Sunday, launching a wave of air strikes devastating southern Lebanon, killing at least 52 people by Tuesday. The Israeli military said it is \"striving to strengthen the security of the people of the North by conducting large-scale strikes against Hezbollah terrorist infrastructure in order to counter threats and prevent any attempt at infiltration into Israel\". The military spokesperson did not refer to the operation as a \"ground invasion\" but a \"tactical measure\". The Israeli army was already occupying five points in Lebanon’s south in violation of ...",
@@ -138,7 +306,6 @@
   {
     "id": "71a96369522a23e7",
     "title_original": "The Changing Perceptions of Iraq",
-    "content_original": "From the Iraq Britain Business Council (IBBC) : You could be forgiven for thinking that Iraq is only dependant on oil and is a country struggling with conflict. However, reality has moved on from old perceptions and scarcely reflect the recent changes and dynamics that are tangible and progressing well. With a stable economic and political stability, Iraq is back and modernising. Indeed, in the context of the current middle east scenarios, Iraq has been relatively unscathed, muted, and mature in its handling of tensions. Iraq's financial and investment landscape is remodelling as reforms are starting to show measurable results across a range of sectors and an economy diversifying at pace. IBBC's members have likewise reflected the sectoral diversification, including streaming platforms, event companies, design consultancy capabilities, maritime industries, tourism, recruitment and increasing applications of AI to manage production installations. For a taster of what has been happening ...",
     "url": "https://www.iraq-businessnews.com/2026/03/03/the-changing-perceptions-of-iraq/",
     "published": "2026-03-03T12:19:00+00:00",
     "fetched_at": "2026-03-03T12:29:23.675344+00:00",
@@ -147,10 +314,8 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "The Changing Perceptions of Iraq",
     "translated": false,
     "relevant": false,
-    "summary_en": "",
     "countries_mentioned": []
   },
   {
@@ -199,7 +364,6 @@
   {
     "id": "ac7cafd1387ffa97",
     "title_original": "⚡ Iran's Mehr News Agency, citing reliable sources, reports that Mojtaba Khamenei, son of the late Supreme Leader, is...",
-    "content_original": "⚡ Iran's Mehr News Agency, citing reliable sources, reports that Mojtaba Khamenei, son of the late Supreme Leader, is well and is monitoring the situation",
     "url": "https://t.me/warmonitors/40669",
     "published": "2026-03-03T12:16:32+00:00",
     "fetched_at": "2026-03-03T12:34:10.312379+00:00",
@@ -208,7 +372,6 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "⚡ Iran's Mehr News Agency, citing reliable sources, reports that Mojtaba Khamenei, son of the late Supreme Leader, is...",
     "translated": true,
     "relevant": false
   },
@@ -234,9 +397,52 @@
     ]
   },
   {
+    "id": "20fde1892e3dc2ce",
+    "title_original": "Trump suggests UK's Starmer pandering to Muslim voters over Iran reluctance",
+    "content_original": "Trump suggests UK's Starmer pandering to Muslim voters over Iran reluctance Submitted by Imran Mulla on Tue, 03/03/2026 - 10:46 The US president said Britain is 'not such a recognisable country' anymore as tensions grow after the UK delayed giving Washington access to key base US President Donald Trump greets Britain's Prime Minister Keir Starmer during a summit on Gaza in Sharm el-Sheikh on 13 October (AFP) Off US President Donald Trump has condemned British Prime Minister Keir Starmer for not backing the US- Israeli attack on Iran , suggesting he \"could be\" pandering to British Muslim voters. Trump told The Sun newspaper that&nbsp;Britain is \"not such a recognisable country\" anymore and said the UK should \"stop people from coming in from foreign lands who hate you\". Asked if Starmer is \"pandering\" to Muslim voters, the president said \"it could be\" the case. Starmer&nbsp; announced &nbsp;on Sunday night that the US would be allowed&nbsp;to use British bases for the purpose of targetin...",
+    "url": "https://www.middleeasteye.net/news/trump-suggests-uks-starmer-pandering-muslim-voters-over-iran-decision",
+    "published": "2026-03-03T12:14:52+00:00",
+    "fetched_at": "2026-03-03T12:29:18.138584+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Trump suggests UK's Starmer pandering to Muslim voters over Iran reluctance",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "US President Donald Trump criticized British Prime Minister Keir Starmer for not supporting the US-Israeli attack on Iran, suggesting Starmer may be pandering to British Muslim voters. Trump told The Sun newspaper that Britain is 'not such a recognizable country' anymore amid tensions following the UK's delay in granting the US access to a key base. The disagreement highlights growing transatlantic tensions over the Iran military conflict.",
+    "countries_mentioned": [
+      "United States",
+      "United Kingdom",
+      "Iran",
+      "Israel"
+    ]
+  },
+  {
+    "id": "d2c48d28a3d05e75",
+    "title_original": "الجيش: الصواريخ الإيرانية ليست عابرة وتستهدف الأراضي الأردنية",
+    "content_original": "هلا أخبار &#8211; أكد مدير الإعلام العسكري، العميد الركن مصطفى الحياري، أن الصواريخ الإيرانية ليست عابرة وتستهدف الأراضي الأردنية. وقال الحياري لـ المملكة، إن القوات المسلحة تقوم بالدفاع عن الوطن بكل قوة. وبين أن الجيش سيرد بحزم على أية محاولات تمس بأمن الوطن، مشيرا إلى أن التهديدات لن تثني القوات المسلحة عن القيام بمهامها. وطالب &#8230;",
+    "url": "https://www.hala.jo/2026/03/03/%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d8%b5%d9%88%d8%a7%d8%b1%d9%8a%d8%ae-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%8a%d8%b3%d8%aa-%d8%b9%d8%a7%d8%a8%d8%b1%d8%a9-%d9%88/",
+    "published": "2026-03-03T12:13:05+00:00",
+    "fetched_at": "2026-03-03T12:38:37.893226+00:00",
+    "source_name": "Hala Jordan",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": true,
+    "title_en": "Jordanian Military: Iranian Missiles Not Transiting, Targeting Jordanian Territory",
+    "summary_en": "Jordan's Director of Military Information Major General Mustafa Al-Hiyari confirmed that Iranian missiles are not transiting through Jordanian airspace but are directly targeting Jordanian territory. He stated that the armed forces will defend the nation with full strength and respond firmly to any attempts threatening national security, emphasizing that threats will not deter them from carrying out their duties.",
+    "translated": true,
+    "countries_mentioned": [
+      "Jordan",
+      "Iran"
+    ]
+  },
+  {
     "id": "3fa0c8546f4a1378",
     "title_original": "⚡️ #BREAKING  An Israeli “Merkava” tank advanced from the Al-Mahafir hill towards the town of Rab Thalathin in the Al...",
-    "content_original": "⚡️ #BREAKING An Israeli “Merkava” tank advanced from the Al-Mahafir hill towards the town of Rab Thalathin in the Al-Adisa area",
     "url": "https://t.me/warmonitors/40668",
     "published": "2026-03-03T12:11:32+00:00",
     "fetched_at": "2026-03-03T12:34:10.312041+00:00",
@@ -245,9 +451,23 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "⚡️ #BREAKING  An Israeli “Merkava” tank advanced from the Al-Mahafir hill towards the town of Rab Thalathin in the Al...",
     "translated": true,
     "relevant": false
+  },
+  {
+    "id": "a871891b54bfb070",
+    "title_original": "أداء متباين لمؤشرات البورصة المصرية عند إغلاق تعاملات الثلاثاء",
+    "url": "https://www.nile.eg/%d8%a3%d8%af%d8%a7%d8%a1-%d9%85%d8%aa%d8%a8%d8%a7%d9%8a%d9%86-%d9%84%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a8%d9%88%d8%b1%d8%b5%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%b9-8",
+    "published": "2026-03-03T12:06:42+00:00",
+    "fetched_at": "2026-03-03T12:29:20.456744+00:00",
+    "source_name": "Nile News Egypt",
+    "source_category": "state",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
   },
   {
     "id": "b5f0c0aecc37f2d8",
@@ -271,6 +491,28 @@
     ]
   },
   {
+    "id": "9fc30c3c6af8c774",
+    "title_original": "IAEA confirms entrances to Iran's Natanz plant were bombed",
+    "content_original": "Entrances to Iran's underground and previously bombed uranium-enrichment plant at Natanz have been struck as part of the US-Israeli military attacks on the country, the UN nuclear watchdog confirmed on Tuesday. The underground Fuel Enrichment Plant (FEP) is one of Iran's three uranium-enrichment plants that are known to have been operating when Israel and the United States carried out strikes on Iranian nuclear facilities last June. \"Based on the latest available satellite imagery, IAEA can now confirm some recent damage to the entrance buildings of Iran's underground Natanz Fuel Enrichment Plant,\" the International Atomic Energy Agency said on X. \"No radiological consequence expected and no additional impact detected at FEP itself, which was severely damaged in the June conflict,\" it added. The IAEA's finding fits with that of US think-tank the Institute for Science and International Security published on Monday after Iran said Natanz was hit on Sunday and the IAEA responded that any ...",
+    "url": "https://www.newarab.com/news/iaea-confirms-entrances-irans-natanz-plant-were-bombed",
+    "published": "2026-03-03T12:06:35+00:00",
+    "fetched_at": "2026-03-03T12:29:18.344779+00:00",
+    "source_name": "The New Arab",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "IAEA Confirms Damage to Natanz Nuclear Plant Entrances From US-Israeli Strikes",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "The IAEA confirmed that entrances to Iran's underground Natanz uranium-enrichment plant were struck during US-Israeli military attacks on Iranian nuclear facilities. Satellite imagery shows damage to the entrance buildings of the underground Fuel Enrichment Plant, one of Iran's three known operating enrichment sites. No radiological consequences are expected. This represents a significant escalation in the targeting of Iran's nuclear infrastructure.",
+    "countries_mentioned": [
+      "Iran",
+      "United States",
+      "Israel"
+    ]
+  },
+  {
     "id": "c946bf5280a718af",
     "title_original": "US-Israeli strikes on Iran tear through IVF clinic, hospitals and homes",
     "content_original": "US-Israeli strikes on Iran tear through IVF clinic, hospitals and homes Submitted by MEE correspondent on Tue, 03/03/2026 - 11:33 Iranians describe the agony of not knowing the fate of their samples held in fertility centre badly damaged by war A collapsed stud wall at the Gandhi hospital in Tehran, which was hit by a strike on 1 March 2026 (Atta Kenare/AFP) On Mohsen and Firouzeh have been trying to have a child for years and recently turned to IVF, using a clinic at Tehran’s Ghandi hospital. “The hospital staff worked so hard to help us,” Mohsen says. “After 10 years of trying, we finally had hope.” But on Sunday, the second day of a devastating US - Israeli bombing campaign on Iran , a strike hit the prominent private hospital, reportedly causing “very serious damage” to its fertility clinic. Mohammad Hassan Bani Asad, the head of Gandhi hospital, told local media that one staff member suffered serious wounds, including brain bleeding, and had to undergo surgery. “Now, after hearing...",
@@ -290,6 +532,44 @@
       "Iran",
       "United States",
       "Israel"
+    ]
+  },
+  {
+    "id": "cd4354b9bae80715",
+    "title_original": "الهيئة العامة للاستثمار وHSBC يبحثان خطة مشتركة للترويج للاستثمار المصري عالميا",
+    "url": "https://www.nile.eg/%d8%a7%d9%84%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%84%d9%84%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1-%d9%88hsbc-%d9%8a%d8%a8%d8%ad%d8%ab%d8%a7%d9%86-%d8%ae%d8%b7%d8%a9",
+    "published": "2026-03-03T12:03:00+00:00",
+    "fetched_at": "2026-03-03T12:29:20.456880+00:00",
+    "source_name": "Nile News Egypt",
+    "source_category": "state",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
+    "id": "8bf202bb82f40efa",
+    "title_original": "Indonesia to import more oil from US after Israel-US war in Middle East",
+    "content_original": "Indonesia to import more oil from US after Israel-US war in Middle East Indonesia will boost crude oil imports from the United States to offset disrupted supplies from the Middle East as the Israeli-US war in the region escalates, the country’s energy minister said on Tuesday. The ongoing US and Israeli air campaign against Iran has killed hundreds of civilians across Iran and disrupted global air travel and driven oil prices higher following the effective closure of the Strait of Hormuz - the narrow passageway that carries around one-fifth of the world’s oil trade. Energy Minister Bahlil Lahadalia said roughly a quarter of Indonesia’s crude imports come from the Middle East, while the region supplies about 30 per cent of its liquefied petroleum gas (LPG). “The current scenario is that for the crude that we import from the Middle East, we will redirect to the United States, so that there's certainty of availability for us,” Bahlil said. He added that two tankers operated by Indonesia’s...",
+    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/indonesia-import-more-oil-us-after-israel-us-war-middle-east",
+    "published": "2026-03-03T12:01:42+00:00",
+    "fetched_at": "2026-03-03T12:29:18.138962+00:00",
+    "source_name": "Middle East Eye",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Indonesia to import more oil from US after Israel-US war in Middle East",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Indonesia will boost crude oil imports from the United States to offset disrupted supplies from the Middle East amid the escalating Israeli-US war against Iran, Energy Minister Bahlil Lahadalia said. The US and Israeli air campaign against Iran has killed hundreds of civilians, disrupted global air travel, and driven oil prices higher following the effective closure of the Strait of Hormuz, which carries around one-fifth of the world's oil trade.",
+    "countries_mentioned": [
+      "Indonesia",
+      "United States",
+      "Israel",
+      "Iran"
     ]
   },
   {
@@ -375,9 +655,23 @@
     "translated": true
   },
   {
+    "id": "849ab49470ba23e3",
+    "title_original": "نقابة الصحفيين الأردنيين تدعو إلى تحري الدقة والاعتماد على المصادر الرسمية في متابعة التطورات العسكرية في المنطقة",
+    "url": "http://www.sahafi.jo/files/art.php?id=43b259f1a25b8185f99dde7f3854502a34b06663",
+    "published": "2026-03-03T12:00:00-05:00",
+    "fetched_at": "2026-03-03T12:29:18.883451+00:00",
+    "source_name": "Sahafi Jordan",
+    "source_category": "independent",
+    "language": "ar",
+    "region": "middle_east",
+    "skip_translation": false,
+    "relevant": false,
+    "translated": false,
+    "countries_mentioned": []
+  },
+  {
     "id": "a3b19435a13945a1",
     "title_original": "UK working with airlines to boost Oman evacuations",
-    "content_original": "LONDON, March 3 (Reuters) - Foreign minister Yvette Cooper said on Tuesday that Britain was working with airlines on increasing capacity out of Muscat, Oman to prioritise the evacuation of vulnerable British nationals. Cooper, addressing lawmakers in parliament, said she was in close contact with her counterparts in the Gulf countries, where 130,000 British citizens have now registered their presence in the region. \"We are also working with airlines on increasing capacity out of Muscat for British nationals, with priority for vulnerable nationals,\" Cooper said.",
     "url": "https://www.al-monitor.com/originals/2026/03/uk-working-airlines-boost-oman-evacuations",
     "published": "2026-03-03T07:36:41-05:00",
     "fetched_at": "2026-03-03T12:38:36.446852+00:00",
@@ -386,14 +680,12 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "UK working with airlines to boost Oman evacuations",
     "translated": true,
     "relevant": false
   },
   {
     "id": "6e010adc0b9fedff",
     "title_original": "Pakistanis at remote border describe scramble to leave Iran",
-    "content_original": "Pakistani nationals hauled suitcases across the border from neighbouring Iran, describing missiles being launched and travel chaos as they scrambled to leave the country that the United States and Israel hit with strikes over the weekend. AFP journalists saw a steady trickle of people passing through large metal gates at the remote border crossing between Iran's Mirjaveh and Taftan in Pakistan's western Balochistan province. Powerful explosions have rocked Iran's capital Tehran since Saturday, with embassies from countries around the world telling their citizens to leave.",
     "url": "https://www.al-monitor.com/originals/2026/03/pakistanis-remote-border-describe-scramble-leave-iran",
     "published": "2026-03-03T07:00:29-05:00",
     "fetched_at": "2026-03-03T12:29:18.157138+00:00",
@@ -402,9 +694,41 @@
     "language": "en",
     "region": "middle_east",
     "skip_translation": true,
-    "title_en": "Pakistanis at remote border describe scramble to leave Iran",
     "translated": true,
     "relevant": false
+  },
+  {
+    "id": "4a9d2ead3070e570",
+    "title_original": "UN urges all sides in Middle East war to 'come to their senses'",
+    "url": "https://www.al-monitor.com/originals/2026/03/un-urges-all-sides-middle-east-war-come-their-senses",
+    "published": "2026-03-03T07:00:29-05:00",
+    "fetched_at": "2026-03-03T12:29:18.157058+00:00",
+    "source_name": "Al-Monitor",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "translated": false,
+    "relevant": false,
+    "countries_mentioned": []
+  },
+  {
+    "id": "0a90bd3600c00dc8",
+    "title_original": "Global markets turmoil intensifies on Iran war",
+    "content_original": "Global stock markets dived, energy prices surged and the dollar gained Tuesday as the Iran war drove volatility across global financial markets and roiled companies worldwide. World oil prices soared more than eight percent and European natural gas prices rocketed for a second day running as the war disrupted Middle East exports. Brent North Sea crude, the international benchmark, topped $85 a barrel for the first time since July 2024.",
+    "url": "https://www.al-monitor.com/originals/2026/03/global-markets-turmoil-intensifies-iran-war",
+    "published": "2026-03-03T07:00:29-05:00",
+    "fetched_at": "2026-03-03T12:29:18.157203+00:00",
+    "source_name": "Al-Monitor",
+    "source_category": "independent",
+    "language": "en",
+    "region": "middle_east",
+    "skip_translation": true,
+    "title_en": "Global markets turmoil intensifies on Iran war",
+    "translated": true,
+    "relevant": true,
+    "summary_en": "Global stock markets fell, energy prices surged, and the dollar strengthened as the Iran-US conflict drove volatility across financial markets. World oil prices jumped over eight percent and European natural gas prices rose for a second consecutive day, with Brent crude reaching $85 per barrel for the first time since July 2024, as the war disrupted Middle East exports.",
+    "countries_mentioned": []
   },
   {
     "id": "bee76479cc3a32c6",
