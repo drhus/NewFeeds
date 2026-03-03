@@ -142,7 +142,7 @@ export default function NewsCard({ article, searchQuery }: NewsCardProps) {
         >
           {formatTimeAgo(article.published, article.fetched_at)}
           {article.fetched_at && (
-            <span style={{ opacity: 0.6 }}>
+            <span style={{ opacity: 0.6 }} suppressHydrationWarning>
               {" · "}{formatFetchedAt(article.fetched_at)}
             </span>
           )}
