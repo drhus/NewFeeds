@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="8;url=https://newsfeed-staging.pages.dev/" />
+  <title>Iran &amp; Region Monitor — We've Moved</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #fef6f0;
+      color: #5b4230;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    .card {
+      background: #fff9f5;
+      border: 1.5px solid #f5e0d5;
+      border-radius: 18px;
+      padding: 48px 40px;
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 32px rgba(91,66,48,0.08);
+    }
+
+    .pulse {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background: #f68a6b;
+      border-radius: 50%;
+      margin-bottom: 24px;
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(246,138,107,0.5); }
+      50%       { box-shadow: 0 0 0 10px rgba(246,138,107,0); }
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      color: #5b4230;
+      line-height: 1.25;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #9b7b68;
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+
+    .moved-box {
+      background: #fff3ee;
+      border: 1.5px solid #f68a6b40;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+
+    .moved-box p {
+      font-size: 13px;
+      color: #9b7b68;
+      margin-bottom: 10px;
+    }
+
+    .new-url {
+      font-size: 16px;
+      font-weight: 700;
+      color: #f68a6b;
+      word-break: break-all;
+      display: block;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #f68a6b;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 99px;
+      text-decoration: none;
+      transition: background 0.15s, transform 0.1s;
+      margin-bottom: 24px;
+      letter-spacing: 0.01em;
+    }
+    .btn:hover { background: #e8794f; transform: translateY(-1px); }
+
+    .countdown {
+      font-size: 12px;
+      color: #b89c8c;
+      margin-bottom: 32px;
+    }
+
+    .countdown span {
+      font-weight: 700;
+      color: #6a4c93;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #f0ddd5;
+      margin-bottom: 24px;
+    }
+
+    .about {
+      font-size: 13px;
+      color: #9b7b68;
+      line-height: 1.7;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+
+    .about strong { color: #5b4230; }
+
+    .links {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .link-pill {
+      font-size: 12px;
+      font-weight: 600;
+      color: #6a4c93;
+      text-decoration: none;
+      background: #6a4c9312;
+      border: 1px solid #6a4c9330;
+      border-radius: 99px;
+      padding: 6px 14px;
+      transition: background 0.15s;
+    }
+    .link-pill:hover { background: #6a4c9322; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="pulse"></div>
+
+    <h1>Iran &amp; Region Monitor<br>has a new home</h1>
+    <p class="subtitle">Real-time, multi-lingual war intelligence — now faster and live</p>
+
+    <div class="moved-box">
+      <p>The monitor has moved to:</p>
+      <a class="new-url" href="https://newsfeed-staging.pages.dev/">newsfeed-staging.pages.dev</a>
+    </div>
+
+    <a class="btn" href="https://newsfeed-staging.pages.dev/">Go to Monitor →</a>
+
+    <p class="countdown">Redirecting automatically in <span id="count">8</span> seconds…</p>
+
+    <hr class="divider" />
+
+    <p class="about">
+      This monitor tracks <strong>real-time military events</strong> across Iran, Israel, Russia, Gulf States, proxy actors and beyond — aggregating RSS feeds, Telegram channels and web sources in <strong>Farsi, Arabic, Hebrew, Russian</strong> and English. Articles are translated, relevance-filtered and summarised by AI.
+      <br><br>
+      Built in 12 hours, fully open-source under MIT license. Read the full story on Substack.
+    </p>
+
+    <div class="links">
+      <a class="link-pill" href="https://msukhareva.substack.com/p/i-built-a-public-monitoring-website" target="_blank" rel="noopener">📖 Read the story</a>
+      <a class="link-pill" href="https://github.com/ktoetotam/NewFeeds" target="_blank" rel="noopener">⭐ GitHub</a>
+      <a class="link-pill" href="https://msukhareva.substack.com/" target="_blank" rel="noopener">✍️ AI Realist</a>
+    </div>
+  </div>
+
+  <script>
+    let n = 8;
+    const el = document.getElementById("count");
+    const t = setInterval(() => {
+      n--;
+      el.textContent = n;
+      if (n <= 0) { clearInterval(t); window.location.href = "https://newsfeed-staging.pages.dev/"; }
+    }, 1000);
+  </script>
+</body>
+</html>
