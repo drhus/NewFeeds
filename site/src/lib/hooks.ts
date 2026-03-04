@@ -125,20 +125,36 @@ export function useArticlesByRegion() {
     if (sb) {
       try {
         const regions: RegionKey[] = REGIONS.map((r) => r.key);
-        const sbQuery = sb
-          .from("articles")
-          .select("*")
-          .in("region", regions)
-          .not("relevant", "is", false)
-          .eq("translated", true)
-          .order("effective_time", { ascending: false })
-          .limit(500)
-          .then((r) => r);
-        const result = await Promise.race([sbQuery, timeoutReject(SUPABASE_TIMEOUT_MS)]);
-        if (!result.error) {
-          articles = (result.data || []).map(rowToArticle);
-        } else {
-          console.warn("[useArticlesByRegion] Supabase error, falling back:", result.error.message);
+        // Fetch up to 1000 per region, but only the last 24 hours
+        const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+        const perRegionQueries = regions.map((region) =>
+          sb
+            .from("articles")
+            .select("*")
+            .eq("region", region)
+            .not("relevant", "is", false)
+            .eq("translated", true)
+            .gte("effective_time", since)
+            .order("effective_time", { ascending: false })
+            .limit(1000)
+            .then((r) => r)
+        );
+        const results = await Promise.race([
+          Promise.all(perRegionQueries),
+          timeoutReject(SUPABASE_TIMEOUT_MS),
+        ]);
+        const allRows: Record<string, unknown>[] = [];
+        let hasError = false;
+        for (const result of results as Array<{ data: Record<string, unknown>[] | null; error: unknown }>) {
+          if (result.error) {
+            hasError = true;
+            console.warn("[useArticlesByRegion] Supabase region error:", result.error);
+          } else if (result.data) {
+            allRows.push(...result.data);
+          }
+        }
+        if (!hasError || allRows.length > 0) {
+          articles = allRows.map(rowToArticle);
         }
       } catch (e) {
         console.warn("[useArticlesByRegion] Supabase unavailable, falling back to local data.", e);
