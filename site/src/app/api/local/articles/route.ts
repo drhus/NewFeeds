@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
 
-export const dynamic = "force-dynamic";
 
 // Serves all feed articles from data/feeds/*.json
 // Used as a local fallback when Supabase is unavailable.

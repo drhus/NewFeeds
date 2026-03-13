@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
 
-export const dynamic = "force-dynamic";
 
 const FILE = path.resolve(process.cwd(), "../data/threat_level.json");
 
