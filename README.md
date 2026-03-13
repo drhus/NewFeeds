@@ -159,6 +159,7 @@ MINIMAX_API_KEY=your_key poetry run python run_pipeline.py
 PIPELINE_REGIONS=iran,russia poetry run python run_pipeline.py --steps fetch,translate
 ```
 
+
 **Frontend:**
 ```bash
 cd site
