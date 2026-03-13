@@ -65,43 +65,6 @@ export default function Header({ threatLevel, updatedAt }: HeaderProps) {
               </Link>
             </nav>
           </div>
-          {/* Attribution & support */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: 8,
-              fontSize: 13,
-              color: "var(--color-text-muted)",
-            }}
-          >
-<<<<<<< HEAD
-            <span>
-              Created by{" "}
-              <a
-                href="https://www.airealist.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "#f68a6b", fontWeight: 600, textDecoration: "none" }}
-              >
-                AI Realist
-              </a>
-            </span>
-            <span style={{ color: "var(--color-border)" }}>|</span>
-            <span>
-              To support this project{" "}
-              <a
-                href="https://msukhareva.substack.com/subscribe"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "#f68a6b", fontWeight: 600, textDecoration: "none" }}
-              >
-                subscribe to AI Realist newsletter
-              </a>
-            </span>
-=======
->>>>>>> bb256d7 (a)
-          </div>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
