@@ -108,9 +108,12 @@ async function fetchLocalExecutiveSummary(): Promise<ExecutiveSummaryData | null
 // How long to wait for Supabase before falling back to local JSON
 const SUPABASE_TIMEOUT_MS = 8_000;
 
-// Poll interval — 2 minutes for articles, 1 minute for attacks/threat
-const ARTICLE_POLL_MS = 2 * 60 * 1000;
-const FAST_POLL_MS = 60 * 1000;
+// Poll interval — 10 minutes for articles, 5 minutes for attacks/threat/summary
+const ARTICLE_POLL_MS = 10 * 60 * 1000;
+const FAST_POLL_MS = 5 * 60 * 1000;
+
+// Only fetch columns the frontend actually uses (excludes content_original etc.)
+const ARTICLE_COLUMNS = "id,title_original,title_en,summary_en,url,published,fetched_at,effective_time,source_name,source_category,language,region,translated,relevant,countries_mentioned,lat,lng,classification";
 
 // ── useArticlesByRegion ─────────────────────────────────────
 
@@ -130,13 +133,13 @@ export function useArticlesByRegion() {
         const perRegionQueries = regions.map((region) =>
           sb
             .from("articles")
-            .select("*")
+            .select(ARTICLE_COLUMNS)
             .eq("region", region)
             .not("relevant", "is", false)
             .eq("translated", true)
             .gte("effective_time", since)
             .order("effective_time", { ascending: false })
-            .limit(1000)
+            .limit(200)
             .then((r) => r)
         );
         const results = await Promise.race([
@@ -205,9 +208,9 @@ export function useAttackArticles() {
       try {
         const sbQuery = sb
           .from("attacks")
-          .select("*")
+          .select(ARTICLE_COLUMNS)
           .order("effective_time", { ascending: false })
-          .limit(1000)
+          .limit(500)
           .then((r) => r);
         const result = await Promise.race([sbQuery, timeoutReject(SUPABASE_TIMEOUT_MS)]);
         if (!result.error) {
