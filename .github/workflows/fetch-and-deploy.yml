@@ -1,6 +1,10 @@
 name: Fetch News & Deploy
 
 on:
+  schedule:
+    - cron: '*/30 * * * *'   # fallback: re-trigger every 30 min if self-trigger fails
+  repository_dispatch:
+    types: [pipeline-loop]
   workflow_dispatch:
     inputs:
       test_mode:
@@ -18,21 +22,11 @@ permissions:
 
 jobs:
   # ───────────────────────────────────────────────────────
-  # Parallel region groups — each runs full pipeline and
-  # pushes directly to Supabase. No fan-in needed.
+  # Single job — all regions share one LLM server (DGX)
   # ───────────────────────────────────────────────────────
-  fetch-regions:
+  fetch-all:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        batch:
-          - name: batch-1
-            regions: "iran,russia,turkey"
-          - name: batch-2
-            regions: "gulf,proxies,middle_east"
-          - name: batch-3
-            regions: "china,israel,south_asia,western"
+    timeout-minutes: 60
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -65,15 +59,59 @@ jobs:
         working-directory: scripts
         run: poetry run python -m playwright install chromium --with-deps
 
-      - name: "Run pipeline: ${{ matrix.batch.name }} (${{ matrix.batch.regions }})"
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+
+      - name: Verify LLM endpoint reachability
+        env:
+          LLM_API_URL: ${{ secrets.LLM_API_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: |
+          # Show redacted URL (host only, no path/key)
+          echo "LLM endpoint host: $(echo "$LLM_API_URL" | sed 's|://\(.*\)/.*|://\1/...|')"
+          # Test connectivity
+          HTTP_CODE=$(curl -s -o /tmp/llm_response.txt -w '%{http_code}' \
+            -H "Authorization: Bearer $LLM_API_KEY" \
+            -H "Content-Type: application/json" \
+            "$(echo "$LLM_API_URL" | sed 's|/chat/completions|/models|')" \
+            --connect-timeout 10 --max-time 15 || echo "000")
+          echo "HTTP status: $HTTP_CODE"
+          echo "Response (first 500 chars):"
+          head -c 500 /tmp/llm_response.txt
+          echo ""
+          if echo "$(cat /tmp/llm_response.txt)" | grep -q "base_resp"; then
+            echo "::error::Response contains 'base_resp' — this is a MiniMax endpoint, NOT llama.cpp!"
+          fi
+
+      - name: "Run pipeline: all regions"
         working-directory: scripts
         env:
-          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          LLM_API_URL: ${{ secrets.LLM_API_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           TEST_MODE: ${{ inputs.test_mode || 'false' }}
-          LLM_CONCURRENCY: "8"
-          LLM_CLASSIFY_CONCURRENCY: "5"
-          PIPELINE_REGIONS: ${{ matrix.batch.regions }}
+          LLM_CONCURRENCY: "4"
+          LLM_CLASSIFY_CONCURRENCY: "3"
         run: poetry run python run_pipeline.py --steps fetch,translate,classify,geocode,threat
+
+      - name: Re-trigger pipeline loop
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.PIPELINE_PAT }}
+        run: |
+          # Wait 60s to avoid tight loops if the run was very short (e.g. no new articles)
+          sleep 60
+          curl -s -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/dispatches" \
+            -d '{"event_type":"pipeline-loop"}' \
+          && echo "Re-triggered pipeline" \
+          || echo "::warning::Failed to re-trigger pipeline (will fall back to cron schedule)"
 

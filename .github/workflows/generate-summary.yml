@@ -1,7 +1,9 @@
 name: Generate Executive Summary
 
 on:
-  workflow_dispatch: {}       # Manual trigger only
+  schedule:
+    - cron: '*/20 * * * *'   # every 20 minutes
+  workflow_dispatch: {}
 
 concurrency:
   group: generate-summary
@@ -13,6 +15,7 @@ permissions:
 jobs:
   summary:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -35,10 +38,12 @@ jobs:
         working-directory: scripts
         run: poetry install --no-interaction --no-root
 
-      - name: Generate executive summary
+      - name: Generate executive summary & briefing
         working-directory: scripts
         env:
-          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          LLM_API_URL: ${{ secrets.MINIMAX_API_URL }}
+          LLM_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          LLM_MODEL: ${{ secrets.MINIMAX_MODEL }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: poetry run python run_summary.py
