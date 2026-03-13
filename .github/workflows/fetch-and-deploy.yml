@@ -75,13 +75,33 @@ jobs:
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:ci
 
+      - name: Verify LLM endpoint reachability
+        env:
+          LLM_API_URL: ${{ secrets.LLM_API_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: |
+          # Show redacted URL (host only, no path/key)
+          echo "LLM endpoint host: $(echo "$LLM_API_URL" | sed 's|://\(.*\)/.*|://\1/...|')"
+          # Test connectivity
+          HTTP_CODE=$(curl -s -o /tmp/llm_response.txt -w '%{http_code}' \
+            -H "Authorization: Bearer $LLM_API_KEY" \
+            -H "Content-Type: application/json" \
+            "$(echo "$LLM_API_URL" | sed 's|/chat/completions|/models|')" \
+            --connect-timeout 10 --max-time 15 || echo "000")
+          echo "HTTP status: $HTTP_CODE"
+          echo "Response (first 500 chars):"
+          head -c 500 /tmp/llm_response.txt
+          echo ""
+          if echo "$(cat /tmp/llm_response.txt)" | grep -q "base_resp"; then
+            echo "::error::Response contains 'base_resp' — this is a MiniMax endpoint, NOT llama.cpp!"
+          fi
+
       - name: "Run pipeline: ${{ matrix.batch.name }} (${{ matrix.batch.regions }})"
         working-directory: scripts
         env:
           LLM_API_URL: ${{ secrets.LLM_API_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           TEST_MODE: ${{ inputs.test_mode || 'false' }}
