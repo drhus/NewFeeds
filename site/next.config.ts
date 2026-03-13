@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: process.env.NODE_ENV === "development" ? undefined : "export",
+  output: process.env.STATIC_EXPORT === "true" ? "export" : undefined,
   // NEXT_PUBLIC_BASE_PATH="/NewFeeds" for GitHub Pages; leave empty for Cloudflare Pages
   basePath: process.env.NEXT_PUBLIC_BASE_PATH?.startsWith("/") ? process.env.NEXT_PUBLIC_BASE_PATH : "",
   images: {
