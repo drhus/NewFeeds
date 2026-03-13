@@ -75,6 +75,7 @@ export default function Header({ threatLevel, updatedAt }: HeaderProps) {
               color: "var(--color-text-muted)",
             }}
           >
+<<<<<<< HEAD
             <span>
               Created by{" "}
               <a
@@ -98,6 +99,8 @@ export default function Header({ threatLevel, updatedAt }: HeaderProps) {
                 subscribe to AI Realist newsletter
               </a>
             </span>
+=======
+>>>>>>> bb256d7 (a)
           </div>
         </div>
 
